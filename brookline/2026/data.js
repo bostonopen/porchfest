@@ -10,7 +10,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Atmospheric Instrumental Rock",
         "image": "",
         "_id": "band_0001"
     },
@@ -25,7 +25,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Americana Rock",
         "image": "",
         "_id": "band_0002"
     },
@@ -40,7 +40,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Classic and Alt Rock",
         "image": "",
         "_id": "band_0003"
     },
@@ -55,7 +55,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Chicago and Modern Blues",
         "image": "",
         "_id": "band_0004"
     },
@@ -70,7 +70,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Psychedelic, Unique, Kickass",
         "image": "",
         "_id": "band_0005"
     },
@@ -85,7 +85,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Beat Goes Round",
         "image": "",
         "_id": "band_0006"
     },
@@ -100,7 +100,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Alternative Pop Rock",
         "image": "",
         "_id": "band_0007"
     },
@@ -115,7 +115,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Pop/Swing/Rock",
         "image": "",
         "_id": "band_0008"
     },
@@ -130,7 +130,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Energetic, Groovy, Fun",
         "image": "",
         "_id": "band_0009"
     },
@@ -145,7 +145,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Dance Pop Rap",
         "image": "",
         "_id": "band_0010"
     },
@@ -175,7 +175,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Traditional Folk Americana",
         "image": "",
         "_id": "band_0012"
     },
@@ -190,7 +190,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "A Big Hat",
         "image": "",
         "_id": "band_0013"
     },
@@ -205,7 +205,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Soulful, Acoustic, Spirited",
         "image": "",
         "_id": "band_0014"
     },
@@ -220,7 +220,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Ambient Electronic Music",
         "image": "",
         "_id": "band_0015"
     },
@@ -235,7 +235,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Indie Folk Rock",
         "image": "",
         "_id": "band_0016"
     },
@@ -250,7 +250,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Soul-Food Folk",
         "image": "",
         "_id": "band_0017"
     },
@@ -265,7 +265,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Horn Driven Jazz",
         "image": "",
         "_id": "band_0018"
     },
@@ -280,7 +280,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Introspective Fruit Rock",
         "image": "",
         "_id": "band_0019"
     },
@@ -295,7 +295,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Chamber Pop Songs",
         "image": "",
         "_id": "band_0020"
     },
@@ -310,7 +310,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Acoustic Americana",
         "image": "",
         "_id": "band_0021"
     },
@@ -325,7 +325,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Honest. Dynamic. Nostalgic.",
         "image": "",
         "_id": "band_0022"
     },
@@ -340,7 +340,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Allston Rock, Mellow",
         "image": "",
         "_id": "band_0023"
     },
@@ -355,7 +355,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Songwriter, Vocalist, Producer",
         "image": "",
         "_id": "band_0024"
     },
@@ -370,7 +370,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Pop RnB Jams",
         "image": "",
         "_id": "band_0025"
     },
@@ -385,7 +385,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Indie Rock",
         "image": "",
         "_id": "band_0026"
     },
@@ -400,7 +400,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "2000s Alt Pop",
         "image": "",
         "_id": "band_0027"
     },
@@ -415,7 +415,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Pop Rock Funk",
         "image": "",
         "_id": "band_0028"
     },
@@ -430,7 +430,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Indie Surf Rock",
         "image": "",
         "_id": "band_0029"
     },
@@ -445,7 +445,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Gloomy Indie Electronic",
         "image": "",
         "_id": "band_0030"
     },
@@ -460,7 +460,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Energetic, Eclectic, Accessible",
         "image": "",
         "_id": "band_0031"
     },
@@ -475,7 +475,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Dynamic Indie Folk",
         "image": "",
         "_id": "band_0032"
     },
@@ -505,7 +505,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Ukulele Jazz Ensemble",
         "image": "",
         "_id": "band_0034"
     },
@@ -520,7 +520,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Powerful Emotional Loud",
         "image": "",
         "_id": "band_0035"
     },
@@ -535,7 +535,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Natural. Energetic. Smooth",
         "image": "",
         "_id": "band_0036"
     },
@@ -550,7 +550,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Soulful, Acoustic, Technical",
         "image": "",
         "_id": "band_0037"
     },
@@ -565,7 +565,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "High-Energy Vocal Band",
         "image": "",
         "_id": "band_0038"
     },
@@ -580,7 +580,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Jazzy Bluesy R&B",
         "image": "",
         "_id": "band_0039"
     },
@@ -595,7 +595,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Acoustic Rockin' Folk",
         "image": "",
         "_id": "band_0040"
     },
@@ -610,7 +610,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Energetic Girl Band",
         "image": "",
         "_id": "band_0041"
     },
@@ -625,7 +625,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Rock/Alt-Rock Cover Band",
         "image": "",
         "_id": "band_0042"
     },
@@ -640,7 +640,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Witty, Upbeat, Passionate",
         "image": "",
         "_id": "band_0043"
     },
@@ -655,7 +655,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Chaotic, Groovy, Joyful",
         "image": "",
         "_id": "band_0044"
     },
@@ -670,7 +670,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "A Cappella Group",
         "image": "",
         "_id": "band_0045"
     },
@@ -685,7 +685,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Country, Blues, Americana",
         "image": "",
         "_id": "band_0046"
     },
@@ -700,7 +700,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Minimalist Thrift Pop",
         "image": "",
         "_id": "band_0047"
     },
@@ -715,7 +715,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Creative. Energetic. Rock.",
         "image": "",
         "_id": "band_0048"
     },
@@ -730,7 +730,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Brazilian Choro Ensemble",
         "image": "",
         "_id": "band_0049"
     },
@@ -745,7 +745,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Pop Favorites, Acousticized",
         "image": "",
         "_id": "band_0050"
     },
@@ -760,7 +760,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Nostalgic, Honest, Warm",
         "image": "",
         "_id": "band_0051"
     },
@@ -775,7 +775,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Singer-Songwriter, Guitarist.",
         "image": "",
         "_id": "band_0052"
     },
@@ -790,7 +790,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Classic Rock Duo",
         "image": "",
         "_id": "band_0053"
     },
@@ -805,7 +805,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Ambient Post-Rock",
         "image": "",
         "_id": "band_0054"
     },
@@ -820,7 +820,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Italian Songs Reimagined.",
         "image": "",
         "_id": "band_0055"
     },
@@ -835,7 +835,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Original, Indie, Country",
         "image": "",
         "_id": "band_0056"
     },
@@ -850,7 +850,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Homespun Psychedelic Bluegrass",
         "image": "",
         "_id": "band_0057"
     },
@@ -865,7 +865,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Dance, Guitar, Song",
         "image": "",
         "_id": "band_0058"
     },
@@ -880,7 +880,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Classic Rock Across 4 Decades",
         "image": "",
         "_id": "band_0059"
     },
@@ -910,7 +910,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Jazz. Horns. Power.",
         "image": "",
         "_id": "band_0061"
     },
@@ -925,7 +925,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Finding Our Groove",
         "image": "",
         "_id": "band_0062"
     },
@@ -940,7 +940,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Fun, Friendly, Unique",
         "image": "",
         "_id": "band_0063"
     },
@@ -955,7 +955,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Fun for All!",
         "image": "",
         "_id": "band_0064"
     },
@@ -970,7 +970,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Ukulele Joy!",
         "image": "",
         "_id": "band_0065"
     },
@@ -985,7 +985,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Powerhouse, Bubbly, Dynamic",
         "image": "",
         "_id": "band_0066"
     },
@@ -1000,7 +1000,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Classic Rock Jams",
         "image": "",
         "_id": "band_0067"
     },
@@ -1015,7 +1015,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Jrock Cover Band",
         "image": "",
         "_id": "band_0068"
     },
@@ -1030,7 +1030,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Queer Alternative Groove and Dance",
         "image": "",
         "_id": "band_0069"
     },
@@ -1045,7 +1045,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Queer Rock Indie",
         "image": "",
         "_id": "band_0070"
     },
@@ -1060,7 +1060,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Hard Rock Band",
         "image": "",
         "_id": "band_0071"
     },
@@ -1075,7 +1075,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Energetic Synth Rock",
         "image": "",
         "_id": "band_0072"
     },
@@ -1090,7 +1090,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Eclectic, Funky, Fusion",
         "image": "",
         "_id": "band_0073"
     },
@@ -1105,7 +1105,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Unstoppable Electric and Fearless",
         "image": "",
         "_id": "band_0074"
     },
@@ -1120,7 +1120,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Rock and Soul",
         "image": "",
         "_id": "band_0075"
     },
@@ -1135,7 +1135,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Old-Time, Traditional, String Band",
         "image": "",
         "_id": "band_0076"
     },
@@ -1150,7 +1150,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Original Blues/Rock Unit",
         "image": "",
         "_id": "band_0077"
     },
@@ -1165,7 +1165,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Fun, Up-Beat, Danceable",
         "image": "",
         "_id": "band_0078"
     },
@@ -1180,7 +1180,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "World, Classical, Jazz",
         "image": "",
         "_id": "band_0079"
     },
@@ -1195,7 +1195,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Traditional Klezmer.",
         "image": "",
         "_id": "band_0080"
     },
@@ -1210,7 +1210,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Indie Folk Music",
         "image": "",
         "_id": "band_0081"
     },
@@ -1225,7 +1225,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Three-Person Guitar Band",
         "image": "",
         "_id": "band_0082"
     },
@@ -1240,7 +1240,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Dance-Punk Trio",
         "image": "",
         "_id": "band_0083"
     },
@@ -1255,7 +1255,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Fun Acoustic Covers",
         "image": "",
         "_id": "band_0084"
     },
@@ -1270,7 +1270,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Jaunty, Acoustic, Relatable",
         "image": "",
         "_id": "band_0085"
     },
@@ -1285,7 +1285,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Fun Music Fun",
         "image": "",
         "_id": "band_0086"
     },
@@ -1300,7 +1300,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "All-Treble A Cappella",
         "image": "",
         "_id": "band_0087"
     },
@@ -1315,7 +1315,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Rock Classics Yeah",
         "image": "",
         "_id": "band_0088"
     },
@@ -1330,7 +1330,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Boricua. Faithful. Acoustic.",
         "image": "",
         "_id": "band_0089"
     },
@@ -1345,7 +1345,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Small Jazz Combo",
         "image": "",
         "_id": "band_0090"
     },
@@ -1360,7 +1360,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Brookline Jazz Band",
         "image": "",
         "_id": "band_0091"
     },
@@ -1375,7 +1375,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Jazz Swing Standards",
         "image": "",
         "_id": "band_0092"
     },
@@ -1390,7 +1390,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Powerful, Authentic, Energetic",
         "image": "",
         "_id": "band_0093"
     },
@@ -1405,7 +1405,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Cool and Musically Adventurous",
         "image": "",
         "_id": "band_0094"
     },
@@ -1420,7 +1420,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Crispy Fun Vibes",
         "image": "",
         "_id": "band_0095"
     },
@@ -1435,7 +1435,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Upbeat Rock Pop",
         "image": "",
         "_id": "band_0096"
     },
@@ -1450,7 +1450,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Acoustic-Based Americana",
         "image": "",
         "_id": "band_0097"
     },
@@ -1465,7 +1465,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Fun, Prepared, Variety",
         "image": "",
         "_id": "band_0098"
     },
@@ -1480,7 +1480,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Jazz",
         "image": "",
         "_id": "band_0099"
     },
@@ -1495,7 +1495,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Progressive Contemporary Jazz",
         "image": "",
         "_id": "band_0100"
     },
@@ -1510,7 +1510,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Alt Gothic Rock",
         "image": "",
         "_id": "band_0101"
     },
@@ -1525,7 +1525,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Energetic Rock Covers",
         "image": "",
         "_id": "band_0102"
     },
@@ -1540,7 +1540,7 @@ const bands = {
         "spotify": "",
         "apple": "",
         "otheronline": "",
-        "description": "",
+        "description": "Classical Chamber Music",
         "image": "",
         "_id": "band_0103"
     }
@@ -1850,8 +1850,8 @@ const porches = {
     },
     "porch_0044": {
         "address": "700 Brookline Ave, Brookline MA 02445",
-        "lat": "42.3324760",
-        "lng": "-71.1139715",
+        "lat": "42.3321471",
+        "lng": "-71.1140429",
         "porchnum": "",
         "_id": "porch_0044"
     },

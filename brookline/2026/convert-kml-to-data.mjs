@@ -4,6 +4,7 @@ import https from 'node:https';
 
 const inputPath = new URL('./data.kml', import.meta.url);
 const outputPath = new URL('./data.js', import.meta.url);
+const biosPath = new URL('./bios.tsv', import.meta.url);
 const legacyDataPath = new URL('../2025/data.js', import.meta.url);
 const shouldGeocode = process.argv.includes('--geocode');
 const manualGeocodes = new Map([
@@ -23,6 +24,20 @@ async function loadLegacyPorches() {
 
 function normalizeAddress(address) {
   return String(address || '').replace(/\s+/g, ' ').trim().toLowerCase();
+}
+
+async function loadBios() {
+  const source = await fs.readFile(biosPath, 'utf8');
+  const biosByBandName = new Map();
+  for (const line of source.split(/\r?\n/).slice(1)) {
+    const fields = line.split('\t');
+    const bandName = String(fields[2] || '').trim();
+    const shortBio = String(fields[3] || '').trim();
+    if (bandName && shortBio) {
+      biosByBandName.set(normalizeAddress(bandName), shortBio);
+    }
+  }
+  return biosByBandName;
 }
 
 function getJson(url, headers) {
@@ -125,6 +140,7 @@ async function runConversion() {
   const porches = {};
   const gigs = {};
   const bandIdByName = new Map();
+  const biosByBandName = await loadBios();
   const legacyPorches = await loadLegacyPorches();
   const legacyPorchesByAddress = new Map(
     Object.values(legacyPorches).map(porch => [normalizeAddress(porch.address), porch])
@@ -186,7 +202,7 @@ async function runConversion() {
           spotify: '',
           apple: '',
           otheronline: '',
-          description: '',
+          description: biosByBandName.get(normalizeAddress(parsed.actname)) || '',
           image: '',
           _id: bandId,
         };

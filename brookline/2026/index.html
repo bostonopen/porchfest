@@ -273,6 +273,11 @@
         font-variant-numeric: tabular-nums;
       }
       .gig-band { text-decoration: underline; }
+      .gig-band-bio {
+        color: var(--muted);
+        font-size: 0.9em;
+        text-decoration: none;
+      }
       .gigs-empty {
         padding: 14px 4px;
         color: var(--muted);
@@ -1027,6 +1032,9 @@
 
       function renderPorchPopup(porchid, dateBounds = selectedDateBounds()) {
         const porch = porches[porchid]
+        const esc = (v) => String(v == null ? '' : v).replace(/[&<>"']/g, (char) => ({
+          '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+        }[char]));
         const shortAddress = porch.address.replace(/,\s*Brookline,\s*MA\s*$/i, '')
         const now = dateBounds.start
 
@@ -1038,6 +1046,7 @@
           const band = bands[gig.bandid]
           const start = gigStartTime(gig).toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' })
           const name = band && band.actname ? band.actname : 'Unknown band'
+          const bio = band && band.description ? band.description.trim() : ''
           const startsAt = gigStartTime(gig)
           const endsAt = gigEndTime(gig)
           let dotColor = porchMarkerColors.noUpcoming
@@ -1048,7 +1057,7 @@
           } else {
             dotColor = porchMarkerColors.upcoming
           }
-          return `<div class="popup-schedule-line"><span class="popup-schedule-dot" style="background:${dotColor};"></span><span>${start} — ${name}</span></div>`
+          return `<div class="popup-schedule-line"><span class="popup-schedule-dot" style="background:${dotColor};"></span><span>${esc(start)} — ${esc(name)}${bio ? ` <span class="gig-band-bio">— ${esc(bio)}</span>` : ''}</span></div>`
         }).join('')
 
         return `
@@ -1218,6 +1227,12 @@
         }
       }
 
+      function escapeHtml(value) {
+        return String(value == null ? '' : value).replace(/[&<>"']/g, (char) => ({
+          '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+        }[char]));
+      }
+
       function resetGigs() {
         const viewBounds = map.getBounds()
         let gigsText = "";
@@ -1251,7 +1266,7 @@
             <div class="gig-entry" id="${gigRowId}">
               <a class="gig-link" href="#" onclick="showBandInfo(this, '${gigid}'); return false;">
                 <span class="gig-time">${gigStartsAt.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' })}</span>
-                <span class="gig-band">${band.actname}</span>
+                <span class="gig-band">${escapeHtml(band.actname)}${band.description ? ` <span class="gig-band-bio">— ${escapeHtml(band.description)}</span>` : ''}</span>
               </a>
             </div>
             `;
