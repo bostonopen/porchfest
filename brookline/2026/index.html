@@ -50,6 +50,7 @@
         width: 100%;
       }
       .controls {
+        position: relative;
         display: flex;
         align-items: center;
         gap: 10px;
@@ -58,6 +59,36 @@
       }
       .controls label { font-size: 14px; }
       .controls button { font-size: 14px; }
+      .info-button {
+        width: 30px;
+        height: 30px;
+        padding: 0;
+        border: 0;
+        border-radius: 999px;
+        background: transparent;
+        cursor: pointer;
+        font-size: 20px !important;
+        line-height: 1;
+      }
+      .info-button:hover,
+      .info-button:focus-visible { background: #eef3f8; }
+      .info-popup {
+        position: absolute;
+        top: calc(100% - 2px);
+        left: 50%;
+        z-index: 1400;
+        width: max-content;
+        max-width: min(320px, calc(100vw - 24px));
+        padding: 10px 14px;
+        border: 1px solid #cbd5e1;
+        border-radius: 8px;
+        background: #fff;
+        box-shadow: 0 4px 14px rgba(0, 0, 0, 0.18);
+        color: var(--ink);
+        font-size: 14px;
+        transform: translateX(-50%);
+      }
+      .info-popup[hidden] { display: none; }
       .controls input[type="range"] { width: 220px; }
       .time-window {
         display: inline-grid;
@@ -378,8 +409,9 @@
         .time-window .time-value-end { grid-column: 3; grid-row: 1; align-self: center; justify-self: end; }
         .time-window-bounds { font-size: 11px; }
         .controls > label { order: 2; }
-        #play-window { order: 3; margin-left: auto; }
-        #reset-window { order: 4; }
+        #info-button { order: 3; }
+        #play-window { order: 4; margin-left: auto; }
+        #reset-window { order: 5; }
       }
 
       /* --- Touch targets: fingers need more than a 14px thumb on a 4px rail --- */
@@ -440,8 +472,10 @@
         <span id="planning-start-time-value" class="time-value time-value-start"></span>
         <span id="planning-end-time-value" class="time-value time-value-end"></span>
       </div>
+      <button id="info-button" class="info-button" type="button" aria-label="Map help" aria-expanded="false" aria-controls="info-popup">ℹ️</button>
       <button id="play-window" class="play-window-button" type="button">▶ Play</button>
       <button id="reset-window" class="play-window-button" type="button">↺ Reset</button>
+      <div id="info-popup" class="info-popup" role="status" hidden>Try hitting the Play button. Adjust the start and end times and then drag the slider around.</div>
     </div>
 
     <!-- Map -->
@@ -475,6 +509,8 @@
       const planningMaxTimeValue = document.getElementById('planning-max-time-value');
       const playWindowButton = document.getElementById('play-window');
       const resetWindowButton = document.getElementById('reset-window');
+      const infoButton = document.getElementById('info-button');
+      const infoPopup = document.getElementById('info-popup');
       const timeWindowSlider = document.getElementById('time-window-slider');
       const timeWindowRange = document.getElementById('time-window-range');
       const appElement = document.querySelector('.app');
@@ -482,6 +518,25 @@
       const gigsElement = document.getElementById('gigs');
       const gigSheet = document.getElementById('gig-sheet');
       const sheetHandle = document.getElementById('sheet-handle');
+
+      function setInfoPopupVisible(visible) {
+        infoPopup.hidden = !visible
+        infoButton.setAttribute('aria-expanded', String(visible))
+      }
+
+      infoButton.addEventListener('click', () => {
+        setInfoPopupVisible(infoPopup.hidden)
+      })
+      document.addEventListener('click', (event) => {
+        if (!infoPopup.hidden && !infoButton.contains(event.target) && !infoPopup.contains(event.target)) {
+          setInfoPopupVisible(false)
+        }
+      })
+      document.addEventListener('keydown', (event) => {
+        if (event.key === 'Escape') {
+          setInfoPopupVisible(false)
+        }
+      })
       const sheetTitle = document.getElementById('sheet-title');
       // Must match the media query guarding the phone layout in the stylesheet.
       const phoneLayoutQuery = window.matchMedia('(max-width: 767px), (max-height: 500px)');
