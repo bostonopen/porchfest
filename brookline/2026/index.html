@@ -1,0 +1,1474 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Brookline Porchfest 2026</title>
+
+    <!-- Leaflet -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+    <!-- Maplibre GL -->
+    <link href="https://unpkg.com/maplibre-gl@5/dist/maplibre-gl.css" rel="stylesheet" />
+    <script src="https://unpkg.com/maplibre-gl@5/dist/maplibre-gl.js"></script>
+
+
+    <!-- Maplibre GL Leaflet  -->
+    <script src="https://unpkg.com/@maplibre/maplibre-gl-leaflet/leaflet-maplibre-gl.js"></script>
+
+    <style>
+      :root {
+        --ink: #1f2d3d;
+        --muted: #6b7280;
+        --line: #e5e7eb;
+        --accent: #2276f3;
+        /* Kept in sync by JS so Leaflet's own controls dodge our overlays. */
+        --controls-h: 96px;
+        --sheet-h: 38vh;
+      }
+      *, *::before, *::after { box-sizing: border-box; }
+      html, body { height: 100%; }
+      body {
+        margin: 0;
+        font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+        color: var(--ink);
+        overflow: hidden;
+        overscroll-behavior: none;
+        -webkit-text-size-adjust: 100%;
+      }
+      .app {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        height: 100dvh;
+      }
+      #map {
+        flex: 1 1 auto;
+        min-height: 0;
+        width: 100%;
+      }
+      .controls {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 10px 12px;
+        flex-wrap: wrap;
+      }
+      .controls label { font-size: 14px; }
+      .controls button { font-size: 14px; }
+      .controls input[type="range"] { width: 220px; }
+      .time-window {
+        display: inline-grid;
+        grid-template-columns: auto minmax(0, 260px) auto;
+        grid-template-rows: auto auto;
+        column-gap: 6px;
+        row-gap: 4px;
+        align-items: center;
+      }
+      .time-window-center {
+        grid-column: 2;
+        grid-row: 1;
+      }
+      .time-window .time-label {
+        font-size: 14px;
+        white-space: nowrap;
+      }
+      .time-window .time-label-start { grid-column: 1; grid-row: 1; }
+      .time-window .time-label-end { grid-column: 3; grid-row: 1; justify-self: end; }
+      .time-window .time-value {
+        font-size: 12px;
+        color: #555;
+      }
+      .time-window .time-value-start { grid-column: 1; grid-row: 2; }
+      .time-window .time-value-end { grid-column: 3; grid-row: 2; justify-self: end; }
+      .dual-slider {
+        position: relative;
+        width: 100%;
+        height: 22px;
+      }
+      .time-window-bounds {
+        width: 100%;
+        margin-top: 2px;
+        display: flex;
+        justify-content: space-between;
+        font-size: 10px;
+        color: var(--muted);
+      }
+      .dual-slider .slider-track,
+      .dual-slider .slider-range {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        height: 4px;
+        border-radius: 999px;
+      }
+      .dual-slider .slider-track {
+        left: 0;
+        right: 0;
+        background: #d0d6dc;
+      }
+      .dual-slider .slider-range {
+        background: #2276f3;
+        cursor: grab;
+        pointer-events: auto;
+        touch-action: none;
+      }
+      .dual-slider.dragging .slider-range { cursor: grabbing; }
+      .dual-slider input[type="range"] {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        background: transparent;
+        pointer-events: none;
+        touch-action: none;
+        -webkit-appearance: none;
+        appearance: none;
+      }
+      .dual-slider input[type="range"]::-webkit-slider-runnable-track {
+        height: 4px;
+        background: transparent;
+      }
+      .dual-slider input[type="range"]::-moz-range-track {
+        height: 4px;
+        background: transparent;
+      }
+      .dual-slider input[type="range"]::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        appearance: none;
+        width: 14px;
+        height: 14px;
+        border-radius: 50%;
+        border: 2px solid #2276f3;
+        background: #fff;
+        pointer-events: auto;
+        cursor: pointer;
+        margin-top: -5px;
+      }
+      .dual-slider input[type="range"]::-moz-range-thumb {
+        width: 14px;
+        height: 14px;
+        border-radius: 50%;
+        border: 2px solid #2276f3;
+        background: #fff;
+        pointer-events: auto;
+        cursor: pointer;
+      }
+      .dual-slider.disabled {
+        opacity: 0.55;
+      }
+      .play-window-button {
+        padding: 4px 10px;
+        border: 1px solid #b9c0c8;
+        border-radius: 6px;
+        background: #fff;
+        cursor: pointer;
+      }
+      .porch-status-tooltip {
+        background: #fff;
+        border: 1px solid #2276f3;
+        color: #1f2d3d;
+        font-size: 11px;
+        font-weight: 600;
+        padding: 2px 6px;
+        border-radius: 999px;
+        box-shadow: 0 1px 4px rgba(0,0,0,0.18);
+      }
+      .porch-status-tooltip:before {
+        border-top-color: #2276f3;
+      }
+      .porch-marker-icon {
+        background: transparent;
+        border: none;
+      }
+      .porch-marker-shape {
+        border: 2px solid rgba(255,255,255,0.92);
+      }
+      .popup-schedule-line {
+        margin-top: 4px;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+      }
+      .popup-schedule-dot {
+        width: 8px;
+        height: 8px;
+        border-radius: 999px;
+        display: inline-block;
+        flex: 0 0 auto;
+      }
+
+      /* --- Gig list, presented as a sheet docked under the map --- */
+      .gig-sheet {
+        display: flex;
+        flex-direction: column;
+        min-height: 0;
+        flex: 0 0 22vh;
+        background: #fff;
+        border-top: 1px solid var(--line);
+      }
+      .sheet-handle { display: none; }
+      #gigs {
+        flex: 1 1 auto;
+        min-height: 0;
+        overflow-y: auto;
+        overscroll-behavior: contain;
+        -webkit-overflow-scrolling: touch;
+        padding: 4px 12px 12px;
+      }
+      .gig-entry {
+        position: relative; /* anchor for overlay */
+      }
+      .gig-link {
+        display: flex;
+        align-items: baseline;
+        gap: 10px;
+        padding: 6px 4px;
+        color: inherit;
+        text-decoration: none;
+        border-radius: 6px;
+        cursor: pointer;
+      }
+      .gig-link:hover { background: #f3f4f6; }
+      .gig-time {
+        flex: 0 0 auto;
+        min-width: 72px;
+        color: var(--muted);
+        font-size: 14px;
+        font-variant-numeric: tabular-nums;
+      }
+      .gig-band { text-decoration: underline; }
+      .gigs-empty {
+        padding: 14px 4px;
+        color: var(--muted);
+        font-size: 14px;
+      }
+      .band-overlay {
+        position: absolute;
+        top: 100%;      /* sit below the link */
+        left: 0;
+        background: #fff;
+        border: 1px solid #ccc;
+        padding: 10px 12px;
+        min-width: 260px;
+        z-index: 10;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        border-radius: 8px;
+      }
+      .band-overlay h3 {
+        margin: 0 0 6px 0;
+        font-size: 16px;
+      }
+      .band-overlay .meta {
+        font-size: 13px;
+        color: #444;
+        margin-bottom: 8px;
+      }
+      .band-overlay .links a { margin-right: 10px; font-size: 13px; }
+
+      /* --- Phone layout: map fills the screen, list becomes a draggable sheet ---
+         Also applies to short viewports so landscape phones don't get stuck
+         with a ~80px list. Keep this condition in sync with phoneLayoutQuery. */
+      @media (max-width: 767px), (max-height: 500px) {
+        .app { overflow: hidden; }
+        #map {
+          position: absolute;
+          inset: 0;
+          flex: none;
+          height: 100%;
+        }
+
+        .controls {
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          z-index: 1100;
+          gap: 6px 10px;
+          padding: max(8px, env(safe-area-inset-top)) 10px 8px;
+          background: rgba(255, 255, 255, 0.95);
+          backdrop-filter: blur(10px);
+          -webkit-backdrop-filter: blur(10px);
+          border-bottom: 1px solid var(--line);
+          box-shadow: 0 1px 8px rgba(0, 0, 0, 0.12);
+        }
+        .gig-sheet {
+          position: absolute;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          z-index: 1200;
+          flex: none;
+          height: var(--sheet-h);
+          overflow: hidden;
+          border-top: 0;
+          border-radius: 16px 16px 0 0;
+          box-shadow: 0 -6px 24px rgba(0, 0, 0, 0.22);
+          transition: height 0.24s ease;
+        }
+        .gig-sheet.is-dragging { transition: none; }
+        .sheet-handle {
+          display: flex;
+          flex: 0 0 auto;
+          flex-direction: column;
+          align-items: center;
+          gap: 5px;
+          width: 100%;
+          padding: 9px 12px 7px;
+          font: inherit;
+          color: var(--ink);
+          background: transparent;
+          border: 0;
+          cursor: pointer;
+          touch-action: none;
+          user-select: none;
+          -webkit-user-select: none;
+          -webkit-tap-highlight-color: transparent;
+        }
+        .sheet-grip {
+          width: 40px;
+          height: 4px;
+          border-radius: 999px;
+          background: #cbd2d9;
+        }
+        .sheet-title {
+          font-size: 13px;
+          font-weight: 600;
+          color: var(--muted);
+        }
+        #gigs { padding: 0 14px calc(14px + env(safe-area-inset-bottom)); }
+        .gig-link {
+          padding: 11px 4px;
+          border-bottom: 1px solid #f1f2f4;
+        }
+        .gig-time { min-width: 76px; }
+        .band-overlay { left: 0; right: 0; min-width: 0; }
+
+        /* Keep Leaflet's zoom buttons and attribution clear of the overlays. */
+        .leaflet-top { top: var(--controls-h); }
+        .leaflet-bottom { bottom: var(--sheet-h); }
+        .leaflet-control-attribution { font-size: 10px; }
+
+        /* Leaflet tooltips never wrap, so a long band name centred on a marker
+           near the edge would hang off the screen. */
+        .porch-status-tooltip {
+          max-width: 44vw;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+      }
+
+      /* --- Narrow widths: give the slider its own full-width row ---
+         Scoped to width alone, so a short-but-wide landscape phone keeps the
+         controls on one line instead of spending 90px of 375 on them. */
+      @media (max-width: 767px) {
+        .time-window {
+          order: 1;
+          width: 100%;
+          display: grid;
+          grid-template-columns: auto minmax(0, 1fr) auto;
+        }
+        .time-window .time-label { display: none; }
+        .time-window .time-value-start { grid-column: 1; grid-row: 1; align-self: center; }
+        .time-window-center { grid-column: 2; grid-row: 1; }
+        .time-window .time-value-end { grid-column: 3; grid-row: 1; align-self: center; justify-self: end; }
+        .time-window-bounds { font-size: 11px; }
+        .controls > label { order: 2; }
+        #play-window { order: 3; margin-left: auto; }
+        #reset-window { order: 4; }
+      }
+
+      /* --- Touch targets: fingers need more than a 14px thumb on a 4px rail --- */
+      @media (pointer: coarse) {
+        .dual-slider { height: 34px; }
+        .dual-slider input[type="range"]::-webkit-slider-thumb {
+          width: 24px;
+          height: 24px;
+          margin-top: -10px;
+        }
+        .dual-slider input[type="range"]::-moz-range-thumb {
+          width: 24px;
+          height: 24px;
+        }
+        .dual-slider .slider-range::after {
+          content: '';
+          position: absolute;
+          left: 0;
+          right: 0;
+          top: -14px;
+          bottom: -14px;
+        }
+        .play-window-button { padding: 8px 14px; }
+        .controls label {
+          display: inline-flex;
+          align-items: center;
+          gap: 6px;
+        }
+        .controls input[type="checkbox"] {
+          width: 18px;
+          height: 18px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="app">
+    <div class="controls" id="controls">
+      <label>
+        <input id="planning-mode" type="checkbox" checked />
+        Planning mode
+      </label>
+      <div class="time-window">
+        <span class="time-label time-label-start">Start time</span>
+        <div class="time-window-center">
+          <div id="time-window-slider" class="dual-slider">
+            <div class="slider-track"></div>
+            <div id="time-window-range" class="slider-range"></div>
+            <input id="planning-start-time" type="range" min="0" max="1439" step="10" />
+            <input id="planning-end-time" type="range" min="0" max="1439" step="10" />
+          </div>
+          <div class="time-window-bounds">
+            <span id="planning-min-time-value"></span>
+            <span id="planning-max-time-value"></span>
+          </div>
+        </div>
+        <span class="time-label time-label-end">End time</span>
+        <span id="planning-start-time-value" class="time-value time-value-start"></span>
+        <span id="planning-end-time-value" class="time-value time-value-end"></span>
+      </div>
+      <button id="play-window" class="play-window-button" type="button">▶ Play</button>
+      <button id="reset-window" class="play-window-button" type="button">↺ Reset</button>
+    </div>
+
+    <!-- Map -->
+    <div id="map"></div>
+
+    <div class="gig-sheet" id="gig-sheet">
+      <button
+        id="sheet-handle"
+        class="sheet-handle"
+        type="button"
+        aria-controls="gigs"
+        aria-expanded="false"
+      >
+        <span class="sheet-grip"></span>
+        <span class="sheet-title" id="sheet-title">Gigs</span>
+      </button>
+      <div id="gigs"></div>
+    </div>
+    </div>
+
+    <script src="data.js"></script>
+    <script>
+      const map = L.map('map').setView([42.338504, -71.125672], 14)
+      const markersByPorchId = {};
+      const planningModeCheckbox = document.getElementById('planning-mode');
+      const planningStartTimeInput = document.getElementById('planning-start-time');
+      const planningEndTimeInput = document.getElementById('planning-end-time');
+      const planningStartTimeValue = document.getElementById('planning-start-time-value');
+      const planningEndTimeValue = document.getElementById('planning-end-time-value');
+      const planningMinTimeValue = document.getElementById('planning-min-time-value');
+      const planningMaxTimeValue = document.getElementById('planning-max-time-value');
+      const playWindowButton = document.getElementById('play-window');
+      const resetWindowButton = document.getElementById('reset-window');
+      const timeWindowSlider = document.getElementById('time-window-slider');
+      const timeWindowRange = document.getElementById('time-window-range');
+      const appElement = document.querySelector('.app');
+      const controlsElement = document.getElementById('controls');
+      const gigsElement = document.getElementById('gigs');
+      const gigSheet = document.getElementById('gig-sheet');
+      const sheetHandle = document.getElementById('sheet-handle');
+      const sheetTitle = document.getElementById('sheet-title');
+      // Must match the media query guarding the phone layout in the stylesheet.
+      const phoneLayoutQuery = window.matchMedia('(max-width: 767px), (max-height: 500px)');
+      const oneHourMinutes = 60
+      const playbackTickMs = 800
+      let playbackIntervalId = null
+      // The gig list is rebuilt on every map move, which would otherwise throw
+      // away an open band overlay; we re-attach it instead. { gigid, element, cleanup }
+      let openBandOverlay = null
+      let popupZIndexCounter = 1000
+      let tooltipZIndexCounter = 2000
+      let markerZIndexCounter = 3000
+      const porchMarkerColors = {
+        past: '#8B80A8',
+        noUpcoming: '#9CA3AF',
+        upcoming: '#2563EB',
+        nowPlaying: '#16A34A',
+      }
+      const porchStats = computePorchStats()
+
+      function computePorchStats() {
+        const bandCountByPorch = {}
+        const totalMinutesByPorch = {}
+        const bandIdsByPorch = {}
+
+        for (const porchid in porches) {
+          bandIdsByPorch[porchid] = new Set()
+          totalMinutesByPorch[porchid] = 0
+        }
+
+        for (const gig of Object.values(gigs)) {
+          if (!gig || gig.bandid === null || gig.porchid === null) {
+            continue
+          }
+          if (!bandIdsByPorch[gig.porchid]) {
+            bandIdsByPorch[gig.porchid] = new Set()
+            totalMinutesByPorch[gig.porchid] = 0
+          }
+
+          bandIdsByPorch[gig.porchid].add(gig.bandid)
+          totalMinutesByPorch[gig.porchid] += Number(gig.duration) || 0
+        }
+
+        let maxTotalMinutes = 0
+        for (const porchid in totalMinutesByPorch) {
+          bandCountByPorch[porchid] = bandIdsByPorch[porchid].size
+          maxTotalMinutes = Math.max(maxTotalMinutes, totalMinutesByPorch[porchid])
+        }
+
+        return {
+          bandCountByPorch,
+          totalMinutesByPorch,
+          maxTotalMinutes,
+        }
+      }
+
+      L.maplibreGL({
+        style: 'https://tiles.openfreemap.org/styles/liberty',
+      }).addTo(map)
+
+      function raisePopupAboveOthers(popup) {
+        if (!popup) {
+          return
+        }
+
+        const popupElement = popup.getElement()
+        if (!popupElement) {
+          return
+        }
+
+        popupZIndexCounter += 1
+        popupElement.style.zIndex = String(popupZIndexCounter)
+      }
+
+      function raiseTooltipAboveOthers(tooltip) {
+        if (!tooltip) {
+          return
+        }
+
+        const tooltipElement = tooltip.getElement()
+        if (!tooltipElement) {
+          return
+        }
+
+        tooltipZIndexCounter += 1
+        tooltipElement.style.zIndex = String(tooltipZIndexCounter)
+      }
+
+      map.on('popupopen', (event) => {
+        raisePopupAboveOthers(event.popup)
+      })
+
+      function toMinutesSinceMidnight(date) {
+        return (date.getHours() * 60) + date.getMinutes()
+      }
+
+      function formatMinutesSinceMidnight(totalMinutes) {
+        const minutesInDay = 24 * 60
+        const normalized = ((totalMinutes % minutesInDay) + minutesInDay) % minutesInDay
+        const hours = Math.floor(normalized / 60)
+        const minutes = normalized % 60
+        const formattedDate = new Date(2000, 0, 1, hours, minutes, 0, 0)
+        return formattedDate.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' })
+      }
+
+      function formatRoundedHourMinutes(totalMinutes) {
+        const minutesInDay = 24 * 60
+        const normalized = ((totalMinutes % minutesInDay) + minutesInDay) % minutesInDay
+        const rounded = Math.round(normalized / 60) * 60
+        return formatMinutesSinceMidnight(rounded)
+      }
+
+      function gigStartMinutes(gig) {
+        return (Number(gig.starthour) * 60) + Number(gig.startminute)
+      }
+
+      function gigEndMinutes(gig) {
+        return gigStartMinutes(gig) + Number(gig.duration)
+      }
+
+      function scheduleBounds() {
+        const scheduledGigs = Object.values(gigs).filter(gig => gig.bandid !== null)
+        const startMinutes = scheduledGigs.map(gigStartMinutes)
+        const endMinutes = scheduledGigs.map(gigEndMinutes)
+        const officialMin = Math.min(...startMinutes)
+        const officialMax = Math.max(...endMinutes)
+        return {
+          officialMin,
+          officialMax,
+          min: officialMin,
+          max: officialMax + oneHourMinutes,
+        }
+      }
+
+      function clamp(value, min, max) {
+        return Math.min(max, Math.max(min, value))
+      }
+
+      function currentMinutesSinceMidnight() {
+        return toMinutesSinceMidnight(new Date())
+      }
+
+      function selectedTimeBounds() {
+        const minMinutes = Number(planningStartTimeInput.min)
+        const maxMinutes = Number(planningStartTimeInput.max)
+
+        if (!planningModeCheckbox.checked) {
+          return {
+            start: clamp(currentMinutesSinceMidnight(), minMinutes, maxMinutes),
+            end: maxMinutes,
+          }
+        }
+
+        return {
+          start: Number(planningStartTimeInput.value),
+          end: Number(planningEndTimeInput.value),
+        }
+      }
+
+      function dateAtMinutes(totalMinutes) {
+        const realNow = new Date()
+        const hour = Math.floor(totalMinutes / 60)
+        const minute = totalMinutes % 60
+
+        return new Date(
+          realNow.getFullYear(),
+          realNow.getMonth(),
+          realNow.getDate(),
+          hour,
+          minute,
+          0,
+          0,
+        )
+      }
+
+      function selectedDateBounds() {
+        const bounds = selectedTimeBounds()
+        return {
+          start: dateAtMinutes(bounds.start),
+          end: dateAtMinutes(bounds.end),
+        }
+      }
+
+      function refreshTimeWindowSliderUi() {
+        const min = Number(planningStartTimeInput.min)
+        const max = Number(planningStartTimeInput.max)
+        const start = Number(planningStartTimeInput.value)
+        const end = Number(planningEndTimeInput.value)
+
+        planningStartTimeValue.textContent = formatRoundedHourMinutes(min)
+        planningEndTimeValue.textContent = formatMinutesSinceMidnight(bounds.officialMax)
+        planningMinTimeValue.textContent = formatMinutesSinceMidnight(start)
+        planningMaxTimeValue.textContent = formatMinutesSinceMidnight(end)
+
+        const span = max - min
+
+        if (span <= 0) {
+          timeWindowRange.style.left = '0%'
+          timeWindowRange.style.right = '0%'
+          return
+        }
+
+        const left = ((start - min) / span) * 100
+        const endPercent = ((end - min) / span) * 100
+        const right = 100 - endPercent
+        timeWindowRange.style.left = `${left}%`
+        timeWindowRange.style.right = `${right}%`
+      }
+
+      function refreshPlanningModeStatus() {
+        planningStartTimeInput.disabled = !planningModeCheckbox.checked
+        planningEndTimeInput.disabled = !planningModeCheckbox.checked
+        timeWindowSlider.classList.toggle('disabled', !planningModeCheckbox.checked)
+
+        refreshTimeWindowSliderUi()
+      }
+
+      function setTimeWindow(startMinutes, endMinutes) {
+        planningStartTimeInput.value = String(startMinutes)
+        planningEndTimeInput.value = String(endMinutes)
+        refreshPlanningModeStatus()
+        update()
+      }
+
+      function resetPlaybackWindow() {
+        const min = Number(planningStartTimeInput.min)
+        const max = Number(planningStartTimeInput.max)
+        const playbackSpan = Math.min(oneHourMinutes, max - min)
+        setTimeWindow(min, min + playbackSpan)
+      }
+
+      function stopWindowPlayback() {
+        if (playbackIntervalId !== null) {
+          clearInterval(playbackIntervalId)
+          playbackIntervalId = null
+        }
+        playWindowButton.textContent = '▶ Play'
+      }
+
+      function startWindowPlayback() {
+        const min = Number(planningStartTimeInput.min)
+        const max = Number(planningStartTimeInput.max)
+        const maxSpan = max - min
+        if (maxSpan <= 0) {
+          return
+        }
+
+        const playbackSpan = Math.min(oneHourMinutes, maxSpan)
+        const step = Number(planningStartTimeInput.step) || 1
+
+        planningModeCheckbox.checked = true
+
+        let start = Number(planningStartTimeInput.value)
+        let end = start + playbackSpan
+
+        if (end > max) {
+          end = max
+          start = max - playbackSpan
+        }
+
+        setTimeWindow(start, end)
+
+        stopWindowPlayback()
+        playWindowButton.textContent = '⏸ Pause'
+        playbackIntervalId = setInterval(() => {
+          const currentStart = Number(planningStartTimeInput.value)
+          const currentEnd = Number(planningEndTimeInput.value)
+          const currentSpan = currentEnd - currentStart
+          const nextStart = currentStart + step
+          const nextEnd = nextStart + currentSpan
+
+          if (nextEnd > max) {
+            stopWindowPlayback()
+            return
+          }
+
+          setTimeWindow(nextStart, nextEnd)
+        }, playbackTickMs)
+      }
+
+      function gigStartTime(gig) {
+        const now = new Date()
+        return new Date(
+          now.getFullYear(),
+          now.getMonth(),
+          now.getDate(),
+          Number(gig.starthour),
+          Number(gig.startminute),
+          0,
+          0,
+        )
+      }
+
+      function gigOverlapsSelectedWindow(gig, dateBounds) {
+        const gigStartsAt = gigStartTime(gig)
+        const gigEndsAt = gigEndTime(gig)
+        return gigEndsAt > dateBounds.start && gigStartsAt < dateBounds.end
+      }
+      function gigEndTime(gig) {
+        const msPerMinute = 60 * 1000
+        return new Date(gigStartTime(gig).getTime() + Number(gig.duration) * msPerMinute)
+      }
+      function porchInView(porch, viewBounds) {
+        return (
+          porch.lat > viewBounds.getSouth() &&
+          porch.lat < viewBounds.getNorth() &&
+          porch.lng > viewBounds.getWest() &&
+          porch.lng < viewBounds.getEast()
+        )
+      }
+
+      function sortedGigIds() {
+        return Object.keys(gigs)
+          .filter(gigid => gigs[gigid].bandid !== null)
+          .sort((a, b) => gigStartTime(gigs[a]) - gigStartTime(gigs[b]))
+      }
+
+      // --- Bottom sheet ---------------------------------------------------
+      // On a phone the map fills the screen and the gig list docks over it at
+      // one of three heights, so the map keeps whatever room the reader can
+      // spare. On wider screens the sheet is just the list pane under the map.
+      const sheetStopOrder = ['collapsed', 'peek', 'expanded']
+      let sheetStop = 'peek'
+      let sheetDrag = null
+      let layoutSyncHandle = null
+
+      function sheetHeightFor(stop) {
+        const handleHeight = sheetHandle.offsetHeight || 46
+        if (stop === 'collapsed') {
+          return handleHeight
+        }
+
+        const available = appElement.clientHeight
+        const maxHeight = Math.max(handleHeight, available - controlsElement.offsetHeight - 16)
+        if (stop === 'expanded') {
+          return Math.min(maxHeight, Math.round(available * 0.78))
+        }
+
+        return clamp(Math.round(available * 0.36), handleHeight, maxHeight)
+      }
+
+      function applySheetHeight(heightPx) {
+        gigSheet.style.height = `${heightPx}px`
+        document.documentElement.style.setProperty('--sheet-h', `${heightPx}px`)
+      }
+
+      function setSheetStop(stop) {
+        sheetStop = stop
+        sheetHandle.setAttribute('aria-expanded', String(stop !== 'collapsed'))
+        if (phoneLayoutQuery.matches) {
+          applySheetHeight(sheetHeightFor(stop))
+        }
+      }
+
+      function nearestSheetStop(heightPx) {
+        return sheetStopOrder.reduce((best, stop) => {
+          const distance = Math.abs(sheetHeightFor(stop) - heightPx)
+          return distance < Math.abs(sheetHeightFor(best) - heightPx) ? stop : best
+        }, sheetStop)
+      }
+
+      function nextSheetStop(stop) {
+        return sheetStopOrder[(sheetStopOrder.indexOf(stop) + 1) % sheetStopOrder.length]
+      }
+
+      const defaultAttributionPrefix = map.attributionControl.options.prefix
+
+      function syncLayout() {
+        document.documentElement.style.setProperty('--controls-h', `${controlsElement.offsetHeight}px`)
+
+        // The "Leaflet" courtesy prefix is what pushes attribution onto a
+        // second line at phone widths; the map data credits stay either way.
+        map.attributionControl.setPrefix(
+          phoneLayoutQuery.matches ? false : defaultAttributionPrefix,
+        )
+
+        if (phoneLayoutQuery.matches) {
+          applySheetHeight(sheetHeightFor(sheetStop))
+        } else {
+          gigSheet.style.height = ''
+          document.documentElement.style.removeProperty('--sheet-h')
+        }
+
+        map.invalidateSize()
+      }
+
+      function scheduleLayoutSync() {
+        if (layoutSyncHandle !== null) {
+          return
+        }
+        layoutSyncHandle = requestAnimationFrame(() => {
+          layoutSyncHandle = null
+          syncLayout()
+        })
+      }
+
+      sheetHandle.addEventListener('pointerdown', (event) => {
+        if (!phoneLayoutQuery.matches || event.button !== 0) {
+          return
+        }
+
+        sheetDrag = {
+          pointerId: event.pointerId,
+          originY: event.clientY,
+          startHeight: gigSheet.getBoundingClientRect().height,
+          moved: false,
+        }
+
+        gigSheet.classList.add('is-dragging')
+        sheetHandle.setPointerCapture(event.pointerId)
+      })
+
+      sheetHandle.addEventListener('pointermove', (event) => {
+        if (!sheetDrag || sheetDrag.pointerId !== event.pointerId) {
+          return
+        }
+
+        const deltaY = sheetDrag.originY - event.clientY
+        if (Math.abs(deltaY) > 4) {
+          sheetDrag.moved = true
+        }
+
+        applySheetHeight(clamp(
+          sheetDrag.startHeight + deltaY,
+          sheetHeightFor('collapsed'),
+          sheetHeightFor('expanded'),
+        ))
+      })
+
+      function endSheetDrag(event) {
+        if (!sheetDrag || sheetDrag.pointerId !== event.pointerId) {
+          return
+        }
+
+        const draggedHeight = gigSheet.getBoundingClientRect().height
+        const wasDragged = sheetDrag.moved
+        sheetDrag = null
+
+        gigSheet.classList.remove('is-dragging')
+        // A tap that never moved cycles to the next height instead.
+        setSheetStop(wasDragged ? nearestSheetStop(draggedHeight) : nextSheetStop(sheetStop))
+      }
+
+      sheetHandle.addEventListener('pointerup', endSheetDrag)
+      sheetHandle.addEventListener('pointercancel', endSheetDrag)
+
+      // Keyboard activation fires click with detail 0; pointer taps already
+      // went through endSheetDrag.
+      sheetHandle.addEventListener('click', (event) => {
+        if (event.detail !== 0) {
+          return
+        }
+        setSheetStop(nextSheetStop(sheetStop))
+      })
+
+      phoneLayoutQuery.addEventListener('change', scheduleLayoutSync)
+      window.addEventListener('resize', scheduleLayoutSync)
+      window.addEventListener('orientationchange', scheduleLayoutSync)
+
+      if (window.ResizeObserver) {
+        new ResizeObserver(scheduleLayoutSync).observe(controlsElement)
+      }
+
+      function update() {
+        resetGigs()
+        resetMarkers()
+      }
+
+      function porchWindowState(porchid, dateBounds) {
+        const now = dateBounds.start
+        let nowPlayingGig = null
+
+        for (const gig of Object.values(gigs)) {
+          if (gig.bandid === null || gig.porchid !== porchid) {
+            continue
+          }
+
+          const startsAt = gigStartTime(gig)
+          const endsAt = gigEndTime(gig)
+
+          if (!nowPlayingGig && startsAt <= now && endsAt > now) {
+            nowPlayingGig = gig
+          }
+        }
+
+        return { nowPlayingGig }
+      }
+
+      function renderPorchPopup(porchid, dateBounds = selectedDateBounds()) {
+        const porch = porches[porchid]
+        const shortAddress = porch.address.replace(/,\s*Brookline,\s*MA\s*$/i, '')
+        const now = dateBounds.start
+
+        const porchGigs = sortedGigIds()
+          .map(gigid => gigs[gigid])
+          .filter(gig => gig.bandid !== null && gig.porchid === porchid)
+
+        const scheduleHtml = porchGigs.map(gig => {
+          const band = bands[gig.bandid]
+          const start = gigStartTime(gig).toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' })
+          const name = band && band.actname ? band.actname : 'Unknown band'
+          const startsAt = gigStartTime(gig)
+          const endsAt = gigEndTime(gig)
+          let dotColor = porchMarkerColors.noUpcoming
+          if (startsAt <= now && endsAt > now) {
+            dotColor = porchMarkerColors.nowPlaying
+          } else if (endsAt <= now) {
+            dotColor = porchMarkerColors.past
+          } else {
+            dotColor = porchMarkerColors.upcoming
+          }
+          return `<div class="popup-schedule-line"><span class="popup-schedule-dot" style="background:${dotColor};"></span><span>${start} — ${name}</span></div>`
+        }).join('')
+
+        return `
+          <div>
+            <strong>${shortAddress}</strong>
+            ${scheduleHtml ? `<div style="margin-top:8px;">${scheduleHtml}</div>` : `<div style="margin-top:8px;">No listed performances.</div>`}
+          </div>
+        `
+      }
+
+      function renderPorchStatusLabel(porchid, dateBounds) {
+        const { nowPlayingGig } = porchWindowState(porchid, dateBounds)
+        if (nowPlayingGig) {
+          const band = bands[nowPlayingGig.bandid]
+          const name = band && band.actname ? band.actname : 'Unknown band'
+          const start = gigStartTime(nowPlayingGig).toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' })
+          return `${start}: ${name}`
+        }
+
+        return ''
+      }
+
+      function porchMarkerState(porchid, dateBounds) {
+        const porchGigs = Object.values(gigs).filter(gig => {
+          return gig.bandid !== null && gig.porchid === porchid
+        })
+
+        if (!porchGigs.length) {
+          return 'noUpcoming'
+        }
+
+        const { nowPlayingGig } = porchWindowState(porchid, dateBounds)
+        if (nowPlayingGig) {
+          return 'nowPlaying'
+        }
+
+        const hasUpcomingGig = porchGigs.some(gig => gigEndTime(gig) > dateBounds.start)
+        return hasUpcomingGig ? 'upcoming' : 'past'
+      }
+
+      function porchTotalMinutes(porchid) {
+        return porchStats.totalMinutesByPorch[porchid] || 0
+      }
+
+      function porchOpacityForMinutes(totalMinutes) {
+        if (porchStats.maxTotalMinutes <= 0) {
+          return 1
+        }
+
+        const minOpacity = 0.3
+        const normalized = totalMinutes / porchStats.maxTotalMinutes
+        return minOpacity + ((1 - minOpacity) * normalized)
+      }
+
+      function markerStyleForState(state, porchid) {
+        const color = porchMarkerColors[state] || porchMarkerColors.noUpcoming
+        const opacity = porchOpacityForMinutes(porchTotalMinutes(porchid))
+        return {
+          color,
+          opacity,
+          size: state === 'nowPlaying' ? 16 : 14,
+        }
+      }
+
+      function porchBandCount(porchid) {
+        return porchStats.bandCountByPorch[porchid] || 0
+      }
+
+      function shapeForBandCount(count) {
+        return count <= 1 ? 'circle' : 'pill'
+      }
+
+      function raiseMarker(marker) {
+        markerZIndexCounter += 1
+        marker.setZIndexOffset(markerZIndexCounter)
+      }
+
+      function updatePorchMarkerVisual(marker, porchid, state, bandCount) {
+        const markerElement = marker.getElement()
+        if (!markerElement) {
+          return
+        }
+
+        const shapeElement = markerElement.querySelector('.porch-marker-shape')
+        if (!shapeElement) {
+          return
+        }
+
+        const style = markerStyleForState(state, porchid)
+        const shape = shapeForBandCount(bandCount)
+        const extraBands = Math.max(0, bandCount - 1)
+        const pillScale = Math.min(2.2, 1.2 + (extraBands * 0.22))
+        const width = shape === 'pill' ? Math.round(style.size * pillScale) : style.size
+        const height = style.size
+        shapeElement.style.width = `${width}px`
+        shapeElement.style.height = `${height}px`
+        shapeElement.style.backgroundColor = style.color
+        shapeElement.style.opacity = String(style.opacity)
+        shapeElement.style.borderRadius = shape === 'pill' ? '999px' : '50%'
+        shapeElement.style.clipPath = 'none'
+        shapeElement.title = `${bandCount} band${bandCount === 1 ? '' : 's'}`
+      }
+
+      function addMarkers() {
+        for (const porchid in porches) {
+          const marker = L.marker([porches[porchid].lat, porches[porchid].lng], {
+            icon: L.divIcon({
+              className: 'porch-marker-icon',
+              html: '<div class="porch-marker-shape"></div>',
+              iconSize: [20, 20],
+              iconAnchor: [10, 10],
+              popupAnchor: [0, -10],
+            }),
+          })
+
+          var popup = L.popup()
+            .setContent(renderPorchPopup(porchid));
+
+          marker.bindPopup(popup).openPopup();
+
+          // Adding marker to the map
+          marker.addTo(map)
+          updatePorchMarkerVisual(marker, porchid, 'noUpcoming', porchBandCount(porchid))
+          markersByPorchId[porchid] = marker
+        }
+      }
+
+      function resetMarkers() {
+        const dateBounds = selectedDateBounds();
+        for (const porchid in porches) {
+          const marker = markersByPorchId[porchid]
+          if (marker && marker.getPopup()) {
+            marker.getPopup().setContent(renderPorchPopup(porchid, dateBounds))
+          }
+
+          const statusLabel = renderPorchStatusLabel(porchid, dateBounds)
+          if (statusLabel) {
+            if (!marker.getTooltip()) {
+              marker.bindTooltip(statusLabel, {
+                permanent: true,
+                direction: 'top',
+                offset: [0, -10],
+                className: 'porch-status-tooltip',
+              })
+              marker.openTooltip()
+              raiseTooltipAboveOthers(marker.getTooltip())
+              raiseMarker(marker)
+            } else {
+              const previousStatusLabel = marker._statusLabelText || ''
+              marker.getTooltip().setContent(statusLabel)
+              if (previousStatusLabel !== statusLabel) {
+                raiseTooltipAboveOthers(marker.getTooltip())
+                raiseMarker(marker)
+              }
+            }
+            marker._statusLabelText = statusLabel
+          } else if (marker.getTooltip()) {
+            marker.unbindTooltip()
+            marker._statusLabelText = ''
+          }
+
+          const state = porchMarkerState(porchid, dateBounds)
+          updatePorchMarkerVisual(marker, porchid, state, porchBandCount(porchid))
+          if (state === 'nowPlaying') {
+            raiseMarker(marker)
+          }
+        }
+      }
+
+      function resetGigs() {
+        const viewBounds = map.getBounds()
+        let gigsText = "";
+        const dateBounds = selectedDateBounds();
+        let anchorGigElementId = null;
+        let gigCount = 0;
+
+        for (const gigid of sortedGigIds()) {
+          // for this gig...
+          const gig = gigs[gigid]
+          const band = bands[gig.bandid]
+          const porch = porches[gig.porchid]
+
+          // Only list bands that are in view
+          if (!porchInView(porch, viewBounds)) {
+              continue
+          }
+
+          const gigStartsAt = gigStartTime(gig)
+          if (!gigOverlapsSelectedWindow(gig, dateBounds)) {
+            continue
+          }
+
+          const gigRowId = `gig-row-${gigid}`
+          if (!anchorGigElementId && gigStartsAt >= dateBounds.start) {
+            anchorGigElementId = gigRowId
+          }
+
+          gigCount += 1
+          gigsText += `
+            <div class="gig-entry" id="${gigRowId}">
+              <a class="gig-link" href="#" onclick="showBandInfo(this, '${gigid}'); return false;">
+                <span class="gig-time">${gigStartsAt.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' })}</span>
+                <span class="gig-band">${band.actname}</span>
+              </a>
+            </div>
+            `;
+        }
+        gigsElement.innerHTML = gigsText ||
+          '<div class="gigs-empty">No gigs in this time window and map view.</div>'
+        sheetTitle.textContent = gigCount === 1 ? '1 gig' : `${gigCount} gigs`
+        if (anchorGigElementId) {
+          const anchorElement = document.getElementById(anchorGigElementId)
+          if (anchorElement) {
+            gigsElement.scrollTop = Math.max(0, anchorElement.offsetTop - 24)
+          }
+        }
+
+        // Opening a popup can auto-pan the map, which lands us back here and
+        // would silently drop the overlay the reader just opened.
+        if (openBandOverlay) {
+          const row = document.getElementById(`gig-row-${openBandOverlay.gigid}`)
+          if (row) {
+            row.appendChild(openBandOverlay.element)
+            openBandOverlay.element.scrollIntoView({ block: 'nearest' })
+          } else {
+            openBandOverlay.cleanup()
+          }
+        }
+      }
+
+      // --- Render all available band metadata into the gig overlay ---
+      function renderBandInfo(band, gig, porch) {
+        const n = (v) => v == null ? "" : String(v).trim();
+        const esc = (v) => n(v).replace(/[&<>"']/g, (char) => ({
+          '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+        }[char]));
+        const timeRange = `${gigStartTime(gig).toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' })} - ${gigEndTime(gig).toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' })}`;
+        const linkFields = [
+          ['website', 'Website'], ['facebook', 'Facebook'], ['instagram', 'Instagram'],
+          ['bandcamp', 'Bandcamp'], ['spotify', 'Spotify'], ['apple', 'Apple Music'],
+          ['otheronline', 'More online']
+        ];
+        const links = linkFields
+          .filter(([field]) => n(band[field]))
+          .map(([field, label]) => `<a href="${esc(band[field])}" target="_blank" rel="noopener">${label}</a>`);
+        const genre = [n(band.genre), n(band.other_genre)].filter(Boolean).join(' · ');
+        const details = [
+          ['Genre', genre], ['Description', n(band.description)], ['Band ID', n(band._id)]
+        ].filter(([, value]) => value);
+        const detailsHtml = details.map(([label, value]) =>
+          `<div class="meta"><strong>${label}:</strong> ${esc(value)}</div>`
+        ).join('');
+        const imageHtml = n(band.image)
+          ? `<img src="${esc(band.image)}" alt="${esc(band.actname)}" style="display:block;max-width:100%;max-height:180px;margin:8px 0;border-radius:6px;object-fit:cover;" loading="lazy" referrerpolicy="no-referrer">`
+          : '';
+
+        return `
+          <h3>${esc(band.actname)}</h3>
+          ${imageHtml}
+          <div class="meta"><strong>When:</strong> ${esc(timeRange)}</div>
+          <div class="meta"><strong>Where:</strong> ${esc(porch.address)}</div>
+          ${detailsHtml}
+          ${links.length ? `<div class="links" style="margin-top:8px;">${links.join(" ")}</div>` : ""}
+        `;
+      }
+
+      // --- Overlay behavior: show under clicked link ---
+      window.showBandInfo = function(linkEl, gigid) {
+        const gig = gigs[gigid];
+        const band = gig ? bands[gig.bandid] : null;
+        const porch = gig ? porches[gig.porchid] : null;
+        const marker = gig ? markersByPorchId[gig.porchid] : null;
+
+        // Remove any existing overlay
+        if (openBandOverlay) {
+          openBandOverlay.cleanup();
+        }
+        document.querySelectorAll('.band-overlay').forEach(el => el.remove());
+
+        // Create overlay
+        const overlay = document.createElement('div');
+        overlay.className = 'band-overlay';
+        overlay.innerHTML = (band && gig && porch) ? renderBandInfo(band, gig, porch) : `<div style="color:#c00">Gig details not found</div>`;
+
+        if (marker) {
+          // Leaflet only knows about the map container, so tell it how much of
+          // that container the controls bar and gig sheet are covering.
+          const popup = marker.getPopup()
+          if (popup && phoneLayoutQuery.matches) {
+            popup.options.autoPanPaddingTopLeft = L.point(12, controlsElement.offsetHeight + 12)
+            popup.options.autoPanPaddingBottomRight = L.point(12, gigSheet.getBoundingClientRect().height + 12)
+          }
+
+          marker.openPopup();
+          raisePopupAboveOthers(marker.getPopup())
+        }
+
+        // Insert under this gig row
+        const container = linkEl.closest('.gig-entry');
+        container.appendChild(overlay);
+        overlay.scrollIntoView({ block: 'nearest' });
+
+        // Close overlay when clicking outside or pressing Esc
+        const onDocClick = (e) => {
+          if (overlay.contains(e.target)) {
+            return;
+          }
+          // Taps on this gig's own row re-render the overlay via the inline
+          // handler, so don't treat them as "clicked away".
+          const clickedRow = e.target.closest && e.target.closest('.gig-entry');
+          if (clickedRow && clickedRow === overlay.parentElement) {
+            return;
+          }
+          cleanup();
+        };
+        const onEsc = (e) => {
+          if (e.key === 'Escape') cleanup();
+        };
+        function cleanup() {
+          overlay.remove();
+          if (marker) {
+            marker.closePopup();
+          }
+          if (openBandOverlay && openBandOverlay.element === overlay) {
+            openBandOverlay = null;
+          }
+          document.removeEventListener('click', onDocClick, true);
+          document.removeEventListener('keydown', onEsc, true);
+        }
+        openBandOverlay = { gigid, element: overlay, cleanup };
+        // Slight delay so the initial click that opened it doesn't immediately close it
+        setTimeout(() => {
+          document.addEventListener('click', onDocClick, true);
+        }, 0);
+        document.addEventListener('keydown', onEsc, true);
+      };
+
+      const bounds = scheduleBounds()
+      const sliderStepMinutes = Number(planningStartTimeInput.step) || 10
+      const initialStartMinutes = Math.max(0, bounds.min - sliderStepMinutes)
+      const initialEndMinutes = Math.min(bounds.max, initialStartMinutes + oneHourMinutes)
+
+      planningStartTimeInput.min = String(initialStartMinutes)
+      planningStartTimeInput.max = String(bounds.max)
+      planningEndTimeInput.min = String(initialStartMinutes)
+      planningEndTimeInput.max = String(bounds.max)
+
+      planningStartTimeInput.value = String(initialStartMinutes)
+      planningEndTimeInput.value = String(initialEndMinutes)
+      refreshPlanningModeStatus()
+      stopWindowPlayback()
+
+      planningModeCheckbox.addEventListener('change', () => {
+        if (!planningModeCheckbox.checked) {
+          stopWindowPlayback()
+        }
+        refreshPlanningModeStatus()
+        update()
+      })
+
+      planningStartTimeInput.addEventListener('input', () => {
+        stopWindowPlayback()
+        const startMinutes = Number(planningStartTimeInput.value)
+        const endMinutes = Number(planningEndTimeInput.value)
+        if (startMinutes > endMinutes) {
+          planningEndTimeInput.value = String(startMinutes)
+        }
+        setTimeWindow(Number(planningStartTimeInput.value), Number(planningEndTimeInput.value))
+      })
+
+      planningEndTimeInput.addEventListener('input', () => {
+        stopWindowPlayback()
+        const startMinutes = Number(planningStartTimeInput.value)
+        const endMinutes = Number(planningEndTimeInput.value)
+        if (endMinutes < startMinutes) {
+          planningStartTimeInput.value = String(endMinutes)
+        }
+        setTimeWindow(Number(planningStartTimeInput.value), Number(planningEndTimeInput.value))
+      })
+
+      let rangeDragState = null
+
+      timeWindowRange.addEventListener('pointerdown', (event) => {
+        if (!planningModeCheckbox.checked || event.button !== 0) {
+          return
+        }
+
+        stopWindowPlayback()
+
+        const min = Number(planningStartTimeInput.min)
+        const max = Number(planningStartTimeInput.max)
+        const start = Number(planningStartTimeInput.value)
+        const end = Number(planningEndTimeInput.value)
+        const width = timeWindowSlider.getBoundingClientRect().width
+
+        if (!Number.isFinite(width) || width <= 0) {
+          return
+        }
+
+        rangeDragState = {
+          pointerId: event.pointerId,
+          originX: event.clientX,
+          min,
+          max,
+          width,
+          start,
+          end,
+          span: end - start,
+          step: Number(planningStartTimeInput.step) || 1,
+        }
+
+        timeWindowSlider.classList.add('dragging')
+        timeWindowRange.setPointerCapture(event.pointerId)
+        event.preventDefault()
+      })
+
+      timeWindowRange.addEventListener('pointermove', (event) => {
+        if (!rangeDragState || rangeDragState.pointerId !== event.pointerId) {
+          return
+        }
+
+        const deltaX = event.clientX - rangeDragState.originX
+        const totalMinutes = rangeDragState.max - rangeDragState.min
+        const rawDeltaMinutes = (deltaX / rangeDragState.width) * totalMinutes
+        const snappedDeltaMinutes = Math.round(rawDeltaMinutes / rangeDragState.step) * rangeDragState.step
+
+        let nextStart = rangeDragState.start + snappedDeltaMinutes
+        let nextEnd = rangeDragState.end + snappedDeltaMinutes
+
+        if (nextStart < rangeDragState.min) {
+          nextStart = rangeDragState.min
+          nextEnd = rangeDragState.min + rangeDragState.span
+        }
+
+        if (nextEnd > rangeDragState.max) {
+          nextEnd = rangeDragState.max
+          nextStart = rangeDragState.max - rangeDragState.span
+        }
+
+        setTimeWindow(nextStart, nextEnd)
+      })
+
+      function stopRangeDrag(event) {
+        if (!rangeDragState || rangeDragState.pointerId !== event.pointerId) {
+          return
+        }
+
+        rangeDragState = null
+        timeWindowSlider.classList.remove('dragging')
+      }
+
+      timeWindowRange.addEventListener('pointerup', stopRangeDrag)
+      timeWindowRange.addEventListener('pointercancel', stopRangeDrag)
+
+      playWindowButton.addEventListener('click', () => {
+        if (playbackIntervalId !== null) {
+          stopWindowPlayback()
+          return
+        }
+        startWindowPlayback()
+      })
+
+      resetWindowButton.addEventListener('click', () => {
+        planningModeCheckbox.checked = true
+        stopWindowPlayback()
+        resetPlaybackWindow()
+      })
+
+      addMarkers()
+      syncLayout()
+
+      // reset gigs now, on map move, and on map zoom
+      update()
+      map.on('moveend', update)
+      map.on('zoomend', update)
+    </script>
+  </body>
+</html>
