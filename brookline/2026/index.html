@@ -1241,7 +1241,7 @@
           .map(([field, label]) => `<a href="${esc(band[field])}" target="_blank" rel="noopener">${label}</a>`);
         const genre = [n(band.genre), n(band.other_genre)].filter(Boolean).join(' · ');
         const details = [
-          ['Genre', genre], ['Description', n(band.description)], ['Band ID', n(band._id)]
+          ['Genre', genre], ['Description', n(band.description)]
         ].filter(([, value]) => value);
         const detailsHtml = details.map(([label, value]) =>
           `<div class="meta"><strong>${label}:</strong> ${esc(value)}</div>`
