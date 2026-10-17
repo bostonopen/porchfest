@@ -1,0 +1,2684 @@
+{
+  "source": "https://plumfest.org/map/",
+  "downloaded": "2026-10-16",
+  "places": [
+    {
+      "id": "311",
+      "title": "6 H St",
+      "address": "6 H St, Newburyport, MA, USA",
+      "source": "manual",
+      "content": "<p>1-2pm - Sonic Cellar (Indie)<br />\r\n3-4pm - Ruckus (Rock)</p>\r\n<p><a href=\"https://www.google.com/maps/dir//6+H+St,+Newburyport,+MA+01950/@42.8075102,-70.8604525,18205m/data=!3m1!1e3!4m8!4m7!1m0!1m5!1m1!1s0x89e2e086a10882f7:0x437e8d91705f0ec5!2m2!1d-70.8192533!2d42.8075176?entry=ttu&g_ep=EgoyMDI1MDgyNC4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" class=\"directions-link\">Click for directions</a></p>",
+      "location": {
+        "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_1a.png",
+        "lat": "42.8075176",
+        "lng": "-70.8192533",
+        "city": "Newburyport",
+        "state": "Massachusetts",
+        "country": "United States",
+        "onclick_action": "marker",
+        "marker_image": "<div class='fc-feature-img'><img loading='lazy' decoding='async' alt='6 H St' src='https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/sample.jpg' class='wpgmp_marker_image fc-item-featured_image fc-item-large' /></div>",
+        "open_new_tab": "yes",
+        "postal_code": "01950",
+        "draggable": false,
+        "infowindow_default_open": false,
+        "infowindow_disable": true,
+        "zoom": 5,
+        "extra_fields": {
+          "listorder": "6"
+        }
+      },
+      "categories": [
+        {
+          "id": "66",
+          "name": "Site 1",
+          "type": "category",
+          "extension_fields": {
+            "cat_order": "6"
+          },
+          "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_1a.png"
+        }
+      ]
+    },
+    {
+      "id": "312",
+      "title": "6 Smith St",
+      "address": "6 Smith Street, Newbury, MA, USA",
+      "source": "manual",
+      "content": "<p>1-2pm - The Tim's Heart Band (Other)</p>\r\n<p><a href=\"https://www.google.com/maps/dir//6+Smith+St,+Newbury,+MA+01951/@42.8065192,-70.899323,36270m/data=!3m1!1e3!4m8!4m7!1m0!1m5!1m1!1s0x89e2e081440214fd:0xc1330638507da868!2m2!1d-70.8169217!2d42.8064228?entry=ttu&g_ep=EgoyMDI2MDgzMC4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" class=\"directions-link\">Click for directions</a></p>",
+      "location": {
+        "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_2.png",
+        "lat": "42.8064228",
+        "lng": "-70.8169217",
+        "city": "Newbury",
+        "state": "Massachusetts",
+        "country": "United States",
+        "onclick_action": "marker",
+        "marker_image": "<div class='fc-feature-img'><img loading='lazy' decoding='async' alt='6 Smith St' src='https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/sample.jpg' class='wpgmp_marker_image fc-item-featured_image fc-item-large' /></div>",
+        "open_new_tab": "yes",
+        "postal_code": "01951",
+        "draggable": false,
+        "infowindow_default_open": false,
+        "infowindow_disable": true,
+        "zoom": 5,
+        "extra_fields": {
+          "listorder": "7"
+        }
+      },
+      "categories": [
+        {
+          "id": "67",
+          "name": "Site 2",
+          "type": "category",
+          "extension_fields": {
+            "cat_order": "7"
+          },
+          "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_2.png"
+        }
+      ]
+    },
+    {
+      "id": "313",
+      "title": "56 Old Point Rd",
+      "address": "56 Old Point Rd, Newbury, MA, USA",
+      "source": "manual",
+      "content": "<p>2-3pm - Aaron Bilodeau (Indie)<br />\r\n3-4pm - Vices Inc (Rock)<br />4-5pm - The Warren Rrport (Other)<br />5-6pm - Christian Champagne & The Kind Souls (Rock)</p>\r\n<p><a href=\"https://www.google.com/maps/dir//56+Old+Point+Rd,+Newbury,+MA+01951/@42.7995354,-70.895572,36274m/data=!3m1!1e3!4m8!4m7!1m0!1m5!1m1!1s0x89e2e080f46d8795:0xbe0d3fbdf331e382!2m2!1d-70.8152932!2d42.8036979?entry=ttu&g_ep=EgoyMDI2MDgzMC4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" class=\"directions-link\">Click for directions</a></p>",
+      "location": {
+        "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_3.png",
+        "lat": "42.803697899999996",
+        "lng": "-70.8152932",
+        "city": "Newbury",
+        "state": "Massachusetts",
+        "country": "United States",
+        "onclick_action": "marker",
+        "marker_image": "<div class='fc-feature-img'><img loading='lazy' decoding='async' alt='56 Old Point Rd' src='https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/sample.jpg' class='wpgmp_marker_image fc-item-featured_image fc-item-large' /></div>",
+        "open_new_tab": "yes",
+        "postal_code": "01951",
+        "draggable": false,
+        "infowindow_default_open": false,
+        "infowindow_disable": true,
+        "zoom": 5,
+        "extra_fields": {
+          "listorder": "8"
+        }
+      },
+      "categories": [
+        {
+          "id": "68",
+          "name": "Site 3",
+          "type": "category",
+          "extension_fields": {
+            "cat_order": "8"
+          },
+          "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_3.png"
+        }
+      ]
+    },
+    {
+      "id": "314",
+      "title": "18 Hutchins Rd",
+      "address": "18 Hutchins Rd, Newbury, MA, USA",
+      "source": "manual",
+      "content": "<p>1-2pm - The Satellite Repairmen (Rock)<br />\r\n2-3pm - Shorty Hill (Other)<br />3-4pm - Fridays at Walter's (Rock)<br />4-5pm - Pathological Outliars (Rock)</p>\r\n<p><a href=\"https://www.google.com/maps/dir//18+Hutchins+Terrace,+Newbury,+MA,+USA/@42.8027518,-70.8950733,19467m/data=!3m2!1e3!4b1!4m8!4m7!1m0!1m5!1m1!1s0x89e2e0801a6fe3ff:0x4563eb49e94bcd16!2m2!1d-70.812672!2d42.8026554?entry=ttu&g_ep=EgoyMDI1MDgyNS4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" class=\"directions-link\">Click for directions</a></p>\r\n",
+      "location": {
+        "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_4.png",
+        "lat": "42.802078699999996",
+        "lng": "-70.81257049999999",
+        "city": "Newbury",
+        "state": "Massachusetts",
+        "country": "United States",
+        "onclick_action": "marker",
+        "marker_image": "<div class='fc-feature-img'><img loading='lazy' decoding='async' alt='18 Hutchins Rd' src='https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/sample.jpg' class='wpgmp_marker_image fc-item-featured_image fc-item-large' /></div>",
+        "open_new_tab": "yes",
+        "postal_code": "01951",
+        "draggable": false,
+        "infowindow_default_open": false,
+        "infowindow_disable": true,
+        "zoom": 5,
+        "extra_fields": {
+          "listorder": "9"
+        }
+      },
+      "categories": [
+        {
+          "id": "69",
+          "name": "Site 4",
+          "type": "category",
+          "extension_fields": {
+            "cat_order": "9"
+          },
+          "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_4.png"
+        }
+      ]
+    },
+    {
+      "id": "315",
+      "title": "4 Old Point Rd",
+      "address": "4 Old Point Rd, Newbury, MA, USA",
+      "source": "manual",
+      "content": "<p>12-1pm - Lonely Oak (Rock)<br />\r\n2-3pm - Stevie Joe & Company (Rock)<br />4-5pm - Space Moose (Rock)</p>\r\n<p><a href=\"https://www.google.com/maps/dir//4+Old+Point+Rd,+Newbury,+MA,+USA/@42.7995354,-70.895572,19468m/data=!3m2!1e3!4b1!4m8!4m7!1m0!1m5!1m1!1s0x89e2e07f744845d9:0x3b4923d038efa389!2m2!1d-70.8131707!2d42.799439?entry=ttu&g_ep=EgoyMDI1MDgyNC4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" class=\"directions-link\">Click for directions</a></p>",
+      "location": {
+        "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_5.png",
+        "lat": "42.799439",
+        "lng": "-70.8131707",
+        "city": "Newbury",
+        "state": "Massachusetts",
+        "country": "United States",
+        "onclick_action": "marker",
+        "marker_image": "<div class='fc-feature-img'><img loading='lazy' decoding='async' alt='4 Old Point Rd' src='https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/sample.jpg' class='wpgmp_marker_image fc-item-featured_image fc-item-large' /></div>",
+        "open_new_tab": "yes",
+        "postal_code": "01951",
+        "draggable": false,
+        "infowindow_default_open": false,
+        "infowindow_disable": true,
+        "zoom": 5,
+        "extra_fields": {
+          "listorder": "10"
+        }
+      },
+      "categories": [
+        {
+          "id": "70",
+          "name": "Site 5",
+          "type": "category",
+          "extension_fields": {
+            "cat_order": "10"
+          },
+          "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_5.png"
+        }
+      ]
+    },
+    {
+      "id": "316",
+      "title": "14 Plum Island Turnpike",
+      "address": "14 Plum Island Turnpike, Newbury, MA, USA",
+      "source": "manual",
+      "content": "<p>1-2pm - Tricycle (Rock)<br />\r\n3-4pm - Atlas (Rock)<br />5-6pm - Disquiet (Indie)</p>\r\n<p><a href=\"https://www.google.com/maps/dir//14+Plum+Island+Turnpike,+Newbury,+MA+01951/@42.7995354,-70.895572,36274m/data=!3m1!1e3!4m8!4m7!1m0!1m5!1m1!1s0x89e2dfd58ed912cf:0x17463c121dfc6b03!2m2!1d-70.8114843!2d42.7985991?entry=ttu&g_ep=EgoyMDI2MDgzMC4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" class=\"directions-link\">Click for directions</a></p>",
+      "location": {
+        "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_6.png",
+        "lat": "42.7985991",
+        "lng": "-70.8114843",
+        "city": "Newbury",
+        "state": "Massachusetts",
+        "country": "United States",
+        "onclick_action": "marker",
+        "marker_image": "<div class='fc-feature-img'><img loading='lazy' decoding='async' alt='14 Plum Island Turnpike' src='https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/sample.jpg' class='wpgmp_marker_image fc-item-featured_image fc-item-large' /></div>",
+        "open_new_tab": "yes",
+        "postal_code": "01951",
+        "draggable": false,
+        "infowindow_default_open": false,
+        "infowindow_disable": true,
+        "zoom": 5,
+        "extra_fields": {
+          "listorder": "11"
+        }
+      },
+      "categories": [
+        {
+          "id": "71",
+          "name": "Site 6",
+          "type": "category",
+          "extension_fields": {
+            "cat_order": "11"
+          },
+          "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_6.png"
+        }
+      ]
+    },
+    {
+      "id": "317",
+      "title": "23 Plum Island Turnpike",
+      "address": "23 Plum Island Turnpike, Newbury, MA, USA",
+      "source": "manual",
+      "content": "<p>12-1pm - Jeff Larson's Blues Time (Blues)<br />\r\n2-3pm - Boomsoss (Rock)<br />4-5pm - Salty Side Down (Rock)</p>\r\n<p><a href=\"https://www.google.com/maps/dir//23+Plum+Island+Turnpike,+Newbury,+MA,+USA/@42.7989864,-70.892701,19468m/data=!3m2!1e3!4b1!4m8!4m7!1m0!1m5!1m1!1s0x89e2dfd5a18ba9ef:0xeb5d20d76b67ce52!2m2!1d-70.8102997!2d42.79889?entry=ttu&g_ep=EgoyMDI1MDgyNC4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" class=\"directions-link\">Click for directions</a></p>",
+      "location": {
+        "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_7.png",
+        "lat": "42.79885",
+        "lng": "-70.8103543",
+        "city": "Newbury",
+        "state": "Massachusetts",
+        "country": "United States",
+        "onclick_action": "marker",
+        "marker_image": "<div class='fc-feature-img'><img loading='lazy' decoding='async' alt='23 Plum Island Turnpike' src='https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/sample.jpg' class='wpgmp_marker_image fc-item-featured_image fc-item-large' /></div>",
+        "open_new_tab": "yes",
+        "postal_code": "01951",
+        "draggable": false,
+        "infowindow_default_open": false,
+        "infowindow_disable": true,
+        "zoom": 5,
+        "extra_fields": {
+          "listorder": "12"
+        }
+      },
+      "categories": [
+        {
+          "id": "72",
+          "name": "Site 7",
+          "type": "category",
+          "extension_fields": {
+            "cat_order": "12"
+          },
+          "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_7.png"
+        }
+      ]
+    },
+    {
+      "id": "318",
+      "title": "4A Roy Ave",
+      "address": "4A Roy Ave, Newbury, MA, USA",
+      "source": "manual",
+      "content": "<p>2-3pm - Jason Lowrey / Steven Barnes (Rock)</p>\r\n<p><a href=\"https://www.google.com/maps/dir//4A+Roy+Ave,+Newbury,+MA+01951/@42.7995354,-70.895572,36274m/data=!3m1!1e3!4m8!4m7!1m0!1m5!1m1!1s0x89e2dfd5a7461457:0x7732f41928f13c00!2m2!1d-70.8100856!2d42.798996?entry=ttu&g_ep=EgoyMDI2MDgzMC4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" class=\"directions-link\">Click for directions</a></p>\r\n",
+      "location": {
+        "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_8.png",
+        "lat": "42.798995999999995",
+        "lng": "-70.8100856",
+        "city": "Newbury",
+        "state": "Massachusetts",
+        "country": "United States",
+        "onclick_action": "marker",
+        "marker_image": "<div class='fc-feature-img'><img loading='lazy' decoding='async' alt='4A Roy Ave' src='https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/sample.jpg' class='wpgmp_marker_image fc-item-featured_image fc-item-large' /></div>",
+        "open_new_tab": "yes",
+        "postal_code": "01951",
+        "draggable": false,
+        "infowindow_default_open": false,
+        "infowindow_disable": true,
+        "zoom": 5,
+        "extra_fields": {
+          "listorder": "13"
+        }
+      },
+      "categories": [
+        {
+          "id": "73",
+          "name": "Site 8",
+          "type": "category",
+          "extension_fields": {
+            "cat_order": "13"
+          },
+          "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_8.png"
+        }
+      ]
+    },
+    {
+      "id": "319",
+      "title": "34 Plum Island Blvd",
+      "address": "34 Plum Island Blvd, Newbury, MA, USA",
+      "source": "manual",
+      "content": "<p>3-4pm - The Better Things (Rock)</p>\r\n<p><a href=\"https://www.google.com/maps/dir//34+Plum+Island+Turnpike,+Newbury,+MA+01951/@42.7995354,-70.895572,36274m/data=!3m1!1e3!4m8!4m7!1m0!1m5!1m1!1s0x89e2dfd5adb6d42f:0x163acf0b4eceb85f!2m2!1d-70.8093767!2d42.7983793?entry=ttu&g_ep=EgoyMDI2MDgzMC4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" class=\"directions-link\">Click for directions</a></p>\r\n",
+      "location": {
+        "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_9.png",
+        "lat": "42.7983793",
+        "lng": "-70.80937670000002",
+        "city": "Newbury",
+        "state": "Massachusetts",
+        "country": "United States",
+        "onclick_action": "marker",
+        "marker_image": "<div class='fc-feature-img'><img loading='lazy' decoding='async' alt='34 Plum Island Blvd' src='https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/sample.jpg' class='wpgmp_marker_image fc-item-featured_image fc-item-large' /></div>",
+        "open_new_tab": "yes",
+        "postal_code": "01951",
+        "draggable": false,
+        "infowindow_default_open": false,
+        "infowindow_disable": true,
+        "zoom": 5,
+        "extra_fields": {
+          "listorder": "14"
+        }
+      },
+      "categories": [
+        {
+          "id": "74",
+          "name": "Site 9",
+          "type": "category",
+          "extension_fields": {
+            "cat_order": "14"
+          },
+          "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_9.png"
+        }
+      ]
+    },
+    {
+      "id": "320",
+      "title": "4 Southern Blvd",
+      "address": "4 Southern Blvd, Newbury, MA, USA",
+      "source": "manual",
+      "content": "<p>4-5pm - Revel Up (Rock)</p>\r\n<p><a href=\"https://www.google.com/maps/dir//4+Southern+Blvd,+Newbury,+MA,+USA/@42.7983023,-70.8917254,19468m/data=!3m1!1e3!4m8!4m7!1m0!1m5!1m1!1s0x89e2dfd5b2317163:0xa2c11ceebdb50bfa!2m2!1d-70.8093241!2d42.7982059?entry=ttu&g_ep=EgoyMDI1MDgyNC4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" class=\"directions-link\">Click for directions</a></p>",
+      "location": {
+        "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_10.png",
+        "lat": "42.798211099999996",
+        "lng": "-70.80933379999999",
+        "city": "Newbury",
+        "state": "Massachusetts",
+        "country": "United States",
+        "onclick_action": "marker",
+        "marker_image": "<div class='fc-feature-img'><img loading='lazy' decoding='async' alt='4 Southern Blvd' src='https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/sample.jpg' class='wpgmp_marker_image fc-item-featured_image fc-item-large' /></div>",
+        "open_new_tab": "yes",
+        "postal_code": "01951",
+        "draggable": false,
+        "infowindow_default_open": false,
+        "infowindow_disable": true,
+        "zoom": 5,
+        "extra_fields": {
+          "listorder": "15"
+        }
+      },
+      "categories": [
+        {
+          "id": "75",
+          "name": "Site 10",
+          "type": "category",
+          "extension_fields": {
+            "cat_order": "15"
+          },
+          "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_10.png"
+        }
+      ]
+    },
+    {
+      "id": "321",
+      "title": "5 Southern Blvd",
+      "address": "5 Southern Blvd, Newbury, MA, USA",
+      "source": "manual",
+      "content": "<p>12-1pm - Jamie Cain (Folk & Acoustic)<br />\r\n1-2pm - Tom Cook (Folk & Acoustic)<br />2-3pm - RICHARD WALLACE (Rock)</p>\r\n<p><a href=\"https://www.google.com/maps/dir//5+Southern+Blvd,+Newbury,+MA,+USA/@42.7979665,-70.8140604,1217m/data=!3m1!1e3!4m8!4m7!1m0!1m5!1m1!1s0x89e2dfd44b6166f5:0xb7d4e93d1b876c8b!2m2!1d-70.8089105!2d42.7979587?entry=ttu&g_ep=EgoyMDI1MDgyNC4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" class=\"directions-link\">Click for directions</a></p>\r\n",
+      "location": {
+        "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_11.png",
+        "lat": "42.7979587",
+        "lng": "-70.8089105",
+        "city": "Newbury",
+        "state": "Massachusetts",
+        "country": "United States",
+        "onclick_action": "marker",
+        "marker_image": "<div class='fc-feature-img'><img loading='lazy' decoding='async' alt='5 Southern Blvd' src='https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/sample.jpg' class='wpgmp_marker_image fc-item-featured_image fc-item-large' /></div>",
+        "open_new_tab": "yes",
+        "postal_code": "01951",
+        "draggable": false,
+        "infowindow_default_open": false,
+        "infowindow_disable": true,
+        "zoom": 5,
+        "extra_fields": {
+          "listorder": "16"
+        }
+      },
+      "categories": [
+        {
+          "id": "76",
+          "name": "Site 11",
+          "type": "category",
+          "extension_fields": {
+            "cat_order": "16"
+          },
+          "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_11.png"
+        }
+      ]
+    },
+    {
+      "id": "322",
+      "title": "9 Southern Blvd",
+      "address": "9 Southern Blvd, Newbury, MA, USA",
+      "source": "manual",
+      "content": "<p>12-1pm - Slick & Clark (Folk & Acoustic)</p>\r\n<p><a href=\"https://www.google.com/maps/dir//9+Southern+Blvd,+Newbury,+MA+01951/@42.7995354,-70.895572,36274m/data=!3m1!1e3!4m8!4m7!1m0!1m5!1m1!1s0x89e2dfd5ca8b94f5:0x4af5f3056130f52b!2m2!1d-70.8091656!2d42.7976773?entry=ttu&g_ep=EgoyMDI2MDgzMC4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" class=\"directions-link\">Click for directions</a></p>\r\n",
+      "location": {
+        "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_12.png",
+        "lat": "42.7976773",
+        "lng": "-70.8091656",
+        "city": "Newbury",
+        "state": "Massachusetts",
+        "country": "United States",
+        "onclick_action": "marker",
+        "marker_image": "<div class='fc-feature-img'><img loading='lazy' decoding='async' alt='9 Southern Blvd' src='https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/sample.jpg' class='wpgmp_marker_image fc-item-featured_image fc-item-large' /></div>",
+        "open_new_tab": "yes",
+        "postal_code": "01951",
+        "draggable": false,
+        "infowindow_default_open": false,
+        "infowindow_disable": true,
+        "zoom": 5,
+        "extra_fields": {
+          "listorder": "17"
+        }
+      },
+      "categories": [
+        {
+          "id": "77",
+          "name": "Site 12",
+          "type": "category",
+          "extension_fields": {
+            "cat_order": "17"
+          },
+          "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_12.png"
+        }
+      ]
+    },
+    {
+      "id": "323",
+      "title": "14 Southern Blvd",
+      "address": "14 Southern Blvd, Newbury, MA, USA",
+      "source": "manual",
+      "content": "<p>1-2pm - The Elegies (Rock)</p>\r\n<p><a href=\"https://www.google.com/maps/dir//14+Southern+Blvd,+Newbury,+MA,+USA/@42.7974126,-70.8920808,19468m/data=!3m1!1e3!4m8!4m7!1m0!1m5!1m1!1s0x89e2dfd5cfeb39d1:0xd77d0737a09e20bc!2m2!1d-70.8096795!2d42.7973162?entry=ttu&g_ep=EgoyMDI1MDgyNC4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" class=\"directions-link\">Click for directions</a></p>\r\n",
+      "location": {
+        "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_13.png",
+        "lat": "42.7973162",
+        "lng": "-70.8096795",
+        "city": "Newbury",
+        "state": "Massachusetts",
+        "country": "United States",
+        "onclick_action": "marker",
+        "marker_image": "<div class='fc-feature-img'><img loading='lazy' decoding='async' alt='14 Southern Blvd' src='https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/sample.jpg' class='wpgmp_marker_image fc-item-featured_image fc-item-large' /></div>",
+        "open_new_tab": "yes",
+        "postal_code": "01951",
+        "draggable": false,
+        "infowindow_default_open": false,
+        "infowindow_disable": true,
+        "zoom": 5,
+        "extra_fields": {
+          "listorder": "18"
+        }
+      },
+      "categories": [
+        {
+          "id": "78",
+          "name": "Site 13",
+          "type": "category",
+          "extension_fields": {
+            "cat_order": "18"
+          },
+          "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_13.png"
+        }
+      ]
+    },
+    {
+      "id": "324",
+      "title": "18 Southern Blvd",
+      "address": "18 Southern Blvd, Newbury, MA, USA",
+      "source": "manual",
+      "content": "<p>12-1pm - Bill Durling (Pop)</p>\r\n<p><a href=\"https://www.google.com/maps/dir//18+Southern+Blvd,+Newbury,+MA,+USA/@42.7971214,-70.892011,19468m/data=!3m2!1e3!4b1!4m8!4m7!1m0!1m5!1m1!1s0x89e2dfd5d0e8ce05:0x7f595a38199dd8c!2m2!1d-70.8096097!2d42.797025?entry=ttu&g_ep=EgoyMDI1MDgyNC4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" class=\"directions-link\">Click for directions</a></p>",
+      "location": {
+        "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_14.png",
+        "lat": "42.797025000000005",
+        "lng": "-70.8096097",
+        "city": "Newbury",
+        "state": "Massachusetts",
+        "country": "United States",
+        "onclick_action": "marker",
+        "marker_image": "<div class='fc-feature-img'><img loading='lazy' decoding='async' alt='18 Southern Blvd' src='https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/sample.jpg' class='wpgmp_marker_image fc-item-featured_image fc-item-large' /></div>",
+        "open_new_tab": "yes",
+        "postal_code": "01951",
+        "draggable": false,
+        "infowindow_default_open": false,
+        "infowindow_disable": true,
+        "zoom": 5,
+        "extra_fields": {
+          "listorder": "19"
+        }
+      },
+      "categories": [
+        {
+          "id": "79",
+          "name": "Site 14",
+          "type": "category",
+          "extension_fields": {
+            "cat_order": "19"
+          },
+          "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_14.png"
+        }
+      ]
+    },
+    {
+      "id": "325",
+      "title": "37 Annapolis Way",
+      "address": "37 Annapolis Way, Newbury, MA, USA",
+      "source": "manual",
+      "content": "<p>12-1pm - 13fifty (Rock)</p>\r\n<p><a href=\"https://www.google.com/maps/dir//37+Annapolis+Way,+Newbury,+MA,+USA/@42.7969913,-70.8906946,19468m/data=!3m2!1e3!4b1!4m8!4m7!1m0!1m5!1m1!1s0x89e2dfd42f8a4cad:0x3836ab76c77541ba!2m2!1d-70.8082933!2d42.7968949?entry=ttu&g_ep=EgoyMDI1MDgyNC4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" class=\"directions-link\">Click for directions</a></p>\r\n",
+      "location": {
+        "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_15.png",
+        "lat": "42.7968949",
+        "lng": "-70.80829330000002",
+        "city": "Newbury",
+        "state": "Massachusetts",
+        "country": "United States",
+        "onclick_action": "marker",
+        "marker_image": "<div class='fc-feature-img'><img loading='lazy' decoding='async' alt='37 Annapolis Way' src='https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/sample.jpg' class='wpgmp_marker_image fc-item-featured_image fc-item-large' /></div>",
+        "open_new_tab": "yes",
+        "postal_code": "01951",
+        "draggable": false,
+        "infowindow_default_open": false,
+        "infowindow_disable": true,
+        "zoom": 5,
+        "extra_fields": {
+          "listorder": "20"
+        }
+      },
+      "categories": [
+        {
+          "id": "80",
+          "name": "Site 15",
+          "type": "category",
+          "extension_fields": {
+            "cat_order": "20"
+          },
+          "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_15.png"
+        }
+      ]
+    },
+    {
+      "id": "326",
+      "title": "49 Southern Blvd",
+      "address": "49 Southern Blvd, Newbury, MA, USA",
+      "source": "manual",
+      "content": "<p>3-4pm - Could Be Gravy (Rock)</p>\r\n<p><a href=\"https://www.google.com/maps/dir//49+Southern+Blvd,+Newbury,+MA+01951/@42.7995354,-70.895572,36274m/data=!3m1!1e3!4m8!4m7!1m0!1m5!1m1!1s0x89e2dfd6faeded85:0x68d67b2e5e19dcc2!2m2!1d-70.8084377!2d42.794579?entry=ttu&g_ep=EgoyMDI2MDgzMC4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" class=\"directions-link\">Click for directions</a></p>\r\n",
+      "location": {
+        "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_16.png",
+        "lat": "42.794579",
+        "lng": "-70.8084377",
+        "city": "Newbury",
+        "state": "Massachusetts",
+        "country": "United States",
+        "onclick_action": "marker",
+        "marker_image": "<div class='fc-feature-img'><img loading='lazy' decoding='async' alt='49 Southern Blvd' src='https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/sample.jpg' class='wpgmp_marker_image fc-item-featured_image fc-item-large' /></div>",
+        "open_new_tab": "yes",
+        "postal_code": "01951",
+        "draggable": false,
+        "infowindow_default_open": false,
+        "infowindow_disable": true,
+        "zoom": 5,
+        "extra_fields": {
+          "listorder": "21"
+        }
+      },
+      "categories": [
+        {
+          "id": "81",
+          "name": "Site 16",
+          "type": "category",
+          "extension_fields": {
+            "cat_order": "21"
+          },
+          "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_16.png"
+        }
+      ]
+    },
+    {
+      "id": "327",
+      "title": "30 Harvard Way",
+      "address": "30 Harvard Way, Newbury, MA, USA",
+      "source": "manual",
+      "content": "<p>2-3pm - Jonathan Soucy (Folk & Acoustic)</p>\r\n<p><a href=\"https://www.google.com/maps/dir//30+Harvard+Way,+Newbury,+MA+01951/@42.7995354,-70.895572,36274m/data=!3m1!1e3!4m8!4m7!1m0!1m5!1m1!1s0x89e2dfd7c92681cb:0x6b3ad0d179d13265!2m2!1d-70.8108083!2d42.7940673?entry=ttu&g_ep=EgoyMDI2MDgzMC4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" class=\"directions-link\">Click for directions</a></p>\r\n",
+      "location": {
+        "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_17.png",
+        "lat": "42.794067299999995",
+        "lng": "-70.81080829999999",
+        "city": "Newbury",
+        "state": "Massachusetts",
+        "country": "United States",
+        "onclick_action": "marker",
+        "marker_image": "<div class='fc-feature-img'><img loading='lazy' decoding='async' alt='30 Harvard Way' src='https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/sample.jpg' class='wpgmp_marker_image fc-item-featured_image fc-item-large' /></div>",
+        "open_new_tab": "yes",
+        "postal_code": "01951",
+        "draggable": false,
+        "infowindow_default_open": false,
+        "infowindow_disable": true,
+        "zoom": 5,
+        "extra_fields": {
+          "listorder": "22"
+        }
+      },
+      "categories": [
+        {
+          "id": "82",
+          "name": "Site 17",
+          "type": "category",
+          "extension_fields": {
+            "cat_order": "22"
+          },
+          "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_17.png"
+        }
+      ]
+    },
+    {
+      "id": "328",
+      "title": "20 Fordham Way",
+      "address": "20 Fordham Way, Newbury, MA, USA",
+      "source": "manual",
+      "content": "<p>12-1pm - Everlovin' Rosie (Rock)<br />\r\n1-2pm - Tsunami Of Sound (Rock)<br />2-3pm - JONEE EARTHQUAKE BAND (Rock)<br />3-4pm - HighersElves (Folk & Acoustic)</p>\r\n<p><a href=\"https://www.google.com/maps/dir//20+Fordham+Way,+Newbury,+MA,+USA/@42.7931569,-70.8898485,19470m/data=!3m2!1e3!4b1!4m8!4m7!1m0!1m5!1m1!1s0x89e2dfd73dfaaaab:0x7621e69dfb656f7!2m2!1d-70.8074472!2d42.7930605?entry=ttu&g_ep=EgoyMDI1MDgyNC4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" class=\"directions-link\">Click for directions</a></p>\r\n",
+      "location": {
+        "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_18.png",
+        "lat": "42.793060499999996",
+        "lng": "-70.8074472",
+        "city": "Newbury",
+        "state": "Massachusetts",
+        "country": "United States",
+        "onclick_action": "marker",
+        "marker_image": "<div class='fc-feature-img'><img loading='lazy' decoding='async' alt='20 Fordham Way' src='https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/sample.jpg' class='wpgmp_marker_image fc-item-featured_image fc-item-large' /></div>",
+        "open_new_tab": "yes",
+        "postal_code": "01951",
+        "draggable": false,
+        "infowindow_default_open": false,
+        "infowindow_disable": true,
+        "zoom": 5,
+        "extra_fields": {
+          "listorder": "23"
+        }
+      },
+      "categories": [
+        {
+          "id": "83",
+          "name": "Site 18",
+          "type": "category",
+          "extension_fields": {
+            "cat_order": "23"
+          },
+          "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_18.png"
+        }
+      ]
+    },
+    {
+      "id": "329",
+      "title": "3 18th St",
+      "address": "3 18th St, Newbury, MA, USA",
+      "source": "manual",
+      "content": "<p>1-2pm - The Rolling Who (Rock)<br />\r\n2-3pm - Lulu's in Crisis (Rock)</p>\r\n<p><a href=\"https://www.google.com/maps/dir//3+18th+St,+Newbury,+MA+01951/@42.7995354,-70.895572,36274m/data=!3m1!1e3!4m8!4m7!1m0!1m5!1m1!1s0x89e2de2ae78c149d:0x9c4dfb15ba71916c!2m2!1d-70.8096789!2d42.8025391?entry=ttu&g_ep=EgoyMDI2MDgzMC4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" class=\"directions-link\">Click for directions</a></p>\r\n",
+      "location": {
+        "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_19.png",
+        "lat": "42.8025391",
+        "lng": "-70.8096789",
+        "city": "Newbury",
+        "state": "Massachusetts",
+        "country": "United States",
+        "onclick_action": "marker",
+        "marker_image": "<div class='fc-feature-img'><img loading='lazy' decoding='async' alt='3 18th St' src='https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/sample.jpg' class='wpgmp_marker_image fc-item-featured_image fc-item-large' /></div>",
+        "open_new_tab": "yes",
+        "postal_code": "01951",
+        "draggable": false,
+        "infowindow_default_open": false,
+        "infowindow_disable": true,
+        "zoom": 5,
+        "extra_fields": {
+          "listorder": "24"
+        }
+      },
+      "categories": [
+        {
+          "id": "84",
+          "name": "Site 19",
+          "type": "category",
+          "extension_fields": {
+            "cat_order": "24"
+          },
+          "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_19.png"
+        }
+      ]
+    },
+    {
+      "id": "330",
+      "title": "4 24th St",
+      "address": "4 24th St, Newbury, MA, USA",
+      "source": "manual",
+      "content": "<p>12-1pm - Lemon House (Folk & Acoustic)<br />\r\n1-2pm - Currier Square (Folk)</p>\r\n<p><a href=\"https://www.google.com/maps/dir//4+24th+Street,+Newbury,+MA,+USA/@42.8041306,-70.8920157,19466m/data=!3m2!1e3!4b1!4m8!4m7!1m0!1m5!1m1!1s0x89e2de2a50d92127:0xd21c22f4c6858dd8!2m2!1d-70.8096144!2d42.8040342?entry=ttu&g_ep=EgoyMDI1MDgyNC4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" class=\"directions-link\">Click for directions</a></p>\r\n",
+      "location": {
+        "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_20.png",
+        "lat": "42.8040342",
+        "lng": "-70.8096144",
+        "city": "Newbury",
+        "state": "Massachusetts",
+        "country": "United States",
+        "onclick_action": "marker",
+        "marker_image": "<div class='fc-feature-img'><img loading='lazy' decoding='async' alt='4 24th St' src='https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/sample.jpg' class='wpgmp_marker_image fc-item-featured_image fc-item-large' /></div>",
+        "open_new_tab": "yes",
+        "postal_code": "01951",
+        "draggable": false,
+        "infowindow_default_open": false,
+        "infowindow_disable": true,
+        "zoom": 5,
+        "extra_fields": {
+          "listorder": "25"
+        }
+      },
+      "categories": [
+        {
+          "id": "85",
+          "name": "Site 20",
+          "type": "category",
+          "extension_fields": {
+            "cat_order": "25"
+          },
+          "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_20.png"
+        }
+      ]
+    },
+    {
+      "id": "331",
+      "title": "88 Northern Blvd",
+      "address": "88 Northern Blvd, Newbury, MA, USA",
+      "source": "manual",
+      "content": "<p>1-2pm - Goats on Tour (Folk & Acoustic)</p>\r\n<p><a href=\"https://www.google.com/maps/dir//88+Northern+Blvd,+Newbury,+MA,+USA/@42.8052712,-70.8914293,19466m/data=!3m2!1e3!4b1!4m8!4m7!1m0!1m5!1m1!1s0x89e2de2a333c2a87:0x2b48150a2b695f78!2m2!1d-70.809028!2d42.8051748?entry=ttu&g_ep=EgoyMDI1MDgyNC4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" class=\"directions-link\">Click for directions</a></p>\r\n",
+      "location": {
+        "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_21.png",
+        "lat": "42.805174799999996",
+        "lng": "-70.809028",
+        "city": "Newbury",
+        "state": "Massachusetts",
+        "country": "United States",
+        "onclick_action": "marker",
+        "marker_image": "<div class='fc-feature-img'><img loading='lazy' decoding='async' alt='88 Northern Blvd' src='https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/sample.jpg' class='wpgmp_marker_image fc-item-featured_image fc-item-large' /></div>",
+        "open_new_tab": "yes",
+        "postal_code": "01951",
+        "draggable": false,
+        "infowindow_default_open": false,
+        "infowindow_disable": true,
+        "zoom": 5,
+        "extra_fields": {
+          "listorder": "26"
+        }
+      },
+      "categories": [
+        {
+          "id": "86",
+          "name": "Site 21",
+          "type": "category",
+          "extension_fields": {
+            "cat_order": "26"
+          },
+          "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_21.png"
+        }
+      ]
+    },
+    {
+      "id": "332",
+      "title": "5 Basin Front Dr",
+      "address": "5 Basin Front Dr, Newburyport, MA, USA",
+      "source": "manual",
+      "content": "<p>12-1pm - Basin Boys (Rock)<br />\r\n1-2pm - Apollo’s Diner (Indie)<br />2-3pm - Rabbits For Sale (Indie)</p>\r\n<p><a href=\"https://www.google.com/maps/dir//5+Basin+Front+Drive,+Newbury,+MA,+USA/@42.8075792,-70.8939088,19465m/data=!3m2!1e3!4b1!4m8!4m7!1m0!1m5!1m1!1s0x89e2de29e76c28d1:0xe02cfb7ffe99fb99!2m2!1d-70.8115075!2d42.8074828?entry=ttu&g_ep=EgoyMDI1MDgyNC4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" class=\"directions-link\">Click for directions</a></p>\r\n",
+      "location": {
+        "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_22.png",
+        "lat": "42.807491399999996",
+        "lng": "-70.8115065",
+        "city": "Newburyport",
+        "state": "Massachusetts",
+        "country": "United States",
+        "onclick_action": "marker",
+        "marker_image": "<div class='fc-feature-img'><img loading='lazy' decoding='async' alt='5 Basin Front Dr' src='https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/sample.jpg' class='wpgmp_marker_image fc-item-featured_image fc-item-large' /></div>",
+        "open_new_tab": "yes",
+        "postal_code": "01951",
+        "draggable": false,
+        "infowindow_default_open": false,
+        "infowindow_disable": true,
+        "zoom": 5,
+        "extra_fields": {
+          "listorder": "27"
+        }
+      },
+      "categories": [
+        {
+          "id": "87",
+          "name": "Site 22",
+          "type": "category",
+          "extension_fields": {
+            "cat_order": "27"
+          },
+          "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_22.png"
+        }
+      ]
+    },
+    {
+      "id": "333",
+      "title": "134 Northern Blvd",
+      "address": "134 Northern Blvd, Newbury, MA, USA",
+      "source": "manual",
+      "content": "<p>12-1pm - Wendy Linkin (Folk & Acoustic)<br />\r\n1-2pm - Elatium (Rock)<br />2-3pm - LaFauci Faris Vogel Band (Pop)<br />3-4pm - Good Enough (Folk & Acoustic)</p>\r\n<p><a href=\"https://www.google.com/maps/dir//134+Northern+Blvd,+Newbury,+MA+01951/@42.7931569,-70.8898485,36278m/data=!3m2!1e3!4b1!4m8!4m7!1m0!1m5!1m1!1s0x89e2de283575da25:0x8b1ae7a7132956bb!2m2!1d-70.8106205!2d42.8087387?entry=ttu&g_ep=EgoyMDI2MDgzMC4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" class=\"directions-link\">Click for directions</a></p>\r\n",
+      "location": {
+        "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_23.png",
+        "lat": "42.8087387",
+        "lng": "-70.8106205",
+        "city": "Newbury",
+        "state": "Massachusetts",
+        "country": "United States",
+        "onclick_action": "marker",
+        "marker_image": "<div class='fc-feature-img'><img loading='lazy' decoding='async' alt='134 Northern Blvd' src='https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/sample.jpg' class='wpgmp_marker_image fc-item-featured_image fc-item-large' /></div>",
+        "open_new_tab": "yes",
+        "postal_code": "01951",
+        "draggable": false,
+        "infowindow_default_open": false,
+        "infowindow_disable": true,
+        "zoom": 5,
+        "extra_fields": {
+          "listorder": "28"
+        }
+      },
+      "categories": [
+        {
+          "id": "88",
+          "name": "Site 23",
+          "type": "category",
+          "extension_fields": {
+            "cat_order": "28"
+          },
+          "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_23.png"
+        }
+      ]
+    },
+    {
+      "id": "334",
+      "title": "9 43rd St",
+      "address": "9 43rd St, Newbury, MA, USA",
+      "source": "manual",
+      "content": "<p>12-1pm - Lucia & Emilia Perrucci (Pop)<br />\r\n1-2pm - Eliza Cheever (Pop)<br />2-3pm John Copeland (Rock)</p>\r\n<p><a href=\"https://www.google.com/maps/dir//9+43rd+Street,+Newbury,+MA,+USA/@42.8091319,-70.8920506,19465m/data=!3m2!1e3!4b1!4m8!4m7!1m0!1m5!1m1!1s0x89e2de285abd99af:0x5080b744912defe2!2m2!1d-70.8096493!2d42.8090355?entry=ttu&g_ep=EgoyMDI1MDgyNC4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" class=\"directions-link\">Click for directions</a></p>\r\n",
+      "location": {
+        "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_24.png",
+        "lat": "42.8090349",
+        "lng": "-70.8096533",
+        "city": "Newbury",
+        "state": "Massachusetts",
+        "country": "United States",
+        "onclick_action": "marker",
+        "marker_image": "<div class='fc-feature-img'><img loading='lazy' decoding='async' alt='9 43rd St' src='https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/sample.jpg' class='wpgmp_marker_image fc-item-featured_image fc-item-large' /></div>",
+        "open_new_tab": "yes",
+        "postal_code": "01951",
+        "draggable": false,
+        "infowindow_default_open": false,
+        "infowindow_disable": true,
+        "zoom": 5,
+        "extra_fields": {
+          "listorder": "29"
+        }
+      },
+      "categories": [
+        {
+          "id": "89",
+          "name": "Site 24",
+          "type": "category",
+          "extension_fields": {
+            "cat_order": "29"
+          },
+          "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_24.png"
+        }
+      ]
+    },
+    {
+      "id": "335",
+      "title": "139 Northern Blvd",
+      "address": "139 Northern Blvd, Newbury, MA, USA",
+      "source": "manual",
+      "content": "<p>12-1pm - Art Grossman (Folk & Acoustic)<br />\r\n1-2pm - Anne Sandstrom & John Loretz (Folk & Acoustic)<br />2-3pm - Cataldo & Clark (Folk & Acoustic)<br />3-4pm - Paul Prue (Blues)<br />4-5pm - Mary Ann McAllister (Other)<br />5-6pm - Alan Foucault Solo Acoustic (Folk & Acoustic)</p>\r\n<p><a href=\"https://www.google.com/maps/dir//139+Northern+Blvd,+Newbury,+MA,+USA/@42.8092255,-70.8939147,19465m/data=!3m2!1e3!4b1!4m8!4m7!1m0!1m5!1m1!1s0x89e2de282eeff23d:0xcc0555ec7771f3ea!2m2!1d-70.8115134!2d42.8091291?entry=ttu&g_ep=EgoyMDI1MDgyNC4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" class=\"directions-link\">Click for directions</a></p>\r\n",
+      "location": {
+        "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_25.png",
+        "lat": "42.8091291",
+        "lng": "-70.8115134",
+        "city": "Newbury",
+        "state": "Massachusetts",
+        "country": "United States",
+        "onclick_action": "marker",
+        "marker_image": "<div class='fc-feature-img'><img loading='lazy' decoding='async' alt='139 Northern Blvd' src='https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/sample.jpg' class='wpgmp_marker_image fc-item-featured_image fc-item-large' /></div>",
+        "open_new_tab": "yes",
+        "postal_code": "01951",
+        "draggable": false,
+        "infowindow_default_open": false,
+        "infowindow_disable": true,
+        "zoom": 5,
+        "extra_fields": {
+          "listorder": "30"
+        }
+      },
+      "categories": [
+        {
+          "id": "90",
+          "name": "Site 25",
+          "type": "category",
+          "extension_fields": {
+            "cat_order": "30"
+          },
+          "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_25.png"
+        }
+      ]
+    },
+    {
+      "id": "336",
+      "title": "141 Northern Blvd",
+      "address": "141 Northern Blvd, Newbury, MA, USA",
+      "source": "manual",
+      "content": "<p>3-4pm - Slapback (Rock)<br />\r\n4-5pm - Cellar Dwellers (Rock)<br />5-6pm - Triple Fret (Rock)</p>\r\n<p><a href=\"https://www.google.com/maps/dir//141+Northern+Blvd,+Newbury,+MA+01951/@42.7995354,-70.895572,36274m/data=!3m1!1e3!4m8!4m7!1m0!1m5!1m1!1s0x89e2de28259c3b95:0xfa3e6e613b3c9fe4!2m2!1d-70.8114535!2d42.8093454?entry=ttu&g_ep=EgoyMDI2MDgzMC4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" class=\"directions-link\">Click for directions</a></p>\r\n",
+      "location": {
+        "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_26.png",
+        "lat": "42.8093454",
+        "lng": "-70.8114535",
+        "city": "Newbury",
+        "state": "Massachusetts",
+        "country": "United States",
+        "onclick_action": "marker",
+        "marker_image": "<div class='fc-feature-img'><img loading='lazy' decoding='async' alt='141 Northern Blvd' src='https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/sample.jpg' class='wpgmp_marker_image fc-item-featured_image fc-item-large' /></div>",
+        "open_new_tab": "yes",
+        "postal_code": "01951",
+        "draggable": false,
+        "infowindow_default_open": false,
+        "infowindow_disable": true,
+        "zoom": 5,
+        "extra_fields": {
+          "listorder": "31"
+        }
+      },
+      "categories": [
+        {
+          "id": "91",
+          "name": "Site 26",
+          "type": "category",
+          "extension_fields": {
+            "cat_order": "31"
+          },
+          "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_26.png"
+        }
+      ]
+    },
+    {
+      "id": "337",
+      "title": "2 49th St",
+      "address": "2 49th St, Newbury, MA, USA",
+      "source": "manual",
+      "content": "<p>2-3pm - Comfortably Plum (Rock)</p>\r\n<p><a href=\"https://www.google.com/maps/dir//2+49th+Street,+Newbury,+MA,+USA/@42.8097574,-70.8935372,19464m/data=!3m2!1e3!4b1!4m8!4m7!1m0!1m5!1m1!1s0x89e2de283cef54ad:0xdbbb893eec280276!2m2!1d-70.8111359!2d42.809661?entry=ttu&g_ep=EgoyMDI1MDgyNC4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" class=\"directions-link\">Click for directions</a></p>\r\n",
+      "location": {
+        "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_27.png",
+        "lat": "42.8096598",
+        "lng": "-70.8111479",
+        "city": "Newbury",
+        "state": "Massachusetts",
+        "country": "United States",
+        "onclick_action": "marker",
+        "marker_image": "<div class='fc-feature-img'><img loading='lazy' decoding='async' alt='2 49th St' src='https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/sample.jpg' class='wpgmp_marker_image fc-item-featured_image fc-item-large' /></div>",
+        "open_new_tab": "yes",
+        "postal_code": "01951",
+        "draggable": false,
+        "infowindow_default_open": false,
+        "infowindow_disable": true,
+        "zoom": 5,
+        "extra_fields": {
+          "listorder": "32"
+        }
+      },
+      "categories": [
+        {
+          "id": "92",
+          "name": "Site 27",
+          "type": "category",
+          "extension_fields": {
+            "cat_order": "32"
+          },
+          "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_27.png"
+        }
+      ]
+    },
+    {
+      "id": "338",
+      "title": "4 54th St",
+      "address": "4 54th St, Newburyport, MA, USA",
+      "source": "manual",
+      "content": "<p>2-3pm - Siri-ously Misquoted (Folk)<br />\r\n3-4pm - Turbo Cats (Rock)<br />4-5pm - Calamus (Rock)<br />5-6pm - Homemade Hot Sauce (Rock)</p>\r\n<p><a href=\"https://www.google.com/maps/dir//4+54th+St,+Newburyport,+MA+01950/@42.7995354,-70.895572,36274m/data=!3m1!1e3!4m8!4m7!1m0!1m5!1m1!1s0x89e2e0829fe788e5:0xbaf5dd88cdb7c404!2m2!1d-70.8120622!2d42.8098989?entry=ttu&g_ep=EgoyMDI2MDgzMC4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" class=\"directions-link\">Click for directions</a></p>\r\n",
+      "location": {
+        "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_28.png",
+        "lat": "42.8098989",
+        "lng": "-70.8120622",
+        "city": "Newburyport",
+        "state": "Massachusetts",
+        "country": "United States",
+        "onclick_action": "marker",
+        "marker_image": "<div class='fc-feature-img'><img loading='lazy' decoding='async' alt='4 54th St' src='https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/sample.jpg' class='wpgmp_marker_image fc-item-featured_image fc-item-large' /></div>",
+        "open_new_tab": "yes",
+        "postal_code": "01950",
+        "draggable": false,
+        "infowindow_default_open": false,
+        "infowindow_disable": true,
+        "zoom": 5,
+        "extra_fields": {
+          "listorder": "33"
+        }
+      },
+      "categories": [
+        {
+          "id": "93",
+          "name": "Site 28",
+          "type": "category",
+          "extension_fields": {
+            "cat_order": "33"
+          },
+          "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_28.png"
+        }
+      ]
+    },
+    {
+      "id": "339",
+      "title": "152 Northern Blvd",
+      "address": "152 Northern Blvd, Newburyport, MA, USA",
+      "source": "manual",
+      "content": "<p>12-1pm - theyrenottwins (Other)<br />\r\n1-2pm - Funny Feelingz (Folk & Acoustic)<br />2-3pm - Silent Ground (Rock)</p>\r\n<p><a href=\"https://www.google.com/maps/dir//152+Northern+Blvd,+Newburyport,+MA,+USA/@42.8104711,-70.8940482,19464m/data=!3m2!1e3!4b1!4m8!4m7!1m0!1m5!1m1!1s0x89e2de281c8040f3:0xcab35db6264c77!2m2!1d-70.8116469!2d42.8103747?entry=ttu&g_ep=EgoyMDI1MDgyNC4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" class=\"directions-link\">Click for directions</a></p>\r\n",
+      "location": {
+        "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_29.png",
+        "lat": "42.810369699999995",
+        "lng": "-70.811646",
+        "city": "Newburyport",
+        "state": "Massachusetts",
+        "country": "United States",
+        "onclick_action": "marker",
+        "marker_image": "<div class='fc-feature-img'><img loading='lazy' decoding='async' alt='152 Northern Blvd' src='https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/sample.jpg' class='wpgmp_marker_image fc-item-featured_image fc-item-large' /></div>",
+        "open_new_tab": "yes",
+        "postal_code": "01950",
+        "draggable": false,
+        "infowindow_default_open": false,
+        "infowindow_disable": true,
+        "zoom": 5,
+        "extra_fields": {
+          "listorder": "34"
+        }
+      },
+      "categories": [
+        {
+          "id": "94",
+          "name": "Site 29",
+          "type": "category",
+          "extension_fields": {
+            "cat_order": "34"
+          },
+          "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_29.png"
+        }
+      ]
+    },
+    {
+      "id": "340",
+      "title": "9 55th St",
+      "address": "9 55th St, Newburyport, MA, USA",
+      "source": "manual",
+      "content": "<p>2-3pm - MugShot (Rock)</p>\r\n<p><a href=\"https://www.google.com/maps/dir//9+55th+Street,+Newburyport,+MA,+USA/@42.8113401,-70.8937433,19464m/data=!3m2!1e3!4b1!4m8!4m7!1m0!1m5!1m1!1s0x89e2de27fcc46a7f:0x1d5cc9bb9b60caa5!2m2!1d-70.811342!2d42.8112437?entry=ttu&g_ep=EgoyMDI1MDgyNC4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" class=\"directions-link\">Click for directions</a></p>\r\n",
+      "location": {
+        "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_30.png",
+        "lat": "42.8112437",
+        "lng": "-70.811342",
+        "city": "Newburyport",
+        "state": "Massachusetts",
+        "country": "United States",
+        "onclick_action": "marker",
+        "marker_image": "<div class='fc-feature-img'><img loading='lazy' decoding='async' alt='9 55th St' src='https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/sample.jpg' class='wpgmp_marker_image fc-item-featured_image fc-item-large' /></div>",
+        "open_new_tab": "yes",
+        "postal_code": "01950",
+        "draggable": false,
+        "infowindow_default_open": false,
+        "infowindow_disable": true,
+        "zoom": 5,
+        "extra_fields": {
+          "listorder": "35"
+        }
+      },
+      "categories": [
+        {
+          "id": "95",
+          "name": "Site 30",
+          "type": "category",
+          "extension_fields": {
+            "cat_order": "35"
+          },
+          "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_30.png"
+        }
+      ]
+    },
+    {
+      "id": "341",
+      "title": "17 55th St",
+      "address": "17 55th St, Newburyport, MA, USA",
+      "source": "manual",
+      "content": "<p>12-1pm - Lottie Vonne (Folk & Acoustic)<br />\r\n1-2pm - Nick Zaino (Folk & Acoustic)<br />2-3pm - DinyRoom Dutchmans (Folk & Acoustic)<br />3-4pm - Philip Corcoran (Country)<br />4-5pm - Ava Valianti (Pop)</p>\r\n<p><a href=\"https://www.google.com/maps/dir//17+55th+Street,+Newburyport,+MA,+USA/@42.8116538,-70.8928258,19464m/data=!3m2!1e3!4b1!4m8!4m7!1m0!1m5!1m1!1s0x89e2de27c2949aad:0x1780eed0c63a1798!2m2!1d-70.8104245!2d42.8115574?entry=ttu&g_ep=EgoyMDI1MDgyNC4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" class=\"directions-link\">Click for directions</a></p>\r\n",
+      "location": {
+        "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_31.png",
+        "lat": "42.8115574",
+        "lng": "-70.8104245",
+        "city": "Newburyport",
+        "state": "Massachusetts",
+        "country": "United States",
+        "onclick_action": "marker",
+        "marker_image": "<div class='fc-feature-img'><img loading='lazy' decoding='async' alt='17 55th St' src='https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/sample.jpg' class='wpgmp_marker_image fc-item-featured_image fc-item-large' /></div>",
+        "open_new_tab": "yes",
+        "postal_code": "01950",
+        "draggable": false,
+        "infowindow_default_open": false,
+        "infowindow_disable": true,
+        "zoom": 5,
+        "extra_fields": {
+          "listorder": "36"
+        }
+      },
+      "categories": [
+        {
+          "id": "96",
+          "name": "Site 31",
+          "type": "category",
+          "extension_fields": {
+            "cat_order": "36"
+          },
+          "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_31.png"
+        }
+      ]
+    },
+    {
+      "id": "342",
+      "title": "166 Northern Blvd",
+      "address": "166 Northern Blvd, Newburyport, MA, USA",
+      "source": "manual",
+      "content": "<p>1-2pm - Angry Hill (Rock)</p>\r\n<p><a href=\"https://www.google.com/maps/dir//166+Northern+Blvd,+Newburyport,+MA,+USA/@42.8124603,-70.8937163,19464m/data=!3m1!1e3!4m8!4m7!1m0!1m5!1m1!1s0x89e2e09d54806313:0x580ea6e3217c4c26!2m2!1d-70.8123564!2d42.811359?entry=ttu&g_ep=EgoyMDI1MDgyNC4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" class=\"directions-link\">Click for directions</a></p>\r\n",
+      "location": {
+        "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_32.png",
+        "lat": "42.811358999999996",
+        "lng": "-70.8123564",
+        "city": "Newburyport",
+        "state": "Massachusetts",
+        "country": "United States",
+        "onclick_action": "marker",
+        "marker_image": "<div class='fc-feature-img'><img loading='lazy' decoding='async' alt='166 Northern Blvd' src='https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/sample.jpg' class='wpgmp_marker_image fc-item-featured_image fc-item-large' /></div>",
+        "open_new_tab": "yes",
+        "postal_code": "01950",
+        "draggable": false,
+        "infowindow_default_open": false,
+        "infowindow_disable": true,
+        "zoom": 5,
+        "extra_fields": {
+          "listorder": "37"
+        }
+      },
+      "categories": [
+        {
+          "id": "97",
+          "name": "Site 32",
+          "type": "category",
+          "extension_fields": {
+            "cat_order": "37"
+          },
+          "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_32.png"
+        }
+      ]
+    },
+    {
+      "id": "343",
+      "title": "12 59th St",
+      "address": "12 59th St, Newburyport, MA, USA",
+      "source": "manual",
+      "content": "<p>4-5pm - The SpaceHeaters (Rock)</p>\r\n<p><a href=\"https://www.google.com/maps/dir//12+59th+St,+Newburyport,+MA+01950/@42.7995354,-70.895572,36274m/data=!3m1!1e3!4m8!4m7!1m0!1m5!1m1!1s0x89e2de27edfb82fd:0xf6a6aab0194a10c9!2m2!1d-70.8112348!2d42.8119306?entry=ttu&g_ep=EgoyMDI2MDgzMC4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" class=\"directions-link\">Click for directions</a></p>\r\n",
+      "location": {
+        "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_33.png",
+        "lat": "42.811930600000004",
+        "lng": "-70.8112348",
+        "city": "Newburyport",
+        "state": "Massachusetts",
+        "country": "United States",
+        "onclick_action": "marker",
+        "marker_image": "<div class='fc-feature-img'><img loading='lazy' decoding='async' alt='12 59th St' src='https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/sample.jpg' class='wpgmp_marker_image fc-item-featured_image fc-item-large' /></div>",
+        "open_new_tab": "yes",
+        "postal_code": "01950",
+        "draggable": false,
+        "infowindow_default_open": false,
+        "infowindow_disable": true,
+        "zoom": 5,
+        "extra_fields": {
+          "listorder": "38"
+        }
+      },
+      "categories": [
+        {
+          "id": "98",
+          "name": "Site 33",
+          "type": "category",
+          "extension_fields": {
+            "cat_order": "38"
+          },
+          "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_33.png"
+        }
+      ]
+    },
+    {
+      "id": "344",
+      "title": "179 Northern Blvd",
+      "address": "179 Northern Blvd, Newburyport, MA, USA",
+      "source": "manual",
+      "content": "<p>12-1pm - Charlie And The Hustle (Rock)<br />\r\n1-2pm - Velvet Wave (Other)<br />2-3pm - Anemoia (Indie)</p>\r\n<p><a href=\"https://www.google.com/maps/dir//179+Northern+Blvd,+Newburyport,+MA,+USA/@42.8120339,-70.8956436,19464m/data=!3m2!1e3!4b1!4m8!4m7!1m0!1m5!1m1!1s0x89e2e09d4899de9f:0xb2a32363b0d5f29e!2m2!1d-70.8132423!2d42.8119375?entry=ttu&g_ep=EgoyMDI1MDgyNC4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" class=\"directions-link\">Click for directions</a></p>\r\n",
+      "location": {
+        "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_34.png",
+        "lat": "42.8119375",
+        "lng": "-70.8132423",
+        "city": "Newburyport",
+        "state": "Massachusetts",
+        "country": "United States",
+        "onclick_action": "marker",
+        "marker_image": "<div class='fc-feature-img'><img loading='lazy' decoding='async' alt='179 Northern Blvd' src='https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/sample.jpg' class='wpgmp_marker_image fc-item-featured_image fc-item-large' /></div>",
+        "open_new_tab": "yes",
+        "postal_code": "01950",
+        "draggable": false,
+        "infowindow_default_open": false,
+        "infowindow_disable": true,
+        "zoom": 5,
+        "extra_fields": {
+          "listorder": "39"
+        }
+      },
+      "categories": [
+        {
+          "id": "99",
+          "name": "Site 34",
+          "type": "category",
+          "extension_fields": {
+            "cat_order": "39"
+          },
+          "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_34.png"
+        }
+      ]
+    },
+    {
+      "id": "345",
+      "title": "186 Northern Blvd",
+      "address": "186 Northern Blvd, Newburyport, MA, USA",
+      "source": "manual",
+      "content": "<p>1-2pm - Diz (Folk & Acoustic)</p>\r\n<p><a href=\"https://www.google.com/maps/dir//186+Northern+Blvd,+Newburyport,+MA+01950/@42.7995354,-70.895572,36274m/data=!3m1!1e3!4m8!4m7!1m0!1m5!1m1!1s0x89e2e09d4388e1ef:0xa7c2315688c4b58d!2m2!1d-70.8129854!2d42.8122421?entry=ttu&g_ep=EgoyMDI2MDgzMC4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" class=\"directions-link\">Click for directions</a></p>\r\n",
+      "location": {
+        "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_35.png",
+        "lat": "42.8122421",
+        "lng": "-70.8129854",
+        "city": "Newburyport",
+        "state": "Massachusetts",
+        "country": "United States",
+        "onclick_action": "marker",
+        "marker_image": "<div class='fc-feature-img'><img loading='lazy' decoding='async' alt='186 Northern Blvd' src='https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/sample.jpg' class='wpgmp_marker_image fc-item-featured_image fc-item-large' /></div>",
+        "open_new_tab": "yes",
+        "postal_code": "01950",
+        "draggable": false,
+        "infowindow_default_open": false,
+        "infowindow_disable": true,
+        "zoom": 5,
+        "extra_fields": {
+          "listorder": "40"
+        }
+      },
+      "categories": [
+        {
+          "id": "100",
+          "name": "Site 35",
+          "type": "category",
+          "extension_fields": {
+            "cat_order": "40"
+          },
+          "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_35.png"
+        }
+      ]
+    },
+    {
+      "id": "346",
+      "title": "8 65th St",
+      "address": "8 65th St, Newburyport, MA, USA",
+      "source": "manual",
+      "content": "<p>1-2pm - Town Crier (Folk & Acoustic)<br />\r\n2-3pm - John Feeks (Rock)</p>\r\n<p><a href=\"https://www.google.com/maps/dir//8+65th+St,+Newburyport,+MA+01950/@42.7995354,-70.895572,36274m/data=!3m2!1e3!4b1!4m8!4m7!1m0!1m5!1m1!1s0x89e2e09d657c7645:0x18c122c964a9ceb3!2m2!1d-70.8130991!2d42.8126688?entry=ttu&g_ep=EgoyMDI2MDgzMC4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" class=\"directions-link\">Click for directions</a></p>\r\n",
+      "location": {
+        "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_36.png",
+        "lat": "42.8126688",
+        "lng": "-70.81309910000002",
+        "city": "Newburyport",
+        "state": "Massachusetts",
+        "country": "United States",
+        "onclick_action": "marker",
+        "marker_image": "<div class='fc-feature-img'><img loading='lazy' decoding='async' alt='8 65th St' src='https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/sample.jpg' class='wpgmp_marker_image fc-item-featured_image fc-item-large' /></div>",
+        "open_new_tab": "yes",
+        "postal_code": "01950",
+        "draggable": false,
+        "infowindow_default_open": false,
+        "infowindow_disable": true,
+        "zoom": 5,
+        "extra_fields": {
+          "listorder": "41"
+        }
+      },
+      "categories": [
+        {
+          "id": "101",
+          "name": "Site 36",
+          "type": "category",
+          "extension_fields": {
+            "cat_order": "41"
+          },
+          "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_36.png"
+        }
+      ]
+    },
+    {
+      "id": "347",
+      "title": "12 65th St",
+      "address": "12 65th St, Newburyport, MA, USA",
+      "source": "manual",
+      "content": "<p>3-4pm - The Accidentals (Rock)<br />\r\n4-5pm - The Zip-Ups (Indie)<br />5-6pm - Muck & The Mires (Rock)</p>\r\n<p><a href=\"https://www.google.com/maps/dir//12+65th+Street,+Newburyport,+MA,+USA/@42.8130183,-70.894745,19463m/data=!3m2!1e3!4b1!4m8!4m7!1m0!1m5!1m1!1s0x89e2e09d63490be3:0xb70decb7f8ad4875!2m2!1d-70.8123437!2d42.8129219?entry=ttu&g_ep=EgoyMDI1MDgyNC4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" class=\"directions-link\">Click for directions</a></p>\r\n",
+      "location": {
+        "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_37.png",
+        "lat": "42.812927699999996",
+        "lng": "-70.8123526",
+        "city": "Newburyport",
+        "state": "Massachusetts",
+        "country": "United States",
+        "onclick_action": "marker",
+        "marker_image": "<div class='fc-feature-img'><img loading='lazy' decoding='async' alt='12 65th St' src='https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/sample.jpg' class='wpgmp_marker_image fc-item-featured_image fc-item-large' /></div>",
+        "open_new_tab": "yes",
+        "postal_code": "01950",
+        "draggable": false,
+        "infowindow_default_open": false,
+        "infowindow_disable": true,
+        "zoom": 5,
+        "extra_fields": {
+          "listorder": "42"
+        }
+      },
+      "categories": [
+        {
+          "id": "102",
+          "name": "Site 37",
+          "type": "category",
+          "extension_fields": {
+            "cat_order": "42"
+          },
+          "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_37.png"
+        }
+      ]
+    },
+    {
+      "id": "348",
+      "title": "193 Northern Blvd",
+      "address": "193 Northern Blvd, Newburyport, MA, USA",
+      "source": "manual",
+      "content": "<p>1-2pm - The PF Flyers (Folk & Acoustic)</p>\r\n<p><a href=\"https://www.google.com/maps/dir//193+Northern+Blvd,+Newburyport,+MA,+USA/@42.81294,-70.8963593,19463m/data=!3m2!1e3!4b1!4m8!4m7!1m0!1m5!1m1!1s0x89e2e09d16f25961:0x294854eaf4b869eb!2m2!1d-70.813958!2d42.8128436?entry=ttu&g_ep=EgoyMDI1MDgyNC4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" class=\"directions-link\">Click for directions</a></p>\r\n",
+      "location": {
+        "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_38.png",
+        "lat": "42.8128469",
+        "lng": "-70.8139594",
+        "city": "Newburyport",
+        "state": "Massachusetts",
+        "country": "United States",
+        "onclick_action": "marker",
+        "marker_image": "<div class='fc-feature-img'><img loading='lazy' decoding='async' alt='193 Northern Blvd' src='https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/sample.jpg' class='wpgmp_marker_image fc-item-featured_image fc-item-large' /></div>",
+        "open_new_tab": "yes",
+        "postal_code": "01950",
+        "draggable": false,
+        "infowindow_default_open": false,
+        "infowindow_disable": true,
+        "zoom": 5,
+        "extra_fields": {
+          "listorder": "43"
+        }
+      },
+      "categories": [
+        {
+          "id": "103",
+          "name": "Site 38",
+          "type": "category",
+          "extension_fields": {
+            "cat_order": "43"
+          },
+          "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_38.png"
+        }
+      ]
+    },
+    {
+      "id": "349",
+      "title": "3 69th St",
+      "address": "3 69th St, Newburyport, MA, USA",
+      "source": "manual",
+      "content": "<p>4-5pm - The GemsTones (Rock)</p>\r\n<p><a href=\"https://www.google.com/maps/dir//3+69th+St,+Newburyport,+MA+01950/@42.7995354,-70.895572,36274m/data=!3m1!1e3!4m8!4m7!1m0!1m5!1m1!1s0x89e2e09d0be39b03:0xe740538d5d584dbc!2m2!1d-70.8138379!2d42.8135751?entry=ttu&g_ep=EgoyMDI2MDgzMC4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" class=\"directions-link\">Click for directions</a></p>\r\n",
+      "location": {
+        "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_39.png",
+        "lat": "42.8135751",
+        "lng": "-70.8138379",
+        "city": "Newburyport",
+        "state": "Massachusetts",
+        "country": "United States",
+        "onclick_action": "marker",
+        "marker_image": "<div class='fc-feature-img'><img loading='lazy' decoding='async' alt='3 69th St' src='https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/sample.jpg' class='wpgmp_marker_image fc-item-featured_image fc-item-large' /></div>",
+        "open_new_tab": "yes",
+        "postal_code": "01950",
+        "draggable": false,
+        "infowindow_default_open": false,
+        "infowindow_disable": true,
+        "zoom": 5,
+        "extra_fields": {
+          "listorder": "44"
+        }
+      },
+      "categories": [
+        {
+          "id": "104",
+          "name": "Site 39",
+          "type": "category",
+          "extension_fields": {
+            "cat_order": "44"
+          },
+          "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_39.png"
+        }
+      ]
+    },
+    {
+      "id": "350",
+      "title": "205 Northern Blvd",
+      "address": "205 Northern Blvd, Newburyport, MA, USA",
+      "source": "manual",
+      "content": "<p>12-1pm - JIm Gould & Friends (Folk & Acoustic)<br />\r\n1-2pm - Greg Guba (Folk & Acoustic)<br />2-3pm - One Dime Band (Blues)<br />3-4pm - The Boondock Sinners (Folk)</p>\r\n<p><a href=\"https://www.google.com/maps/dir//205+Northern+Blvd,+Newburyport,+MA,+USA/@42.8134943,-70.8968636,19463m/data=!3m2!1e3!4b1!4m8!4m7!1m0!1m5!1m1!1s0x89e2e09d04da1417:0xc6c3d72f06a0ed1b!2m2!1d-70.8144623!2d42.8133979?entry=ttu&g_ep=EgoyMDI1MDgyNC4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" class=\"directions-link\">Click for directions</a></p>\r\n",
+      "location": {
+        "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_40.png",
+        "lat": "42.8133979",
+        "lng": "-70.8144623",
+        "city": "Newburyport",
+        "state": "Massachusetts",
+        "country": "United States",
+        "onclick_action": "marker",
+        "marker_image": "<div class='fc-feature-img'><img loading='lazy' decoding='async' alt='205 Northern Blvd' src='https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/sample.jpg' class='wpgmp_marker_image fc-item-featured_image fc-item-large' /></div>",
+        "open_new_tab": "yes",
+        "postal_code": "01950",
+        "draggable": false,
+        "infowindow_default_open": false,
+        "infowindow_disable": true,
+        "zoom": 5,
+        "extra_fields": {
+          "listorder": "45"
+        }
+      },
+      "categories": [
+        {
+          "id": "105",
+          "name": "Site 40",
+          "type": "category",
+          "extension_fields": {
+            "cat_order": "45"
+          },
+          "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_40.png"
+        }
+      ]
+    },
+    {
+      "id": "351",
+      "title": "9 70th St",
+      "address": "9 70th St, Newburyport, MA, USA",
+      "source": "manual",
+      "content": "<p>12-1pm - Hubcap Romeo (Pop)<br />\r\n1-2pm - Seacoast Ukulele Players (Folk & Acoustic)</p>\r\n<p><a href=\"https://www.google.com/maps/dir//9+70th+St,+Newburyport,+MA+01950/@42.7995354,-70.895572,36274m/data=!3m1!1e3!4m8!4m7!1m0!1m5!1m1!1s0x89e2e09d1f9d3cdb:0x223c1f94f3cc2bac!2m2!1d-70.8147909!2d42.8128541?entry=ttu&g_ep=EgoyMDI2MDgzMC4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" class=\"directions-link\">Click for directions</a></p>\r\n",
+      "location": {
+        "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_41.png",
+        "lat": "42.812854099999996",
+        "lng": "-70.81479089999999",
+        "city": "Newburyport",
+        "state": "Massachusetts",
+        "country": "United States",
+        "onclick_action": "marker",
+        "marker_image": "<div class='fc-feature-img'><img loading='lazy' decoding='async' alt='9 70th St' src='https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/sample.jpg' class='wpgmp_marker_image fc-item-featured_image fc-item-large' /></div>",
+        "open_new_tab": "yes",
+        "postal_code": "01950",
+        "draggable": false,
+        "infowindow_default_open": false,
+        "infowindow_disable": true,
+        "zoom": 5,
+        "extra_fields": {
+          "listorder": "46"
+        }
+      },
+      "categories": [
+        {
+          "id": "106",
+          "name": "Site 41",
+          "type": "category",
+          "extension_fields": {
+            "cat_order": "46"
+          },
+          "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_41.png"
+        }
+      ]
+    },
+    {
+      "id": "352",
+      "title": "20 Basin St",
+      "address": "20 Basin St, Newburyport, MA, USA",
+      "source": "manual",
+      "content": "<p>2-3pm - Acoustic Detour (Folk & Acoustic)</p>\r\n<p><a href=\"https://www.google.com/maps/dir//20+Basin+St,+Newburyport,+MA+01950/@42.7995354,-70.895572,36274m/data=!3m1!1e3!4m8!4m7!1m0!1m5!1m1!1s0x89e2e09cd991195d:0xff50d6d56b6cf78e!2m2!1d-70.8152774!2d42.8124093?entry=ttu&g_ep=EgoyMDI2MDgzMC4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" class=\"directions-link\">Click for directions</a></p>\r\n",
+      "location": {
+        "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_42.png",
+        "lat": "42.8124093",
+        "lng": "-70.8152774",
+        "city": "Newburyport",
+        "state": "Massachusetts",
+        "country": "United States",
+        "onclick_action": "marker",
+        "marker_image": "<div class='fc-feature-img'><img loading='lazy' decoding='async' alt='20 Basin St' src='https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/sample.jpg' class='wpgmp_marker_image fc-item-featured_image fc-item-large' /></div>",
+        "open_new_tab": "yes",
+        "postal_code": "01950",
+        "draggable": false,
+        "infowindow_default_open": false,
+        "infowindow_disable": true,
+        "zoom": 5,
+        "extra_fields": {
+          "listorder": "47"
+        }
+      },
+      "categories": [
+        {
+          "id": "107",
+          "name": "Site 42",
+          "type": "category",
+          "extension_fields": {
+            "cat_order": "47"
+          },
+          "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_42.png"
+        }
+      ]
+    },
+    {
+      "id": "353",
+      "title": "217 Northern Blvd",
+      "address": "217 Northern Blvd, Newburyport, MA, USA",
+      "source": "manual",
+      "content": "<p>2-3pm - Caraway Bell (Rock)<br />\r\n3-4pm - Cadence Parke (Pop)<br />4-5pm - Similar Jones (Other)</p>\r\n<p><a href=\"https://www.google.com/maps/dir//217+Northern+Blvd,+Newburyport,+MA,+USA/@42.8142774,-70.8977645,19463m/data=!3m2!1e3!4b1!4m8!4m7!1m0!1m5!1m1!1s0x89e2e09c55d9264f:0x60bc7674d748978a!2m2!1d-70.8153632!2d42.814181?entry=ttu&g_ep=EgoyMDI1MDgyNC4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" class=\"directions-link\">Click for directions</a></p>\r\n",
+      "location": {
+        "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_43.png",
+        "lat": "42.814181600000005",
+        "lng": "-70.8153674",
+        "city": "Newburyport",
+        "state": "Massachusetts",
+        "country": "United States",
+        "onclick_action": "marker",
+        "marker_image": "<div class='fc-feature-img'><img loading='lazy' decoding='async' alt='217 Northern Blvd' src='https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/sample.jpg' class='wpgmp_marker_image fc-item-featured_image fc-item-large' /></div>",
+        "open_new_tab": "yes",
+        "postal_code": "01950",
+        "draggable": false,
+        "infowindow_default_open": false,
+        "infowindow_disable": true,
+        "zoom": 5,
+        "extra_fields": {
+          "listorder": "48"
+        }
+      },
+      "categories": [
+        {
+          "id": "108",
+          "name": "Site 43",
+          "type": "category",
+          "extension_fields": {
+            "cat_order": "48"
+          },
+          "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_43.png"
+        }
+      ]
+    },
+    {
+      "id": "354",
+      "title": "9 77th St",
+      "address": "9 77th St, Newburyport, MA, USA",
+      "source": "manual",
+      "content": "<p>12-1pm - The Occaisonals (Rock)</p>\r\n<p><a href=\"https://www.google.com/maps/dir//9+77th+St,+Newburyport,+MA+01950/@42.7995354,-70.895572,36274m/data=!3m1!1e3!4m8!4m7!1m0!1m5!1m1!1s0x89e2e09c4b6b71d1:0xf36f8b48093f452d!2m2!1d-70.8151213!2d42.8149977?entry=ttu&g_ep=EgoyMDI2MDgzMC4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" class=\"directions-link\">Click for directions</a></p>\r\n",
+      "location": {
+        "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_44.png",
+        "lat": "42.8149977",
+        "lng": "-70.8151213",
+        "city": "Newburyport",
+        "state": "Massachusetts",
+        "country": "United States",
+        "onclick_action": "marker",
+        "marker_image": "<div class='fc-feature-img'><img loading='lazy' decoding='async' alt='9 77th St' src='https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/sample.jpg' class='wpgmp_marker_image fc-item-featured_image fc-item-large' /></div>",
+        "open_new_tab": "yes",
+        "postal_code": "01950",
+        "draggable": false,
+        "infowindow_default_open": false,
+        "infowindow_disable": true,
+        "zoom": 5,
+        "extra_fields": {
+          "listorder": "49"
+        }
+      },
+      "categories": [
+        {
+          "id": "109",
+          "name": "Site 44",
+          "type": "category",
+          "extension_fields": {
+            "cat_order": "49"
+          },
+          "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_44.png"
+        }
+      ]
+    },
+    {
+      "id": "355",
+      "title": "87 N Reservation Terrace",
+      "address": "87 North Reservation Terrace, Newburyport, MA, USA",
+      "source": "manual",
+      "content": "<p>4-5pm - Way to the River (Rock)</p>\r\n<p><a href=\"https://www.google.com/maps/dir//87+N+Reservation+Terrace,+Newburyport,+MA+01950/@42.7995354,-70.895572,36274m/data=!3m1!1e3!4m8!4m7!1m0!1m5!1m1!1s0x89e2e09c6ba1d477:0x481fe985c5b7ecd6!2m2!1d-70.8154066!2d42.815016?entry=ttu&g_ep=EgoyMDI2MDgzMC4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" class=\"directions-link\">Click for directions</a></p>\r\n",
+      "location": {
+        "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_45.png",
+        "lat": "42.815016",
+        "lng": "-70.8154066",
+        "city": "Newburyport",
+        "state": "Massachusetts",
+        "country": "United States",
+        "onclick_action": "marker",
+        "marker_image": "<div class='fc-feature-img'><img loading='lazy' decoding='async' alt='87 N Reservation Terrace' src='https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/sample.jpg' class='wpgmp_marker_image fc-item-featured_image fc-item-large' /></div>",
+        "open_new_tab": "yes",
+        "postal_code": "01950",
+        "draggable": false,
+        "infowindow_default_open": false,
+        "infowindow_disable": true,
+        "zoom": 5,
+        "extra_fields": {
+          "listorder": "50"
+        }
+      },
+      "categories": [
+        {
+          "id": "110",
+          "name": "Site 45",
+          "type": "category",
+          "extension_fields": {
+            "cat_order": "50"
+          },
+          "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_45.png"
+        }
+      ]
+    },
+    {
+      "id": "356",
+      "title": "12 Barker St",
+      "address": "12 Barker St, Newburyport, MA, USA",
+      "source": "manual",
+      "content": "<p>2-3pm - Fake Leather Jacket (Rock)</p>\r\n<p><a href=\"https://www.google.com/maps/dir//12+Barker+St,+Newburyport,+MA+01950/@42.7995354,-70.895572,36274m/data=!3m1!1e3!4m8!4m7!1m0!1m5!1m1!1s0x89e2e09c8a9f94df:0xc1485500916124c6!2m2!1d-70.8165491!2d42.8143041?entry=ttu&g_ep=EgoyMDI2MDgzMC4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" class=\"directions-link\">Click for directions</a></p>\r\n",
+      "location": {
+        "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_46.png",
+        "lat": "42.8143041",
+        "lng": "-70.8165491",
+        "city": "Newburyport",
+        "state": "Massachusetts",
+        "country": "United States",
+        "onclick_action": "marker",
+        "marker_image": "<div class='fc-feature-img'><img loading='lazy' decoding='async' alt='12 Barker St' src='https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/sample.jpg' class='wpgmp_marker_image fc-item-featured_image fc-item-large' /></div>",
+        "open_new_tab": "yes",
+        "postal_code": "01950",
+        "draggable": false,
+        "infowindow_default_open": false,
+        "infowindow_disable": true,
+        "zoom": 5,
+        "extra_fields": {
+          "listorder": "51"
+        }
+      },
+      "categories": [
+        {
+          "id": "111",
+          "name": "Site 46",
+          "type": "category",
+          "extension_fields": {
+            "cat_order": "51"
+          },
+          "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_46.png"
+        }
+      ]
+    },
+    {
+      "id": "357",
+      "title": "12 Harbor St",
+      "address": "12 Harbor St, Newburyport, MA, USA",
+      "source": "manual",
+      "content": "<p>1-2pm - Hey Now (Folk & Acoustic)<br />\r\n3-4pm - Rite of Passage (Rock)</p>\r\n<p><a href=\"https://www.google.com/maps/dir//12+Harbor+Street,+Newburyport,+MA,+USA/@42.8139506,-70.8994833,19463m/data=!3m2!1e3!4b1!4m8!4m7!1m0!1m5!1m1!1s0x89e2e09c8fcc5f69:0xc425d9e8f9e1a640!2m2!1d-70.817082!2d42.8138542?entry=ttu&g_ep=EgoyMDI1MDgyNC4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" class=\"directions-link\">Click for directions</a></p>\r\n",
+      "location": {
+        "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_47.png",
+        "lat": "42.8138369",
+        "lng": "-70.8170643",
+        "city": "Newburyport",
+        "state": "Massachusetts",
+        "country": "United States",
+        "onclick_action": "marker",
+        "marker_image": "<div class='fc-feature-img'><img loading='lazy' decoding='async' alt='12 Harbor St' src='https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/sample.jpg' class='wpgmp_marker_image fc-item-featured_image fc-item-large' /></div>",
+        "open_new_tab": "yes",
+        "postal_code": "01950",
+        "draggable": false,
+        "infowindow_default_open": false,
+        "infowindow_disable": true,
+        "zoom": 5,
+        "extra_fields": {
+          "listorder": "52"
+        }
+      },
+      "categories": [
+        {
+          "id": "112",
+          "name": "Site 47",
+          "type": "category",
+          "extension_fields": {
+            "cat_order": "52"
+          },
+          "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_47.png"
+        }
+      ]
+    },
+    {
+      "id": "358",
+      "title": "261 Northern Blvd",
+      "address": "261 Northern Blvd, Newburyport, MA, USA",
+      "source": "manual",
+      "content": "<p>12-1pm - Lucia & the Juiceboxes (Indie)<br />\r\n1-2pm - Fish Tricks (Indie)<br />2-3pm - DJ Clark Pon'd (Other)<br />3-4pm - Spring Street Fiddle (Folk & Acoustic)</p>\r\n<p><a href=\"https://www.google.com/maps/dir//261+Northern+Blvd,+Newburyport,+MA+01950/@42.7995354,-70.895572,36274m/data=!3m2!1e3!4b1!4m8!4m7!1m0!1m5!1m1!1s0x89e2e09b9cee88c9:0x1aec9a99d0124f65!2m2!1d-70.8188414!2d42.8148926?entry=ttu&g_ep=EgoyMDI2MDkwMi4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" class=\"directions-link\">Click for directions</a></p>\r\n",
+      "location": {
+        "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_48.png",
+        "lat": "42.814871",
+        "lng": "-70.818979",
+        "city": "Newburyport",
+        "state": "Massachusetts",
+        "country": "United States",
+        "onclick_action": "marker",
+        "marker_image": "<div class='fc-feature-img'><img loading='lazy' decoding='async' alt='261 Northern Blvd' src='https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/sample.jpg' class='wpgmp_marker_image fc-item-featured_image fc-item-large' /></div>",
+        "open_new_tab": "yes",
+        "postal_code": "01950",
+        "draggable": false,
+        "infowindow_default_open": false,
+        "infowindow_disable": true,
+        "zoom": 5,
+        "extra_fields": {
+          "listorder": "53"
+        }
+      },
+      "categories": [
+        {
+          "id": "113",
+          "name": "Site 48",
+          "type": "category",
+          "extension_fields": {
+            "cat_order": "53"
+          },
+          "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_48.png"
+        }
+      ]
+    },
+    {
+      "id": "359",
+      "title": "Sunset Club",
+      "address": "4 Old Point Rd, Newbury, MA, USA",
+      "source": "manual",
+      "location": {
+        "icon": "https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/icons/foodtruck.png",
+        "lat": "42.79912",
+        "lng": "-70.8131",
+        "city": "Newbury",
+        "state": "Massachusetts",
+        "country": "United States",
+        "onclick_action": "marker",
+        "marker_image": "<div class='fc-feature-img'><img loading='lazy' decoding='async' alt='Sunset Club' src='https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/sample.jpg' class='wpgmp_marker_image fc-item-featured_image fc-item-large' /></div>",
+        "open_new_tab": "yes",
+        "postal_code": "01951",
+        "draggable": false,
+        "infowindow_default_open": false,
+        "infowindow_disable": true,
+        "zoom": 5,
+        "extra_fields": {
+          "listorder": "101"
+        }
+      },
+      "categories": [
+        {
+          "id": "115",
+          "name": "Food Truck",
+          "type": "category",
+          "extension_fields": {
+            "cat_order": "101"
+          },
+          "icon": "https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/icons/foodtruck.png"
+        }
+      ]
+    },
+    {
+      "id": "360",
+      "title": "Beefie Boys Food Truck",
+      "address": "34 Plum Island Blvd, Newbury, MA, USA",
+      "source": "manual",
+      "location": {
+        "icon": "https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/icons/foodtruck.png",
+        "lat": "42.79857",
+        "lng": "-70.80909",
+        "city": "Newbury",
+        "state": "Massachusetts",
+        "country": "United States",
+        "onclick_action": "marker",
+        "marker_image": "<div class='fc-feature-img'><img loading='lazy' decoding='async' alt='Beefie Boys Food Truck' src='https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/sample.jpg' class='wpgmp_marker_image fc-item-featured_image fc-item-large' /></div>",
+        "open_new_tab": "yes",
+        "postal_code": "01951",
+        "draggable": false,
+        "infowindow_default_open": false,
+        "infowindow_disable": true,
+        "zoom": 5,
+        "extra_fields": {
+          "listorder": "101"
+        }
+      },
+      "categories": [
+        {
+          "id": "115",
+          "name": "Food Truck",
+          "type": "category",
+          "extension_fields": {
+            "cat_order": "101"
+          },
+          "icon": "https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/icons/foodtruck.png"
+        }
+      ]
+    },
+    {
+      "id": "361",
+      "title": "Riptide Cafe and Bar",
+      "address": "23 Plum Island Blvd, Newbury, MA, USA",
+      "source": "manual",
+      "location": {
+        "icon": "https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/icons/foodtruck.png",
+        "lat": "42.79884",
+        "lng": "-70.81058",
+        "city": "Newbury",
+        "state": "Massachusetts",
+        "country": "United States",
+        "onclick_action": "marker",
+        "marker_image": "<div class='fc-feature-img'><img loading='lazy' decoding='async' alt='Riptide Cafe and Bar' src='https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/sample.jpg' class='wpgmp_marker_image fc-item-featured_image fc-item-large' /></div>",
+        "open_new_tab": "yes",
+        "postal_code": "01951",
+        "draggable": false,
+        "infowindow_default_open": false,
+        "infowindow_disable": true,
+        "zoom": 5,
+        "extra_fields": {
+          "listorder": "101"
+        }
+      },
+      "categories": [
+        {
+          "id": "115",
+          "name": "Food Truck",
+          "type": "category",
+          "extension_fields": {
+            "cat_order": "101"
+          },
+          "icon": "https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/icons/foodtruck.png"
+        }
+      ]
+    },
+    {
+      "id": "362",
+      "title": "Pizza Factory",
+      "address": "29 Plum Island Blvd, Newbury, MA, USA",
+      "source": "manual",
+      "location": {
+        "icon": "https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/icons/foodtruck.png",
+        "lat": "42.7988",
+        "lng": "-70.80975",
+        "city": "Newbury",
+        "state": "Massachusetts",
+        "country": "United States",
+        "onclick_action": "marker",
+        "marker_image": "<div class='fc-feature-img'><img loading='lazy' decoding='async' alt='Pizza Factory' src='https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/sample.jpg' class='wpgmp_marker_image fc-item-featured_image fc-item-large' /></div>",
+        "open_new_tab": "yes",
+        "postal_code": "01951",
+        "draggable": false,
+        "infowindow_default_open": false,
+        "infowindow_disable": true,
+        "zoom": 5,
+        "extra_fields": {
+          "listorder": "101"
+        }
+      },
+      "categories": [
+        {
+          "id": "115",
+          "name": "Food Truck",
+          "type": "category",
+          "extension_fields": {
+            "cat_order": "101"
+          },
+          "icon": "https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/icons/foodtruck.png"
+        }
+      ]
+    },
+    {
+      "id": "363",
+      "title": "Mad Martha's",
+      "address": "51 Northern Blvd, Newbury, MA, USA",
+      "source": "manual",
+      "location": {
+        "icon": "https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/icons/foodtruck.png",
+        "lat": "42.80253",
+        "lng": "-70.80933",
+        "city": "Newbury",
+        "state": "Massachusetts",
+        "country": "United States",
+        "onclick_action": "marker",
+        "marker_image": "<div class='fc-feature-img'><img loading='lazy' decoding='async' alt='Mad Martha&#039;s' src='https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/sample.jpg' class='wpgmp_marker_image fc-item-featured_image fc-item-large' /></div>",
+        "open_new_tab": "yes",
+        "postal_code": "01951",
+        "draggable": false,
+        "infowindow_default_open": false,
+        "infowindow_disable": true,
+        "zoom": 5,
+        "extra_fields": {
+          "listorder": "101"
+        }
+      },
+      "categories": [
+        {
+          "id": "115",
+          "name": "Food Truck",
+          "type": "category",
+          "extension_fields": {
+            "cat_order": "101"
+          },
+          "icon": "https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/icons/foodtruck.png"
+        }
+      ]
+    },
+    {
+      "id": "364",
+      "title": "Metzy's Food Truck",
+      "address": "132 Northern Blvd, Newbury, MA, USA",
+      "source": "manual",
+      "location": {
+        "icon": "https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/icons/foodtruck.png",
+        "lat": "42.80842",
+        "lng": "-70.81048",
+        "city": "Newbury",
+        "state": "Massachusetts",
+        "country": "United States",
+        "onclick_action": "marker",
+        "marker_image": "<div class='fc-feature-img'><img loading='lazy' decoding='async' alt='Metzy&#039;s Food Truck' src='https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/sample.jpg' class='wpgmp_marker_image fc-item-featured_image fc-item-large' /></div>",
+        "open_new_tab": "yes",
+        "postal_code": "01951",
+        "draggable": false,
+        "infowindow_default_open": false,
+        "infowindow_disable": true,
+        "zoom": 5,
+        "extra_fields": {
+          "listorder": "101"
+        }
+      },
+      "categories": [
+        {
+          "id": "115",
+          "name": "Food Truck",
+          "type": "category",
+          "extension_fields": {
+            "cat_order": "101"
+          },
+          "icon": "https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/icons/foodtruck.png"
+        }
+      ]
+    },
+    {
+      "id": "365",
+      "title": "Crab Cakes Food Truck",
+      "address": "193 Northern Blvd, Newburyport, MA, USA",
+      "source": "manual",
+      "location": {
+        "icon": "https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/icons/foodtruck.png",
+        "lat": "42.81284",
+        "lng": "-70.81378",
+        "city": "Newburyport",
+        "state": "Massachusetts",
+        "country": "United States",
+        "onclick_action": "marker",
+        "marker_image": "<div class='fc-feature-img'><img loading='lazy' decoding='async' alt='Crab Cakes Food Truck' src='https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/sample.jpg' class='wpgmp_marker_image fc-item-featured_image fc-item-large' /></div>",
+        "open_new_tab": "yes",
+        "postal_code": "01950",
+        "draggable": false,
+        "infowindow_default_open": false,
+        "infowindow_disable": true,
+        "zoom": 5,
+        "extra_fields": {
+          "listorder": "101"
+        }
+      },
+      "categories": [
+        {
+          "id": "115",
+          "name": "Food Truck",
+          "type": "category",
+          "extension_fields": {
+            "cat_order": "101"
+          },
+          "icon": "https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/icons/foodtruck.png"
+        }
+      ]
+    },
+    {
+      "id": "366",
+      "title": "Public Restroom",
+      "address": "31 Plum Island Turnpike, Newbury, MA, USA",
+      "source": "manual",
+      "location": {
+        "icon": "https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/icons/toilets.png",
+        "lat": "42.79874",
+        "lng": "-70.8095",
+        "city": "Newbury",
+        "state": "Massachusetts",
+        "country": "United States",
+        "onclick_action": "marker",
+        "marker_image": "<div class='fc-feature-img'><img loading='lazy' decoding='async' alt='Public Restroom' src='https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/sample.jpg' class='wpgmp_marker_image fc-item-featured_image fc-item-large' /></div>",
+        "open_new_tab": "yes",
+        "postal_code": "01951",
+        "draggable": false,
+        "infowindow_default_open": false,
+        "infowindow_disable": true,
+        "zoom": 5,
+        "extra_fields": {
+          "listorder": "100"
+        }
+      },
+      "categories": [
+        {
+          "id": "114",
+          "name": "Bathroom",
+          "type": "category",
+          "extension_fields": {
+            "cat_order": "100"
+          },
+          "icon": "https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/icons/toilets.png"
+        }
+      ]
+    },
+    {
+      "id": "367",
+      "title": "Porta Potty",
+      "address": "14 Plum Island Turnpike, Newbury, MA, USA",
+      "source": "manual",
+      "location": {
+        "icon": "https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/icons/toilets.png",
+        "lat": "42.79867",
+        "lng": "-70.8117",
+        "city": "Newbury",
+        "state": "Massachusetts",
+        "country": "United States",
+        "onclick_action": "marker",
+        "marker_image": "<div class='fc-feature-img'><img loading='lazy' decoding='async' alt='Porta Potty' src='https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/sample.jpg' class='wpgmp_marker_image fc-item-featured_image fc-item-large' /></div>",
+        "open_new_tab": "yes",
+        "postal_code": "01951",
+        "draggable": false,
+        "infowindow_default_open": false,
+        "infowindow_disable": true,
+        "zoom": 5,
+        "extra_fields": {
+          "listorder": "100"
+        }
+      },
+      "categories": [
+        {
+          "id": "114",
+          "name": "Bathroom",
+          "type": "category",
+          "extension_fields": {
+            "cat_order": "100"
+          },
+          "icon": "https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/icons/toilets.png"
+        }
+      ]
+    },
+    {
+      "id": "368",
+      "title": "Porta Potty",
+      "address": "10 Olga Way, Newbury, MA, USA",
+      "source": "manual",
+      "location": {
+        "icon": "https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/icons/toilets.png",
+        "lat": "42.79957",
+        "lng": "-70.81166",
+        "city": "Newbury",
+        "state": "Massachusetts",
+        "country": "United States",
+        "onclick_action": "marker",
+        "marker_image": "<div class='fc-feature-img'><img loading='lazy' decoding='async' alt='Porta Potty' src='https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/sample.jpg' class='wpgmp_marker_image fc-item-featured_image fc-item-large' /></div>",
+        "open_new_tab": "yes",
+        "postal_code": "01951",
+        "draggable": false,
+        "infowindow_default_open": false,
+        "infowindow_disable": true,
+        "zoom": 5,
+        "extra_fields": {
+          "listorder": "100"
+        }
+      },
+      "categories": [
+        {
+          "id": "114",
+          "name": "Bathroom",
+          "type": "category",
+          "extension_fields": {
+            "cat_order": "100"
+          },
+          "icon": "https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/icons/toilets.png"
+        }
+      ]
+    },
+    {
+      "id": "369",
+      "title": "Porta Potty",
+      "address": "132 Northern Blvd, Newbury, MA, USA",
+      "source": "manual",
+      "location": {
+        "icon": "https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/icons/toilets.png",
+        "lat": "42.80852",
+        "lng": "-70.81053",
+        "city": "Newbury",
+        "state": "Massachusetts",
+        "country": "United States",
+        "onclick_action": "marker",
+        "marker_image": "<div class='fc-feature-img'><img loading='lazy' decoding='async' alt='Porta Potty' src='https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/sample.jpg' class='wpgmp_marker_image fc-item-featured_image fc-item-large' /></div>",
+        "open_new_tab": "yes",
+        "postal_code": "01951",
+        "draggable": false,
+        "infowindow_default_open": false,
+        "infowindow_disable": true,
+        "zoom": 5,
+        "extra_fields": {
+          "listorder": "100"
+        }
+      },
+      "categories": [
+        {
+          "id": "114",
+          "name": "Bathroom",
+          "type": "category",
+          "extension_fields": {
+            "cat_order": "100"
+          },
+          "icon": "https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/icons/toilets.png"
+        }
+      ]
+    },
+    {
+      "id": "370",
+      "title": "Porta Potty",
+      "address": "12 65th St, Newburyport, MA, USA",
+      "source": "manual",
+      "location": {
+        "icon": "https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/icons/toilets.png",
+        "lat": "42.81296",
+        "lng": "-70.81256",
+        "city": "Newburyport",
+        "state": "Massachusetts",
+        "country": "United States",
+        "onclick_action": "marker",
+        "marker_image": "<div class='fc-feature-img'><img loading='lazy' decoding='async' alt='Porta Potty' src='https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/sample.jpg' class='wpgmp_marker_image fc-item-featured_image fc-item-large' /></div>",
+        "open_new_tab": "yes",
+        "postal_code": "01950",
+        "draggable": false,
+        "infowindow_default_open": false,
+        "infowindow_disable": true,
+        "zoom": 5,
+        "extra_fields": {
+          "listorder": "100"
+        }
+      },
+      "categories": [
+        {
+          "id": "114",
+          "name": "Bathroom",
+          "type": "category",
+          "extension_fields": {
+            "cat_order": "100"
+          },
+          "icon": "https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/icons/toilets.png"
+        }
+      ]
+    },
+    {
+      "id": "371",
+      "title": "Porta Potty",
+      "address": "205 Northern Blvd, Newburyport, MA, USA",
+      "source": "manual",
+      "location": {
+        "icon": "https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/icons/toilets.png",
+        "lat": "42.8134",
+        "lng": "-70.81425",
+        "city": "Newburyport",
+        "state": "Massachusetts",
+        "country": "United States",
+        "onclick_action": "marker",
+        "marker_image": "<div class='fc-feature-img'><img loading='lazy' decoding='async' alt='Porta Potty' src='https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/sample.jpg' class='wpgmp_marker_image fc-item-featured_image fc-item-large' /></div>",
+        "open_new_tab": "yes",
+        "postal_code": "01950",
+        "draggable": false,
+        "infowindow_default_open": false,
+        "infowindow_disable": true,
+        "zoom": 5,
+        "extra_fields": {
+          "listorder": "100"
+        }
+      },
+      "categories": [
+        {
+          "id": "114",
+          "name": "Bathroom",
+          "type": "category",
+          "extension_fields": {
+            "cat_order": "100"
+          },
+          "icon": "https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/icons/toilets.png"
+        }
+      ]
+    },
+    {
+      "id": "372",
+      "title": "Public Restroom",
+      "address": "296 Northern Blvd, Newburyport, MA, USA",
+      "source": "manual",
+      "location": {
+        "icon": "https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/icons/toilets.png",
+        "lat": "42.81606",
+        "lng": "-70.81787",
+        "city": "Newburyport",
+        "state": "Massachusetts",
+        "country": "United States",
+        "onclick_action": "marker",
+        "marker_image": "<div class='fc-feature-img'><img loading='lazy' decoding='async' alt='Public Restroom' src='https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/sample.jpg' class='wpgmp_marker_image fc-item-featured_image fc-item-large' /></div>",
+        "open_new_tab": "yes",
+        "postal_code": "01950",
+        "draggable": false,
+        "infowindow_default_open": false,
+        "infowindow_disable": true,
+        "zoom": 5,
+        "extra_fields": {
+          "listorder": "100"
+        }
+      },
+      "categories": [
+        {
+          "id": "114",
+          "name": "Bathroom",
+          "type": "category",
+          "extension_fields": {
+            "cat_order": "100"
+          },
+          "icon": "https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/icons/toilets.png"
+        }
+      ]
+    },
+    {
+      "id": "373",
+      "title": "Stop 1",
+      "address": "12 Olga Way, Newbury, MA, USA",
+      "source": "manual",
+      "location": {
+        "icon": "https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/icons/bus.png",
+        "lat": "42.79943",
+        "lng": "-70.81153",
+        "city": "Newbury",
+        "state": "Massachusetts",
+        "country": "United States",
+        "onclick_action": "marker",
+        "marker_image": "<div class='fc-feature-img'><img loading='lazy' decoding='async' alt='Stop 1' src='https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/sample.jpg' class='wpgmp_marker_image fc-item-featured_image fc-item-large' /></div>",
+        "open_new_tab": "yes",
+        "postal_code": "01951",
+        "draggable": false,
+        "infowindow_default_open": false,
+        "infowindow_disable": true,
+        "zoom": 5,
+        "extra_fields": {
+          "listorder": "99"
+        }
+      },
+      "categories": [
+        {
+          "id": "122",
+          "name": "Shuttle stop",
+          "type": "category",
+          "extension_fields": {
+            "cat_order": "99"
+          },
+          "icon": "https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/icons/bus.png"
+        }
+      ]
+    },
+    {
+      "id": "374",
+      "title": "Stop 2",
+      "address": "51 Northern Blvd, Newbury, MA, USA",
+      "source": "manual",
+      "location": {
+        "icon": "https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/icons/bus.png",
+        "lat": "42.80247",
+        "lng": "-70.80915",
+        "city": "Newbury",
+        "state": "Massachusetts",
+        "country": "United States",
+        "onclick_action": "marker",
+        "marker_image": "<div class='fc-feature-img'><img loading='lazy' decoding='async' alt='Stop 2' src='https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/sample.jpg' class='wpgmp_marker_image fc-item-featured_image fc-item-large' /></div>",
+        "open_new_tab": "yes",
+        "postal_code": "01951",
+        "draggable": false,
+        "infowindow_default_open": false,
+        "infowindow_disable": true,
+        "zoom": 5,
+        "extra_fields": {
+          "listorder": "99"
+        }
+      },
+      "categories": [
+        {
+          "id": "122",
+          "name": "Shuttle stop",
+          "type": "category",
+          "extension_fields": {
+            "cat_order": "99"
+          },
+          "icon": "https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/icons/bus.png"
+        }
+      ]
+    },
+    {
+      "id": "375",
+      "title": "Stop 3",
+      "address": "80 Northern Blvd, Newbury, MA, USA",
+      "source": "manual",
+      "location": {
+        "icon": "https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/icons/bus.png",
+        "lat": "42.80446",
+        "lng": "-70.80922",
+        "city": "Newbury",
+        "state": "Massachusetts",
+        "country": "United States",
+        "onclick_action": "marker",
+        "marker_image": "<div class='fc-feature-img'><img loading='lazy' decoding='async' alt='Stop 3' src='https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/sample.jpg' class='wpgmp_marker_image fc-item-featured_image fc-item-large' /></div>",
+        "open_new_tab": "yes",
+        "postal_code": "01951",
+        "draggable": false,
+        "infowindow_default_open": false,
+        "infowindow_disable": true,
+        "zoom": 5,
+        "extra_fields": {
+          "listorder": "99"
+        }
+      },
+      "categories": [
+        {
+          "id": "122",
+          "name": "Shuttle stop",
+          "type": "category",
+          "extension_fields": {
+            "cat_order": "99"
+          },
+          "icon": "https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/icons/bus.png"
+        }
+      ]
+    },
+    {
+      "id": "376",
+      "title": "Stop 4",
+      "address": "134 Northern Blvd, Newbury, MA, USA",
+      "source": "manual",
+      "location": {
+        "icon": "https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/icons/bus.png",
+        "lat": "42.80867",
+        "lng": "-70.81077",
+        "city": "Newbury",
+        "state": "Massachusetts",
+        "country": "United States",
+        "onclick_action": "marker",
+        "marker_image": "<div class='fc-feature-img'><img loading='lazy' decoding='async' alt='Stop 4' src='https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/sample.jpg' class='wpgmp_marker_image fc-item-featured_image fc-item-large' /></div>",
+        "open_new_tab": "yes",
+        "postal_code": "01951",
+        "draggable": false,
+        "infowindow_default_open": false,
+        "infowindow_disable": true,
+        "zoom": 5,
+        "extra_fields": {
+          "listorder": "99"
+        }
+      },
+      "categories": [
+        {
+          "id": "122",
+          "name": "Shuttle stop",
+          "type": "category",
+          "extension_fields": {
+            "cat_order": "99"
+          },
+          "icon": "https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/icons/bus.png"
+        }
+      ]
+    },
+    {
+      "id": "377",
+      "title": "Stop 5",
+      "address": "1 65th St, Newburyport, MA, USA",
+      "source": "manual",
+      "location": {
+        "icon": "https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/icons/bus.png",
+        "lat": "42.81262",
+        "lng": "-70.81353",
+        "city": "Newburyport",
+        "state": "Massachusetts",
+        "country": "United States",
+        "onclick_action": "marker",
+        "marker_image": "<div class='fc-feature-img'><img loading='lazy' decoding='async' alt='Stop 5' src='https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/sample.jpg' class='wpgmp_marker_image fc-item-featured_image fc-item-large' /></div>",
+        "open_new_tab": "yes",
+        "postal_code": "01950",
+        "draggable": false,
+        "infowindow_default_open": false,
+        "infowindow_disable": true,
+        "zoom": 5,
+        "extra_fields": {
+          "listorder": "99"
+        }
+      },
+      "categories": [
+        {
+          "id": "122",
+          "name": "Shuttle stop",
+          "type": "category",
+          "extension_fields": {
+            "cat_order": "99"
+          },
+          "icon": "https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/icons/bus.png"
+        }
+      ]
+    },
+    {
+      "id": "378",
+      "title": "Stop 6",
+      "address": "228 Northern Blvd, Newburyport, MA, USA",
+      "source": "manual",
+      "location": {
+        "icon": "https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/icons/bus.png",
+        "lat": "42.8144",
+        "lng": "-70.81542",
+        "city": "Newburyport",
+        "state": "Massachusetts",
+        "country": "United States",
+        "onclick_action": "marker",
+        "marker_image": "<div class='fc-feature-img'><img loading='lazy' decoding='async' alt='Stop 6' src='https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/sample.jpg' class='wpgmp_marker_image fc-item-featured_image fc-item-large' /></div>",
+        "open_new_tab": "yes",
+        "postal_code": "01950",
+        "draggable": false,
+        "infowindow_default_open": false,
+        "infowindow_disable": true,
+        "zoom": 5,
+        "extra_fields": {
+          "listorder": "99"
+        }
+      },
+      "categories": [
+        {
+          "id": "122",
+          "name": "Shuttle stop",
+          "type": "category",
+          "extension_fields": {
+            "cat_order": "99"
+          },
+          "icon": "https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/icons/bus.png"
+        }
+      ]
+    },
+    {
+      "id": "379",
+      "title": "Stop 7",
+      "address": "293 Northern Blvd, Newburyport, MA, USA",
+      "source": "manual",
+      "location": {
+        "icon": "https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/icons/bus.png",
+        "lat": "42.81534",
+        "lng": "-70.81869",
+        "city": "Newburyport",
+        "state": "Massachusetts",
+        "country": "United States",
+        "onclick_action": "marker",
+        "marker_image": "<div class='fc-feature-img'><img loading='lazy' decoding='async' alt='Stop 7' src='https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/sample.jpg' class='wpgmp_marker_image fc-item-featured_image fc-item-large' /></div>",
+        "open_new_tab": "yes",
+        "postal_code": "01950",
+        "draggable": false,
+        "infowindow_default_open": false,
+        "infowindow_disable": true,
+        "zoom": 5,
+        "extra_fields": {
+          "listorder": "99"
+        }
+      },
+      "categories": [
+        {
+          "id": "122",
+          "name": "Shuttle stop",
+          "type": "category",
+          "extension_fields": {
+            "cat_order": "99"
+          },
+          "icon": "https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/icons/bus.png"
+        }
+      ]
+    },
+    {
+      "id": "380",
+      "title": "The Cottage",
+      "address": "14 Plum Island Turnpike, Newbury, MA, USA",
+      "source": "manual",
+      "location": {
+        "icon": "https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/icons/info.png",
+        "lat": "42.79868",
+        "lng": "-70.81156",
+        "city": "Newbury",
+        "state": "Massachusetts",
+        "country": "United States",
+        "onclick_action": "marker",
+        "marker_image": "<div class='fc-feature-img'><img loading='lazy' decoding='async' alt='The Cottage' src='https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/sample.jpg' class='wpgmp_marker_image fc-item-featured_image fc-item-large' /></div>",
+        "open_new_tab": "yes",
+        "postal_code": "01951",
+        "draggable": false,
+        "infowindow_default_open": false,
+        "infowindow_disable": true,
+        "zoom": 5,
+        "extra_fields": {
+          "listorder": "102"
+        }
+      },
+      "categories": [
+        {
+          "id": "116",
+          "name": "Info Tent",
+          "type": "category",
+          "extension_fields": {
+            "cat_order": "102"
+          },
+          "icon": "https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/icons/info.png"
+        }
+      ]
+    },
+    {
+      "id": "381",
+      "title": "65th Street Experience",
+      "address": "12 65th St, Newburyport, MA, USA",
+      "source": "manual",
+      "location": {
+        "icon": "https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/icons/info.png",
+        "lat": "42.81289",
+        "lng": "-70.81278",
+        "city": "Newburyport",
+        "state": "Massachusetts",
+        "country": "United States",
+        "onclick_action": "marker",
+        "marker_image": "<div class='fc-feature-img'><img loading='lazy' decoding='async' alt='65th Street Experience' src='https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/sample.jpg' class='wpgmp_marker_image fc-item-featured_image fc-item-large' /></div>",
+        "open_new_tab": "yes",
+        "postal_code": "01950",
+        "draggable": false,
+        "infowindow_default_open": false,
+        "infowindow_disable": true,
+        "zoom": 5,
+        "extra_fields": {
+          "listorder": "102"
+        }
+      },
+      "categories": [
+        {
+          "id": "116",
+          "name": "Info Tent",
+          "type": "category",
+          "extension_fields": {
+            "cat_order": "102"
+          },
+          "icon": "https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/icons/info.png"
+        }
+      ]
+    },
+    {
+      "id": "382",
+      "title": "27 Basin Front Dr",
+      "address": "27 Basin Front Drive, Newbury, MA, USA",
+      "source": "manual",
+      "content": "<p>3-4pm - Waterford (Rock)</p>\r\n<p><a href=\"https://www.google.com/maps/dir//27+Basin+Front+Dr,+Newbury,+MA+01951/@42.7995354,-70.895572,72548m/data=!3m2!1e3!4b1!4m8!4m7!1m0!1m5!1m1!1s0x89e2e08287a141af:0x135ca5837bd366e5!2m2!1d-70.8125528!2d42.8090145?entry=ttu&g_ep=EgoyMDI2MDkwMi4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" class=\"directions-link\">Click for directions</a></p>",
+      "location": {
+        "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_49.png",
+        "lat": "42.809014499999996",
+        "lng": "-70.81255279999999",
+        "city": "Newbury",
+        "state": "Massachusetts",
+        "country": "United States",
+        "onclick_action": "marker",
+        "marker_image": "<div class='fc-feature-img'><img loading='lazy' decoding='async' alt='27 Basin Front Dr' src='https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/sample.jpg' class='wpgmp_marker_image fc-item-featured_image fc-item-large' /></div>",
+        "open_new_tab": "yes",
+        "postal_code": "01951",
+        "draggable": false,
+        "infowindow_default_open": false,
+        "infowindow_disable": true,
+        "zoom": 5,
+        "extra_fields": {
+          "listorder": "54"
+        }
+      },
+      "categories": [
+        {
+          "id": "117",
+          "name": "Site 49",
+          "type": "category",
+          "extension_fields": {
+            "cat_order": "54"
+          },
+          "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_49.png"
+        }
+      ]
+    },
+    {
+      "id": "383",
+      "title": "72 Northern Blvd, Newbury",
+      "address": "72 Northern Blvd, Newbury, MA, USA",
+      "source": "manual",
+      "content": "<p>4-5pm - JOE (Rock)</p>\r\n<p><a href=\"https://www.google.com/maps/dir//72+Northern+Blvd,+Newbury,+MA+01951/@42.7995354,-70.895572,145097m/data=!3m2!1e3!4b1!4m8!4m7!1m0!1m5!1m1!1s0x89e2de2bacc67e83:0x7c6e54685b8bbcbd!2m2!1d-70.8089317!2d42.8039702?entry=ttu&g_ep=EgoyMDI2MDkwMi4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" class=\"directions-link\">Click for directions</a></p>\r\n",
+      "location": {
+        "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_50.png",
+        "lat": "42.803970199999995",
+        "lng": "-70.8089317",
+        "city": "Newbury",
+        "state": "Massachusetts",
+        "country": "United States",
+        "onclick_action": "marker",
+        "marker_image": "<div class='fc-feature-img'><img loading='lazy' decoding='async' alt='72 Northern Blvd, Newbury' src='https://plumfest.org/wp-content/plugins/wp-google-map-gold/assets/images/sample.jpg' class='wpgmp_marker_image fc-item-featured_image fc-item-large' /></div>",
+        "open_new_tab": "yes",
+        "postal_code": "01951",
+        "draggable": false,
+        "infowindow_default_open": false,
+        "infowindow_disable": true,
+        "zoom": 5,
+        "extra_fields": {
+          "listorder": "55"
+        }
+      },
+      "categories": [
+        {
+          "id": "118",
+          "name": "Site 50",
+          "type": "category",
+          "extension_fields": {
+            "cat_order": "55"
+          },
+          "icon": "https://plumfest.org/wp-content/uploads/2025/08/icon_50.png"
+        }
+      ]
+    }
+  ]
+}
