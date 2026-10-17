@@ -1,0 +1,747 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>PorchFest Host Locations (2026)</name>
+    <description/>
+    <Style id="icon-1733-9C27B0-normal">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1733-9C27B0-highlight">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1733-9C27B0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1733-9C27B0-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1733-9C27B0-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-FBC02D-normal">
+      <IconStyle>
+        <color>ff2dc0fb</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-FBC02D-highlight">
+      <IconStyle>
+        <color>ff2dc0fb</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-FBC02D">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-FBC02D-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-FBC02D-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-0-0288D1-labelson">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-seq2-0-1-0288D1-labelson">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-seq2-0-10-0288D1-labelson">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-11.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-seq2-0-11-0288D1-labelson">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-12.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-seq2-0-12-0288D1-labelson">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-13.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-seq2-0-13-0288D1-labelson">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-14.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-seq2-0-14-0288D1-labelson">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-15.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-seq2-0-15-0288D1-labelson">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-16.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-seq2-0-16-0288D1-labelson">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-17.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-seq2-0-17-0288D1-labelson">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-18.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-seq2-0-18-0288D1-labelson">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-19.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-seq2-0-19-0288D1-labelson">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-20.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-seq2-0-2-0288D1-labelson">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-3.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-seq2-0-20-0288D1-labelson">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-21.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-seq2-0-21-0288D1-labelson">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-22.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-seq2-0-22-0288D1-labelson">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-23.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-seq2-0-23-0288D1-labelson">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-24.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-seq2-0-24-0288D1-labelson">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-25.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-seq2-0-25-0288D1-labelson">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-26.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-seq2-0-26-0288D1-labelson">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-27.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-seq2-0-27-0288D1-labelson">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-28.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-seq2-0-28-0288D1-labelson">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-29.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-seq2-0-3-0288D1-labelson">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-4.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-seq2-0-4-0288D1-labelson">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-5.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-seq2-0-5-0288D1-labelson">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-6.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-seq2-0-6-0288D1-labelson">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-7.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-seq2-0-7-0288D1-labelson">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-8.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-seq2-0-8-0288D1-labelson">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-9.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-seq2-0-9-0288D1-labelson">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-10.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Folder>
+      <name>Host Houses</name>
+      <Placemark>
+        <name>5 Oak St</name>
+        <description><![CDATA[The King Serpent Variety Troupe: 12:00 - 1:00<br>Tokyo Tramps: 1:00 - 2:00<br>Shadows on the Mountain: 2:30 - 3:30<br>Valerie Giglio: 4:00 - 5:00<br>John Kessaris: 5:30 - 7:00<br>DJ Avalon: Intermission DJ Sets]]></description>
+        <styleUrl>#icon-seq2-0-0-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -71.1022178,42.4875041,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>32 Franklin St</name>
+        <description><![CDATA[Chapman Brothers Garage: 12:00 - 1:00<br>Chapman Brothers Garage w/Standard Deviants: 1:00 - 2:00<br>Standard Deviants: 2:00 - 3:00]]></description>
+        <styleUrl>#icon-seq2-0-1-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -71.09864,42.4788539,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>77 Central St</name>
+        <description><![CDATA[Kevin Herrera: 12:00 - 1:30<br>Wiffleball: 1:30 - 3:00<br>Late for Pickup: 3:00 - 4:30<br>Nick LaFauci: 4:30 - 7:00<br>DJ Dan: Intermission DJ Sets]]></description>
+        <styleUrl>#icon-seq2-0-2-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -71.099077,42.4833195,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[9 Doherty's Ln]]></name>
+        <description><![CDATA[Clocked Out: 2:00 - 3:00<br>Philip Corcoran: 4:00 - 6:00<br>Summer Street: 6:00 - 8:00]]></description>
+        <styleUrl>#icon-seq2-0-3-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0957223,42.471811,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>181 North St</name>
+        <description><![CDATA[damian israel shiner (of the displayers)<br>Other Brother Darryl]]></description>
+        <styleUrl>#icon-seq2-0-4-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -71.111475,42.4965696,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>79 Central St</name>
+        <description><![CDATA[Charlotte Modello: 12:30 - 1:00<br>Rockin' Brando: 1:00 - 2:00<br>Kaley and Kiera: 2:00 - 3:00<br>Hannah Lopez Violin: 3:00 - 4:00<br>Double Vision: 4:00 - 5:00<br>Cozmic Crush: 5:00 - 6:00]]></description>
+        <styleUrl>#icon-seq2-0-5-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0992418,42.4838898,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>61 Katherine Rd</name>
+        <description><![CDATA[Space Shot: 12:00 - 1:00<br>Ethan Armstrong: 1:30 - 2:30<br>Anemoia: 3:00 - 4:00]]></description>
+        <styleUrl>#icon-seq2-0-6-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -71.1076766,42.4715912,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>5 Oak Ridge Rd</name>
+        <description><![CDATA[DJ Stronaut: 2:30 - 3:30<br>The Stumps: 4:00 - 6:00]]></description>
+        <styleUrl>#icon-seq2-0-7-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -71.1059084,42.4917396,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>11 Hersam St</name>
+        <description><![CDATA[DJ DOB: 1:00 - 3:00<br>DJ Lytics: 3:00 - 7:00]]></description>
+        <styleUrl>#icon-seq2-0-8-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -71.1015346,42.4803222,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>25 Wright St</name>
+        <description>Matt Fuller: 5:00 - 7:00</description>
+        <styleUrl>#icon-seq2-0-9-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -71.1018519,42.477871,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>8 Albion Ave</name>
+        <description><![CDATA[Standard Deviation: 12:30 - 2:30<br>Blues All In My Head: 3:00 - 7:00]]></description>
+        <styleUrl>#icon-seq2-0-10-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -71.1017874,42.4875822,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>28 Brookbridge Rd</name>
+        <description>Double Barrel: 3:00 - 6:00</description>
+        <styleUrl>#icon-seq2-0-11-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -71.08257,42.4859674,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>152 Collincote St</name>
+        <description>Superfine: 1:00 - 3:00</description>
+        <styleUrl>#icon-seq2-0-12-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0966564,42.491222,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>547 Main St</name>
+        <description><![CDATA[Whistle Jacket: 12:00 - 1:00<br>Yar: 1:00 - 1:30<br>So+So: 1:30 - 2:30<br>Truancy: 2:30 - 4:00<br>The Apsychalypse: 4:00 - 4:30<br>Shawn and Marcy: 4:30 - 5:00<br>Vices Inc: 5:00 - 6:00<br>Moonlit: 6:00 - 7:00]]></description>
+        <styleUrl>#icon-seq2-0-13-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -71.1012095,42.470786,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>70 Summer St</name>
+        <description><![CDATA[Misc Solos & Duets: 12:00 - 1:00<br>Cobb Street Rockers: 1:30 - 2:30<br>Stone Summer Cowboys: 3:00 - 4:00<br>Double Starr: 4:30 - 5:30<br>Futon Lasagna: 6:00 - 7:00<br>DJ Chuck-a-Beat: Intermission DJ Sets]]></description>
+        <styleUrl>#icon-seq2-0-14-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0950843,42.4750217,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>18 Norval Ave</name>
+        <description><![CDATA[Jonah and the Bonas: 12:30 - 1:30<br>Space Shot: 1:45 - 2:30<br>Ones and Zeros: 2:45 - 3:45<br>Sublimbic: 4:00 - 5:15<br>Shepards: 5:30 - 7:00]]></description>
+        <styleUrl>#icon-seq2-0-15-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0885407,42.4891057,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>14 Barbara Rd</name>
+        <description><![CDATA[Philip Corcoran: 12:00 - 2:00<br>The King Serpent Variety Troupe: 2:00 - 2:45<br>Noel Smyth: 3:00 - 3:45<br>Mint: 4:00 - 4:45]]></description>
+        <styleUrl>#icon-seq2-0-16-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0825689,42.4877859,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>23 Pine St</name>
+        <description><![CDATA[The Secret Band (acoustic): 12:00 - 1:00<br>The Secret Band: 1:00 - 3:00]]></description>
+        <styleUrl>#icon-seq2-0-17-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0976205,42.4796374,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>136 Elm St</name>
+        <description><![CDATA[Renee and the Renegades: 1:00 - 2:00<br>Billy Goodrich: 2:00 - 3:00<br>Jeff Bellin, His Ukulele and His 10 Fingers: 3:00 - 4:00]]></description>
+        <styleUrl>#icon-seq2-0-18-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0878817,42.4915189,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>9 Rowe St</name>
+        <description><![CDATA[Munch's Rag Tag Rowe Street Folk Music Band: 2:00 - 4:30]]></description>
+        <styleUrl>#icon-seq2-0-19-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -71.1011849,42.4838578,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>538 Main St</name>
+        <description><![CDATA[Rafa Diaz: 12:00 - 3:00<br>Jazz Chemists: 3:30 - 5:00]]></description>
+        <styleUrl>#icon-seq2-0-20-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -71.1006054,42.4714532,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>90 North St</name>
+        <description><![CDATA[DJ Panda: 3:00 - 4:00<br>Lithophones: 4:00 - 5:00<br>The Chip Rockers: 5:00 - 6:00<br>Adult Learners: 6:00 - 7:00]]></description>
+        <styleUrl>#icon-seq2-0-21-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -71.1032002,42.4985776,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>5 Apple Hill Ln</name>
+        <description>The Newtalians: 3:00 - 5:00</description>
+        <styleUrl>#icon-seq2-0-22-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0864744,42.4833901,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>7 N Border Rd</name>
+        <description>The Goonie Birds: 12:00 - 2:00</description>
+        <styleUrl>#icon-seq2-0-23-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -71.1021029,42.4664105,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>16 Summer St</name>
+        <description><![CDATA[Jimmy DiTullio Experience: 1:00 - 3:00<br>Local Milk: 3:00 - 5:00<br>Glurps: 5:00 - 7:00]]></description>
+        <styleUrl>#icon-seq2-0-24-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0986297,42.4741826,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>113 Park St</name>
+        <description>Goatsbeard: 4:00 - 6:00</description>
+        <styleUrl>#icon-seq2-0-25-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -71.1065023,42.4748908,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>7 S Hillside St</name>
+        <description><![CDATA[The Tainter St. Two: 4:00 - 5:00<br>DJ Stronaut: 5:00 - 7:00]]></description>
+        <styleUrl>#icon-seq2-0-26-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -71.1039816,42.4710947,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>62 Summer St</name>
+        <description>Stone Summer Cowboys: 4:00 - 7:00</description>
+        <styleUrl>#icon-seq2-0-27-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -71.095132,42.4748207,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>16 Pebble Pl</name>
+        <description>The Mersey Brothers: 2:00 - 4:00</description>
+        <styleUrl>#icon-seq2-0-28-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0797074,42.4782646,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name><![CDATA[Public Restrooms & Portapottys]]></name>
+      <Placemark>
+        <name>Stoneham Police Department</name>
+        <description>47 Central St</description>
+        <styleUrl>#icon-1733-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0981486,42.4807259,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Portapotty #1</name>
+        <description>70 Summer St</description>
+        <styleUrl>#icon-1733-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0950004,42.4753161,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Portapotty #2</name>
+        <description>90 North St</description>
+        <styleUrl>#icon-1733-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -71.1034416,42.4986418,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Portapotty #3</name>
+        <description>547 Main St</description>
+        <styleUrl>#icon-1733-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -71.1014626,42.4707813,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Portapotty #4</name>
+        <description>538 Main St</description>
+        <styleUrl>#icon-1733-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -71.1006794,42.4716716,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Portapotty #5</name>
+        <description>28 Brookbridge Rd</description>
+        <styleUrl>#icon-1733-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0828155,42.4859615,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Portapotty #6</name>
+        <description><![CDATA[9 Doherty's Ln]]></description>
+        <styleUrl>#icon-1733-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0959621,42.4718624,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Portapotty #7</name>
+        <description>16 Summer St</description>
+        <styleUrl>#icon-1733-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0990599,42.474268,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Portapotty #8</name>
+        <description>181 North St</description>
+        <styleUrl>#icon-1733-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -71.111985,42.496359,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Block Party Locations</name>
+      <Placemark>
+        <name>Block Party #1</name>
+        <description>5 Oak St</description>
+        <styleUrl>#icon-1899-FBC02D</styleUrl>
+        <Point>
+          <coordinates>
+            -71.1024328,42.4878015,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Block Party #2</name>
+        <description>28 Brookbridge Rd</description>
+        <styleUrl>#icon-1899-FBC02D</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0827219,42.4860805,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
