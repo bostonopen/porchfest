@@ -2,24 +2,165 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Porchfest</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Porchfest Maps & Schedules for Greater Boston | Boston Open Dev</title>
+    <meta name="description" content="Interactive maps and schedules for Greater Boston porchfests: find bands by name, genre and time, and see who's playing now." />
+    <link rel="canonical" href="https://bostonopen.dev/porchfest/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Boston Open Dev" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:title" content="Porchfest maps for Greater Boston" />
+    <meta property="og:description" content="{{DESC}}" />
+    <meta property="og:url" content="https://bostonopen.dev/porchfest/" />
+    <meta property="og:image" content="https://bostonopen.dev/porchfest/og.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Porchfest maps for Greater Boston" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="theme-color" content="#1b2a3a" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8E%B8%3C/text%3E%3C/svg%3E" />
+    <link rel="sitemap" type="application/xml" href="sitemap.xml" />
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "CollectionPage",
+          "@id": "https://bostonopen.dev/porchfest/",
+          "url": "https://bostonopen.dev/porchfest/",
+          "name": "Porchfest maps for Greater Boston",
+          "description": "Interactive maps and schedules for Greater Boston porchfests: find bands by name, genre and time, and see who's playing now.",
+          "inLanguage": "en-US",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Boston Open Dev",
+            "url": "https://bostonopen.dev/"
+          },
+          "mainEntity": {
+            "@type": "ItemList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Brookline Porchfest 2026",
+                "url": "https://bostonopen.dev/porchfest/brookline/2026/"
+              }
+            ]
+          }
+        }
+      ]
+    }
+    </script>
     <style>
-      body {
-        font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
-        margin: 2rem;
-        line-height: 1.5;
-      }
-      h1 { margin-top: 0; }
+      :root { --ink: #1b2a3a; --ink-2: #374151; --muted: #4b5563; --line: #e5e7eb; --soft: #f6f4f0; --accent: #b93d0b; --focus: #1d4ed8; }
+      *, *::before, *::after { box-sizing: border-box; }
+      body { margin: 0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif; font-size: 17px; line-height: 1.5; color: var(--ink); background: #fff; }
+      a { color: #1d4ed8; }
+      :focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+      .vh { position: absolute !important; width: 1px; height: 1px; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+      .skip { position: absolute; left: 8px; top: -100px; padding: 10px 14px; border-radius: 8px; background: #fff; color: var(--ink); font-weight: 600; z-index: 10; }
+      .skip:focus { top: 8px; }
+      .wrap { max-width: 1080px; margin: 0 auto; padding: 0 20px; }
+      header.hero { background: var(--ink); color: #fff; padding: 40px 0 34px; padding-top: max(40px, env(safe-area-inset-top)); }
+      .kicker { margin: 0 0 6px; font-size: .85rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: #fdba74; }
+      .hero h1 { margin: 0; font-size: clamp(1.9rem, 5vw, 2.8rem); line-height: 1.1; letter-spacing: -0.02em; }
+      .hero p.lede { max-width: 44rem; margin: 12px 0 0; font-size: 1.1rem; color: #e5e7eb; }
+      .hero .stats { margin: 14px 0 0; font-size: .95rem; color: #d1d5db; }
+      main { padding: 26px 0 40px; }
+      .tools { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: 12px; margin-bottom: 14px; }
+      .tools h2 { margin: 0; font-size: 1.35rem; }
+      .find { display: flex; flex-direction: column; gap: 4px; min-width: min(100%, 300px); }
+      .find label { font-size: .85rem; font-weight: 700; color: var(--muted); }
+      .find input { min-height: 44px; padding: 8px 12px; border: 1px solid #9ca3af; border-radius: 10px; font: inherit; font-size: 16px; }
+      .cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 14px; margin: 0; padding: 0; list-style: none; }
+      .card { position: relative; padding: 16px 16px 14px; border: 1px solid var(--line); border-radius: 14px; background: #fff; box-shadow: 0 1px 2px rgba(0,0,0,.04); transition: box-shadow .15s, transform .15s; }
+      .card:hover { box-shadow: 0 6px 20px rgba(0,0,0,.10); transform: translateY(-1px); }
+      .card:focus-within { outline: 3px solid var(--focus); outline-offset: 2px; }
+      .card h3 { margin: 0 0 6px; font-size: 1.15rem; line-height: 1.25; }
+      .card h3 a { color: var(--ink); text-decoration: none; }
+      .card h3 a:focus-visible { outline: none; }
+      .card h3 a::after { content: ''; position: absolute; inset: 0; border-radius: 14px; }
+      .card .where { display: block; font-size: .9rem; font-weight: 500; color: var(--muted); }
+      .card p { margin: 0; }
+      .card .when { font-weight: 600; color: var(--accent); }
+      .card .meta { font-size: .92rem; color: var(--muted); }
+      .card[hidden] { display: none; }
+      .none { color: var(--muted); }
+      section + section { margin-top: 36px; }
+      .older { display: flex; flex-wrap: wrap; gap: 10px; margin: 8px 0 0; padding: 0; list-style: none; }
+      .older a { display: inline-flex; align-items: center; min-height: 44px; padding: 8px 14px; border: 1px solid var(--line); border-radius: 999px; text-decoration: none; color: var(--ink); background: var(--soft); font-weight: 600; }
+      .older a:hover { border-color: #9ca3af; }
+      .about h2 { font-size: 1.25rem; margin: 0 0 6px; }
+      .about p { max-width: 46rem; margin: 6px 0; color: var(--ink-2); }
+      footer { border-top: 1px solid var(--line); padding: 20px 0 30px; font-size: .9rem; color: var(--muted); }
+      @media (prefers-reduced-motion: reduce) { *, *::before, *::after { transition: none !important; animation: none !important; } .card:hover { transform: none; } }
     </style>
   </head>
   <body>
-    <h1>Porchfest</h1>
-    <p>Browse available Porchfest maps:</p>
-    <ul>
-      <li><a href="malden/2025/">Malden 2025</a></li>
-      <li><a href="brookline/2025/">Brookline 2025</a></li>
-      <li><a href="brookline/2026/">Brookline 2026</a></li>
-    </ul>
+    <a class="skip" href="#main">Skip to the list of maps</a>
+    <header class="hero">
+      <div class="wrap">
+        <p class="kicker">Boston Open Dev</p>
+        <h1>Porchfest maps for Greater Boston</h1>
+        <p class="lede">Free live music on porches, yards and driveways all over town. Pick a festival to see every set on a map, search by band or genre, and find out who's playing near you right now.</p>
+        <p class="stats">2026: 1 festival, 103 acts, 59 porches.</p>
+      </div>
+    </header>
+    <main id="main" tabindex="-1">
+      <div class="wrap">
+        <section aria-labelledby="maps-h">
+          <div class="tools">
+            <h2 id="maps-h">2026 festivals, by date</h2>
+            <div class="find" id="find" hidden>
+              <label for="town-filter">Find a town</label>
+              <input id="town-filter" type="search" autocomplete="off" placeholder="e.g. Somerville" />
+            </div>
+          </div>
+          <ul class="cards" id="cards" role="list">
+          <li class="card">
+            <h3><a href="brookline/2026/">Brookline Porchfest</a></h3>
+            <p class="when"><time datetime="2026-10-03">Sat, Oct 3, 2026</time></p>
+            <p class="meta">103 acts · 59 porches</p>
+          </li>
+          </ul>
+          <p class="none" id="none" role="status"></p>
+        </section>
+        <section aria-labelledby="older-h">
+          <h2 id="older-h">Earlier years</h2>
+          <ul class="older" role="list">
+            <li><a href="brookline/2025/">Brookline 2025</a></li>
+            <li><a href="malden/2025/">Malden 2025</a></li>
+          </ul>
+        </section>
+        <section class="about" aria-labelledby="about-h">
+          <h2 id="about-h">About these maps</h2>
+          <p>Each map is a single page built from the festival's own published schedule. It works on phones, and the full schedule is also a plain list, so you can use it with a keyboard or screen reader.</p>
+          <p>Times can change on the day, so check each festival's official site for rain plans and updates. Spotted a mistake or want your town added? <a href="https://github.com/bostonopen/porchfest/issues">Open an issue on GitHub</a>.</p>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <div class="wrap">
+        Made by volunteers at <a href="https://bostonopen.dev/">Boston Open Dev</a>, a casual open source meetup. <a href="https://github.com/bostonopen/porchfest">Source on GitHub</a>.
+      </div>
+    </footer>
+    <script>
+      (function () {
+        var input = document.getElementById('town-filter')
+        var cards = Array.prototype.slice.call(document.querySelectorAll('#cards .card'))
+        var none = document.getElementById('none')
+        document.getElementById('find').hidden = false
+        input.addEventListener('input', function () {
+          var q = input.value.trim().toLowerCase()
+          var shown = 0
+          cards.forEach(function (card) {
+            var match = !q || card.textContent.toLowerCase().indexOf(q) !== -1
+            card.hidden = !match
+            if (match) shown++
+          })
+          none.textContent = shown ? (q ? shown + (shown === 1 ? ' festival matches.' : ' festivals match.') : '') : 'No festivals match “' + input.value.trim() + '”.'
+        })
+      })()
+    </script>
   </body>
 </html>
