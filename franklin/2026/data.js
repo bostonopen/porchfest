@@ -1,0 +1,1382 @@
+const bands = {
+    "band_0001": {
+        "actname": "Taste of Nostalgia",
+        "genre": "",
+        "other_genre": "classic rock",
+        "website": "www.daveprocmusic.com",
+        "facebook": "https://www.facebook.com/david.procaccini.9/",
+        "instagram": "",
+        "bandcamp": "",
+        "spotify": "",
+        "apple": "",
+        "otheronline": "",
+        "description": "For Porchfest I plan to put together a group similar to last year with acoustic guitar /vocals ,bass and drums. We will play a mix of blues/classic rock/rock",
+        "image": "",
+        "_id": "band_0001"
+    },
+    "band_0002": {
+        "actname": "Mary Ellen Winsor",
+        "genre": "Americana",
+        "other_genre": "folk/singer songwriter",
+        "website": "",
+        "facebook": "https://www.facebook.com/mary.e.winsor.9/grid/",
+        "instagram": "https://www.instagram.com/mew2music/",
+        "bandcamp": "",
+        "spotify": "https://open.spotify.com/album/1U6iGN2iyfBAvW6KrTfqCn",
+        "apple": "",
+        "otheronline": "",
+        "description": "After not playing for a number of years, started playing out at open mics, being part of a songwriting group and just enjoying the music community.",
+        "image": "",
+        "_id": "band_0002"
+    },
+    "band_0003": {
+        "actname": "Michael Rivelis",
+        "genre": "",
+        "other_genre": "Music of the 60's, 70's, 80's and 90's plus some current music",
+        "website": "",
+        "facebook": "",
+        "instagram": "",
+        "bandcamp": "",
+        "spotify": "",
+        "apple": "",
+        "otheronline": "",
+        "description": "Michael has been playing and performing some of his favorite musical selections in the Metro West area for the last 20 plus years. Michael’s repertoire is made up of Folk Rock and Classic Rock songs mostly from the late 1960’s, 70’s, 80’s and the ‘90s, timeframe, with songs by artists such as Bob Dylan, John Prine, The Beatles, Grateful Dead, Bruce Springsteen, Talking Heads and Phish to name a few.",
+        "image": "",
+        "_id": "band_0003"
+    },
+    "band_0004": {
+        "actname": "Dave Perry",
+        "genre": "",
+        "other_genre": "Folk, rock, acoustic.",
+        "website": "",
+        "facebook": "https://www.facebook.com/profile.php?id=100065694603184",
+        "instagram": "",
+        "bandcamp": "",
+        "spotify": "",
+        "apple": "",
+        "otheronline": "",
+        "description": "I sing, play acoustic guitar, and occasionally add in a harmonica to the songs that I play and sing. Along with original compositions, I perform songs by a variety of artists, such as Jack Johnson, The Decemberists, Josh Ritter, Tom Waits, Gordon Lightfoot, The Beatles, Talkingheads, CCR, John Denver, Ingrid Michaelson, Tom Petty, Foo Fighters, War, Warren Zevon, Everly Brothers, Paul Simon, Johnny Cash, Jethro Tull, and others.",
+        "image": "",
+        "_id": "band_0004"
+    },
+    "band_0005": {
+        "actname": "The Franklin Underground",
+        "genre": "Other (specify below)",
+        "other_genre": "Funk & Roll",
+        "website": "www.franklinunderground.com",
+        "facebook": "",
+        "instagram": "",
+        "bandcamp": "",
+        "spotify": "",
+        "apple": "",
+        "otheronline": "",
+        "description": "The Franklin Underground is a 5-piece group blending influences from blues, funk, rock and jazz genres to create original music rich with infectious grooves and positive energy. The group lovingly dubs their unique brand as \"funk & roll\". Their act consists of their own original compositions combined with cover songs from the bands which have influenced them throughout the decades.",
+        "image": "",
+        "_id": "band_0005"
+    },
+    "band_0006": {
+        "actname": "Bagel Club",
+        "genre": "Other (specify below)",
+        "other_genre": "Rock & Pop",
+        "website": "",
+        "facebook": "",
+        "instagram": "",
+        "bandcamp": "",
+        "spotify": "",
+        "apple": "",
+        "otheronline": "",
+        "description": "We're four friends that get together, eat bagels, and play pop and rock songs (mostly) from the 90s onward. We have a lot of fun playing together and we hope you'll have fun hearing the songs we've prepared for Porchfest!",
+        "image": "",
+        "_id": "band_0006"
+    },
+    "band_0007": {
+        "actname": "Jamie Barrett",
+        "genre": "Other (specify below)",
+        "other_genre": "Original (folk/rock/pop)",
+        "website": "",
+        "facebook": "https://www.facebook.com/share/17MEui4R1K/?mibextid=wwXIfr",
+        "instagram": "",
+        "bandcamp": "",
+        "spotify": "",
+        "apple": "",
+        "otheronline": "",
+        "description": "Mr. Barrett resides in Franklin, MA where he has been teaching Elementary music since 1999. His interest in music began with a very musical family and piano, singing, and clarinet lessons at a young age. After discovering the guitar, Mr. Barrett went on to play in school productions and jazz bands and began gigging in night clubs before he was of age. He went on to play in several bands throughout the New England area. He attended a number of different schools for music, such as Musician’s Institute in Hollywood, CA, Berklee College of Music in Boston, MA, E.C.S.U., and UMASS/Boston. In 2008, he was awarded the MAEC Music Educator Award for Distinguished Music Educator. He recently completed his Master's of Music in Music Education through Boston University and became certified in Orff Schulwerk at Bridgewater State University. Mr. Barrett continues to write songs for both his school's curriculum, the Franklin community, and himself. He loves to perform and can be seen at local libraries, festivals, and coffee houses.",
+        "image": "",
+        "_id": "band_0007"
+    },
+    "band_0008": {
+        "actname": "Neo Starry",
+        "genre": "Singer/Songwriter",
+        "other_genre": "Electric",
+        "website": "https://www.bandmix.com/the-starry-life/",
+        "facebook": "",
+        "instagram": "",
+        "bandcamp": "",
+        "spotify": "",
+        "apple": "",
+        "otheronline": "",
+        "description": "I got rained out at the end last year so am looking forward to making it all the way through this years! Host family overlooking the common were wonderful, very accommodating and wholesome people although I got the impression once I started they were expecting something more like James Taylor. These days, I play mostly my own compositions with some cover material on an electric guitar. Try as I might, I've never been mistaken for James Taylor.",
+        "image": "",
+        "_id": "band_0008"
+    },
+    "band_0009": {
+        "actname": "Mike Mainuli",
+        "genre": "Americana",
+        "other_genre": "",
+        "website": "",
+        "facebook": "",
+        "instagram": "",
+        "bandcamp": "",
+        "spotify": "",
+        "apple": "",
+        "otheronline": "",
+        "description": "Listen to the Americana hit parade. Prine, Dylan, Petty, and any gems influenced by those names.",
+        "image": "",
+        "_id": "band_0009"
+    },
+    "band_0010": {
+        "actname": "Tim & Liz Ayres-Kerr",
+        "genre": "Folk",
+        "other_genre": "Classical, musical theatre, Americana",
+        "website": "",
+        "facebook": "",
+        "instagram": "",
+        "bandcamp": "",
+        "spotify": "",
+        "apple": "",
+        "otheronline": "",
+        "description": "Tim and Liz are a married couple who met while attending the New England Conservatory of Music. They are both classical singers by training but also sing folk, Americana, musical theatre and many other styles. They have been living in Franklin for 4 years now. Tim is an Assistant Professor of Music at Dean College and a voice teacher at the Franklin School for the Performing Arts. You may recognize Tim and Liz from some of the show at The Black Box!",
+        "image": "",
+        "_id": "band_0010"
+    },
+    "band_0011": {
+        "actname": "Casual Encounters",
+        "genre": "Rock",
+        "other_genre": "",
+        "website": "",
+        "facebook": "https://www.facebook.com/profile.php?id=61587723247438",
+        "instagram": "",
+        "bandcamp": "",
+        "spotify": "",
+        "apple": "",
+        "otheronline": "",
+        "description": "4 men from entirely different backgrounds, find themselves in musical matrimony after a brief stint of scouring the dead Internet for “casual encounters”. The rest is history… and the result? A serendipitous sound for all to enjoy!",
+        "image": "",
+        "_id": "band_0011"
+    },
+    "band_0012": {
+        "actname": "The Zajac Brothers Band",
+        "genre": "Rock",
+        "other_genre": "Jam/Singer/Songwriter",
+        "website": "Thezajacbrothersband.com",
+        "facebook": "https://www.facebook.com/share/1Dfy8mxUwD/?mibextid=wwXIfr",
+        "instagram": "https://www.facebook.com/share/1Dfy8mxUwD/?mibextid=wwXIfr",
+        "bandcamp": "",
+        "spotify": "",
+        "apple": "",
+        "otheronline": "",
+        "description": "Franklin brothers Matthew & Tyler show their hometown support for Franklin Porchfest with their band featuring Nolan Leite and Devon Maloof.",
+        "image": "",
+        "_id": "band_0012"
+    },
+    "band_0013": {
+        "actname": "Jonny D",
+        "genre": "Alternative",
+        "other_genre": "Acoustic cover",
+        "website": "",
+        "facebook": "",
+        "instagram": "https://www.instagram.com/jonsphotolife/",
+        "bandcamp": "",
+        "spotify": "",
+        "apple": "",
+        "otheronline": "",
+        "description": "Covers, loops, and jams! 90's alt rock, and a blend of all the hits from decades and genres. Something for everyone! Maybe even some special guests and punk rock originals.",
+        "image": "",
+        "_id": "band_0013"
+    },
+    "band_0014": {
+        "actname": "Moonshot",
+        "genre": "Indie",
+        "other_genre": "Indie Rock",
+        "website": "",
+        "facebook": "",
+        "instagram": "https://instagram.com/moonshot.band",
+        "bandcamp": "http://moonshot1.bandcamp.com",
+        "spotify": "",
+        "apple": "https://music.apple.com/us/artist/moonshot/1506825209",
+        "otheronline": "",
+        "description": "Moonshot is an indie rock trio based in Franklin who's been writing high energy pop tunes and sappy power ballads on and off for the past 25 years. We've played Franklin PorchFest the last two years and there are few things we enjoy more than rocking a local porch with our awesome neighbors.",
+        "image": "",
+        "_id": "band_0014"
+    },
+    "band_0015": {
+        "actname": "Matt Tremble",
+        "genre": "Other (specify below)",
+        "other_genre": "Familiar favorites",
+        "website": "",
+        "facebook": "https://www.facebook.com/matt.tremble.music",
+        "instagram": "https://www.instagram.com/matt.tremble.music/",
+        "bandcamp": "",
+        "spotify": "",
+        "apple": "",
+        "otheronline": "",
+        "description": "Matt Tremble is a solo acoustic performer who blends classic songs with newer favorites, delivered with solid vocals and thoughtful guitar work. His sets move naturally from relaxed, easy listening to more upbeat, familiar tunes, creating a comfortable and engaging atmosphere. It’s a mix of songs people know and enjoy, played in a way that fits the occasion.",
+        "image": "",
+        "_id": "band_0015"
+    },
+    "band_0016": {
+        "actname": "sOak Street",
+        "genre": "Rock",
+        "other_genre": "",
+        "website": "",
+        "facebook": "",
+        "instagram": "",
+        "bandcamp": "",
+        "spotify": "",
+        "apple": "",
+        "otheronline": "",
+        "description": "sOak Street is a classic rock band performing songs from the '60's through the '90s by bands like The Kinks, David Bowie, The Beatles, Weezer, Stone Temple Pilots, Jimi Hendrix, Stevie Ray Vaughn, Tom Petty and more.",
+        "image": "",
+        "_id": "band_0016"
+    },
+    "band_0017": {
+        "actname": "Rowboat",
+        "genre": "Rock",
+        "other_genre": "",
+        "website": "",
+        "facebook": "https://www.facebook.com/share/1AoAQAFeuy/?mibextid=wwXIfr",
+        "instagram": "https://www.instagram.com/rowboat_band1?igsh=NG4yZGdpcTBmNjVw",
+        "bandcamp": "",
+        "spotify": "",
+        "apple": "",
+        "otheronline": "",
+        "description": "We’re a Franklin-based trio playing rock that focuses on 80’s and 90’s with a mix of other genres like yacht rock, pop, dance music, and a little bit of country.",
+        "image": "",
+        "_id": "band_0017"
+    },
+    "band_0018": {
+        "actname": "Midlife Mayhem",
+        "genre": "Rock",
+        "other_genre": "",
+        "website": "",
+        "facebook": "",
+        "instagram": "",
+        "bandcamp": "",
+        "spotify": "",
+        "apple": "",
+        "otheronline": "",
+        "description": "Midlife Mayhem is a band comprised of family and friends. We play mostly 80’s covers and have a great time doing it!",
+        "image": "",
+        "_id": "band_0018"
+    },
+    "band_0019": {
+        "actname": "Dom DeBaggis - Solo Acoustic",
+        "genre": "Rock",
+        "other_genre": "",
+        "website": "",
+        "facebook": "https://Facebook.com/Dom DeBaggis -Solo Acoustic",
+        "instagram": "",
+        "bandcamp": "",
+        "spotify": "",
+        "apple": "",
+        "otheronline": "",
+        "description": "Solo acoustic covers of classic rock favorites, covering artists such as The Beatles, Tom Petty, Neil Young, Jackson Browne, Bob Dylan, etc.",
+        "image": "",
+        "_id": "band_0019"
+    },
+    "band_0020": {
+        "actname": "Jeff Roy",
+        "genre": "Folk",
+        "other_genre": "",
+        "website": "https://jeffreyroy.com/",
+        "facebook": "https://www.facebook.com/share/1JD4SaqWiv/?mibextid=wwXIfr",
+        "instagram": "",
+        "bandcamp": "",
+        "spotify": "https://open.spotify.com/artist/4cC8IotKvXnScQrrtJ5ksi?si=qHkgHjXrSpOvv_YRGJ7-zw",
+        "apple": "https://music.apple.com/us/artist/jeff-roy/1594199830",
+        "otheronline": "",
+        "description": "",
+        "image": "",
+        "_id": "band_0020"
+    },
+    "band_0021": {
+        "actname": "Dave Warner Jr.",
+        "genre": "Other (specify below)",
+        "other_genre": "A mix of popular music from the 60s to current artists",
+        "website": "",
+        "facebook": "",
+        "instagram": "",
+        "bandcamp": "",
+        "spotify": "",
+        "apple": "",
+        "otheronline": "",
+        "description": "I performed for you guys on the first year, and it went over so well! So many people came and enjoyed my music..then I was scheduled to play last year and the storm hit right before I was due to setup so I never got to perform due to the torrential rain. So I'm super hoping to come make up for last year with a whole new set of music. (I have over 8 hours of songs I can choose from and I do requests as well)",
+        "image": "",
+        "_id": "band_0021"
+    },
+    "band_0022": {
+        "actname": "The Railroad Picker",
+        "genre": "Americana",
+        "other_genre": "Southern rock and Radio hits from the 60s and 70s",
+        "website": "https://qr.helloband.io/EqlWPsir3WOCO3hOFrHf",
+        "facebook": "https://www.facebook.com/share/18v16CC7ro/?mibextid=wwXIfr",
+        "instagram": "",
+        "bandcamp": "",
+        "spotify": "",
+        "apple": "",
+        "otheronline": "https://qr.helloband.io/EqlWPsir3WOCO3hOFrHf",
+        "description": "Playing your favorite 6070s and 80s with some Southern rock country added in.",
+        "image": "",
+        "_id": "band_0022"
+    },
+    "band_0023": {
+        "actname": "FSPA Students",
+        "genre": "Pop",
+        "other_genre": "",
+        "website": "",
+        "facebook": "",
+        "instagram": "",
+        "bandcamp": "",
+        "spotify": "",
+        "apple": "",
+        "otheronline": "",
+        "description": "",
+        "image": "",
+        "_id": "band_0023"
+    },
+    "band_0024": {
+        "actname": "Mark Legere",
+        "genre": "Rock",
+        "other_genre": "Some pop, country, rock, classic rock, etc",
+        "website": "",
+        "facebook": "",
+        "instagram": "",
+        "bandcamp": "",
+        "spotify": "",
+        "apple": "",
+        "otheronline": "",
+        "description": "One man 12-string acoustic & vocals. I have 300 songs from various styles and decades.",
+        "image": "",
+        "_id": "band_0024"
+    },
+    "band_0025": {
+        "actname": "Bitter Magnolia",
+        "genre": "Americana",
+        "other_genre": "Rock",
+        "website": "",
+        "facebook": "",
+        "instagram": "",
+        "bandcamp": "",
+        "spotify": "",
+        "apple": "",
+        "otheronline": "",
+        "description": "A band from Brighton, MA. Bitter Magnolia sings all the hits!",
+        "image": "",
+        "_id": "band_0025"
+    },
+    "band_0026": {
+        "actname": "Chip Zale",
+        "genre": "Rock",
+        "other_genre": "",
+        "website": "",
+        "facebook": "",
+        "instagram": "",
+        "bandcamp": "",
+        "spotify": "",
+        "apple": "",
+        "otheronline": "",
+        "description": "",
+        "image": "",
+        "_id": "band_0026"
+    },
+    "band_0027": {
+        "actname": "Sound Thermal Fire",
+        "genre": "Rock",
+        "other_genre": "",
+        "website": "",
+        "facebook": "",
+        "instagram": "",
+        "bandcamp": "",
+        "spotify": "",
+        "apple": "",
+        "otheronline": "",
+        "description": "A father-and-son guitar duo bringing rock favorites from the 1960s through today—spanning generations, styles, and just enough volume, combining teen spirit with the wisdom of the ages—more or less.",
+        "image": "",
+        "_id": "band_0027"
+    },
+    "band_0028": {
+        "actname": "Mordechai Lincoln Band",
+        "genre": "Americana",
+        "other_genre": "",
+        "website": "",
+        "facebook": "https://www.facebook.com/mordechailincoln",
+        "instagram": "",
+        "bandcamp": "",
+        "spotify": "",
+        "apple": "",
+        "otheronline": "",
+        "description": "South Shore based Mordechai Lincoln Band have been playing together for years. They specialize in a combination of original tunes and covers of classic mid to late -20th century Americana/Roots tunes. They cover songs from artists such as Bob Dylan, The Jayhawks, America, Grateful Dead, Jackson Brown and others. The write and play originals in similar style. They blend strong instrumental skills and vocal harmonies. The vibe is laid back like they just got together to jam on your front porch.",
+        "image": "",
+        "_id": "band_0028"
+    },
+    "band_0029": {
+        "actname": "Dave Bauer & Diet Soda",
+        "genre": "Rock",
+        "other_genre": "",
+        "website": "",
+        "facebook": "",
+        "instagram": "",
+        "bandcamp": "",
+        "spotify": "",
+        "apple": "",
+        "otheronline": "",
+        "description": "Local three piece rock group playing a variety of hits from 60’s to today",
+        "image": "",
+        "_id": "band_0029"
+    },
+    "band_0030": {
+        "actname": "Jabbering Trout",
+        "genre": "Americana",
+        "other_genre": "eclectic melodic",
+        "website": "https://jabberingtrout.com/",
+        "facebook": "https://www.facebook.com/profile.php?id=61562996854069",
+        "instagram": "https://www.instagram.com/jabbering_trout/",
+        "bandcamp": "",
+        "spotify": "",
+        "apple": "",
+        "otheronline": "",
+        "description": "We are a high-energy live act with original songs. A version of Jabbering Trout (same leader, different personnel) was an award-winning, signed indie act that toured the USA in the 90s-00s.",
+        "image": "",
+        "_id": "band_0030"
+    },
+    "band_0031": {
+        "actname": "Cow Punks",
+        "genre": "Rock",
+        "other_genre": "Pop/Rock",
+        "website": "",
+        "facebook": "",
+        "instagram": "",
+        "bandcamp": "",
+        "spotify": "",
+        "apple": "",
+        "otheronline": "",
+        "description": "",
+        "image": "",
+        "_id": "band_0031"
+    },
+    "band_0032": {
+        "actname": "Ice Lemonade and The Apple Snaps",
+        "genre": "Rock",
+        "other_genre": "",
+        "website": "https://linktr.ee/icelemonade",
+        "facebook": "",
+        "instagram": "https://www.instagram.com/icelemonade08/",
+        "bandcamp": "https://icelemonade.bandcamp.com/album/a-birthday-party-at-the-end-of-the-world",
+        "spotify": "",
+        "apple": "",
+        "otheronline": "",
+        "description": "We are an Indie Rock/Punk band based in Boston. We primarily play original music, but do covers from artists such as Green Day, Smashing Pumpkins, The Beatles, and many more",
+        "image": "",
+        "_id": "band_0032"
+    },
+    "band_0033": {
+        "actname": "Jim Atkinson Band",
+        "genre": "Blues",
+        "other_genre": "",
+        "website": "",
+        "facebook": "https://www.facebook.com/profile.php?id=100063041748866",
+        "instagram": "",
+        "bandcamp": "",
+        "spotify": "",
+        "apple": "",
+        "otheronline": "",
+        "description": "Founded in 2017, The Jim Atkinson Band features veteran Boston area musicians and a repertoire spanning decades of blues, rock, & roots music. Our specialty is great songs that generally don't fall under the category of \"greatest hits\" but you may have heard before.",
+        "image": "",
+        "_id": "band_0033"
+    },
+    "band_0034": {
+        "actname": "Lee Rich",
+        "genre": "Folk",
+        "other_genre": "Folk -rock combination",
+        "website": "",
+        "facebook": "",
+        "instagram": "",
+        "bandcamp": "",
+        "spotify": "",
+        "apple": "",
+        "otheronline": "",
+        "description": "I play a range of 60s up to some newer songs by bands and single artists like Sister Hazel, Matchbox 20, the Eagles, Billy Joel, Neil Young, the Allman Brothers, James Taylor. I may be joined by a member of my band, Bucketlist or by a female singer on several numbers.",
+        "image": "",
+        "_id": "band_0034"
+    },
+    "band_0035": {
+        "actname": "Matt Zajac",
+        "genre": "Rock",
+        "other_genre": "Blues, folk, country, traditional, Americana",
+        "website": "",
+        "facebook": "https://www.facebook.com/share/1G6HqXwZPS/?mibextid=wwXIfr",
+        "instagram": "",
+        "bandcamp": "",
+        "spotify": "",
+        "apple": "",
+        "otheronline": "",
+        "description": "Award winning singer/songwriter Matt Zajac performs songs from the classic rock era as well as some blues numbers, traditional folk songs & his own original material.",
+        "image": "",
+        "_id": "band_0035"
+    },
+    "band_0036": {
+        "actname": "Joe Marino Solo Acoustic Cover Artist",
+        "genre": "Rock",
+        "other_genre": "",
+        "website": "linktr.ee/joemarinoentertainment",
+        "facebook": "https://www.facebook.com/joe.marino.solo",
+        "instagram": "https://www.instagram.com/jmarino516/",
+        "bandcamp": "",
+        "spotify": "",
+        "apple": "",
+        "otheronline": "",
+        "description": "Joe Marino is a versatile entertainer based in Franklin, MA, specializing in classic rock, oldies, country, and blues with a unique acoustic twist. With decades of experience, he provides professional, high-quality performances tailored for everything from rowdy bar crowds to elegant weddings. He is known for his adaptable repertoire, ability to adjust to the audience, and ability to balance high-energy rock with quiet, atmospheric sets.",
+        "image": "",
+        "_id": "band_0036"
+    },
+    "band_0037": {
+        "actname": "Heath Nisbett",
+        "genre": "Singer/Songwriter",
+        "other_genre": "Flamenco guitar",
+        "website": "14 Orchard Street",
+        "facebook": "",
+        "instagram": "",
+        "bandcamp": "",
+        "spotify": "",
+        "apple": "",
+        "otheronline": "",
+        "description": "",
+        "image": "",
+        "_id": "band_0037"
+    },
+    "band_0038": {
+        "actname": "The BlueFO's",
+        "genre": "Blues",
+        "other_genre": "Blues",
+        "website": "",
+        "facebook": "https://www.facebook.com/newenglandblues/",
+        "instagram": "",
+        "bandcamp": "",
+        "spotify": "",
+        "apple": "",
+        "otheronline": "",
+        "description": "The BlueFO's are a veteran blues band hailing from Massachusetts. They have gained wide recognition and renown in their 30+ years as a powerful blues band, spearheaded by the harmonica virtuoso, Jimmy \"Killer\" Kane. The BlueFO's have played at many notable venues throughout New England and beyond, and are known for their powerful and soulful mix of original compositions and their own unique arrangements of classic blues hits.",
+        "image": "",
+        "_id": "band_0038"
+    },
+    "band_0039": {
+        "actname": "Jivepope",
+        "genre": "Funk",
+        "other_genre": "Jam Funk",
+        "website": "Superstud.org",
+        "facebook": "",
+        "instagram": "",
+        "bandcamp": "",
+        "spotify": "",
+        "apple": "",
+        "otheronline": "",
+        "description": "Just a bunch of guys who enjoy getting together to play music and have fun. A wide range of influences from Funk to Rock to Reggae to some other stuff that is just plain weird come together to form a unique and hopefully pleasant listening experience.",
+        "image": "",
+        "_id": "band_0039"
+    },
+    "band_0040": {
+        "actname": "The Bad Apples",
+        "genre": "Other (specify below)",
+        "other_genre": "Pop/rock covers",
+        "website": "",
+        "facebook": "",
+        "instagram": "https://www.instagram.com/thebadapples02038/",
+        "bandcamp": "",
+        "spotify": "",
+        "apple": "",
+        "otheronline": "",
+        "description": "Full-throttle '90s pop/rock covers for nostalgic Millennials!",
+        "image": "",
+        "_id": "band_0040"
+    },
+    "band_0041": {
+        "actname": "Karate show",
+        "genre": "Rock",
+        "other_genre": "",
+        "website": "",
+        "facebook": "https://www.facebook.com/karateshow",
+        "instagram": "",
+        "bandcamp": "",
+        "spotify": "",
+        "apple": "",
+        "otheronline": "",
+        "description": "",
+        "image": "",
+        "_id": "band_0041"
+    },
+    "band_0042": {
+        "actname": "Nicky G.",
+        "genre": "Hip-Hop",
+        "other_genre": "",
+        "website": "https://linktr.ee/nickyg_37",
+        "facebook": "https://www.facebook.com/share/1Ce2boPYAt/",
+        "instagram": "https://www.instagram.com/nickyg_37?igsh=MWczbTN6bWpxZmUzeQ==",
+        "bandcamp": "",
+        "spotify": "https://open.spotify.com/artist/727xSJLNIjHgiagzhxJbd0?si=JewtYEKhRAun4wEAsGYoTw",
+        "apple": "https://music.apple.com/us/artist/nicky-g/",
+        "otheronline": "",
+        "description": "I am a hip-hop artist known for vibrant and energetic music, blending elements of pop and electronic music. My songs feature catchy hooks, dynamic beats, and confident lyrics.",
+        "image": "",
+        "_id": "band_0042"
+    },
+    "band_0043": {
+        "actname": "77 Suspects",
+        "genre": "Rock",
+        "other_genre": "",
+        "website": "",
+        "facebook": "https://www.facebook.com/77suspects/",
+        "instagram": "",
+        "bandcamp": "",
+        "spotify": "",
+        "apple": "",
+        "otheronline": "",
+        "description": "A 5-piece rock/funk band originally from Allston who play a mix of original songs and covers that span multiple genres.",
+        "image": "",
+        "_id": "band_0043"
+    },
+    "band_0044": {
+        "actname": "South Street Six",
+        "genre": "Rock",
+        "other_genre": "",
+        "website": "www.southstreetsix.com",
+        "facebook": "https://www.facebook.com/southstreetsix",
+        "instagram": "https://www.instagram.com/southstreetsix/",
+        "bandcamp": "",
+        "spotify": "",
+        "apple": "",
+        "otheronline": "",
+        "description": "",
+        "image": "",
+        "_id": "band_0044"
+    },
+    "band_0045": {
+        "actname": "GrooveStone",
+        "genre": "Funk",
+        "other_genre": "Jam Band",
+        "website": "groovestoneband.com",
+        "facebook": "",
+        "instagram": "",
+        "bandcamp": "",
+        "spotify": "",
+        "apple": "",
+        "otheronline": "",
+        "description": "GrooveStone has been a band since 2004. We play the music of Phish, Grateful Dead, Sublime, Goose and many more artist as well a some originals. You will never hear us play the same set twice.",
+        "image": "",
+        "_id": "band_0045"
+    },
+    "band_0046": {
+        "actname": "Critical Mass",
+        "genre": "Rock",
+        "other_genre": "Softer rock with great vocal harmonies",
+        "website": "Criticalmass262@gmail.com   Critical Mass sites.google.com",
+        "facebook": "",
+        "instagram": "",
+        "bandcamp": "",
+        "spotify": "",
+        "apple": "",
+        "otheronline": "",
+        "description": "Critical Mass(CM) is a well established local cover band performing well known songs spanning several decades. Strong vocal harmonies using high end equipment run by a professional sound engineer. Critical Mass has recently performed at Franklin’s first Porchfest, and last summer’s Harvestfest. CM is planning on performing at 164 Main Street.",
+        "image": "",
+        "_id": "band_0046"
+    },
+    "band_0047": {
+        "actname": "Rayna Nisbett",
+        "genre": "Pop",
+        "other_genre": "Songwriter",
+        "website": "",
+        "facebook": "",
+        "instagram": "",
+        "bandcamp": "",
+        "spotify": "",
+        "apple": "",
+        "otheronline": "",
+        "description": "Rayna Nisbett is a 23 year old musician. She plays guitar, piano, and sings.",
+        "image": "",
+        "_id": "band_0047"
+    },
+    "band_0048": {
+        "actname": "Rick Smyth",
+        "genre": "Rock",
+        "other_genre": "",
+        "website": "",
+        "facebook": "",
+        "instagram": "",
+        "bandcamp": "",
+        "spotify": "",
+        "apple": "",
+        "otheronline": "",
+        "description": "Solo acoustic music covers from 60's and up. Classic easy listening rock oldies.",
+        "image": "",
+        "_id": "band_0048"
+    },
+    "band_0049": {
+        "actname": "Slack Tide",
+        "genre": "Rock",
+        "other_genre": "",
+        "website": "",
+        "facebook": "",
+        "instagram": "",
+        "bandcamp": "",
+        "spotify": "",
+        "apple": "",
+        "otheronline": "",
+        "description": "Slack tide is a 7 man rock, rhythm, and blues cover band, made up of family members. We like to represent different generations of rock, while putting our own spin on the classics.",
+        "image": "",
+        "_id": "band_0049"
+    },
+    "band_0050": {
+        "actname": "Honey Badger",
+        "genre": "Country/Bluegrass",
+        "other_genre": "",
+        "website": "",
+        "facebook": "",
+        "instagram": "",
+        "bandcamp": "",
+        "spotify": "",
+        "apple": "",
+        "otheronline": "",
+        "description": "",
+        "image": "",
+        "_id": "band_0050"
+    }
+};
+
+const porches = {
+    "porch_0001": {
+        "address": "270 Cottage St, Franklin, MA",
+        "lat": "42.07597757894737",
+        "lng": "-71.4056877368421",
+        "porchnum": "1",
+        "_id": "porch_0001"
+    },
+    "porch_0002": {
+        "address": "270 Main St, Franklin, MA",
+        "lat": "42.0907508",
+        "lng": "-71.4008589",
+        "porchnum": "2",
+        "_id": "porch_0002"
+    },
+    "porch_0003": {
+        "address": "9 Lincoln St, Franklin, MA",
+        "lat": "42.0924247",
+        "lng": "-71.3991464",
+        "porchnum": "3",
+        "_id": "porch_0003"
+    },
+    "porch_0004": {
+        "address": "18 Lincoln St, Franklin, MA",
+        "lat": "42.0928226",
+        "lng": "-71.399336",
+        "porchnum": "4",
+        "_id": "porch_0004"
+    },
+    "porch_0005": {
+        "address": "85 Hillside Rd, Franklin, MA",
+        "lat": "42.0879982",
+        "lng": "-71.3951334",
+        "porchnum": "5",
+        "_id": "porch_0005"
+    },
+    "porch_0006": {
+        "address": "172 School St, Franklin, MA",
+        "lat": "42.0847446",
+        "lng": "-71.4032492",
+        "porchnum": "6",
+        "_id": "porch_0006"
+    },
+    "porch_0007": {
+        "address": "237 Pleasant St, Franklin, MA",
+        "lat": "42.0913917",
+        "lng": "-71.389819",
+        "porchnum": "7",
+        "_id": "porch_0007"
+    },
+    "porch_0008": {
+        "address": "11 Garfield St, Franklin, MA",
+        "lat": "42.0869991",
+        "lng": "-71.3978076",
+        "porchnum": "8",
+        "_id": "porch_0008"
+    },
+    "porch_0009": {
+        "address": "9 Mackintosh St, Franklin, MA",
+        "lat": "42.0982016",
+        "lng": "-71.3898266",
+        "porchnum": "9",
+        "_id": "porch_0009"
+    },
+    "porch_0010": {
+        "address": "80 Union St, Franklin, MA",
+        "lat": "42.0868574",
+        "lng": "-71.4021442",
+        "porchnum": "10",
+        "_id": "porch_0010"
+    },
+    "porch_0011": {
+        "address": "17 Union St, Franklin, MA",
+        "lat": "42.0888913",
+        "lng": "-71.4023508",
+        "porchnum": "11",
+        "_id": "porch_0011"
+    },
+    "porch_0012": {
+        "address": "35 East St, Franklin, MA",
+        "lat": "42.0817895",
+        "lng": "-71.4000311",
+        "porchnum": "12",
+        "_id": "porch_0012"
+    },
+    "porch_0013": {
+        "address": "Town Common, 200 Main St, Franklin, MA",
+        "lat": "42.090065",
+        "lng": "-71.401043",
+        "porchnum": "13",
+        "_id": "porch_0013"
+    },
+    "porch_0014": {
+        "address": "164 Main St, Franklin, MA",
+        "lat": "42.0870242",
+        "lng": "-71.4006659",
+        "porchnum": "14",
+        "_id": "porch_0014"
+    },
+    "porch_0015": {
+        "address": "12 Hunters Run Rd, Franklin, MA",
+        "lat": "42.0553109",
+        "lng": "-71.4151606",
+        "porchnum": "15",
+        "_id": "porch_0015"
+    },
+    "porch_0016": {
+        "address": "249 Lincoln St, Franklin, MA",
+        "lat": "42.0994406",
+        "lng": "-71.3955389",
+        "porchnum": "16",
+        "_id": "porch_0016"
+    },
+    "porch_0017": {
+        "address": "Franklin Historical Museum, 80 West Central St, Franklin, MA",
+        "lat": "42.082739",
+        "lng": "-71.4002194",
+        "porchnum": "17",
+        "_id": "porch_0017"
+    },
+    "porch_0018": {
+        "address": "Franklin Public Library, 118 Main St, Franklin, MA",
+        "lat": "42.0853012",
+        "lng": "-71.4000331",
+        "porchnum": "18",
+        "_id": "porch_0018"
+    },
+    "porch_0019": {
+        "address": "Birchwood Bakery 17 East Central St, Franklin, MA",
+        "lat": "42.0829878",
+        "lng": "-71.3975705",
+        "porchnum": "19",
+        "_id": "porch_0019"
+    },
+    "porch_0020": {
+        "address": "Intermission, 36 Main St, Franklin, MA",
+        "lat": "42.0834663",
+        "lng": "-71.3980893",
+        "porchnum": "20",
+        "_id": "porch_0020"
+    },
+    "porch_0021": {
+        "address": "171 Main St, Franklin, MA",
+        "lat": "42.087629",
+        "lng": "-71.4000707",
+        "porchnum": "21",
+        "_id": "porch_0021"
+    },
+    "porch_0022": {
+        "address": "The Rome Restaurant, 4 East Central St, Franklin, MA",
+        "lat": "42.0823201",
+        "lng": "-71.3970081",
+        "porchnum": "22",
+        "_id": "porch_0022"
+    },
+    "porch_0023": {
+        "address": "60 Dean Ave, Franklin, MA",
+        "lat": "42.0848391",
+        "lng": "-71.3956219",
+        "porchnum": "23",
+        "_id": "porch_0023"
+    },
+    "porch_0024": {
+        "address": "77 Crescent St, Franklin, MA",
+        "lat": "42.0874654",
+        "lng": "-71.3991348",
+        "porchnum": "24",
+        "_id": "porch_0024"
+    },
+    "porch_0025": {
+        "address": "14 Orchard St, Franklin, MA",
+        "lat": "42.0916325",
+        "lng": "-71.3994683",
+        "porchnum": "25",
+        "_id": "porch_0025"
+    },
+    "porch_0026": {
+        "address": "24 Pearl St, Franklin, MA",
+        "lat": "42.0864723",
+        "lng": "-71.4015092",
+        "porchnum": "26",
+        "_id": "porch_0026"
+    },
+    "porch_0027": {
+        "address": "27 Marvin Ave, Franklin, MA",
+        "lat": "42.0860984",
+        "lng": "-71.4043443",
+        "porchnum": "27",
+        "_id": "porch_0027"
+    },
+    "porch_0028": {
+        "address": "17 Park Rd, Franklin, MA",
+        "lat": "42.0869937",
+        "lng": "-71.394123",
+        "porchnum": "28",
+        "_id": "porch_0028"
+    },
+    "porch_0029": {
+        "address": "97 Dean Ave, Franklin, MA",
+        "lat": "42.0851184",
+        "lng": "-71.3938297",
+        "porchnum": "29",
+        "_id": "porch_0029"
+    },
+    "porch_0030": {
+        "address": "887 Lincoln St, Franklin, MA",
+        "lat": "42.1356248",
+        "lng": "-71.3985181",
+        "porchnum": "30",
+        "_id": "porch_0030"
+    },
+    "porch_0031": {
+        "address": "Dean College, 99 Main St, Franklin, MA",
+        "lat": "42.08482580676401",
+        "lng": "-71.39881346226838",
+        "porchnum": "31",
+        "_id": "porch_0031"
+    },
+    "porch_0032": {
+        "address": "La Cantina Winery, 230 Cottage St, Franklin, MA",
+        "lat": "42.07678055884378",
+        "lng": "-71.40447349227951",
+        "porchnum": "",
+        "_id": "porch_0032"
+    }
+};
+
+const gigs = {
+    "gig_00001": {
+        "bandid": "band_0001",
+        "porchid": "porch_0012",
+        "starthour": "12",
+        "startminute": "00",
+        "duration": "120",
+        "_id": "gig_00001"
+    },
+    "gig_00002": {
+        "bandid": "band_0002",
+        "porchid": "porch_0018",
+        "starthour": "12",
+        "startminute": "00",
+        "duration": "60",
+        "_id": "gig_00002"
+    },
+    "gig_00003": {
+        "bandid": "band_0003",
+        "porchid": "porch_0002",
+        "starthour": "12",
+        "startminute": "00",
+        "duration": "120",
+        "_id": "gig_00003"
+    },
+    "gig_00004": {
+        "bandid": "band_0004",
+        "porchid": "porch_0024",
+        "starthour": "12",
+        "startminute": "00",
+        "duration": "90",
+        "_id": "gig_00004"
+    },
+    "gig_00005": {
+        "bandid": "band_0005",
+        "porchid": "porch_0026",
+        "starthour": "12",
+        "startminute": "00",
+        "duration": "120",
+        "_id": "gig_00005"
+    },
+    "gig_00006": {
+        "bandid": "band_0006",
+        "porchid": "porch_0010",
+        "starthour": "12",
+        "startminute": "00",
+        "duration": "120",
+        "_id": "gig_00006"
+    },
+    "gig_00007": {
+        "bandid": "band_0007",
+        "porchid": "porch_0017",
+        "starthour": "12",
+        "startminute": "00",
+        "duration": "60",
+        "_id": "gig_00007"
+    },
+    "gig_00008": {
+        "bandid": "band_0008",
+        "porchid": "porch_0021",
+        "starthour": "12",
+        "startminute": "00",
+        "duration": "90",
+        "_id": "gig_00008"
+    },
+    "gig_00009": {
+        "bandid": "band_0009",
+        "porchid": "porch_0027",
+        "starthour": "12",
+        "startminute": "00",
+        "duration": "120",
+        "_id": "gig_00009"
+    },
+    "gig_00010": {
+        "bandid": "band_0010",
+        "porchid": "porch_0028",
+        "starthour": "12",
+        "startminute": "00",
+        "duration": "60",
+        "_id": "gig_00010"
+    },
+    "gig_00011": {
+        "bandid": "band_0011",
+        "porchid": "porch_0011",
+        "starthour": "12",
+        "startminute": "00",
+        "duration": "90",
+        "_id": "gig_00011"
+    },
+    "gig_00012": {
+        "bandid": "band_0012",
+        "porchid": "porch_0003",
+        "starthour": "12",
+        "startminute": "00",
+        "duration": "120",
+        "_id": "gig_00012"
+    },
+    "gig_00013": {
+        "bandid": "band_0013",
+        "porchid": "porch_0019",
+        "starthour": "12",
+        "startminute": "00",
+        "duration": "90",
+        "_id": "gig_00013"
+    },
+    "gig_00014": {
+        "bandid": "band_0014",
+        "porchid": "porch_0023",
+        "starthour": "12",
+        "startminute": "30",
+        "duration": "90",
+        "_id": "gig_00014"
+    },
+    "gig_00015": {
+        "bandid": "band_0015",
+        "porchid": "porch_0016",
+        "starthour": "12",
+        "startminute": "30",
+        "duration": "120",
+        "_id": "gig_00015"
+    },
+    "gig_00016": {
+        "bandid": "band_0016",
+        "porchid": "porch_0001",
+        "starthour": "13",
+        "startminute": "00",
+        "duration": "120",
+        "_id": "gig_00016"
+    },
+    "gig_00017": {
+        "bandid": "band_0017",
+        "porchid": "porch_0008",
+        "starthour": "13",
+        "startminute": "00",
+        "duration": "120",
+        "_id": "gig_00017"
+    },
+    "gig_00018": {
+        "bandid": "band_0018",
+        "porchid": "porch_0005",
+        "starthour": "13",
+        "startminute": "00",
+        "duration": "90",
+        "_id": "gig_00018"
+    },
+    "gig_00019": {
+        "bandid": "band_0019",
+        "porchid": "porch_0004",
+        "starthour": "13",
+        "startminute": "00",
+        "duration": "90",
+        "_id": "gig_00019"
+    },
+    "gig_00020": {
+        "bandid": "band_0020",
+        "porchid": "porch_0014",
+        "starthour": "13",
+        "startminute": "00",
+        "duration": "60",
+        "_id": "gig_00020"
+    },
+    "gig_00021": {
+        "bandid": "band_0021",
+        "porchid": "porch_0013",
+        "starthour": "13",
+        "startminute": "00",
+        "duration": "120",
+        "_id": "gig_00021"
+    },
+    "gig_00022": {
+        "bandid": "band_0022",
+        "porchid": "porch_0030",
+        "starthour": "13",
+        "startminute": "00",
+        "duration": "240",
+        "_id": "gig_00022"
+    },
+    "gig_00023": {
+        "bandid": "band_0023",
+        "porchid": "porch_0020",
+        "starthour": "13",
+        "startminute": "00",
+        "duration": "120",
+        "_id": "gig_00023"
+    },
+    "gig_00024": {
+        "bandid": "band_0024",
+        "porchid": "porch_0009",
+        "starthour": "13",
+        "startminute": "30",
+        "duration": "60",
+        "_id": "gig_00024"
+    },
+    "gig_00025": {
+        "bandid": "band_0025",
+        "porchid": "porch_0031",
+        "starthour": "13",
+        "startminute": "30",
+        "duration": "60",
+        "_id": "gig_00025"
+    },
+    "gig_00026": {
+        "bandid": "band_0026",
+        "porchid": "porch_0022",
+        "starthour": "14",
+        "startminute": "00",
+        "duration": "120",
+        "_id": "gig_00026"
+    },
+    "gig_00027": {
+        "bandid": "band_0027",
+        "porchid": "porch_0014",
+        "starthour": "14",
+        "startminute": "00",
+        "duration": "120",
+        "_id": "gig_00027"
+    },
+    "gig_00028": {
+        "bandid": "band_0028",
+        "porchid": "porch_0007",
+        "starthour": "14",
+        "startminute": "00",
+        "duration": "120",
+        "_id": "gig_00028"
+    },
+    "gig_00029": {
+        "bandid": "band_0029",
+        "porchid": "porch_0011",
+        "starthour": "14",
+        "startminute": "00",
+        "duration": "120",
+        "_id": "gig_00029"
+    },
+    "gig_00030": {
+        "bandid": "band_0030",
+        "porchid": "porch_0017",
+        "starthour": "14",
+        "startminute": "00",
+        "duration": "60",
+        "_id": "gig_00030"
+    },
+    "gig_00031": {
+        "bandid": "band_0031",
+        "porchid": "porch_0032",
+        "starthour": "14",
+        "startminute": "00",
+        "duration": "120",
+        "_id": "gig_00031"
+    },
+    "gig_00032": {
+        "bandid": "band_0032",
+        "porchid": "porch_0006",
+        "starthour": "14",
+        "startminute": "00",
+        "duration": "60",
+        "_id": "gig_00032"
+    },
+    "gig_00033": {
+        "bandid": "band_0033",
+        "porchid": "porch_0018",
+        "starthour": "14",
+        "startminute": "00",
+        "duration": "120",
+        "_id": "gig_00033"
+    },
+    "gig_00034": {
+        "bandid": "band_0034",
+        "porchid": "porch_0002",
+        "starthour": "14",
+        "startminute": "30",
+        "duration": "120",
+        "_id": "gig_00034"
+    },
+    "gig_00035": {
+        "bandid": "band_0035",
+        "porchid": "porch_0003",
+        "starthour": "14",
+        "startminute": "30",
+        "duration": "120",
+        "_id": "gig_00035"
+    },
+    "gig_00036": {
+        "bandid": "band_0036",
+        "porchid": "porch_0004",
+        "starthour": "15",
+        "startminute": "00",
+        "duration": "120",
+        "_id": "gig_00036"
+    },
+    "gig_00037": {
+        "bandid": "band_0037",
+        "porchid": "porch_0025",
+        "starthour": "15",
+        "startminute": "00",
+        "duration": "60",
+        "_id": "gig_00037"
+    },
+    "gig_00038": {
+        "bandid": "band_0038",
+        "porchid": "porch_0026",
+        "starthour": "15",
+        "startminute": "00",
+        "duration": "120",
+        "_id": "gig_00038"
+    },
+    "gig_00039": {
+        "bandid": "band_0039",
+        "porchid": "porch_0029",
+        "starthour": "15",
+        "startminute": "00",
+        "duration": "120",
+        "_id": "gig_00039"
+    },
+    "gig_00040": {
+        "bandid": "band_0040",
+        "porchid": "porch_0009",
+        "starthour": "15",
+        "startminute": "00",
+        "duration": "120",
+        "_id": "gig_00040"
+    },
+    "gig_00041": {
+        "bandid": "band_0041",
+        "porchid": "porch_0005",
+        "starthour": "15",
+        "startminute": "00",
+        "duration": "90",
+        "_id": "gig_00041"
+    },
+    "gig_00042": {
+        "bandid": "band_0042",
+        "porchid": "porch_0031",
+        "starthour": "15",
+        "startminute": "00",
+        "duration": "60",
+        "_id": "gig_00042"
+    },
+    "gig_00043": {
+        "bandid": "band_0043",
+        "porchid": "porch_0016",
+        "starthour": "16",
+        "startminute": "00",
+        "duration": "90",
+        "_id": "gig_00043"
+    },
+    "gig_00044": {
+        "bandid": "band_0044",
+        "porchid": "porch_0001",
+        "starthour": "16",
+        "startminute": "00",
+        "duration": "120",
+        "_id": "gig_00044"
+    },
+    "gig_00045": {
+        "bandid": "band_0045",
+        "porchid": "porch_0013",
+        "starthour": "16",
+        "startminute": "00",
+        "duration": "120",
+        "_id": "gig_00045"
+    },
+    "gig_00046": {
+        "bandid": "band_0046",
+        "porchid": "porch_0014",
+        "starthour": "16",
+        "startminute": "30",
+        "duration": "90",
+        "_id": "gig_00046"
+    },
+    "gig_00047": {
+        "bandid": "band_0047",
+        "porchid": "porch_0025",
+        "starthour": "16",
+        "startminute": "30",
+        "duration": "30",
+        "_id": "gig_00047"
+    },
+    "gig_00048": {
+        "bandid": "band_0048",
+        "porchid": "porch_0002",
+        "starthour": "16",
+        "startminute": "30",
+        "duration": "90",
+        "_id": "gig_00048"
+    },
+    "gig_00049": {
+        "bandid": "band_0049",
+        "porchid": "porch_0015",
+        "starthour": "17",
+        "startminute": "00",
+        "duration": "60",
+        "_id": "gig_00049"
+    },
+    "gig_00050": {
+        "bandid": "band_0050",
+        "porchid": "porch_0032",
+        "starthour": "19",
+        "startminute": "00",
+        "duration": "180",
+        "_id": "gig_00050"
+    }
+};
