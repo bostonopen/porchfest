@@ -1,0 +1,1198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+
+    <!-- ===== Town settings: the only part of this file that changes between towns =====
+         Copy brookline/2026/index.html for a new town, then edit this block and the
+         short header text marked "Town header" below. Everything else stays the same. -->
+    <title>Woburn Porchfest 2026 Map &amp; Schedule | Boston Open Dev</title>
+    <meta name="description" content="Map and schedule for Woburn Porchfest 2026 on Sat, Oct 10: 56 acts on 25 porches. Search by band, genre or time, and see who's playing now." />
+    <link rel="canonical" href="https://bostonopen.dev/porchfest/woburn/2026/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Boston Open Dev" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:title" content="Woburn Porchfest 2026 map &amp; schedule" />
+    <meta property="og:description" content="Map and schedule for Woburn Porchfest 2026 on Sat, Oct 10: 56 acts on 25 porches. Search by band, genre or time, and see who's playing now." />
+    <meta property="og:url" content="https://bostonopen.dev/porchfest/woburn/2026/" />
+    <meta property="og:image" content="https://bostonopen.dev/porchfest/woburn/2026/og.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Map of Woburn Porchfest 2026 porches" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "MusicEvent",
+          "@id": "https://bostonopen.dev/porchfest/woburn/2026/#event",
+          "name": "Woburn Porchfest 2026",
+          "description": "A free afternoon of live music on 25 porches across Woburn, with 56 acts.",
+          "startDate": "2026-10-10T12:00:00-04:00",
+          "endDate": "2026-10-10T19:00:00-04:00",
+          "eventStatus": "https://schema.org/EventScheduled",
+          "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+          "isAccessibleForFree": true,
+          "location": {
+            "@type": "Place",
+            "name": "Porches across Woburn",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Woburn",
+              "addressRegion": "MA",
+              "addressCountry": "US"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 42.48307,
+              "longitude": -71.15686
+            }
+          },
+          "image": [
+            "https://bostonopen.dev/porchfest/woburn/2026/og.jpg"
+          ],
+          "url": "https://woburnporchfest.com/",
+          "organizer": [
+            {
+              "@type": "Organization",
+              "name": "Woburn Porchfest",
+              "url": "https://woburnporchfest.com/"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": 0,
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "url": "https://woburnporchfest.com/"
+          }
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://bostonopen.dev/porchfest/woburn/2026/",
+          "url": "https://bostonopen.dev/porchfest/woburn/2026/",
+          "name": "Woburn Porchfest 2026 Map & Schedule | Boston Open Dev",
+          "description": "Map and schedule for Woburn Porchfest 2026 on Sat, Oct 10: 56 acts on 25 porches. Search by band, genre or time, and see who's playing now.",
+          "inLanguage": "en-US",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Boston Open Dev",
+            "url": "https://bostonopen.dev/"
+          },
+          "about": {
+            "@id": "https://bostonopen.dev/porchfest/woburn/2026/#event"
+          },
+          "primaryImageOfPage": "https://bostonopen.dev/porchfest/woburn/2026/og.jpg",
+          "breadcrumb": {
+            "@id": "https://bostonopen.dev/porchfest/woburn/2026/#breadcrumb"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://bostonopen.dev/porchfest/woburn/2026/#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Porchfest maps",
+              "item": "https://bostonopen.dev/porchfest/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Woburn Porchfest 2026",
+              "item": "https://bostonopen.dev/porchfest/woburn/2026/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+    <script>
+      window.TOWN = {
+        name: "Woburn Porchfest 2026",
+        date: "2026-10-10",          // festival day, Boston time
+        dateLabel: "Sat, Oct 10, 2026",
+        center: [42.4815, -71.1534],  // map start point before it zooms to fit the porches
+        zoom: 14,
+        addressSuffix: /,\s*Woburn,\s*MA\s*$/i,  // trimmed from addresses in the list
+      }
+    </script>
+    <!-- ===== End of town settings ===== -->
+
+    <meta name="theme-color" content="#1b2a3a" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8E%B8%3C/text%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://unpkg.com" crossorigin />
+    <link rel="preconnect" href="https://tiles.openfreemap.org" crossorigin />
+
+    <!-- Map libraries (same as before, now pinned to exact versions). The map CSS
+         loads without blocking, and the big MapLibre script loads after the schedule
+         is on screen (see loadBasemap below). -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" media="print" onload="this.media='all'" />
+    <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.24.0/dist/maplibre-gl.css" media="print" onload="this.media='all'" />
+    <script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script defer src="data.js"></script>
+
+    <style>
+      :root {
+        --ink: #1b2a3a;
+        --ink-2: #374151;
+        --muted: #4b5563;
+        --line: #e5e7eb;
+        --bg: #ffffff;
+        --soft: #f6f4f0;
+        --accent: #b93d0b;      /* 5.6:1 on white */
+        --accent-ink: #ffffff;
+        --focus: #1d4ed8;
+        --now: #15803d;
+        --upcoming: #2563eb;
+        --past: #7c6f9b;
+        --head-h: 120px;        /* kept in sync by JS */
+        --sheet-h: 36vh;        /* kept in sync by JS */
+        --radius: 12px;
+        --tap: 44px;
+      }
+      *, *::before, *::after { box-sizing: border-box; }
+      html, body { height: 100%; }
+      body {
+        margin: 0;
+        font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+        font-size: 16px;
+        line-height: 1.4;
+        color: var(--ink);
+        background: var(--bg);
+        -webkit-text-size-adjust: 100%;
+      }
+      a { color: #1d4ed8; }
+      button, input, select { font: inherit; color: inherit; }
+      :focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+      .vh {
+        position: absolute !important; width: 1px; height: 1px; padding: 0; margin: -1px;
+        overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+      }
+      .skip {
+        position: absolute; left: 8px; top: -100px; z-index: 3000;
+        padding: 10px 14px; border-radius: 8px; background: var(--ink); color: #fff; font-weight: 600;
+      }
+      .skip:focus { top: 8px; }
+
+      /* ---------- Layout: desktop = sidebar + map ---------- */
+      .app {
+        height: 100vh;
+        height: 100dvh;
+        display: grid;
+        grid-template-columns: minmax(340px, 420px) 1fr;
+        grid-template-rows: auto minmax(0, 1fr);
+        grid-template-areas: "head map" "list map";
+        overflow: hidden;
+      }
+      .head { grid-area: head; z-index: 2; background: var(--bg); border-right: 1px solid var(--line); }
+      .sheet { grid-area: list; min-height: 0; display: flex; flex-direction: column; background: var(--bg); border-right: 1px solid var(--line); }
+      .map-wrap { grid-area: map; position: relative; min-height: 0; background: #e8eef2; }
+      #map { position: absolute; inset: 0; }
+
+      /* ---------- Header ---------- */
+      .topbar {
+        display: flex; align-items: center; gap: 10px;
+        padding: 10px 12px;
+        padding-top: max(10px, env(safe-area-inset-top));
+        background: var(--ink); color: #fff;
+      }
+      .home {
+        flex: 0 0 auto; display: inline-flex; align-items: center; justify-content: center;
+        min-width: var(--tap); min-height: var(--tap); border-radius: 10px;
+        color: #fff; text-decoration: none; font-size: 22px;
+      }
+      .home:hover { background: rgba(255,255,255,.12); }
+      .home:focus-visible, .icon-btn:focus-visible { outline-color: #fff; }
+      .titles { flex: 1 1 auto; min-width: 0; }
+      .titles h1 { margin: 0; font-size: 1.15rem; line-height: 1.2; letter-spacing: -0.01em; }
+      .dateline { margin: 2px 0 0; font-size: .85rem; color: #e5e7eb; }
+      .icon-btn {
+        flex: 0 0 auto; min-width: var(--tap); min-height: var(--tap);
+        padding: 0 12px; border-radius: 10px; border: 1px solid rgba(255,255,255,.35);
+        background: transparent; color: #fff; cursor: pointer; font-weight: 600; font-size: .9rem;
+      }
+      .icon-btn:hover { background: rgba(255,255,255,.12); }
+
+      .search { display: flex; gap: 8px; padding: 10px 12px 8px; }
+      .search-field { position: relative; flex: 1 1 auto; }
+      .search-field svg { position: absolute; left: 12px; top: 50%; transform: translateY(-50%); pointer-events: none; color: var(--muted); }
+      .search input {
+        width: 100%; min-height: var(--tap); padding: 8px 12px 8px 38px;
+        border: 1px solid #9ca3af; border-radius: 10px; background: #fff; font-size: 16px;
+      }
+      .search input:focus-visible { outline-offset: 0; border-color: var(--focus); }
+      .btn {
+        display: inline-flex; align-items: center; justify-content: center; gap: 6px;
+        min-height: var(--tap); padding: 8px 14px; border-radius: 10px;
+        border: 1px solid #9ca3af; background: #fff; cursor: pointer; font-weight: 600; white-space: nowrap;
+      }
+      .btn:hover { background: var(--soft); }
+      .btn-primary { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+      .btn-primary:hover { background: #9a3412; }
+      .btn-small { min-height: 36px; padding: 6px 12px; font-size: .9rem; }
+      .badge-count { display: inline-block; min-width: 20px; padding: 0 6px; border-radius: 999px; background: var(--accent); color: #fff; font-size: .8rem; line-height: 20px; }
+      .badge-count:empty { display: none; }
+      #filters-toggle { display: none; }
+
+      .when-row { padding: 0 12px 10px; }
+      .filters { padding: 0 12px 12px; display: grid; gap: 10px; }
+      .nw { white-space: nowrap; }
+      .head fieldset { margin: 0; padding: 0; border: 0; min-width: 0; }
+      .head legend, .field-label { padding: 0; margin: 0 0 4px; font-size: .8rem; font-weight: 700; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); }
+      .seg { display: flex; border: 1px solid #9ca3af; border-radius: 10px; overflow: hidden; }
+      .seg label { flex: 1 1 0; position: relative; }
+      .seg input { position: absolute; opacity: 0; inset: 0; margin: 0; cursor: pointer; }
+      .seg span {
+        display: flex; align-items: center; justify-content: center; text-align: center;
+        min-height: var(--tap); padding: 6px 8px; font-size: .92rem; font-weight: 600; cursor: pointer;
+      }
+      .seg label + label span { border-left: 1px solid #9ca3af; }
+      .seg input:checked + span { background: var(--ink); color: #fff; }
+      .seg input:focus-visible + span { outline: 3px solid var(--focus); outline-offset: -3px; }
+      .row { display: flex; gap: 10px; align-items: end; flex-wrap: wrap; }
+      .row > div { flex: 1 1 160px; min-width: 0; }
+      select {
+        width: 100%; min-height: var(--tap); padding: 8px 10px; border: 1px solid #9ca3af; border-radius: 10px; background: #fff;
+      }
+      .check { display: inline-flex; align-items: center; gap: 10px; min-height: var(--tap); cursor: pointer; font-size: .95rem; }
+      .check input { width: 22px; height: 22px; margin: 0; accent-color: var(--ink); }
+      .note { margin: 0; padding: 8px 10px; border-radius: 8px; background: #fef3c7; color: #713f12; font-size: .9rem; }
+      .note[hidden] { display: none; }
+
+      /* Time window: two range inputs over one track (from Phil's original) */
+      .time-window[hidden] { display: none; }
+      .time-window { display: grid; gap: 6px; }
+      .time-readout { display: flex; justify-content: space-between; font-size: .95rem; font-weight: 600; font-variant-numeric: tabular-nums; }
+      .dual-slider { position: relative; height: 36px; }
+      .dual-slider .slider-track, .dual-slider .slider-range {
+        position: absolute; top: 50%; transform: translateY(-50%); height: 6px; border-radius: 999px;
+      }
+      .dual-slider .slider-track { left: 0; right: 0; background: #cbd2d9; }
+      .dual-slider .slider-range { background: var(--ink); cursor: grab; touch-action: none; }
+      .dual-slider .slider-range::after { content: ''; position: absolute; left: 0; right: 0; top: -12px; bottom: -12px; }
+      .dual-slider.dragging .slider-range { cursor: grabbing; }
+      .dual-slider input[type="range"] {
+        position: absolute; left: 0; top: 0; width: 100%; height: 100%; margin: 0;
+        background: transparent; pointer-events: none; -webkit-appearance: none; appearance: none;
+      }
+      .dual-slider input[type="range"]::-webkit-slider-runnable-track { height: 6px; background: transparent; }
+      .dual-slider input[type="range"]::-moz-range-track { height: 6px; background: transparent; }
+      .dual-slider input[type="range"]::-webkit-slider-thumb {
+        -webkit-appearance: none; appearance: none; width: 26px; height: 26px; margin-top: -10px;
+        border-radius: 50%; border: 3px solid var(--ink); background: #fff; pointer-events: auto; cursor: pointer;
+      }
+      .dual-slider input[type="range"]::-moz-range-thumb {
+        width: 20px; height: 20px; border-radius: 50%; border: 3px solid var(--ink); background: #fff; pointer-events: auto; cursor: pointer;
+      }
+      .dual-slider input[type="range"]:focus-visible { outline: none; }
+      .dual-slider input[type="range"]:focus-visible::-webkit-slider-thumb { box-shadow: 0 0 0 3px #fff, 0 0 0 6px var(--focus); }
+      .dual-slider input[type="range"]:focus-visible::-moz-range-thumb { box-shadow: 0 0 0 3px #fff, 0 0 0 6px var(--focus); }
+      .time-bounds { display: flex; justify-content: space-between; font-size: .8rem; color: var(--muted); }
+      .time-actions { display: flex; gap: 8px; }
+
+      /* ---------- Results list ---------- */
+      .sheet-handle { display: none; }
+      .results-scroll { flex: 1 1 auto; min-height: 0; overflow-y: auto; overscroll-behavior: contain; -webkit-overflow-scrolling: touch; }
+      .intro { margin: 0; padding: 12px 14px 4px; color: var(--ink-2); font-size: .95rem; }
+      .intro a { font-weight: 600; }
+      .legend { display: flex; flex-wrap: wrap; gap: 4px 14px; margin: 0; padding: 6px 14px; list-style: none; font-size: .85rem; color: var(--muted); }
+      .legend li { display: inline-flex; align-items: center; gap: 6px; }
+      .dot { width: 12px; height: 12px; border-radius: 50%; display: inline-block; border: 2px solid #fff; box-shadow: 0 0 0 1px rgba(0,0,0,.25); }
+      .dot-now { background: var(--now); } .dot-upcoming { background: var(--upcoming); } .dot-past { background: var(--past); }
+      .results-head { position: sticky; top: 0; z-index: 3; display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 8px 14px; background: rgba(255,255,255,.96); border-bottom: 1px solid var(--line); }
+      .results-head h2 { margin: 0; font-size: 1rem; }
+      .results-head .sub { display: block; font-weight: 400; font-size: .85rem; color: var(--muted); }
+      #clear-filters[hidden] { display: none; }
+      .hours, .gigs { margin: 0; padding: 0; list-style: none; }
+      .hour > h3 {
+        margin: 0; padding: 10px 14px 4px; font-size: .8rem; text-transform: uppercase; letter-spacing: .05em; color: var(--muted);
+      }
+      .gig { border-bottom: 1px solid #eef0f2; }
+      .gig summary {
+        display: grid; grid-template-columns: 5.6rem 1fr auto; gap: 2px 10px; align-items: baseline;
+        padding: 10px 14px; min-height: var(--tap); cursor: pointer; list-style: none;
+      }
+      .gig summary::-webkit-details-marker { display: none; }
+      .gig summary:hover { background: var(--soft); }
+      .gig summary:focus-visible { outline-offset: -3px; }
+      .g-time { grid-row: span 2; font-size: .9rem; color: var(--ink-2); font-variant-numeric: tabular-nums; }
+      .g-name { font-weight: 700; color: var(--ink); overflow-wrap: anywhere; }
+      .g-where { grid-column: 2; font-size: .88rem; color: var(--muted); overflow-wrap: anywhere; }
+      .g-flag { grid-column: 3; grid-row: 1; font-size: .75rem; font-weight: 700; padding: 1px 8px; border-radius: 999px; background: #dcfce7; color: #14532d; white-space: nowrap; }
+      .g-flag:empty { display: none; }
+      .gig.is-past .g-name, .gig.is-past .g-time { color: var(--muted); }
+      .gig-more { padding: 0 14px 14px calc(5.6rem + 24px); font-size: .93rem; color: var(--ink-2); }
+      .gig-more p { margin: 0 0 8px; }
+      .gig-more img { display: block; max-width: 100%; max-height: 200px; margin: 0 0 8px; border-radius: 8px; object-fit: cover; }
+      .gig-links { display: flex; flex-wrap: wrap; gap: 4px 14px; margin: 0 0 10px; }
+      .gig-links a { display: inline-block; padding: 4px 0; }
+      .empty { padding: 20px 14px; color: var(--muted); }
+      .credit { margin: 0; padding: 14px; font-size: .8rem; color: var(--muted); }
+      .results-scroll:not(.is-ready) .credit { display: none; } /* avoids a layout shift while the list builds */
+
+      /* ---------- Map bits ---------- */
+      .porch-marker-icon { background: transparent; border: none; display: flex !important; align-items: center; justify-content: center; }
+      .porch-marker-shape { border: 2px solid rgba(255,255,255,.95); box-shadow: 0 0 0 1px rgba(0,0,0,.25); }
+      .porch-marker-icon.is-active .porch-marker-shape { box-shadow: 0 0 0 3px var(--ink); }
+      .porch-status-tooltip {
+        background: #fff; border: 1px solid var(--now); color: var(--ink); font-size: 12px; font-weight: 600;
+        padding: 2px 8px; border-radius: 999px; box-shadow: 0 1px 4px rgba(0,0,0,.18);
+      }
+      .porch-status-tooltip::before { border-top-color: var(--now); }
+      .leaflet-popup-content { margin: 12px 14px; font-size: 14px; line-height: 1.4; }
+      .leaflet-popup-content h3 { margin: 0 0 6px; font-size: 15px; }
+      .popup-line { display: flex; gap: 8px; align-items: baseline; margin-top: 4px; }
+      .popup-line .dot { flex: 0 0 auto; width: 10px; height: 10px; transform: translateY(1px); }
+      .popup-time { flex: 0 0 auto; font-variant-numeric: tabular-nums; color: var(--ink-2); min-width: 4.5rem; }
+      .leaflet-container a.leaflet-popup-close-button { width: 32px; height: 32px; font-size: 22px; line-height: 30px; }
+      .leaflet-bar a { width: 36px; height: 36px; line-height: 36px; }
+      .locate-btn { width: 36px; height: 36px; border: 0; background: #fff; cursor: pointer; display: flex; align-items: center; justify-content: center; border-radius: 4px; }
+      .locate-btn:hover { background: #f4f4f4; }
+      .leaflet-control-attribution { font-size: 11px; }
+      .leaflet-container .leaflet-control-attribution a { color: #1d4ed8; }
+
+      /* ---------- About dialog ---------- */
+      dialog {
+        width: min(560px, calc(100vw - 24px)); max-height: calc(100dvh - 24px); padding: 0;
+        border: 0; border-radius: var(--radius); box-shadow: 0 20px 60px rgba(0,0,0,.35); color: var(--ink);
+      }
+      dialog::backdrop { background: rgba(15, 23, 42, .55); }
+      .dialog-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 14px 16px; border-bottom: 1px solid var(--line); }
+      .dialog-head h2 { margin: 0; font-size: 1.1rem; }
+      .dialog-body { padding: 4px 16px 16px; }
+      .dialog-body h3 { margin: 16px 0 4px; font-size: 1rem; }
+      .dialog-body p, .dialog-body ul { margin: 6px 0; }
+      .close-btn { min-width: var(--tap); min-height: var(--tap); border: 0; border-radius: 10px; background: transparent; font-size: 26px; line-height: 1; cursor: pointer; }
+      .close-btn:hover { background: var(--soft); }
+
+      /* ---------- Phone layout: full-screen map, list in a bottom sheet ----------
+         Also used for short landscape phones. Keep in sync with phoneQuery in JS. */
+      @media (max-width: 767px), (max-height: 500px) {
+        .app { display: block; position: relative; }
+        .map-wrap { position: absolute; inset: 0; }
+        .head {
+          position: absolute; top: 0; left: 0; right: 0; z-index: 1100;
+          border-right: 0; box-shadow: 0 2px 10px rgba(0,0,0,.18);
+          max-height: 75dvh; overflow-y: auto;
+        }
+        .topbar { padding: 6px 8px; padding-top: max(6px, env(safe-area-inset-top)); gap: 6px; }
+        .titles h1 { font-size: 1.02rem; }
+        .dateline { font-size: .8rem; }
+        .search { padding: 8px 10px; }
+        #filters-toggle { display: inline-flex; }
+        .filters { padding: 0 10px 10px; }
+        .when-row { padding: 0 10px 8px; }
+        .when-row legend { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+        .intro { padding-top: 4px; font-size: .88rem; }
+        .legend { padding-top: 2px; font-size: .8rem; }
+        .filters:not(.is-open) { display: none; }
+        .sheet {
+          position: absolute; left: 0; right: 0; bottom: 0; z-index: 1200;
+          height: var(--sheet-h); border-right: 0; border-radius: 16px 16px 0 0;
+          box-shadow: 0 -6px 24px rgba(0,0,0,.22); overflow: hidden;
+          transition: height .24s ease;
+        }
+        .sheet.is-dragging { transition: none; }
+        .sheet-handle {
+          display: flex; flex: 0 0 auto; flex-direction: column; align-items: center; gap: 4px;
+          width: 100%; min-height: 52px; padding: 8px 12px; border: 0; background: transparent;
+          cursor: pointer; touch-action: none; user-select: none; -webkit-user-select: none; -webkit-tap-highlight-color: transparent;
+        }
+        .sheet-handle:focus-visible { outline-offset: -4px; }
+        .sheet-grip { width: 44px; height: 5px; border-radius: 999px; background: #9ca3af; }
+        .sheet-title { font-size: .92rem; font-weight: 700; color: var(--ink); }
+        .results-scroll { padding-bottom: env(safe-area-inset-bottom); }
+        .sheet.is-collapsed .results-scroll { visibility: hidden; }
+        .gig summary { grid-template-columns: 5rem 1fr auto; }
+        .gig-more { padding-left: 14px; }
+        .leaflet-top { top: var(--head-h); }
+        .leaflet-bottom { bottom: var(--sheet-h); }
+        .porch-status-tooltip { max-width: 44vw; overflow: hidden; text-overflow: ellipsis; }
+      }
+
+      /* Short landscape phones: put search and "When" side by side. */
+      @media (max-height: 500px) and (min-width: 600px) {
+        .head { display: grid; grid-template-columns: 1fr 1fr; align-items: center; }
+        .topbar, .filters { grid-column: 1 / -1; }
+        .when-row { padding: 8px 10px; }
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        *, *::before, *::after { transition: none !important; animation: none !important; scroll-behavior: auto !important; }
+      }
+      @media (forced-colors: active) {
+        .seg input:checked + span { outline: 2px solid CanvasText; }
+        .dot { forced-color-adjust: none; }
+      }
+    </style>
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to the schedule</a>
+    <div class="app">
+      <header class="head" id="head">
+        <div class="topbar">
+          <a class="home" href="../../" aria-label="All Porchfest maps"><span aria-hidden="true">←</span></a>
+          <div class="titles">
+            <!-- Town header -->
+            <h1>Woburn Porchfest 2026</h1>
+            <p class="dateline"><span class="nw"><time datetime="2026-10-10T12:00:00-04:00">Sat, Oct 10, 2026</time></span> · <span class="nw">12 PM – 7 PM</span> · Free</p>
+            <!-- End town header -->
+          </div>
+          <button class="icon-btn" id="about-open" type="button" aria-haspopup="dialog">About</button>
+        </div>
+        <form class="search" role="search" id="search-form" aria-label="Search the schedule">
+          <div class="search-field">
+            <label for="q" class="vh">Search bands, genres or streets</label>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+            <input id="q" type="search" placeholder="Search bands, genres, streets" autocomplete="off" enterkeyhint="search" />
+          </div>
+          <button class="btn" id="filters-toggle" type="button" aria-expanded="false" aria-controls="filters">
+            Filters <span class="badge-count" id="filters-count"></span>
+          </button>
+        </form>
+        <div class="when-row">
+            <fieldset>
+              <legend>When</legend>
+              <div class="seg">
+                <label><input type="radio" name="when" value="all" checked /><span>All day</span></label>
+                <label><input type="radio" name="when" value="now" /><span>Playing now</span></label>
+                <label><input type="radio" name="when" value="window" /><span>Pick a time</span></label>
+              </div>
+          </fieldset>
+        </div>
+        <div class="filters" id="filters">
+          <p class="note" id="when-note" role="status" hidden></p>
+          <div class="time-window" id="time-window" hidden>
+            <div class="time-readout" aria-hidden="true"><span id="start-readout"></span><span id="end-readout"></span></div>
+            <div class="dual-slider" id="time-slider">
+              <div class="slider-track"></div>
+              <div class="slider-range" id="time-range"></div>
+              <input id="start-time" type="range" step="10" aria-label="From" />
+              <input id="end-time" type="range" step="10" aria-label="Until" />
+            </div>
+            <div class="time-bounds" aria-hidden="true"><span id="min-label"></span><span id="max-label"></span></div>
+            <div class="time-actions">
+              <button class="btn btn-small btn-primary" id="play" type="button" aria-pressed="false">▶ Play the day</button>
+              <button class="btn btn-small" id="reset-time" type="button">Reset</button>
+            </div>
+          </div>
+          <div class="row">
+            <div id="genre-wrap">
+              <label class="field-label" for="genre">Genre</label>
+              <select id="genre"><option value="">All genres</option></select>
+            </div>
+          </div>
+          <label class="check"><input type="checkbox" id="in-view" checked /> Only list porches in the map view</label>
+        </div>
+      </header>
+
+      <main class="sheet" id="main" tabindex="-1" aria-labelledby="results-h">
+        <button class="sheet-handle" id="sheet-handle" type="button" aria-controls="results-scroll" aria-expanded="true">
+          <span class="sheet-grip" aria-hidden="true"></span>
+          <span class="sheet-title" id="sheet-title">Schedule</span>
+        </button>
+        <div class="results-scroll" id="results-scroll">
+          <!-- Town header -->
+          <p class="intro">Free live music on 25 porches across Woburn: 56 acts from 12 PM to 7 PM. For news, rain plans and changes, see the official site, <a href="https://woburnporchfest.com/">woburnporchfest.com</a>.</p>
+          <!-- End town header -->
+          <ul class="legend" aria-label="Map legend">
+            <li><span class="dot dot-now" aria-hidden="true"></span>Playing</li>
+            <li><span class="dot dot-upcoming" aria-hidden="true"></span>Coming up</li>
+            <li><span class="dot dot-past" aria-hidden="true"></span>Done</li>
+            <li>Wider marker = more sets</li>
+          </ul>
+          <div class="results-head">
+            <h2 id="results-h">Schedule</h2>
+            <button class="btn btn-small" id="clear-filters" type="button" hidden>Clear filters</button>
+          </div>
+          <ul class="hours" id="results" role="list"></ul>
+          <noscript><p class="empty">The map and schedule need JavaScript. You can also check the official site linked above.</p></noscript>
+          <p class="credit">Made by volunteers at <a href="https://bostonopen.dev/">Boston Open Dev</a>. Times can change, so check the official site on the day. <a href="https://github.com/bostonopen/porchfest/issues">Report a problem</a>.</p>
+        </div>
+      </main>
+
+      <section class="map-wrap" aria-label="Map of porches">
+        <div id="map"></div>
+      </section>
+    </div>
+
+    <div class="vh" id="live" aria-live="polite" aria-atomic="true"></div>
+
+    <dialog id="about" aria-labelledby="about-h">
+      <div class="dialog-head">
+        <h2 id="about-h">About this map</h2>
+        <button class="close-btn" id="about-close" type="button" aria-label="Close"><span aria-hidden="true">×</span></button>
+      </div>
+      <div class="dialog-body">
+        <!-- Town header -->
+        <p>Woburn Porchfest 2026 is a free afternoon of live music on porches, yards and driveways around Woburn. It takes place on Saturday, October 10, 2026, from 12 PM to 7 PM. This map lists 56 acts on 25 porches. The official site is <a href="https://woburnporchfest.com/">woburnporchfest.com</a>.</p>
+        <!-- End town header -->
+        <h3>How to use it</h3>
+        <ul>
+          <li>Search for a band, a genre or a street, or pick a genre.</li>
+          <li><strong>Playing now</strong> shows who is on right now. <strong>Pick a time</strong> lets you plan ahead; press <strong>Play the day</strong> to watch the afternoon unfold.</li>
+          <li>The list follows the map: zoom in on your neighborhood to see what is nearby, or turn off “Only list porches in the map view”.</li>
+          <li>Open a set in the list and choose <strong>Show on map</strong>. Tap a marker to see everything at that porch.</li>
+          <li>On a phone, drag or tap the bar above the list to make it bigger or smaller.</li>
+        </ul>
+        <h3>Colors</h3>
+        <p>Green markers are playing at the chosen time, blue are coming up and purple are done. Wider markers have more sets.</p>
+        <p>Schedule data comes from the festival's official map. Found a mistake? <a href="https://github.com/bostonopen/porchfest/issues">Report it on GitHub</a>.</p>
+      </div>
+    </dialog>
+
+    <script>
+      window.addEventListener('DOMContentLoaded', function () {
+        'use strict'
+        const T = window.TOWN
+        const $ = (id) => document.getElementById(id)
+        const esc = (v) => String(v == null ? '' : v).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]))
+        const clamp = (v, lo, hi) => Math.min(hi, Math.max(lo, v))
+        const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)')
+        // Must match the media query for the phone layout in the stylesheet.
+        const phoneQuery = window.matchMedia('(max-width: 767px), (max-height: 500px)')
+        const colors = { now: '#15803d', upcoming: '#2563eb', past: '#7c6f9b' }
+
+        // ---------- Time helpers (minutes since midnight, festival time) ----------
+        function fmt(total) {
+          const n = ((total % 1440) + 1440) % 1440
+          const h = Math.floor(n / 60), m = n % 60
+          return `${h % 12 || 12}${m ? ':' + String(m).padStart(2, '0') : ''} ${h < 12 ? 'AM' : 'PM'}`
+        }
+        const fmtRange = (a, b) => `${fmt(a)} – ${fmt(b)}`
+        // The festival runs on Boston time, whatever the visitor's clock says.
+        function bostonNow() {
+          const override = new URLSearchParams(location.search).get('now') // e.g. ?now=14:30 for testing
+          const parts = Object.fromEntries(new Intl.DateTimeFormat('en-CA', {
+            timeZone: 'America/New_York', year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', hourCycle: 'h23',
+          }).formatToParts(new Date()).map((p) => [p.type, p.value]))
+          let minutes = Number(parts.hour) * 60 + Number(parts.minute)
+          let isFestivalDay = `${parts.year}-${parts.month}-${parts.day}` === T.date
+          if (override && /^\d{1,2}:\d{2}$/.test(override)) {
+            const [h, m] = override.split(':').map(Number)
+            minutes = h * 60 + m
+            isFestivalDay = true
+          }
+          return { minutes, isFestivalDay }
+        }
+
+        // ---------- Genres: map messy free text onto a short, fixed list ----------
+        const GENRES = [
+          ['Rock', /\brock|\broc\b|grunge|alternative|\balt\b/i],
+          ['Indie', /indie/i],
+          ['Pop', /\bpop|\bpo\b/i],
+          ['Folk', /folk/i],
+          ['Americana & roots', /americana|\broots?\b/i],
+          ['Singer-songwriter', /singer|songwrit|acoustic/i],
+          ['Blues', /blues/i],
+          ['Jazz & swing', /jazz|\bjaz\b|swing|big band|bossa/i],
+          ['Funk, soul & R&B', /funk|soul|\bsou\b|motown|r ?& ?b|rhythm and blues/i],
+          ['Country & bluegrass', /country|bluegrass/i],
+          ['Punk, metal & emo', /punk|metal|hardcore|\bemo\b|\bska\b|grindcore/i],
+          ['Hip-hop & rap', /hip.?hop|\brap\b/i],
+          ['Electronic, DJ & dance', /electro|\bdj\b|house music|\bhouse\b|\bedm\b|techno|dance|disco|synth/i],
+          ['Brass & marching', /brass|marching/i],
+          ['World & Latin', /world|\bworl\b|latin|brazil|choro|samba|salsa|cumbia|afro|reggae|celtic|irish|klezmer|balkan/i],
+          ['Classical', /classical|orchestra|string quartet|chamber music|opera/i],
+          ['Choir & a cappella', /a ?cappella|choir|chorus|choral|barbershop/i],
+          ['Kids & family', /\bkids?\b|kiddo|family|children/i],
+          ['Covers', /cover/i],
+        ]
+        function genresFor(band) {
+          const own = [band.genre, band.other_genre].filter(Boolean).join(' ')
+          const text = own || band.description || ''
+          return GENRES.filter(([, re]) => re.test(text)).map(([name]) => name)
+        }
+
+        // ---------- Data (data.js format is unchanged: bands, porches, gigs) ----------
+        const shortAddress = (a) => String(a || '').replace(T.addressSuffix, '')
+        const allGigs = Object.keys(gigs)
+          .map((id) => ({ id, g: gigs[id] }))
+          .filter(({ g }) => g && g.bandid != null && g.porchid != null && bands[g.bandid] && porches[g.porchid])
+          .map(({ id, g }) => {
+            const band = bands[g.bandid], porch = porches[g.porchid]
+            const start = Number(g.starthour) * 60 + Number(g.startminute)
+            const end = start + (Number(g.duration) || 0)
+            const genres = genresFor(band)
+            const name = String(band.actname || 'Unknown act').trim()
+            return {
+              id, band, porch, porchid: g.porchid, start, end, name, genres,
+              latlng: L.latLng(Number(porch.lat), Number(porch.lng)),
+              where: shortAddress(porch.address),
+              text: [name, band.genre, band.other_genre, band.description, porch.address, genres.join(' ')].join(' ').toLowerCase(),
+            }
+          })
+          .sort((a, b) => a.start - b.start || a.name.localeCompare(b.name))
+        const gigsByPorch = {}
+        for (const g of allGigs) (gigsByPorch[g.porchid] = gigsByPorch[g.porchid] || []).push(g)
+        const dayMin = Math.min(...allGigs.map((g) => g.start))
+        const dayMax = Math.max(...allGigs.map((g) => g.end))
+        const maxPorchMinutes = Math.max(1, ...Object.values(gigsByPorch).map((l) => l.reduce((s, g) => s + (g.end - g.start), 0)))
+
+        // ---------- State ----------
+        const state = { q: '', genre: '', when: 'all', start: dayMin, end: dayMax, inView: true }
+        const el = {
+          q: $('q'), genre: $('genre'), inView: $('in-view'), results: $('results'), resultsH: $('results-h'),
+          sheet: $('main'), handle: $('sheet-handle'), sheetTitle: $('sheet-title'), head: $('head'),
+          start: $('start-time'), end: $('end-time'), range: $('time-range'), slider: $('time-slider'),
+          timeWindow: $('time-window'), whenNote: $('when-note'), play: $('play'), live: $('live'),
+          clear: $('clear-filters'), filters: $('filters'), filtersToggle: $('filters-toggle'), filtersCount: $('filters-count'),
+        }
+
+        // Genre menu: only genres that actually appear, biggest first.
+        const genreCounts = {}
+        for (const g of allGigs) for (const name of g.genres) genreCounts[name] = (genreCounts[name] || 0) + 1
+        const genreList = Object.entries(genreCounts).sort((a, b) => b[1] - a[1])
+        if (genreList.length < 2) {
+          $('genre-wrap').hidden = true
+        } else {
+          for (const [name, count] of genreList) {
+            const o = document.createElement('option')
+            o.value = name
+            o.textContent = `${name} (${count})`
+            el.genre.appendChild(o)
+          }
+        }
+
+        // ---------- Build the list once; filters only hide and show rows ----------
+        const rowById = {}
+        const hourGroups = []
+        function linkList(band) {
+          const fields = [['website', 'Website'], ['facebook', 'Facebook'], ['instagram', 'Instagram'], ['bandcamp', 'Bandcamp'], ['spotify', 'Spotify'], ['apple', 'Apple Music'], ['otheronline', 'More online']]
+          return fields
+            .filter(([f]) => band[f] && /^https?:\/\//i.test(String(band[f]).trim()))
+            .map(([f, label]) => `<a href="${esc(String(band[f]).trim())}" target="_blank" rel="noopener noreferrer">${label}<span class="vh"> for ${esc(band.actname)} (opens in a new tab)</span></a>`)
+            .join('')
+        }
+        function gigDetails(g) {
+          const b = g.band
+          const desc = String(b.description || '').trim()
+          const genreText = [b.genre, b.other_genre].filter(Boolean).join(' · ')
+          const img = String(b.image || '').trim()
+          const links = linkList(b)
+          return `
+            ${img && /^https?:\/\//i.test(img) ? `<img src="${esc(img)}" alt="" loading="lazy" referrerpolicy="no-referrer" />` : ''}
+            <p><strong>${esc(fmtRange(g.start, g.end))}</strong> at ${esc(g.porch.address)}</p>
+            ${genreText ? `<p>Genre: ${esc(genreText)}</p>` : ''}
+            ${desc ? `<p>${esc(desc)}</p>` : ''}
+            ${links ? `<div class="gig-links">${links}</div>` : ''}
+            <button class="btn btn-small" type="button" data-show="${esc(g.porchid)}">Show on map</button>`
+        }
+        ;(function buildList() {
+          const frag = document.createDocumentFragment()
+          let group = null
+          for (const g of allGigs) {
+            const hour = Math.floor(g.start / 60)
+            if (!group || group.hour !== hour) {
+              const li = document.createElement('li')
+              li.className = 'hour'
+              const h3Id = `hour-${hour}`
+              li.innerHTML = `<h3 id="${h3Id}">${fmt(hour * 60)}</h3><ul class="gigs" role="list" aria-labelledby="${h3Id}"></ul>`
+              group = { hour, li, ul: li.querySelector('ul'), rows: [] }
+              hourGroups.push(group)
+              frag.appendChild(li)
+            }
+            const row = document.createElement('li')
+            row.className = 'gig'
+            row.dataset.gig = g.id
+            row.innerHTML = `<details><summary><span class="g-time">${esc(fmt(g.start))}<span class="vh"> to ${esc(fmt(g.end))}</span></span><span class="g-name">${esc(g.name)}</span><span class="g-where">${esc(g.where)}${g.genres.length ? ' · ' + esc(g.genres.slice(0, 2).join(', ')) : ''}</span><span class="g-flag"></span></summary><div class="gig-more"></div></details>`
+            const details = row.firstChild
+            details.addEventListener('toggle', () => {
+              const more = row.querySelector('.gig-more')
+              if (details.open && !more.dataset.filled) {
+                more.innerHTML = gigDetails(g)
+                more.dataset.filled = '1'
+              }
+              if (details.open) highlightPorch(g.porchid)
+            })
+            g.row = row
+            g.flag = row.querySelector('.g-flag')
+            rowById[g.id] = g
+            group.rows.push(g)
+            group.ul.appendChild(row)
+          }
+          el.results.appendChild(frag)
+          const empty = document.createElement('li')
+          empty.className = 'empty'
+          empty.id = 'empty'
+          empty.hidden = true
+          el.results.appendChild(empty)
+        })()
+
+        el.results.addEventListener('click', (e) => {
+          const btn = e.target.closest('[data-show]')
+          if (btn) showPorch(btn.dataset.show)
+        })
+
+        // ---------- Map ----------
+        // The map starts right after the list has painted (see "Start" below).
+        let map = null
+        let defaultAttributionPrefix = null
+        let youAreHere = null
+        const markers = {}
+        function shapeSize(porchid, state) {
+          const count = (gigsByPorch[porchid] || []).length
+          const size = state === 'now' ? 18 : 15
+          const width = count > 1 ? Math.round(size * Math.min(2.2, 1.2 + (count - 1) * 0.22)) : size
+          return { width, height: size, round: count > 1 ? '999px' : '50%' }
+        }
+        function loadScript(src) {
+          return new Promise((resolve, reject) => {
+            const tag = document.createElement('script')
+            tag.src = src
+            tag.onload = resolve
+            tag.onerror = reject
+            document.head.appendChild(tag)
+          })
+        }
+        function loadBasemap() {
+          loadScript('https://unpkg.com/maplibre-gl@5.24.0/dist/maplibre-gl.js')
+            .then(() => loadScript('https://unpkg.com/@maplibre/maplibre-gl-leaflet@0.1.4/leaflet-maplibre-gl.js'))
+            .then(() => { L.maplibreGL({ style: 'https://tiles.openfreemap.org/styles/liberty' }).addTo(map) })
+            .catch(() => announce('The street map could not load. The list still works.'))
+        }
+        function initMap() {
+        map = L.map('map', {
+          zoomAnimation: !reduceMotion.matches,
+          fadeAnimation: !reduceMotion.matches,
+          markerZoomAnimation: !reduceMotion.matches,
+          keyboard: true,
+          zoomSnap: 0.25,
+          zoomDelta: 0.5,
+        }).setView(T.center, T.zoom)
+        map.getContainer().setAttribute('aria-label', 'Map of porches. Use arrow keys to pan and plus or minus to zoom. The list has the same information.')
+        loadBasemap()
+        defaultAttributionPrefix = map.attributionControl.options.prefix
+
+        // "Near me" button
+        const Locate = L.Control.extend({
+          options: { position: 'topright' },
+          onAdd() {
+            const wrap = L.DomUtil.create('div', 'leaflet-bar leaflet-control')
+            wrap.innerHTML = '<button type="button" class="locate-btn" aria-label="Show where I am" title="Show where I am"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/></svg></button>'
+            L.DomEvent.disableClickPropagation(wrap)
+            wrap.querySelector('button').addEventListener('click', () => {
+              map.locate({ setView: true, maxZoom: 16 })
+            })
+            return wrap
+          },
+        })
+        new Locate().addTo(map)
+        map.on('locationfound', (e) => {
+          if (youAreHere) youAreHere.remove()
+          youAreHere = L.circleMarker(e.latlng, { radius: 8, color: '#fff', weight: 3, fillColor: '#1d4ed8', fillOpacity: 1, interactive: false }).addTo(map)
+          announce('Map moved to your location.')
+        })
+        map.on('locationerror', () => announce('Could not get your location.'))
+
+        for (const porchid of Object.keys(gigsByPorch)) {
+          const porch = porches[porchid]
+          const marker = L.marker([Number(porch.lat), Number(porch.lng)], {
+            keyboard: false, // keyboard and screen reader users get the same info from the list
+            icon: L.divIcon({ className: 'porch-marker-icon', html: '<div class="porch-marker-shape"></div>', iconSize: [36, 28], iconAnchor: [18, 14], popupAnchor: [0, -10] }),
+          })
+          marker.bindPopup(() => renderPopup(porchid), { maxWidth: 300 })
+          marker.addTo(map)
+          const icon = marker.getElement()
+          if (icon) icon.setAttribute('aria-hidden', 'true')
+          markers[porchid] = { marker, shown: true, state: null, label: '' }
+        }
+        }
+
+        function porchStateAt(porchid, ref) {
+          const list = gigsByPorch[porchid] || []
+          if (ref == null) return { state: 'upcoming', playing: null }
+          const playing = list.find((g) => g.start <= ref && g.end > ref) || null
+          if (playing) return { state: 'now', playing }
+          return { state: list.some((g) => g.end > ref) ? 'upcoming' : 'past', playing: null }
+        }
+        function renderPopup(porchid) {
+          const ref = refMinute()
+          const list = gigsByPorch[porchid] || []
+          const lines = list.map((g) => {
+            const st = ref == null ? 'upcoming' : g.start <= ref && g.end > ref ? 'now' : g.end <= ref ? 'past' : 'upcoming'
+            const label = { now: 'playing', upcoming: 'coming up', past: 'done' }[st]
+            return `<div class="popup-line"><span class="dot dot-${st}" role="img" aria-label="${label}"></span><span class="popup-time">${esc(fmt(g.start))}</span><span>${esc(g.name)}</span></div>`
+          }).join('')
+          return `<h3>${esc(shortAddress(porches[porchid].address))}</h3>${lines || '<p>No listed performances.</p>'}`
+        }
+        function paintMarker(porchid, ref) {
+          const m = markers[porchid]
+          const { state, playing } = porchStateAt(porchid, ref)
+          const shape = m.marker.getElement() && m.marker.getElement().querySelector('.porch-marker-shape')
+          if (shape && m.state !== state) {
+            const s = shapeSize(porchid, state)
+            const total = (gigsByPorch[porchid] || []).reduce((sum, g) => sum + (g.end - g.start), 0)
+            shape.style.width = `${s.width}px`
+            shape.style.height = `${s.height}px`
+            shape.style.borderRadius = s.round
+            shape.style.backgroundColor = colors[state]
+            shape.style.opacity = String(0.45 + 0.55 * (total / maxPorchMinutes))
+            if (state === 'now') m.marker.setZIndexOffset(1000)
+            else m.marker.setZIndexOffset(0)
+          }
+          m.state = state
+          const label = playing ? `${fmt(playing.start)}: ${playing.name}` : ''
+          if (label !== m.label) {
+            if (m.marker.getTooltip()) m.marker.unbindTooltip()
+            if (label) {
+              m.marker.bindTooltip(esc(label), { permanent: true, direction: 'top', offset: [0, -10], className: 'porch-status-tooltip' })
+            }
+            m.label = label
+          }
+        }
+        let activePorch = null
+        function highlightPorch(porchid) {
+          if (activePorch && markers[activePorch]) {
+            const e = markers[activePorch].marker.getElement()
+            if (e) e.classList.remove('is-active')
+          }
+          activePorch = porchid
+          const e = markers[porchid] && markers[porchid].marker.getElement()
+          if (e) e.classList.add('is-active')
+        }
+        function showPorch(porchid) {
+          const m = markers[porchid]
+          if (!m) return
+          if (!m.shown) { m.marker.addTo(map); m.shown = true }
+          highlightPorch(porchid)
+          if (phoneQuery.matches) setSheetStop('collapsed')
+          map.setView(m.marker.getLatLng(), Math.max(map.getZoom(), 16), { animate: !reduceMotion.matches })
+          m.marker.openPopup()
+        }
+
+        // ---------- Filtering ----------
+        function refMinute() {
+          if (state.when === 'now') return bostonNow().minutes
+          if (state.when === 'window') return state.start
+          return null
+        }
+        function timeOk(g) {
+          if (state.when === 'all') return true
+          if (state.when === 'now') { const n = bostonNow().minutes; return g.start <= n && g.end > n }
+          return g.end > state.start && g.start < state.end
+        }
+        function matchesWhat(g) {
+          if (state.genre && !g.genres.includes(state.genre)) return false
+          if (!state.q) return true
+          return state.q.split(/\s+/).every((word) => g.text.includes(word))
+        }
+        function activeFilterCount() {
+          return (state.q ? 1 : 0) + (state.genre ? 1 : 0) + (state.when !== 'all' ? 1 : 0)
+        }
+
+        let lastCount = null
+        function refresh({ markersToo = true, speak = false } = {}) {
+          const ref = refMinute()
+          const view = map ? map.getBounds() : null
+          const porchHasMatch = {}
+          let count = 0
+          for (const group of hourGroups) {
+            let shownInGroup = 0
+            for (const g of group.rows) {
+              const what = matchesWhat(g)
+              if (what) porchHasMatch[g.porchid] = true
+              const inView = !state.inView || !view || view.contains(g.latlng)
+              const show = what && timeOk(g) && inView
+              if (g.row.hidden === show) g.row.hidden = !show
+              if (show) {
+                shownInGroup += 1
+                const playing = ref != null && g.start <= ref && g.end > ref
+                const flag = playing ? (state.when === 'now' ? 'Playing now' : 'Playing') : ''
+                if (g.flag.textContent !== flag) g.flag.textContent = flag
+                g.row.classList.toggle('is-past', ref != null && g.end <= ref)
+              }
+            }
+            group.li.hidden = shownInGroup === 0
+            count += shownInGroup
+          }
+          if (markersToo && map) {
+            for (const porchid in markers) {
+              const m = markers[porchid]
+              const shouldShow = !!porchHasMatch[porchid]
+              if (shouldShow && !m.shown) { m.marker.addTo(map); m.shown = true; m.state = null; m.label = ''; const e = m.marker.getElement(); if (e) e.setAttribute('aria-hidden', 'true') }
+              if (!shouldShow && m.shown) { m.marker.remove(); m.shown = false }
+              if (shouldShow) paintMarker(porchid, ref)
+            }
+          }
+
+          const word = count === 1 ? 'set' : 'sets'
+          const parts = []
+          if (state.when === 'now') parts.push(`playing at ${fmt(bostonNow().minutes)}`)
+          if (state.when === 'window') parts.push(fmtRange(state.start, state.end))
+          if (state.genre) parts.push(state.genre)
+          if (state.q) parts.push(`matching “${el.q.value.trim()}”`)
+          if (state.inView && view) parts.push('in the map view')
+          el.resultsH.innerHTML = `${count} ${word}<span class="sub">${esc(parts.join(' · ') || 'All day')}</span>`
+          el.sheetTitle.textContent = `${count} ${word} · ${sheetStop === 'collapsed' ? 'show list' : 'hide list'}`
+
+          const empty = $('empty')
+          empty.hidden = count > 0
+          if (!count) {
+            empty.textContent = state.when === 'now' && !bostonNow().isFestivalDay
+              ? 'Nothing is playing at this time of day. Try “Pick a time” to plan ahead.'
+              : state.inView ? 'No sets here. Zoom out, move the map, or clear the filters.' : 'No sets match. Try clearing the filters.'
+          }
+          const n = activeFilterCount()
+          el.clear.hidden = n === 0
+          el.filtersCount.textContent = n ? String(n) : ''
+          el.filtersToggle.setAttribute('aria-label', n ? `Filters, ${n} on` : 'Filters')
+          if (speak && count !== lastCount) announce(`${count} ${word} ${parts.join(', ')}`)
+          lastCount = count
+        }
+
+        let announceTimer = null
+        function announce(text) {
+          clearTimeout(announceTimer)
+          announceTimer = setTimeout(() => { el.live.textContent = text }, 600)
+        }
+
+        // ---------- Controls ----------
+        $('search-form').addEventListener('submit', (e) => {
+          e.preventDefault()
+          if (phoneQuery.matches) { el.q.blur(); setSheetStop('peek') }
+        })
+        let searchTimer = null
+        el.q.addEventListener('input', () => {
+          clearTimeout(searchTimer)
+          searchTimer = setTimeout(() => {
+            state.q = el.q.value.trim().toLowerCase()
+            refresh({ speak: true })
+          }, 120)
+        })
+        el.genre.addEventListener('change', () => { state.genre = el.genre.value; refresh({ speak: true }) })
+        el.inView.addEventListener('change', () => { state.inView = el.inView.checked; refresh({ markersToo: false, speak: true }) })
+        for (const radio of document.querySelectorAll('input[name="when"]')) {
+          radio.addEventListener('change', () => {
+            if (!radio.checked) return
+            setWhen(radio.value)
+          })
+        }
+        function setWhen(value) {
+          state.when = value
+          stopPlay()
+          el.timeWindow.hidden = value !== 'window'
+          const note = el.whenNote
+          if (value === 'now') {
+            const now = bostonNow()
+            note.hidden = now.isFestivalDay
+            note.textContent = now.isFestivalDay ? '' : `Today isn't festival day (${T.dateLabel}). Showing who plays at ${fmt(now.minutes)} on that day.`
+          } else {
+            note.hidden = true
+            note.textContent = ''
+          }
+          refresh({ speak: true })
+          scheduleLayoutSync()
+        }
+        el.filtersToggle.addEventListener('click', () => {
+          const open = !el.filters.classList.contains('is-open')
+          el.filters.classList.toggle('is-open', open)
+          el.filtersToggle.setAttribute('aria-expanded', String(open))
+          scheduleLayoutSync()
+        })
+        el.clear.addEventListener('click', () => {
+          el.q.value = ''
+          state.q = ''
+          el.genre.value = ''
+          state.genre = ''
+          document.querySelector('input[name="when"][value="all"]').checked = true
+          setWhen('all')
+          announce('Filters cleared.')
+        })
+
+        // Time window slider
+        for (const input of [el.start, el.end]) {
+          input.min = String(dayMin)
+          input.max = String(dayMax)
+        }
+        $('min-label').textContent = fmt(dayMin)
+        $('max-label').textContent = fmt(dayMax)
+        function setWindow(a, b, opts) {
+          state.start = clamp(a, dayMin, dayMax)
+          state.end = clamp(b, state.start, dayMax)
+          el.start.value = String(state.start)
+          el.end.value = String(state.end)
+          el.start.setAttribute('aria-valuetext', `From ${fmt(state.start)}`)
+          el.end.setAttribute('aria-valuetext', `Until ${fmt(state.end)}`)
+          $('start-readout').textContent = `From ${fmt(state.start)}`
+          $('end-readout').textContent = `until ${fmt(state.end)}`
+          const span = dayMax - dayMin || 1
+          el.range.style.left = `${((state.start - dayMin) / span) * 100}%`
+          el.range.style.right = `${100 - ((state.end - dayMin) / span) * 100}%`
+          refresh(opts)
+        }
+        el.start.addEventListener('input', () => {
+          stopPlay()
+          const a = Number(el.start.value)
+          const span = Math.max(10, state.end - state.start)
+          setWindow(a, a >= state.end ? Math.min(dayMax, a + span) : state.end)
+        })
+        el.end.addEventListener('input', () => {
+          stopPlay()
+          const b = Number(el.end.value)
+          const span = Math.max(10, state.end - state.start)
+          setWindow(b <= state.start ? Math.max(dayMin, b - span) : state.start, b)
+        })
+        for (const input of [el.start, el.end]) input.addEventListener('change', () => refresh({ speak: true }))
+
+        // Drag the filled part of the slider to move the whole window.
+        let drag = null
+        el.range.addEventListener('pointerdown', (e) => {
+          if (e.button !== 0) return
+          stopPlay()
+          drag = { id: e.pointerId, x: e.clientX, width: el.slider.getBoundingClientRect().width, a: state.start, b: state.end }
+          el.slider.classList.add('dragging')
+          el.range.setPointerCapture(e.pointerId)
+          e.preventDefault()
+        })
+        el.range.addEventListener('pointermove', (e) => {
+          if (!drag || drag.id !== e.pointerId || drag.width <= 0) return
+          const step = 10
+          const delta = Math.round((((e.clientX - drag.x) / drag.width) * (dayMax - dayMin)) / step) * step
+          const span = drag.b - drag.a
+          const a = clamp(drag.a + delta, dayMin, dayMax - span)
+          setWindow(a, a + span)
+        })
+        const endDrag = (e) => { if (drag && drag.id === e.pointerId) { drag = null; el.slider.classList.remove('dragging') } }
+        el.range.addEventListener('pointerup', endDrag)
+        el.range.addEventListener('pointercancel', endDrag)
+
+        let playTimer = null
+        function stopPlay() {
+          if (playTimer) { clearInterval(playTimer); playTimer = null }
+          el.play.textContent = '▶ Play the day'
+          el.play.setAttribute('aria-pressed', 'false')
+        }
+        el.play.addEventListener('click', () => {
+          if (playTimer) { stopPlay(); return }
+          let span = state.end - state.start
+          if (span <= 0 || span >= dayMax - dayMin) span = Math.min(60, dayMax - dayMin)
+          let a = state.end >= dayMax ? dayMin : state.start
+          setWindow(a, a + span)
+          el.play.textContent = '⏸ Pause'
+          el.play.setAttribute('aria-pressed', 'true')
+          playTimer = setInterval(() => {
+            if (state.end + 10 > dayMax) { stopPlay(); refresh({ speak: true }); return }
+            setWindow(state.start + 10, state.end + 10)
+          }, 800)
+        })
+        $('reset-time').addEventListener('click', () => { stopPlay(); setWindow(dayMin, Math.min(dayMax, dayMin + 60), { speak: true }) })
+
+        // About dialog
+        const about = $('about')
+        $('about-open').addEventListener('click', () => about.showModal())
+        $('about-close').addEventListener('click', () => about.close())
+        about.addEventListener('click', (e) => { if (e.target === about) about.close() })
+
+        // ---------- Bottom sheet (phone layout) ----------
+        const stops = ['collapsed', 'peek', 'expanded']
+        let sheetStop = 'peek'
+        let sheetDrag = null
+        let syncHandle = null
+        function heightFor(stop) {
+          const handleH = el.handle.offsetHeight || 52
+          if (stop === 'collapsed') return handleH
+          const avail = window.innerHeight
+          const max = Math.max(handleH, avail - el.head.offsetHeight - 12)
+          if (stop === 'expanded') return max
+          return clamp(Math.round(avail * 0.36), handleH, max)
+        }
+        function applySheet(h) {
+          el.sheet.style.height = `${h}px`
+          document.documentElement.style.setProperty('--sheet-h', `${h}px`)
+        }
+        function setSheetStop(stop) {
+          sheetStop = stop
+          el.handle.setAttribute('aria-expanded', String(stop !== 'collapsed'))
+          el.sheet.classList.toggle('is-collapsed', stop === 'collapsed')
+          const t = el.sheetTitle.textContent.replace(/ · (show|hide) list$/, '')
+          el.sheetTitle.textContent = `${t} · ${stop === 'collapsed' ? 'show list' : 'hide list'}`
+          if (phoneQuery.matches) applySheet(heightFor(stop))
+        }
+        function syncLayout() {
+          document.documentElement.style.setProperty('--head-h', `${el.head.offsetHeight}px`)
+          if (map) map.attributionControl.setPrefix(phoneQuery.matches ? false : defaultAttributionPrefix)
+          if (phoneQuery.matches) {
+            applySheet(heightFor(sheetStop))
+            L.Popup.prototype.options.autoPanPaddingTopLeft = L.point(12, el.head.offsetHeight + 12)
+            L.Popup.prototype.options.autoPanPaddingBottomRight = L.point(12, el.sheet.getBoundingClientRect().height + 12)
+          } else {
+            el.sheet.style.height = ''
+            el.sheet.classList.remove('is-collapsed')
+            document.documentElement.style.removeProperty('--sheet-h')
+            L.Popup.prototype.options.autoPanPaddingTopLeft = null
+            L.Popup.prototype.options.autoPanPaddingBottomRight = null
+          }
+          if (map) map.invalidateSize()
+        }
+        function scheduleLayoutSync() {
+          if (syncHandle !== null) return
+          syncHandle = requestAnimationFrame(() => { syncHandle = null; syncLayout() })
+        }
+        el.handle.addEventListener('pointerdown', (e) => {
+          if (!phoneQuery.matches || e.button !== 0) return
+          sheetDrag = { id: e.pointerId, y: e.clientY, h: el.sheet.getBoundingClientRect().height, moved: false }
+          el.sheet.classList.add('is-dragging')
+          el.handle.setPointerCapture(e.pointerId)
+        })
+        el.handle.addEventListener('pointermove', (e) => {
+          if (!sheetDrag || sheetDrag.id !== e.pointerId) return
+          const dy = sheetDrag.y - e.clientY
+          if (Math.abs(dy) > 4) sheetDrag.moved = true
+          el.sheet.classList.remove('is-collapsed')
+          applySheet(clamp(sheetDrag.h + dy, heightFor('collapsed'), heightFor('expanded')))
+        })
+        function endSheetDrag(e) {
+          if (!sheetDrag || sheetDrag.id !== e.pointerId) return
+          const h = el.sheet.getBoundingClientRect().height
+          const moved = sheetDrag.moved
+          sheetDrag = null
+          el.sheet.classList.remove('is-dragging')
+          if (moved) {
+            setSheetStop(stops.reduce((best, s) => Math.abs(heightFor(s) - h) < Math.abs(heightFor(best) - h) ? s : best, sheetStop))
+          } else {
+            setSheetStop(sheetStop === 'collapsed' ? 'peek' : sheetStop === 'peek' ? 'expanded' : 'collapsed')
+          }
+        }
+        el.handle.addEventListener('pointerup', endSheetDrag)
+        el.handle.addEventListener('pointercancel', endSheetDrag)
+        el.handle.addEventListener('click', (e) => {
+          if (e.detail !== 0) return // keyboard: Enter or Space
+          setSheetStop(sheetStop === 'collapsed' ? 'peek' : sheetStop === 'peek' ? 'expanded' : 'collapsed')
+        })
+        phoneQuery.addEventListener('change', scheduleLayoutSync)
+        window.addEventListener('resize', scheduleLayoutSync)
+        if (window.ResizeObserver) new ResizeObserver(scheduleLayoutSync).observe(el.head)
+
+        // ---------- Start ----------
+        // Paint the list first, then build the map in a separate task.
+        syncLayout()
+        setWindow(dayMin, Math.min(dayMax, dayMin + 60), { markersToo: false })
+        $('results-scroll').classList.add('is-ready')
+        setTimeout(() => {
+          initMap()
+          syncLayout()
+          const porchBounds = L.latLngBounds(Object.keys(gigsByPorch).map((id) => [Number(porches[id].lat), Number(porches[id].lng)]))
+          if (porchBounds.isValid()) {
+            const pad = phoneQuery.matches
+              ? { paddingTopLeft: [20, el.head.offsetHeight + 20], paddingBottomRight: [20, el.sheet.getBoundingClientRect().height + 20] }
+              : { padding: [30, 30] }
+            map.fitBounds(porchBounds, Object.assign({ maxZoom: 16, animate: false }, pad))
+          }
+          refresh()
+          let moveTimer = null
+          map.on('moveend', () => {
+            clearTimeout(moveTimer)
+            moveTimer = setTimeout(() => refresh({ markersToo: false }), 60)
+          })
+        }, 0)
+        // Keep "Playing now" current while the page stays open.
+        setInterval(() => { if (state.when === 'now') refresh() }, 60000)
+      })
+    </script>
+  </body>
+</html>

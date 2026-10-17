@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Woburn Porchfest 2026</name>
+    <description><![CDATA[Woburn Porchfest 2026 directory<br>]]></description>
+    <Style id="icon-seq2-0-0-0288D1-labelson">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-seq2-0-1-0288D1-labelson">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-seq2-0-10-0288D1-labelson">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-11.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-seq2-0-11-0288D1-labelson">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-12.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-seq2-0-12-0288D1-labelson">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-13.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-seq2-0-13-0288D1-labelson">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-14.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-seq2-0-14-0288D1-labelson">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-15.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-seq2-0-15-0288D1-labelson">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-16.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-seq2-0-16-0288D1-labelson">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-17.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-seq2-0-17-0288D1-labelson">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-18.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-seq2-0-18-0288D1-labelson">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-19.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-seq2-0-19-0288D1-labelson">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-20.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-seq2-0-2-0288D1-labelson">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-3.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-seq2-0-20-0288D1-labelson">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-21.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-seq2-0-21-0288D1-labelson">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-22.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-seq2-0-22-0288D1-labelson">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-23.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-seq2-0-23-0288D1-labelson">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-24.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-seq2-0-24-0288D1-labelson">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-25.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-seq2-0-3-0288D1-labelson">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-4.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-seq2-0-4-0288D1-labelson">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-5.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-seq2-0-5-0288D1-labelson">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-6.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-seq2-0-6-0288D1-labelson">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-7.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-seq2-0-7-0288D1-labelson">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-8.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-seq2-0-8-0288D1-labelson">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-9.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-seq2-0-9-0288D1-labelson">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-10.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="poly-000000-1200-0-nodesc-normal">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>00000000</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="poly-000000-1200-0-nodesc-highlight">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>00000000</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="poly-000000-1200-0-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-000000-1200-0-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-000000-1200-0-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>addresses</name>
+      <Placemark>
+        <name>Woburn Pocket Park</name>
+        <description><![CDATA[SUPPORTED BY THE FOX DEN!<br>LaFauci Faris Vogel - 12 :00- 2:00<br>Granic Fave - 2:00-4:00 <br>Rebecca Burke and Friends - 4:00 -6:00]]></description>
+        <styleUrl>#icon-seq2-0-0-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -71.151012,42.481529,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Woburn Public Library</name>
+        <description><![CDATA[Cliff and Carl - 12:00-1:30<br>Darlene - 1:30 – 3:00 <br>Chest - 3:00- 5:00]]></description>
+        <styleUrl>#icon-seq2-0-1-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -71.1545715,42.4791654,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Woburn Masonic Lodge</name>
+        <description><![CDATA[Buddy - 12:00-2:00<br>The Sweetway Devils - 2:00-400<br>Tokyo Tramps - 4:00-600]]></description>
+        <styleUrl>#icon-seq2-0-2-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -71.1563793,42.4762639,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>56 Prospect St</name>
+        <description>The Patch Notes - 3:00</description>
+        <styleUrl>#icon-seq2-0-3-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -71.1472608,42.4757138,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Scugnizzi Barbershop</name>
+        <description><![CDATA[DJ ABHM (90’s Hip Hop , R&B, House) - 12:00-4:00]]></description>
+        <styleUrl>#icon-seq2-0-4-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -71.1499923,42.4729758,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>70 Mt Pleasant St</name>
+        <description><![CDATA[The TBD Trio - 1:00-2:00<br>The Vertigo Trio, feat. vocalist Debbie Lane - 2:00-3:00<br>Group Number Three, feat. vocalist Anita Wood - 3:00-4:00]]></description>
+        <styleUrl>#icon-seq2-0-5-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -71.1436244,42.4729665,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>1 Fulton St</name>
+        <description><![CDATA[Billy Goodrich - 2:00-4:00<br>5th Season - 4:00-6:00]]></description>
+        <styleUrl>#icon-seq2-0-6-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -71.1406981,42.4755176,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>56 Leonard St</name>
+        <description><![CDATA[Double Vision - 12:00-1:30<br>Franci James - 1:30 -3:00]]></description>
+        <styleUrl>#icon-seq2-0-7-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -71.1383867,42.4728422,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>36 Clinton St</name>
+        <description><![CDATA[(in conjunction with 6 Beach St)<br>Kevin Wall - 1:00<br>Tripper Gore - 3:00<br>Melvern Taylor and His Fabulous Meltones - 5:00]]></description>
+        <styleUrl>#icon-seq2-0-8-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -71.1498577,42.4909163,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>6 Beach St</name>
+        <description><![CDATA[(in conjunction with 36 Clinton St)<br>Tuesday’s Just As Bad (Classic Blues Covers) - 12:00<br>Big Bad Bobby and the Shoe Horns (Original alt/pop/punk and some covers) - 2:00<br>Reverbia (Covers 70’ thru 00’s) - 4:00]]></description>
+        <styleUrl>#icon-seq2-0-9-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -71.1495463,42.4909353,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>7 Loker Ln</name>
+        <description><![CDATA[V - 1:30-3:00<br>Mick and Moon - 3:00-5:00<br>Smoke and Sparrow - 5:00-7:00]]></description>
+        <styleUrl>#icon-seq2-0-10-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -71.1442276,42.4902344,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>53 Montvale Rd</name>
+        <description><![CDATA[Reverend JJ and the Casual Sinners - 2:00-3:00<br>Macs 3 - 3:30- 6:00<br>Neighborhood Dads - 6:15-7:00]]></description>
+        <styleUrl>#icon-seq2-0-11-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -71.1270187,42.4888077,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>5 Bronislaw St</name>
+        <description><![CDATA[That’s Ben Gardners Boat - 12:00-2:00<br>Beyond Boston - 2:00-4:00<br>What’s Shakin’ - 4:00-6:00]]></description>
+        <styleUrl>#icon-seq2-0-12-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -71.1445963,42.5022349,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>9 Hope Ln</name>
+        <description><![CDATA[Lazy Susans - 2:00<br>Keren Athena & Friends - 3:30-5:30]]></description>
+        <styleUrl>#icon-seq2-0-13-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -71.1464154,42.5030666,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>North Congregational Church</name>
+        <description><![CDATA[Philip Corcoran - 12:00-1:00<br>Derek and the Dyslexics - 2:00-3:00]]></description>
+        <styleUrl>#icon-seq2-0-14-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -71.1608131,42.5080908,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>22 Fisher Terrace</name>
+        <description><![CDATA[DNA Acoustic - 12:00<br>Ben and Ike  - 3:00<br>(mix of pop-punk, country, pop, soft rock, folk rock, and classics.) <br>Nick Lafaucci - 4:30]]></description>
+        <styleUrl>#icon-seq2-0-15-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -71.1534085,42.4991747,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Woburn Recreation Spence Farm</name>
+        <description><![CDATA[High Maintenance - 1:00<br>Silver Anthems - 2:00<br>Bare Bright - 3:00]]></description>
+        <styleUrl>#icon-seq2-0-16-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -71.1593484,42.4918779,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>7 Marion Ave</name>
+        <description><![CDATA[Johnny Plankton and the Planktons of Soul - 2:00<br>Still Sedated - 3:00]]></description>
+        <styleUrl>#icon-seq2-0-17-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -71.1608072,42.4927074,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>1 Linden Cir</name>
+        <description>Chris Power - 2:00-4:00</description>
+        <styleUrl>#icon-seq2-0-18-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -71.1638731,42.4880121,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>19 Quimby Ave</name>
+        <description>Blue Bertha (Grateful Dead Cover Band) - 1:00</description>
+        <styleUrl>#icon-seq2-0-19-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -71.1716839,42.4853051,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>8 Clifford Terrace</name>
+        <description><![CDATA[The Haverty Brothers<br>The Sedgewick<br><br>12:00-2:00]]></description>
+        <styleUrl>#icon-seq2-0-20-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -71.1717205,42.4762177,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>62 Water St</name>
+        <description><![CDATA[Jerry Sancintio - 4:00<br>Better Roads - 5:40 – 7:00]]></description>
+        <styleUrl>#icon-seq2-0-21-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -71.1607653,42.4733154,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>11 Crescent Rd</name>
+        <description>3 Floors Up - 2:00-5:00</description>
+        <styleUrl>#icon-seq2-0-22-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -71.1871235,42.4696651,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>3 Fortune Rd</name>
+        <description>Vibe Tribe - 4:00-6:00</description>
+        <styleUrl>#icon-seq2-0-23-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -71.191443,42.4630038,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>58 Robinson Rd</name>
+        <description><![CDATA[Janet Hare - 1:00-2:00<br>Naked Gun - 2:00-4:00<br>The Murder Hornets - 4:00-6:00]]></description>
+        <styleUrl>#icon-seq2-0-24-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -71.1969643,42.456161,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Satellite Mask</name>
+      <Placemark>
+        <name>WOBURN</name>
+        <styleUrl>#poly-000000-1200-0-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -71.135485,42.529935,0
+                -71.17008,42.515538,0
+                -71.168696,42.500116,0
+                -71.168476,42.49809,0
+                -71.16887,42.490542,0
+                -71.170714,42.489799,0
+                -71.168867,42.487085,0
+                -71.181521,42.483649,0
+                -71.181343,42.483364,0
+                -71.183016,42.482139,0
+                -71.184629,42.481722,0
+                -71.187067,42.4808,0
+                -71.204387,42.465922,0
+                -71.207054,42.463628,0
+                -71.196985,42.455258,0
+                -71.195409,42.453591,0
+                -71.19385,42.4531,0
+                -71.190546,42.450451,0
+                -71.189682,42.449811,0
+                -71.162941,42.460254,0
+                -71.156344,42.456896,0
+                -71.15239,42.463755,0
+                -71.124476,42.473179,0
+                -71.123815,42.473427,0
+                -71.11211,42.473821,0
+                -71.116925,42.494663,0
+                -71.121577,42.498615,0
+                -71.119999,42.500114,0
+                -71.119815,42.500324,0
+                -71.121836,42.504226,0
+                -71.122499,42.50413,0
+                -71.124189,42.5075,0
+                -71.123681,42.507693,0
+                -71.124192,42.508729,0
+                -71.124496,42.509322,0
+                -71.135485,42.529935,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
