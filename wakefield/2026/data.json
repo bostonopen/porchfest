@@ -1,0 +1,4303 @@
+{
+ "source": "https://wakefieldporchfest.com/schedule/",
+ "downloaded": "2026-10-16",
+ "performers": {
+  "207": {
+   "id": 207,
+   "name": "Pretty Little Ditties",
+   "description": "Pretty Little Ditties is a female fronted Red Hot Chili Peppers cover band based in the Boston area.",
+   "img_url": "/bands/207_20240713_221735.jpg",
+   "links": [
+    "https://www.prettylittledittiesrhcp.com/",
+    "https://www.facebook.com/share/1BRxZ1XRTY/"
+   ],
+   "audition": "https://youtu.be/e5XndVTadh8?si=UpD4hImbXcU49bYX",
+   "in_gallery": 1,
+   "styles": [
+    "Rock"
+   ],
+   "performance_type": [
+    "covers",
+    "Covers"
+   ],
+   "content_rating": [
+    "pg_13",
+    "PG-13 (Suggestive Themes/Language)"
+   ]
+  },
+  "152": {
+   "id": 152,
+   "name": "Colorado Bob",
+   "description": "Colorado Bob is Bob Kramer and David Medvitz, who are seasoned performers and multi-instrumentalists including: guitar, fiddle, and mandolin.  Country blues and more.",
+   "img_url": "/bands/152_Bob_and_David2.jpg",
+   "links": [
+    "https://bobbykramer.weebly.com",
+    "https://www.facebook.com/coloradobob1",
+    "https://www.youtube.com/results?search_query=bob+kramer+music"
+   ],
+   "audition": "https://youtu.be/JWZdTWHsM0w ",
+   "in_gallery": 1,
+   "styles": [
+    "Blues",
+    "Country",
+    "Folk"
+   ],
+   "performance_type": [
+    "originals_and_covers",
+    "Originals and Covers"
+   ],
+   "content_rating": [
+    "pg",
+    "PG (Family Friendly)"
+   ]
+  },
+  "218": {
+   "id": 218,
+   "name": "The Gnostic Gospels",
+   "description": "Acoustic/indie artist based in Massachusetts. The Gnostic Gospels is the solo project of musician, Dan DeLucia",
+   "img_url": "/bands/218_IMG_6717.jpeg",
+   "links": [
+    "https://www.instagram.com/tgg.music?igsh=MW56Ym5wZWVldTRkeQ%3D%3D&utm_source=qr"
+   ],
+   "audition": "https://www.instagram.com/p/DXURwQEjvf8aSElm9GbXKOyx1WzjviSozMO5sE0/?igsh=NGNhcGJ6YXN3bnZm",
+   "in_gallery": 1,
+   "styles": [
+    "Alternative",
+    "Folk",
+    "Punk"
+   ],
+   "performance_type": [
+    "originals_and_covers",
+    "Originals and Covers"
+   ],
+   "content_rating": [
+    "pg_13",
+    "PG-13 (Suggestive Themes/Language)"
+   ]
+  },
+  "34": {
+   "id": 34,
+   "name": "Ric Page",
+   "description": "Ric Page is a solo acoustic performer.  Plays guitar and sings original and select cover tunes.",
+   "img_url": "/bands/34_Ric_with_Guild_pic.jpg",
+   "links": [
+    "https://www.facebook.com/RRPage",
+    "https://soundcloud.com/ric_page",
+    "https://www.youtube.com/@TooberTuba"
+   ],
+   "audition": "https://drive.google.com/file/d/1wUlIoN_JsYZT4Jw4KwbPZHOix6k9ycZS/view?usp=drive_link",
+   "in_gallery": 1,
+   "styles": [
+    "Alternative",
+    "Blues",
+    "Jazz",
+    "Pop",
+    "Rock"
+   ],
+   "performance_type": [
+    "originals_and_covers",
+    "Originals and Covers"
+   ],
+   "content_rating": [
+    "pg",
+    "PG (Family Friendly)"
+   ]
+  },
+  "240": {
+   "id": 240,
+   "name": "Chris Steele",
+   "description": "I write songs for people who are still figuring things out: the hopeful, the tired, the overthinkers, and the quietly resilient. My music lives somewhere between folk, rock, and Americana",
+   "img_url": "/bands/240_Fenway_2023.jpg",
+   "links": [
+    "https://chrissteeleband.com/",
+    "https://www.facebook.com/ChrisSteeleBand"
+   ],
+   "audition": "https://youtu.be/mu2JcGt6dyg?si=_ZzCXMxgCoSiRt5C",
+   "in_gallery": 1,
+   "styles": [
+    "Folk",
+    "Rock"
+   ],
+   "performance_type": [
+    "originals_and_covers",
+    "Originals and Covers"
+   ],
+   "content_rating": [
+    "pg",
+    "PG (Family Friendly)"
+   ]
+  },
+  "241": {
+   "id": 241,
+   "name": "Vices Inc",
+   "description": "Vices Inc is an Alternative/Pop female fronted band that performs upbeat high energy music for all",
+   "img_url": "/bands/241_1000033560.jpg",
+   "links": [
+    "//www.vicesinc.com",
+    "https://open.spotify.com/artist/1SURdzPcn0fO2kYnZ7jAAz?si=0nyPxUlRQIqoYVmwtYCAhA",
+    "https://www.instagram.com/vices.inc.band?igsh=MXM0ZHFmYXFreXVuZw=="
+   ],
+   "audition": "https://youtu.be/BdiCwf4dp-g?si=PjuPg-S-tKRwxGs0",
+   "in_gallery": 1,
+   "styles": [
+    "Alternative"
+   ],
+   "performance_type": [
+    "originals_and_covers",
+    "Originals and Covers"
+   ],
+   "content_rating": [
+    "pg_13",
+    "PG-13 (Suggestive Themes/Language)"
+   ]
+  },
+  "211": {
+   "id": 211,
+   "name": "Jasmine Im",
+   "description": "Jasmine Im is a singer-songwriter living in the Boston area performing both original music and covers. She sings, plays guitar, and uses a loop pedal to record her own accompaniment completely live.",
+   "img_url": "/bands/211_IMG_5813.jpeg",
+   "links": [
+    "https://linktr.ee/jasmine.im",
+    "https://www.instagram.com/jasmineimmusic",
+    "https://www.facebook.com/jasmineimmusic"
+   ],
+   "audition": "https://drive.google.com/file/d/1XieRX11RdMXAB05otGnurQygDwILOBDC/preview",
+   "in_gallery": 1,
+   "styles": [
+    "Pop"
+   ],
+   "performance_type": [
+    "originals_and_covers",
+    "Originals and Covers"
+   ],
+   "content_rating": [
+    "pg_13",
+    "PG-13 (Suggestive Themes/Language)"
+   ]
+  },
+  "13": {
+   "id": 13,
+   "name": "Colin Domigan",
+   "description": "Colin Domigan is a music producer, DJ, and Boston Music Awards 2023 Dance/Electronic Artist of the Year Nominee. For over ten years he has been blending house, disco, techno, and contemporary EDM.",
+   "img_url": "/bands/13_IMG_1100_1.jpeg",
+   "links": [
+    "http://www.domigan.co/lin",
+    "https://open.spotify.com/artist/66OEeAXbGGrr23Og8A0F8c",
+    "https://soundcloud.com/colindomigan"
+   ],
+   "audition": "",
+   "in_gallery": 1,
+   "styles": [
+    "Electronic"
+   ],
+   "performance_type": [
+    "originals_and_covers",
+    "Originals and Covers"
+   ],
+   "content_rating": [
+    "pg_13",
+    "PG-13 (Suggestive Themes/Language)"
+   ]
+  },
+  "50": {
+   "id": 50,
+   "name": "Anne Sandstrom & John Loretz",
+   "description": "We are an acoustic duo performing folk and pop songs from the 1960s to the present.",
+   "img_url": "/bands/50_John_Loretz_and_Anne_Sandstrom.jpg",
+   "links": [
+    "https://annesandstrom.bandcamp.com",
+    "https://johnloretz.bandcamp.com"
+   ],
+   "audition": "https://drive.google.com/file/d/1jLX3BCSvOszHOe4j0VNlOGRzpykhI3nq/view",
+   "in_gallery": 1,
+   "styles": [
+    "Folk",
+    "Pop"
+   ],
+   "performance_type": [
+    "covers",
+    "Covers"
+   ],
+   "content_rating": [
+    "pg",
+    "PG (Family Friendly)"
+   ]
+  },
+  "19": {
+   "id": 19,
+   "name": "CRANK'N HOUSE",
+   "description": "Classic and blues rock band. We play some great tunes that will make you rock along with us.",
+   "img_url": "/bands/19_4727.jpg",
+   "links": [
+    "https://www.facebook.com/share/16qTXcrFbu/"
+   ],
+   "audition": "https://drive.google.com/file/d/1JyzziQtLcMggiRh48CHAc3cl_5qsGhZb/view?usp=drivesdkhttps://drive.google.com/file/d/1JyzziQtLcMggiRh48CHAc3cl_5qsGhZb/view?usp=drivesdk",
+   "in_gallery": 1,
+   "styles": [
+    "Blues",
+    "Punk",
+    "Rock"
+   ],
+   "performance_type": [
+    "covers",
+    "Covers"
+   ],
+   "content_rating": [
+    "pg",
+    "PG (Family Friendly)"
+   ]
+  },
+  "242": {
+   "id": 242,
+   "name": "Samuel Bayer",
+   "description": "Hey, friends! I\u2019m Sam Bayer, your smartass troubadour. My percussionist and I will make you laugh, dance, and think (odd thoughts).",
+   "img_url": "/bands/242_Sam_Bayer.jpg",
+   "links": [
+    "https://sambayer.com",
+    "https://sambayer.bandcamp.com"
+   ],
+   "audition": "https://www.youtube.com/watch?v=mK1LsEtCMEk",
+   "in_gallery": 1,
+   "styles": [
+    "Folk",
+    "Pop"
+   ],
+   "performance_type": [
+    "originals",
+    "Originals"
+   ],
+   "content_rating": [
+    "pg",
+    "PG (Family Friendly)"
+   ]
+  },
+  "243": {
+   "id": 243,
+   "name": "Mr. Taibi",
+   "description": "Rock, Pop, Hard Rock, Jazz, Alternative, 80s featuring original music and music by the following;\r\nBowie, INXS, The Cars, The Police, Black Sabbath, Jack White, Toto, Floyd, James Brown, Talking Heads",
+   "img_url": "/bands/243_Announce.png",
+   "links": [],
+   "audition": "",
+   "in_gallery": 1,
+   "styles": [
+    "Heavy Metal",
+    "Jazz",
+    "Rock"
+   ],
+   "performance_type": [
+    "originals_and_covers",
+    "Originals and Covers"
+   ],
+   "content_rating": [
+    "pg",
+    "PG (Family Friendly)"
+   ]
+  },
+  "244": {
+   "id": 244,
+   "name": "Brandon Kelley Trio",
+   "description": "Instrumental jazz, funk, pop, fusion band. Improvisational music with virtuosic guitar mingled with slick drum and bass grooves. ",
+   "img_url": "/bands/244_IMG_1528.jpeg",
+   "links": [
+    "https://www.instagram.com/brandonkelleytrio?igsh=MWljaHMya3UzeWhvag%3D%3D&utm_source=qr",
+    "https://www.facebook.com/share/1EGGGttnoo/?mibextid=wwXIfr"
+   ],
+   "audition": "https://youtu.be/MU1jjFMb6b8?si=iqXtDuksJ4EVQpTt",
+   "in_gallery": 1,
+   "styles": [
+    "Blues",
+    "Jazz",
+    "Pop"
+   ],
+   "performance_type": [
+    "originals_and_covers",
+    "Originals and Covers"
+   ],
+   "content_rating": [
+    "pg",
+    "PG (Family Friendly)"
+   ]
+  },
+  "245": {
+   "id": 245,
+   "name": "The Snap Daddies",
+   "description": "3 piece cover band out of Westford, MA.  Playing together since 1979.",
+   "img_url": "",
+   "links": [],
+   "audition": "",
+   "in_gallery": 1,
+   "styles": [
+    "Rock"
+   ],
+   "performance_type": [
+    "covers",
+    "Covers"
+   ],
+   "content_rating": [
+    "pg",
+    "PG (Family Friendly)"
+   ]
+  },
+  "73": {
+   "id": 73,
+   "name": "Kim Terilli",
+   "description": "My name is Kim Terilli and I'm a singer, guitarist and song writer who loves the Lord.\r\nPlease join me for an hour of contemporary praise music.",
+   "img_url": "/bands/73_KimTDaisies.JPG",
+   "links": [
+    "https://www.facebook.com/profile.php?id=61592650344823",
+    "https://www.facebook.com/profile.php?id=61592650344823"
+   ],
+   "audition": "https://youtu.be/TPlB5OLzLbA",
+   "in_gallery": 1,
+   "styles": [
+    "Worship"
+   ],
+   "performance_type": [
+    "originals",
+    "Originals"
+   ],
+   "content_rating": [
+    "pg",
+    "PG (Family Friendly)"
+   ]
+  },
+  "247": {
+   "id": 247,
+   "name": "Maree Donaghy",
+   "description": "Maree Donaghy is a singer songwriter who loves to play pop, rock, and indie covers along with original music!",
+   "img_url": "/bands/247_Maree_Donaghy.jpg",
+   "links": [
+    "https://www.instagram.com/musicbymaree?igsh=MWxia2txYnV1aGNoZg%3D%3D&utm_source=qr",
+    "https://www.tiktok.com/@musicbymaree?_r=1&_t=ZT-96pljBgPJpl"
+   ],
+   "audition": "https://www.instagram.com/musicbymaree?igsh=MWxia2txYnV1aGNoZg%3D%3D&utm_source=qr",
+   "in_gallery": 1,
+   "styles": [
+    "Alternative",
+    "Pop",
+    "Rock"
+   ],
+   "performance_type": [
+    "originals_and_covers",
+    "Originals and Covers"
+   ],
+   "content_rating": [
+    "pg_13",
+    "PG-13 (Suggestive Themes/Language)"
+   ]
+  },
+  "156": {
+   "id": 156,
+   "name": "Driftide",
+   "description": "We are a mix of alternative, rock, and all new music! With a mix of originals too!  ",
+   "img_url": "/bands/156_IMG_9924.jpeg",
+   "links": [
+    "https://www.instagram.com/driftidemusic/"
+   ],
+   "audition": "https://www.instagram.com/reel/DF6Hs8JO0KR/?igsh=MXc1YzF2Mjl4bXh6NQ==",
+   "in_gallery": 1,
+   "styles": [
+    "Alternative",
+    "Country",
+    "Pop",
+    "Rock"
+   ],
+   "performance_type": [
+    "originals_and_covers",
+    "Originals and Covers"
+   ],
+   "content_rating": [
+    "pg_13",
+    "PG-13 (Suggestive Themes/Language)"
+   ]
+  },
+  "185": {
+   "id": 185,
+   "name": "The Fancy Boyz",
+   "description": "Rock/Pop/Classic cover songs 70\u2019s through 2000\u2019s Including songs by Sublime, Pearl Jam, Rolling Stones, Tom Petty",
+   "img_url": "/bands/185_IMG_0527.jpeg",
+   "links": [
+    "https://youtube.com/@wefancy5154?si=VRmrvtjReDVtjMCq",
+    "https://www.instagram.com/thefancyboyz?igsh=MThqdHVtdmw0ZHdkbQ=="
+   ],
+   "audition": "https://drive.google.com/file/d/1ZVuO-oeZjZY8_4aLrfoTXLPGBbzJNTdd/view",
+   "in_gallery": 1,
+   "styles": [
+    "Alternative",
+    "Country",
+    "Pop",
+    "Rock"
+   ],
+   "performance_type": [
+    "covers",
+    "Covers"
+   ],
+   "content_rating": [
+    "pg_13",
+    "PG-13 (Suggestive Themes/Language)"
+   ]
+  },
+  "8": {
+   "id": 8,
+   "name": "Antarctica",
+   "description": "60s & 70s Pop Classics, \"The Music Everyone Remembers and Loves\"",
+   "img_url": "/bands/8_AntarcticaBandMWGD.jpg",
+   "links": [
+    "http://antarcticaband.com",
+    "https://www.facebook.com/profile.php?id=100066681923347"
+   ],
+   "audition": "https://drive.google.com/file/d/1FxgNPk9MWZj51X4KnOqC5baBxUgtHqfd/view?usp=drive_link",
+   "in_gallery": 1,
+   "styles": [
+    "Pop"
+   ],
+   "performance_type": [
+    "covers",
+    "Covers"
+   ],
+   "content_rating": [
+    "pg",
+    "PG (Family Friendly)"
+   ]
+  },
+  "41": {
+   "id": 41,
+   "name": "Vitus",
+   "description": "Folk, pop rock",
+   "img_url": "/bands/41_Vitus_Shum.png",
+   "links": [],
+   "audition": "https://drive.google.com/file/d/1WU2sJ33Prqog5PvoLXZ2247zN9mZ49hZ/view?usp=drive_link",
+   "in_gallery": 1,
+   "styles": [
+    "Blues",
+    "Country",
+    "Folk",
+    "Pop"
+   ],
+   "performance_type": [
+    "covers",
+    "Covers"
+   ],
+   "content_rating": [
+    "pg",
+    "PG (Family Friendly)"
+   ]
+  },
+  "248": {
+   "id": 248,
+   "name": "Aidan Leach",
+   "description": "",
+   "img_url": "/bands/248_DSC00084.JPG",
+   "links": [
+    "https://www.instagram.com/aidanleachmusic/",
+    "https://www.youtube.com/@aidan-leach-music"
+   ],
+   "audition": "https://youtu.be/NolZVCzDsBI?si=c0FsSLhNHK9riGpA&t=76",
+   "in_gallery": 1,
+   "styles": [
+    "Folk"
+   ],
+   "performance_type": [
+    "originals",
+    "Originals"
+   ],
+   "content_rating": [
+    "pg_13",
+    "PG-13 (Suggestive Themes/Language)"
+   ]
+  },
+  "190": {
+   "id": 190,
+   "name": "One Moe Time",
+   "description": "One Moe Time has 7 musicians featuring horns that love to make music.  Music from the 60's to today. ",
+   "img_url": "/bands/190_BAND__Abrews.jpg",
+   "links": [
+    "https://www.onemoetime.com",
+    "https://www.facebook.com/onemoetimeband"
+   ],
+   "audition": "",
+   "in_gallery": 1,
+   "styles": [
+    "Blues",
+    "Country",
+    "Pop",
+    "Rock"
+   ],
+   "performance_type": [
+    "covers",
+    "Covers"
+   ],
+   "content_rating": [
+    "pg",
+    "PG (Family Friendly)"
+   ]
+  },
+  "59": {
+   "id": 59,
+   "name": "Nick LaFauci",
+   "description": "Singer/Songwriter who plays family friendly hooked filled originals and an occasional cover.",
+   "img_url": "/bands/59_6eeb02be-92e1-47d1-8bfb-d4501715cf78-1_all_28077.jpg",
+   "links": [
+    "https://www.youtube.com/@nlfnlf7",
+    "https://on.soundcloud.com/8kDnL",
+    "https://www.facebook.com/nick.lafauci?mibextid=ZbWKwL"
+   ],
+   "audition": "https://drive.google.com/file/d/1_j5X90qvDY8kVPCpNUWH838QPk5QJlrH/view?usp=drive_link",
+   "in_gallery": 1,
+   "styles": [
+    "Pop"
+   ],
+   "performance_type": [
+    "originals",
+    "Originals"
+   ],
+   "content_rating": [
+    "pg",
+    "PG (Family Friendly)"
+   ]
+  },
+  "60": {
+   "id": 60,
+   "name": "Cliff & Carl",
+   "description": "Violin/piano duo (w/guest vocalist). A mix of romantic/meditative instrumental tunes from many traditions, including movie themes, gospel/hymns/worship, classical, jazz, and the American Songbook. ",
+   "img_url": "/bands/60_CliffCarl_PromoPic_-_Copy.png",
+   "links": [
+    "https://sites.google.com/view/cliffcarl/home",
+    "https://www.facebook.com/profile.php?id=100082558339677&mibextid=LQQJ4d"
+   ],
+   "audition": "https://youtu.be/ETDgopTr4OU?si=JYaz6v0zKmhk9Vvy",
+   "in_gallery": 1,
+   "styles": [
+    "Classical",
+    "Jazz",
+    "Pop",
+    "Worship"
+   ],
+   "performance_type": [
+    "covers",
+    "Covers"
+   ],
+   "content_rating": [
+    "pg",
+    "PG (Family Friendly)"
+   ]
+  },
+  "5": {
+   "id": 5,
+   "name": "Two More",
+   "description": "Acoustic act playing many covers with singer on cajone and acoustic guitarist.",
+   "img_url": "/bands/5_TwoMore.png",
+   "links": [],
+   "audition": "https://drive.google.com/file/d/1dm2Wy81SIo1Z96rFWBD5Uq6f-5Lio9Xl/view?usp=drive_link",
+   "in_gallery": 1,
+   "styles": [
+    "Rock"
+   ],
+   "performance_type": [
+    "covers",
+    "Covers"
+   ],
+   "content_rating": [
+    "pg_13",
+    "PG-13 (Suggestive Themes/Language)"
+   ]
+  },
+  "250": {
+   "id": 250,
+   "name": "Alley52",
+   "description": "We are a 3 piece band fronted by lead singer Dave Lapine and backed by multi-instrumentalists Alicia & John Bakis.  We play an eclectic mix of classic rock with a bit of country & yatch rock mixed in.",
+   "img_url": "/bands/250_Alley52.jpg",
+   "links": [],
+   "audition": "https://drive.google.com/file/d/1jaYj_Ws7g_T6sALVfQu36BB6McPNaEYP/preview",
+   "in_gallery": 1,
+   "styles": [
+    "Rock"
+   ],
+   "performance_type": [
+    "covers",
+    "Covers"
+   ],
+   "content_rating": [
+    "pg",
+    "PG (Family Friendly)"
+   ]
+  },
+  "33": {
+   "id": 33,
+   "name": "Mark Zelermyer",
+   "description": "Voted \u201cAudience Favorite\u201d at Linden Tree Coffeehouse's Potpourri, Mark Zelermyer\u2019s songs range from poignant to funny, heartfelt to whimsical. His next album will be released later this year. ",
+   "img_url": "/bands/33_Mark_Zelermyer__Friends.jpeg",
+   "links": [
+    "https://www.markzelermyer.com",
+    "https://www.youtube.com/channel/UCTRz1zIz6k9ZJ-LbMgvOAXw"
+   ],
+   "audition": "https://drive.google.com/file/d/1upAI3VY9TtChIQiYwt3zSfuJPDfQqd6J/view?usp=drive_link",
+   "in_gallery": 1,
+   "styles": [
+    "Folk"
+   ],
+   "performance_type": [
+    "originals",
+    "Originals"
+   ],
+   "content_rating": [
+    "pg",
+    "PG (Family Friendly)"
+   ]
+  },
+  "251": {
+   "id": 251,
+   "name": "Ben Blackstone",
+   "description": "Contemporary WMHS Singer",
+   "img_url": "/bands/251_IMG_5836.jpeg",
+   "links": [
+    "https://www.instagram.com/bblackstone.music?igsh=MWh1am41cWJsMTBneQ%3D%3D&utm_source=qr"
+   ],
+   "audition": "https://www.instagram.com/reel/DXc_FMLjMfK/?igsh=MmYxdDU2MmdxaGk0",
+   "in_gallery": 1,
+   "styles": [
+    "Blues",
+    "Folk",
+    "Hip-Hop",
+    "Pop",
+    "Rock"
+   ],
+   "performance_type": [
+    "covers",
+    "Covers"
+   ],
+   "content_rating": [
+    "pg_13",
+    "PG-13 (Suggestive Themes/Language)"
+   ]
+  },
+  "141": {
+   "id": 141,
+   "name": "Ctrl+C",
+   "description": "We're an acoustic cover band that brings your favorite songs to life - from pop hits and hip hop to country and alternative. We are a high energy crew that loves to party and have a good time! ",
+   "img_url": "/bands/141_band_photo_yay.PNG",
+   "links": [
+    "https://www.instagram.com/ctrlc.band/"
+   ],
+   "audition": "",
+   "in_gallery": 1,
+   "styles": [
+    "Alternative",
+    "Country",
+    "Hip-Hop",
+    "Pop",
+    "Rock"
+   ],
+   "performance_type": [
+    "covers",
+    "Covers"
+   ],
+   "content_rating": [
+    "r",
+    "R (Explicit Themes/Language)"
+   ]
+  },
+  "252": {
+   "id": 252,
+   "name": "Tribunal",
+   "description": "Classic Rock and Roll with a healthy dose of Progressive Rock",
+   "img_url": "/bands/252_OIP.webp",
+   "links": [
+    "//nydchaos.com"
+   ],
+   "audition": "",
+   "in_gallery": 1,
+   "styles": [
+    "Alternative",
+    "Blues",
+    "Electronic",
+    "Heavy Metal",
+    "Jazz",
+    "Pop",
+    "Punk",
+    "Rock"
+   ],
+   "performance_type": [
+    "originals_and_covers",
+    "Originals and Covers"
+   ],
+   "content_rating": [
+    "pg_13",
+    "PG-13 (Suggestive Themes/Language)"
+   ]
+  },
+  "222": {
+   "id": 222,
+   "name": "Cornerstone",
+   "description": "Immanuel, Sam & Winnie Carpenter, Kirstie Girgis, Eli Hulse, Addie Jorgensen, Joo Hye Kim, Mason & Rosie McClatchey, Gene Mullen, Phil Pace, Lou Prosperi, Kellie Roden, Jon Zivan",
+   "img_url": "",
+   "links": [],
+   "audition": "",
+   "in_gallery": 1,
+   "styles": [
+    "Jazz",
+    "Worship"
+   ],
+   "performance_type": [
+    "covers",
+    "Covers"
+   ],
+   "content_rating": [
+    "pg",
+    "PG (Family Friendly)"
+   ]
+  },
+  "253": {
+   "id": 253,
+   "name": "Joy Jammers",
+   "description": "Young Musicians from Summer @ First Parish Music Program. ",
+   "img_url": "",
+   "links": [],
+   "audition": "",
+   "in_gallery": 1,
+   "styles": [
+    "Children",
+    "Classical",
+    "Jazz",
+    "Worship"
+   ],
+   "performance_type": [
+    "covers",
+    "Covers"
+   ],
+   "content_rating": [
+    "pg",
+    "PG (Family Friendly)"
+   ]
+  },
+  "25": {
+   "id": 25,
+   "name": "Eroo",
+   "description": "Covers with deep harmonies ready to rock your world.  70's to today. ",
+   "img_url": "/bands/25_628327609_1794188931497579_4005545130707707026_n-2.jpg",
+   "links": [
+    "https://e-roo.weebly.com",
+    "https://www.facebook.com/ERooRocks/"
+   ],
+   "audition": "https://www.facebook.com/reel/1136675510897719",
+   "in_gallery": 1,
+   "styles": [
+    "Rock"
+   ],
+   "performance_type": [
+    "originals_and_covers",
+    "Originals and Covers"
+   ],
+   "content_rating": [
+    "pg",
+    "PG (Family Friendly)"
+   ]
+  },
+  "23": {
+   "id": 23,
+   "name": "Side Project Wakefield",
+   "description": "We do a gumbo of styles , Rock,Soul, Dixieland, Ballads and Zydeco.",
+   "img_url": "/bands/23_IMG_1794.jpeg",
+   "links": [
+    "https://www.facebook.com/profile.php?id=61552630512481"
+   ],
+   "audition": "https://drive.google.com/file/d/1Vol8vZT3rzi1wQfq6UL-YzBzg4ZOgtgk/preview",
+   "in_gallery": 1,
+   "styles": [
+    "Blues",
+    "Rock"
+   ],
+   "performance_type": [
+    "covers",
+    "Covers"
+   ],
+   "content_rating": [
+    "pg",
+    "PG (Family Friendly)"
+   ]
+  },
+  "126": {
+   "id": 126,
+   "name": "Ted Natoli",
+   "description": "Acoustic renditions of 80s & 90s pop/rock songs.",
+   "img_url": "/bands/126_headshot.png",
+   "links": [],
+   "audition": "https://youtu.be/j2_vcFQT9Yk?si=J906s55EoVynRsu2",
+   "in_gallery": 1,
+   "styles": [
+    "Alternative",
+    "Pop",
+    "Rock"
+   ],
+   "performance_type": [
+    "covers",
+    "Covers"
+   ],
+   "content_rating": [
+    "pg",
+    "PG (Family Friendly)"
+   ]
+  },
+  "196": {
+   "id": 196,
+   "name": "Youth Music Showcase",
+   "description": "This vibrant celebration of young talent will feature up to 12 acts. Come cheer on talented youth artists, and help us foster a supportive environment. Press the link below to sign up.",
+   "img_url": "/bands/196_IMG_3937.png",
+   "links": [
+    "https://forms.gle/CAC5wgoFER57JnDA9"
+   ],
+   "audition": "",
+   "in_gallery": 1,
+   "styles": [
+    "Alternative",
+    "Children",
+    "Country",
+    "Folk",
+    "Heavy Metal",
+    "Hip-Hop",
+    "Pop",
+    "Punk",
+    "Rock"
+   ],
+   "performance_type": [
+    "originals_and_covers",
+    "Originals and Covers"
+   ],
+   "content_rating": [
+    "pg_13",
+    "PG-13 (Suggestive Themes/Language)"
+   ]
+  },
+  "255": {
+   "id": 255,
+   "name": "John Lebanon",
+   "description": "John Lebanon is a Beirut-to-Boston indie-folk Alt-Rock band of friends playing warm Levantine melodies and Originals.",
+   "img_url": "/bands/255_1_1.jpg",
+   "links": [
+    "https://linktr.ee/johnlebanon",
+    "https://www.instagram.com/john.lebanon/"
+   ],
+   "audition": "https://youtu.be/zGpHPVVT7TU?si=KDi6f8XkHaFoqPyc",
+   "in_gallery": 1,
+   "styles": [
+    "Alternative",
+    "Folk",
+    "Rock"
+   ],
+   "performance_type": [
+    "originals_and_covers",
+    "Originals and Covers"
+   ],
+   "content_rating": [
+    "pg",
+    "PG (Family Friendly)"
+   ]
+  },
+  "94": {
+   "id": 94,
+   "name": "The Cleaners",
+   "description": "Jazz, Funk, Fusion and Blues infused covers from the 70s up to the present.",
+   "img_url": "/bands/94_TheCleaners.png",
+   "links": [
+    "https://drive.google.com/file/d/1a69DePgQdO7VQdgKfTRd5oIrgrBW4M4o/view?usp=sharing"
+   ],
+   "audition": "https://drive.google.com/file/d/150LnKxV52gn1baKMVs9vNhUTjiOQW703/view?usp=drivesdk",
+   "in_gallery": 1,
+   "styles": [
+    "Blues",
+    "Jazz",
+    "Rock"
+   ],
+   "performance_type": [
+    "covers",
+    "Covers"
+   ],
+   "content_rating": [
+    "pg",
+    "PG (Family Friendly)"
+   ]
+  },
+  "92": {
+   "id": 92,
+   "name": "Resurrection",
+   "description": "Resurrection is a collaboration of local musicians who came together with a simple mission: to share our faith and God\u2019s love through contemporary praise & worship with our community. ",
+   "img_url": "/bands/92_IMG_7887.jpeg",
+   "links": [],
+   "audition": "https://drive.google.com/file/d/1zjiagu2dHg1YMEe8Nwey1J3RcZYiqT1L/preview",
+   "in_gallery": 1,
+   "styles": [
+    "Worship"
+   ],
+   "performance_type": [
+    "covers",
+    "Covers"
+   ],
+   "content_rating": [
+    "pg",
+    "PG (Family Friendly)"
+   ]
+  },
+  "256": {
+   "id": 256,
+   "name": "Birds Eye View",
+   "description": "We are a high energy band that loves to perform. Although we enjoy all genres, we play mostly rock, blues, and alternative music, while also adding in our own originals.",
+   "img_url": "/bands/256_IMG_5417.jpeg",
+   "links": [
+    "https://www.instagram.com/s/aGlnaGxpZ2h0OjE3OTY0OTczOTY3MzU2NDQy?story_media_id=3694108282088596607&igsh=MWhibWVndnI2MWk1aQ=="
+   ],
+   "audition": "https://www.instagram.com/s/aGlnaGxpZ2h0OjE3OTY0OTczOTY3MzU2NDQy?story_media_id=3694108282088596607&igsh=MWhibWVndnI2MWk1aQ==",
+   "in_gallery": 1,
+   "styles": [
+    "Alternative",
+    "Blues",
+    "Country",
+    "Folk",
+    "Pop",
+    "Rock"
+   ],
+   "performance_type": [
+    "originals_and_covers",
+    "Originals and Covers"
+   ],
+   "content_rating": [
+    "pg",
+    "PG (Family Friendly)"
+   ]
+  },
+  "191": {
+   "id": 191,
+   "name": "We Like Wool",
+   "description": "We Like Wool is a sheep-themed Christian pop punk band from Manchester NH. We exist to glorify God, rock out, have lots of fun, love people, and share the Gospel of Jesus Christ.",
+   "img_url": "/bands/191_We_Like_Wool_Band_On_White.png",
+   "links": [
+    "https://welikewoolband.com",
+    "https://www.facebook.com/welikewoolband",
+    "https://youtube.com/@welikewool"
+   ],
+   "audition": "",
+   "in_gallery": 1,
+   "styles": [
+    "Punk",
+    "Worship"
+   ],
+   "performance_type": [
+    "originals_and_covers",
+    "Originals and Covers"
+   ],
+   "content_rating": [
+    "pg",
+    "PG (Family Friendly)"
+   ]
+  },
+  "257": {
+   "id": 257,
+   "name": "Sam Chetkin",
+   "description": "I am a singer songwriter that has played in and around Boston around 10 years. I'm influenced by folk and classic rock, as well as a background in musical theater that drives my performance.",
+   "img_url": "/bands/257_sam-melrosepark-best4-MG_9651.jpg",
+   "links": [
+    "https://www.instagram.com/samchetkin/"
+   ],
+   "audition": "https://drive.google.com/file/d/1AsPZJ9n9Tv5-5X7mSe1r7iEunlyamLZ-/preview",
+   "in_gallery": 1,
+   "styles": [
+    "Folk",
+    "Rock"
+   ],
+   "performance_type": [
+    "originals_and_covers",
+    "Originals and Covers"
+   ],
+   "content_rating": [
+    "pg_13",
+    "PG-13 (Suggestive Themes/Language)"
+   ]
+  },
+  "170": {
+   "id": 170,
+   "name": "Murder of Two: Two-Man Counting Crows Cover band.",
+   "description": "Two-fourths of the band, School Night, playing acoustic covers of Counting Crows songs.",
+   "img_url": "/bands/170_F9DABB44-FE7A-454B-88CD-19C8236F78DD.PNG",
+   "links": [
+    "https://open.spotify.com/artist/4J9nRrnNXWWq3SPlaeGSnA?si=DhR_46T3TrOu2nvOwAmdAg"
+   ],
+   "audition": "https://drive.google.com/file/d/1GLPdPr5gdbCjn5PmqDsGvpvpdxVyefif/preview",
+   "in_gallery": 1,
+   "styles": [
+    "Alternative"
+   ],
+   "performance_type": [
+    "covers",
+    "Covers"
+   ],
+   "content_rating": [
+    "pg",
+    "PG (Family Friendly)"
+   ]
+  },
+  "43": {
+   "id": 43,
+   "name": "Ivydale",
+   "description": "Ivydale plays low-fi indie folk in the vein of The Lemonheads, The Magnetic Fields, and Noah and the Whale. ",
+   "img_url": "/bands/43_DF7EB5EA-C105-4994-9DD1-7E297D3E49C3.PNG",
+   "links": [
+    "https://open.spotify.com/artist/2mBinszbVYTyTIJCTQj0lq?si=mhibvmp0RsiygvhlDTUjbg"
+   ],
+   "audition": "https://drive.google.com/file/d/1K64MOa9d2Z1ckuKUpvJjx1-iFb3-HSul/view?usp=drive_link",
+   "in_gallery": 1,
+   "styles": [
+    "Alternative"
+   ],
+   "performance_type": [
+    "originals",
+    "Originals"
+   ],
+   "content_rating": [
+    "pg_13",
+    "PG-13 (Suggestive Themes/Language)"
+   ]
+  },
+  "140": {
+   "id": 140,
+   "name": "Don Hammontree",
+   "description": "My name\u2019s Don Hammontree, I\u2019m a solo singer/songwriter who has a number of solo records out, as well as work with the bands Bad Fogelberg and Why England Slept.",
+   "img_url": "/bands/140_donnie.jpg",
+   "links": [
+    "https://badfogelberg.bandcamp.com",
+    "https://www.instagram.com/hammontreedon",
+    "https://www.reverbnation.com/donhammontree"
+   ],
+   "audition": "https://www.youtube.com/watch?v=Z1l54FXaBt0&t=742s",
+   "in_gallery": 1,
+   "styles": [
+    "Alternative",
+    "Folk",
+    "Rock"
+   ],
+   "performance_type": [
+    "originals_and_covers",
+    "Originals and Covers"
+   ],
+   "content_rating": [
+    "pg",
+    "PG (Family Friendly)"
+   ]
+  },
+  "87": {
+   "id": 87,
+   "name": "No Explanation",
+   "description": "Rocking sister- band!  Ayla Davis(12) on vocals and guitar, Vera Davis (14) on drums and Zoey Westerfeld (15) on bass and vocals ",
+   "img_url": "/bands/87_FullSizeRender.jpeg",
+   "links": [],
+   "audition": "https://drive.google.com/file/d/1ARZP-TR5HibB1X4Y9liJ8uZma8QJnSmX/preview",
+   "in_gallery": 1,
+   "styles": [
+    "Pop",
+    "Rock"
+   ],
+   "performance_type": [
+    "originals_and_covers",
+    "Originals and Covers"
+   ],
+   "content_rating": [
+    "pg_13",
+    "PG-13 (Suggestive Themes/Language)"
+   ]
+  },
+  "258": {
+   "id": 258,
+   "name": "Andrea Paquin",
+   "description": "Singer and Songwriter.",
+   "img_url": "/bands/258_IMG_7885.jpeg",
+   "links": [
+    "//www.andreapaquin.com",
+    "//www.linktree.com/andreapaquin"
+   ],
+   "audition": "https://youtu.be/Wrp1RZ1j8zs",
+   "in_gallery": 1,
+   "styles": [
+    "Folk"
+   ],
+   "performance_type": [
+    "originals_and_covers",
+    "Originals and Covers"
+   ],
+   "content_rating": [
+    "pg",
+    "PG (Family Friendly)"
+   ]
+  },
+  "171": {
+   "id": 171,
+   "name": "Reid's Bluegrass Friends",
+   "description": "Reid Plouffe is an upright bassist with extensive Boston area musician contacts. He will be joined for a no-holds-barred jam by some of the best bluegrass players around.",
+   "img_url": "/bands/171_Reids_bluegrass_friendsDSC_0146.jpg",
+   "links": [],
+   "audition": "",
+   "in_gallery": 1,
+   "styles": [
+    "Blues",
+    "Country",
+    "Folk"
+   ],
+   "performance_type": [
+    "covers",
+    "Covers"
+   ],
+   "content_rating": [
+    "pg",
+    "PG (Family Friendly)"
+   ]
+  },
+  "259": {
+   "id": 259,
+   "name": "Jillian Ann",
+   "description": "Jillian Ann is a Boston native and Berklee College of Music graduate whose sound transcends genres while remaining rooted in the storytelling of the great 70s singer-songwriters. ",
+   "img_url": "/bands/259_IMG_0872.jpeg",
+   "links": [
+    "https://www.jillianannmusic.com/",
+    "https://www.instagram.com/itsjillianann?igsh=c2tycGZtaDJucGJj&utm_source=qr",
+    "https://www.facebook.com/share/19A48QDeyZ/?mibextid=wwXIfr"
+   ],
+   "audition": "https://drive.google.com/file/d/16wtbvhR0Vl9nERacm_puAxlwTnsGYrdN/preview",
+   "in_gallery": 1,
+   "styles": [
+    "Alternative",
+    "Folk",
+    "Pop",
+    "Rock"
+   ],
+   "performance_type": [
+    "originals_and_covers",
+    "Originals and Covers"
+   ],
+   "content_rating": [
+    "pg_13",
+    "PG-13 (Suggestive Themes/Language)"
+   ]
+  },
+  "53": {
+   "id": 53,
+   "name": "Mike Barrasso",
+   "description": "Boston area singer-songwriter playing original songs and covers spanning the genres of rock, country, folk and blues.",
+   "img_url": "/bands/53_1000000182.jpg",
+   "links": [
+    "https://www.facebook.com/profile.php?id=100065429351638&mibextid=ZbWKwL",
+    "https://open.spotify.com/artist/3p50obLRdc04X9cfRTdO6O"
+   ],
+   "audition": "https://drive.google.com/file/d/1PxQo8V4yWjh5RkgUFAGe1NsKYb4Bz6d4/view?usp=drive_link",
+   "in_gallery": 1,
+   "styles": [
+    "Blues",
+    "Country",
+    "Folk",
+    "Rock"
+   ],
+   "performance_type": [
+    "originals_and_covers",
+    "Originals and Covers"
+   ],
+   "content_rating": [
+    "pg",
+    "PG (Family Friendly)"
+   ]
+  },
+  "260": {
+   "id": 260,
+   "name": "The Burlies",
+   "description": "Rock 'n' Roll to tickle your sweet ear. Like a handful of other great bands \u2013 Boston, Chicago, Marblehead \u2013 we're named after an iconic city. But The Burlingtons are our fathers. We are The Burlies!",
+   "img_url": "/bands/260_IMG_1004.JPG",
+   "links": [
+    "https://www.instagram.com/theburlies/",
+    "https://www.facebook.com/myburlie"
+   ],
+   "audition": "https://drive.google.com/file/d/1HxK2h30imGUfkSkFkDrQoZ9cN2LnIlAe/preview",
+   "in_gallery": 1,
+   "styles": [
+    "Pop",
+    "Punk",
+    "Rock"
+   ],
+   "performance_type": [
+    "covers",
+    "Covers"
+   ],
+   "content_rating": [
+    "pg_13",
+    "PG-13 (Suggestive Themes/Language)"
+   ]
+  },
+  "261": {
+   "id": 261,
+   "name": "Lunker",
+   "description": "Lunker spans multiple genres with a focus on rock and spirited improvisation.",
+   "img_url": "/bands/261_IMG_2307.JPG",
+   "links": [
+    "http://www.youtube.com/@Lunkertheband",
+    "https://www.instagram.com/lunkertheband/"
+   ],
+   "audition": "http://www.youtube.com/@Lunkertheband",
+   "in_gallery": 1,
+   "styles": [
+    "Rock"
+   ],
+   "performance_type": [
+    "originals_and_covers",
+    "Originals and Covers"
+   ],
+   "content_rating": [
+    "pg",
+    "PG (Family Friendly)"
+   ]
+  },
+  "37": {
+   "id": 37,
+   "name": "Mark Perry",
+   "description": "Acoustic/vocal doing cover songs from 70-90\u2019s such as Bob Segar, Van Morriso, Tom Petty, STP, Train etc.",
+   "img_url": "/bands/37_IMG_2515.png",
+   "links": [
+    "https://www.dorianperryband.com",
+    "https://www.facebook.com/mark.perry.3363?mibextid=LQQJ4d"
+   ],
+   "audition": "https://drive.google.com/file/d/1mlpYQ13DupZp4r-x9yR7goeY5FHVXWZA/view?usp=drive_link",
+   "in_gallery": 1,
+   "styles": [
+    "Rock"
+   ],
+   "performance_type": [
+    "covers",
+    "Covers"
+   ],
+   "content_rating": [
+    "pg",
+    "PG (Family Friendly)"
+   ]
+  },
+  "84": {
+   "id": 84,
+   "name": "David Antin",
+   "description": "I am a singer/songwriter covering a wide range of music (covers & originals): Folk, Rock, Blues, Jazz, & Country. I am an amateur musician.",
+   "img_url": "/bands/84_84_Promo_Image.jpg",
+   "links": [],
+   "audition": "https://drive.google.com/file/d/1WzhpV_4KvYvf7M--LadTkzSrSatLtc6w/preview",
+   "in_gallery": 1,
+   "styles": [
+    "Blues",
+    "Country",
+    "Folk",
+    "Rock"
+   ],
+   "performance_type": [
+    "originals_and_covers",
+    "Originals and Covers"
+   ],
+   "content_rating": [
+    "pg_13",
+    "PG-13 (Suggestive Themes/Language)"
+   ]
+  },
+  "262": {
+   "id": 262,
+   "name": "Gabriel Ricker",
+   "description": "Gabriel Ricker  - Performing songs from the Swing era and the Golden Age of Broadway. ",
+   "img_url": "/bands/262_IMG_5650_1.jpg",
+   "links": [
+    "//www.gabrielricker.com",
+    "//www.facebook.com/mrkidgabe/",
+    "//www.instagram.com/gabe.ricker/"
+   ],
+   "audition": "https://youtu.be/kxgSanl8nxY?si=akm8kuX9FXNKi8yf",
+   "in_gallery": 1,
+   "styles": [
+    "Jazz"
+   ],
+   "performance_type": [
+    "covers",
+    "Covers"
+   ],
+   "content_rating": [
+    "pg",
+    "PG (Family Friendly)"
+   ]
+  },
+  "142": {
+   "id": 142,
+   "name": "John Sacco",
+   "description": "Playing original versions of cover songs from across the decades. Featuring  unique musical arrangements and tight vocal harmonies.",
+   "img_url": "/bands/142_IMG_9082.jpeg",
+   "links": [
+    "https://www.instagram.com/johnsaccoguitar/profilecard/?igsh=MWEyMnYwZ3gxNjJpMw==",
+    "https://www.facebook.com/share/1EvRF7e3sd/?mibextid=wwXIfr"
+   ],
+   "audition": "https://drive.google.com/file/d/1f4Eb5ygZE5rsHrI-L0eL5-z4sDVLkBHW/preview",
+   "in_gallery": 1,
+   "styles": [
+    "Blues",
+    "Folk",
+    "Pop",
+    "Rock"
+   ],
+   "performance_type": [
+    "originals_and_covers",
+    "Originals and Covers"
+   ],
+   "content_rating": [
+    "pg",
+    "PG (Family Friendly)"
+   ]
+  },
+  "145": {
+   "id": 145,
+   "name": "Lars Wicklund",
+   "description": "I'm a local indie ie folk rock artist from Medford MA. I draw influences from Tom petty  and Bob Dylan. I play a mix of originals and covers. Currently I have a four-piece band.\r\n",
+   "img_url": "/bands/145_1000009003.png",
+   "links": [
+    "https://linktr.ee/lwicklund"
+   ],
+   "audition": "https://drive.google.com/file/d/1HLh8UzSq8i9m-KtLi7Z5zIzsgrn6V2DM/preview",
+   "in_gallery": 1,
+   "styles": [
+    "Folk",
+    "Rock"
+   ],
+   "performance_type": [
+    "originals",
+    "Originals"
+   ],
+   "content_rating": [
+    "pg",
+    "PG (Family Friendly)"
+   ]
+  },
+  "66": {
+   "id": 66,
+   "name": "Polyethylene",
+   "description": "Featuring Neal and Elena Proakis Ellis, Rich Reed, and Kristen Sheau, Polyethylene has been playing indie rock in the Boston area for the past 25 years. Check us out at www.polyethylenemusic.com",
+   "img_url": "/bands/66_Polyethylene.jpg",
+   "links": [
+    "https://www.polyethylenemusic.com",
+    "https://www.facebook.com/thepolymusic/",
+    "https://www.youtube.com/watch?v=xdKbsvx7i68"
+   ],
+   "audition": "https://drive.google.com/file/d/17xczoz5P38EKGMImEgWstoVSqiPmbrnG/view?usp=drive_link",
+   "in_gallery": 1,
+   "styles": [
+    "Alternative",
+    "Folk",
+    "Rock"
+   ],
+   "performance_type": [
+    "originals",
+    "Originals"
+   ],
+   "content_rating": [
+    "pg",
+    "PG (Family Friendly)"
+   ]
+  },
+  "263": {
+   "id": 263,
+   "name": "Jerry Sancinito",
+   "description": "Jerry Sancinito is a local singer-songwriter playing a mix of country/folk and classic rock original songs.  Backed up by local guitar legend Bill Swanson and vocalist Eleanor Maillie.",
+   "img_url": "/bands/263_IMG_5457.jpg",
+   "links": [
+    "//www.youtube.com/@JerrySanc"
+   ],
+   "audition": "https://youtu.be/rwPLtZSf0DM?si=z0lJTklSgHGdUoIV",
+   "in_gallery": 1,
+   "styles": [
+    "Blues",
+    "Country",
+    "Folk",
+    "Rock"
+   ],
+   "performance_type": [
+    "originals",
+    "Originals"
+   ],
+   "content_rating": [
+    "pg",
+    "PG (Family Friendly)"
+   ]
+  },
+  "265": {
+   "id": 265,
+   "name": "The Millis Berfield Band",
+   "description": "A feel good mix of classics, sing-alongs & engaging originals with lots of harmony. They offer exquisite guitar, impressive keyboard playing and all-round cool percussion.",
+   "img_url": "/bands/265_260210_TMBB_TaDa_IMG_0765_11x7_300ppi.jpg",
+   "links": [
+    "https://millisberfield.com/",
+    "https://www.facebook.com/TheMillisBerfieldBand"
+   ],
+   "audition": "https://youtu.be/ctmV0emocTM",
+   "in_gallery": 1,
+   "styles": [
+    "Alternative",
+    "Children",
+    "Country",
+    "Folk",
+    "Pop",
+    "Rock"
+   ],
+   "performance_type": [
+    "originals_and_covers",
+    "Originals and Covers"
+   ],
+   "content_rating": [
+    "pg",
+    "PG (Family Friendly)"
+   ]
+  },
+  "153": {
+   "id": 153,
+   "name": "Alby Jones",
+   "description": "I\u2019m a Singer/Songwriter. ",
+   "img_url": "/bands/153_168AABD4-B507-4B13-AA10-730B3762BEA0.jpeg",
+   "links": [
+    "https://youtube.com/@albyjones3749?si=K0DuMLIt9NmNSa2d",
+    "https://www.facebook.com/share/1E921C26aK/?mibextid=wwXIfr",
+    "https://www.instagram.com/albyj55?igsh=MW10MXowOXN5bGYwcQ%3D%3D&utm_source=qr"
+   ],
+   "audition": "https://drive.google.com/file/d/1PtftD9-Rsph2cZHJfkVxxhKeNiSFVBIc/preview",
+   "in_gallery": 1,
+   "styles": [
+    "Alternative",
+    "Rock",
+    "Worship"
+   ],
+   "performance_type": [
+    "originals",
+    "Originals"
+   ],
+   "content_rating": [
+    "pg",
+    "PG (Family Friendly)"
+   ]
+  },
+  "266": {
+   "id": 266,
+   "name": "Rec Room",
+   "description": "Rec Room is a rock band formed in Melrose, MA in 2023 featuring Dan Koehler (guitar/vocals), Nick Twohig (guitar/vocals), Ty Vasapoli (keys/guitar/vocals), Dan Nakhoul (bass), and John Burns (drums).",
+   "img_url": "/bands/266_IMG_0214.jpeg",
+   "links": [],
+   "audition": "",
+   "in_gallery": 1,
+   "styles": [
+    "Rock"
+   ],
+   "performance_type": [
+    "covers",
+    "Covers"
+   ],
+   "content_rating": [
+    "pg",
+    "PG (Family Friendly)"
+   ]
+  },
+  "267": {
+   "id": 267,
+   "name": "The In-Betweeners",
+   "description": "The In-Betweeners are an energetic and fun rock cover band, playing a mix of great songs that you love, and a whole bunch that you forgot you loved!",
+   "img_url": "/bands/267_IMG_20250609_080607.jpg",
+   "links": [
+    "https://www.inbetweenerscoverband.com/",
+    "https://www.facebook.com/InBetweenersCoverBand",
+    "https://www.youtube.com/@inbetweenerscoverband"
+   ],
+   "audition": "https://www.facebook.com/reel/4064058803843920",
+   "in_gallery": 1,
+   "styles": [
+    "Rock"
+   ],
+   "performance_type": [
+    "covers",
+    "Covers"
+   ],
+   "content_rating": [
+    "pg",
+    "PG (Family Friendly)"
+   ]
+  },
+  "269": {
+   "id": 269,
+   "name": "Julie KInscheck & LIFLIGHT",
+   "description": "Vibrant Contemporary Christian/ Worship songs, original and cover featuring vocalist Julie Kinscheck. Songs of the soul with a kick of Jazz!",
+   "img_url": "/bands/269_LIFLIGHT_Band_Purity_Conference.png",
+   "links": [
+    "//www.julieksings.com",
+    "https://www.youtube.com/@julieksings",
+    "https://www.facebook.com/QueenOfSCAT/"
+   ],
+   "audition": "https://youtu.be/00lbnXT8Koc",
+   "in_gallery": 1,
+   "styles": [
+    "Jazz",
+    "Pop",
+    "Worship"
+   ],
+   "performance_type": [
+    "originals_and_covers",
+    "Originals and Covers"
+   ],
+   "content_rating": [
+    "pg",
+    "PG (Family Friendly)"
+   ]
+  },
+  "270": {
+   "id": 270,
+   "name": "Rank Bones",
+   "description": "Rank Bones is comprised of 3 of the 4 members of the regionally famous band, The Nays. Website:  thenays.com. The band formed in 1977 and have produced 5 albums. We are on Spotify and iTunes.   ",
+   "img_url": "/bands/270_Nays_Middle_East_Promo_Shot.jpeg",
+   "links": [
+    "//www.thenays.com",
+    "https://www.facebook.com/share/1KU6T46gp7/?mibextid=LQQJ4d"
+   ],
+   "audition": "https://drive.google.com/file/d/1-6t-trNADnXGQr3mqvFJitxWwBWYe4pa/preview",
+   "in_gallery": 1,
+   "styles": [
+    "Rock"
+   ],
+   "performance_type": [
+    "originals_and_covers",
+    "Originals and Covers"
+   ],
+   "content_rating": [
+    "pg",
+    "PG (Family Friendly)"
+   ]
+  },
+  "271": {
+   "id": 271,
+   "name": "Pregame Rituals ",
+   "description": "90s and 2000s nostalgia \r\nalternative /post-emo/powerpop\r\nLynn, MA \r\nEST. 2019",
+   "img_url": "/bands/271_5G0A1849.jpeg",
+   "links": [
+    "https://www.instagram.com/pregamerituals/"
+   ],
+   "audition": "https://f.io/zqqd78Xj",
+   "in_gallery": 1,
+   "styles": [
+    "Alternative",
+    "Pop",
+    "Rock"
+   ],
+   "performance_type": [
+    "originals_and_covers",
+    "Originals and Covers"
+   ],
+   "content_rating": [
+    "pg_13",
+    "PG-13 (Suggestive Themes/Language)"
+   ]
+  },
+  "144": {
+   "id": 144,
+   "name": "Lazy Boy Rockers",
+   "description": "Lazy Boy Rockers is an original indie/classic rock band that performed regularly during the 90s/2000s in the Boston area. After 20 years off, we want to play in front of people once again!",
+   "img_url": "/bands/144_LazyBoy-1020634.jpg",
+   "links": [
+    "https://www.facebook.com/profile.php?id=100069766697929",
+    "https://www.youtube.com/@macguffinman1"
+   ],
+   "audition": "https://vimeo.com/946259470?turnstile=0.g6RAs5q_HwsC7TIX2RIq5-nusgRXzvBjp5Q2xloCXMxFWYtwRssJUMixj0LcC6JkKb4O5VoajM8pegqkBAiJ72k7vq3Vi3JBru0jR7Oq4VUrq25pIu7Tw2qEh_HRR4PGY6u5PpkmLIfgaEFEs6SwI5fQ0iBR2h51CQScrIPwMgOuXGAVjWD4A8rqk4xtlkHCpUgBglESQc88Dcq0XubQDZ7csNDIiQ9oqZZ6TnziuMYln3N53L-yYzxNFXgU17DqhNKMilf4AkMIrqyNwd_ETY3-OWjYlXk59AOFLRz-u0XuGogIhBpZNTNm6fiKZzM-udBmq8D7cFxwjNgZHX-9fXUEsPiC_GiNgjYJ_1o3tXPrbqcEFinHrN-FF11excnxCbVCgwwZQcuX3zwhaVkIZQH4ErJyAtR0wXs-hHZAVfVe913sa30vjoDVlnDzMdik1SQltUnoDGY122I_RwWXsvbn7odiUp4YXdaeG64FFwLtCi7qCGaUZIM7pTyVKpeL7lQ3PxN9m0mJG_usvlSNS8yyEJ3-i1u16uw88_iEjnxytLMcJdiYPkN4GJFMAFkaNMkdjd2vJM_tM5sDkdNnoFgu3Zay6wbT5gGIagDckCSGH_RIMG0EjgK5cpSakP6Z0IF6xEm5WHLVUoeLZSjNnOyLjLYpxlokcgl8PK4OCIlfGsAVKsX5qwy7dUJD9Qa9tqKTBJEBr6sEvNDzAXVE9rYspn109wvteGoO_nbpdr4kxYF_L7Jq_XqKk16Je70uctLOJukNS5MqVuoQmc3dW0jqtya_LmxfvrWlBk4TL_IFLPV6W7foJHHcjmTx-05hOaKopBlKHT-798W3aQEqcJdLV1H7fl1GCz3WcEIEFUbVdRo6_n1deoULiBM748C1jpk2WHzquknrekcDkddDjw.Gn2H28_zf03TL_qnkAPG-g.0e040a042612b51a5facd33ac4089f4e2f376ed67bcc55f4e927f9ce327c39a0",
+   "in_gallery": 1,
+   "styles": [
+    "Rock"
+   ],
+   "performance_type": [
+    "originals_and_covers",
+    "Originals and Covers"
+   ],
+   "content_rating": [
+    "pg",
+    "PG (Family Friendly)"
+   ]
+  },
+  "272": {
+   "id": 272,
+   "name": "The Double Lives",
+   "description": "The Double Lives are a Boston-area rock band that delivers creative covers and original songs with grit, energy, and a modern edge.",
+   "img_url": "/bands/272_Screenshot_2026-06-07_120010.png",
+   "links": [
+    "https://www.instagram.com/thedoublelives?igsh=a3M4a3hsbTB5ZmM2&utm_source=qr"
+   ],
+   "audition": "",
+   "in_gallery": 1,
+   "styles": [
+    "Alternative",
+    "Rock"
+   ],
+   "performance_type": [
+    "originals_and_covers",
+    "Originals and Covers"
+   ],
+   "content_rating": [
+    "pg",
+    "PG (Family Friendly)"
+   ]
+  },
+  "273": {
+   "id": 273,
+   "name": "The Ugly Criers",
+   "description": "Father and daughter guitar-drums duo performing mostly White Stripes covers with a couple other songs. ",
+   "img_url": "/bands/273_UC_mockup1.jpg",
+   "links": [],
+   "audition": "https://youtu.be/HFddg3tSDXI",
+   "in_gallery": 1,
+   "styles": [
+    "Alternative",
+    "Blues",
+    "Rock"
+   ],
+   "performance_type": [
+    "covers",
+    "Covers"
+   ],
+   "content_rating": [
+    "pg_13",
+    "PG-13 (Suggestive Themes/Language)"
+   ]
+  },
+  "274": {
+   "id": 274,
+   "name": "L\u00f6com\u00f6tive",
+   "description": "L\u00f6com\u00f6tive is a loud and energetic hard rock band playing a mix of originals and covers from Led Zeppelin, Guns N\u2018 Roses, Black Sabbath and more.",
+   "img_url": "/bands/274_DSC06315.jpeg",
+   "links": [
+    "https://www.instagram.com/locomotiveboston?igsh=MXJoOHA5aDUzM2llYg=="
+   ],
+   "audition": "https://drive.google.com/file/d/18vfaDAaLgDfCr__Tx6A6Z6VTOquhbnBr/preview",
+   "in_gallery": 1,
+   "styles": [
+    "Rock"
+   ],
+   "performance_type": [
+    "originals_and_covers",
+    "Originals and Covers"
+   ],
+   "content_rating": [
+    "pg_13",
+    "PG-13 (Suggestive Themes/Language)"
+   ]
+  },
+  "275": {
+   "id": 275,
+   "name": "Throwing Caution",
+   "description": "We are a solid rock band that plays covers - anything from classic rock to 90's to some modern songs.  We play in Reading and will have a decent following.\r\n",
+   "img_url": "/bands/275_IMG_3108.PNG",
+   "links": [],
+   "audition": "https://www.dropbox.com/preview/The%20Atom%20Project/May%20Music%20Porch%20Set/1%20Maps%205%201%2026.MOV?context=standalone_preview&role=personal",
+   "in_gallery": 1,
+   "styles": [
+    "Alternative",
+    "Pop",
+    "Rock"
+   ],
+   "performance_type": [
+    "covers",
+    "Covers"
+   ],
+   "content_rating": [
+    "pg",
+    "PG (Family Friendly)"
+   ]
+  },
+  "214": {
+   "id": 214,
+   "name": "SEMM",
+   "description": "11 year old girl band rocking pop songs consisting of vocals, piano, bass/guitar, and drums.  These girls love to rock and have played at numerous Porchfests, Kids Open Mic, and Harvard Square.",
+   "img_url": "/bands/214_SEMMLogo.png",
+   "links": [
+    "https://www.youtube.com/@SEMM-MUSIC"
+   ],
+   "audition": "https://www.youtube.com/watch?v=dKbMUxlJKiQ",
+   "in_gallery": 1,
+   "styles": [
+    "Pop"
+   ],
+   "performance_type": [
+    "covers",
+    "Covers"
+   ],
+   "content_rating": [
+    "pg",
+    "PG (Family Friendly)"
+   ]
+  },
+  "276": {
+   "id": 276,
+   "name": "The Strummerville Ukulele Club",
+   "description": "We're a fun-loving, ukulele-strumming and singing group of amateur musicians who love the ukulele. We're all about community building, not Grammy nominations,",
+   "img_url": "/bands/276_276_IMG_7930_2.jpg",
+   "links": [
+    "https://www.strummerville.org",
+    "https://www.facebook.com/p/The-Strummerville-Ukulele-Club-100028472393427/"
+   ],
+   "audition": "",
+   "in_gallery": 1,
+   "styles": [
+    "Alternative",
+    "Blues",
+    "Country",
+    "Folk",
+    "Pop",
+    "Punk",
+    "Rock"
+   ],
+   "performance_type": [
+    "covers",
+    "Covers"
+   ],
+   "content_rating": [
+    "pg",
+    "PG (Family Friendly)"
+   ]
+  },
+  "277": {
+   "id": 277,
+   "name": "Katrina Marie Band",
+   "description": "The Katrina Marie Band brings a vibrant blend of R&B, blues, jazz, soul, rockabilly, and French-inspired classics, performing both French and American favorites from decades past. ",
+   "img_url": "/bands/277_1000026874.jpg",
+   "links": [
+    "https://www.instagram.com/katrina_marie_music?igsh=ZTBibGY5YjN3Y3Fy",
+    "https://youtube.com/@katrinamariemusic?si=Uew_c2vmLe8oTyAB"
+   ],
+   "audition": "https://youtu.be/hFwuKFvdugU?is=bprYpRhudHdZqSi2",
+   "in_gallery": 1,
+   "styles": [
+    "Blues",
+    "Jazz",
+    "Pop"
+   ],
+   "performance_type": [
+    "originals_and_covers",
+    "Originals and Covers"
+   ],
+   "content_rating": [
+    "pg",
+    "PG (Family Friendly)"
+   ]
+  },
+  "187": {
+   "id": 187,
+   "name": "TOKYO TRAMPS",
+   "description": "TOKYO TRAMPS \u2013 named after Bruce Springsteen\u2019s song \u201cBorn To Run,\u201d has been creating unique and exciting Blues/Rock with New Orleans funk groove. Released 9 original albums in 20+year musical career.",
+   "img_url": "/bands/187_TOKYO_TRAMPS_2026.jpg",
+   "links": [
+    "https://www.tokyotramps.com",
+    "https://www.facebook.com/tokyotramps",
+    "https://www.instagram.com/tokyotramps"
+   ],
+   "audition": "https://youtu.be/gSZA7g1llKE?si=DrHO5M_Ly9NkSVmw",
+   "in_gallery": 1,
+   "styles": [
+    "Blues"
+   ],
+   "performance_type": [
+    "originals_and_covers",
+    "Originals and Covers"
+   ],
+   "content_rating": [
+    "pg",
+    "PG (Family Friendly)"
+   ]
+  },
+  "278": {
+   "id": 278,
+   "name": "Michael Rivelis ",
+   "description": "Music of the 60's, 70's, 80's and 90's plus some current music",
+   "img_url": "/bands/278_IMG_5239.jpeg",
+   "links": [],
+   "audition": "",
+   "in_gallery": 1,
+   "styles": [
+    "Folk",
+    "Rock"
+   ],
+   "performance_type": [
+    "covers",
+    "Covers"
+   ],
+   "content_rating": [
+    "pg_13",
+    "PG-13 (Suggestive Themes/Language)"
+   ]
+  },
+  "55": {
+   "id": 55,
+   "name": "Goodnight Sofia",
+   "description": "Rock and pop cover songs from fan-favorite hits to album deep cuts.",
+   "img_url": "/bands/55_goodnight-sofia-logo-black.png",
+   "links": [],
+   "audition": "https://youtu.be/goIQ0yoCmyk",
+   "in_gallery": 1,
+   "styles": [
+    "Alternative",
+    "Pop",
+    "Rock"
+   ],
+   "performance_type": [
+    "covers",
+    "Covers"
+   ],
+   "content_rating": [
+    "pg_13",
+    "PG-13 (Suggestive Themes/Language)"
+   ]
+  },
+  "78": {
+   "id": 78,
+   "name": "Jessica and David",
+   "description": "Brother-and-sister duo covers great tunes.",
+   "img_url": "/bands/78_IMG_0467.jpeg",
+   "links": [],
+   "audition": "https://drive.google.com/file/d/11mwNtyVM6gKIcJRaekKwL-aJmdQU8hN5/view?usp=sharing",
+   "in_gallery": 1,
+   "styles": [
+    "Pop"
+   ],
+   "performance_type": [
+    "covers",
+    "Covers"
+   ],
+   "content_rating": [
+    "pg",
+    "PG (Family Friendly)"
+   ]
+  },
+  "280": {
+   "id": 280,
+   "name": "Turkey Hill Ragtime Orchestra",
+   "description": "Toe-tapping fun for the whole family \u2013 the 10-13 piece Turkey Hill Ragtime Orchestra plays vintage arrangements of ragtime music and popular songs from the 1890\u2019s \u2013 1920\u2019s. ",
+   "img_url": "/bands/280_THRO_publicity_photo_2025_shorter.JPG",
+   "links": [
+    "//www.turkeyhillragtime.com",
+    "https://www.youtube.com/@TurkeyHillRagtimeOrchestra",
+    "https://www.instagram.com/ragtimeturkeys/"
+   ],
+   "audition": "https://www.youtube.com/watch?v=teppWY54cqQ",
+   "in_gallery": 1,
+   "styles": [
+    "Children",
+    "Classical",
+    "Folk",
+    "Jazz"
+   ],
+   "performance_type": [
+    "covers",
+    "Covers"
+   ],
+   "content_rating": [
+    "g",
+    "G (Kids Music)"
+   ]
+  },
+  "189": {
+   "id": 189,
+   "name": "Chris Power",
+   "description": "With his acoustic guitar in hand, Chris Power plays all your favorite tunes-classic rock, country, and more. Chris offers something for everyone to enjoy. So come sing along and have fun!",
+   "img_url": "/bands/189_chris_power_music_logo.png",
+   "links": [
+    "https://www.instagram.com/powerade_918/?igsh=cGs5bG5xamdvYmwz&utm_source=qr#"
+   ],
+   "audition": "https://www.instagram.com/reel/DMNxLpzRgqg/",
+   "in_gallery": 1,
+   "styles": [
+    "Alternative",
+    "Blues",
+    "Country",
+    "Folk",
+    "Pop",
+    "Rock"
+   ],
+   "performance_type": [
+    "covers",
+    "Covers"
+   ],
+   "content_rating": [
+    "pg",
+    "PG (Family Friendly)"
+   ]
+  },
+  "281": {
+   "id": 281,
+   "name": "Mick and Moon",
+   "description": "Classic Rock acoustic duo",
+   "img_url": "/bands/281_mick_and_moon.jpg",
+   "links": [
+    "https://www.facebook.com/share/1Ph9EqZdSz/?mibextid=wwXIfr"
+   ],
+   "audition": "",
+   "in_gallery": 1,
+   "styles": [
+    "Alternative",
+    "Country",
+    "Rock"
+   ],
+   "performance_type": [
+    "covers",
+    "Covers"
+   ],
+   "content_rating": [
+    "pg_13",
+    "PG-13 (Suggestive Themes/Language)"
+   ]
+  },
+  "282": {
+   "id": 282,
+   "name": "Ollie the Dog",
+   "description": "Referring to the Dog, the myth, the legend - but also a command to jump over a dog on a skateboard, Ollie the Dog is a 3 piece alternative cover band based out of Boston.",
+   "img_url": "/bands/282_ollie.jpg",
+   "links": [],
+   "audition": "https://www.youtube.com/watch?v=VUwuzz13QKM",
+   "in_gallery": 1,
+   "styles": [
+    "Alternative",
+    "Rock"
+   ],
+   "performance_type": [
+    "covers",
+    "Covers"
+   ],
+   "content_rating": [
+    "pg_13",
+    "PG-13 (Suggestive Themes/Language)"
+   ]
+  },
+  "283": {
+   "id": 283,
+   "name": "The Grownup Noise & Friends",
+   "description": "Indie rock from Boston area",
+   "img_url": "/bands/283_gnoise_floor_filter.jpg",
+   "links": [
+    "https://www.thegrownupnoise.com/",
+    "https://www.instagram.com/thegrownupnoise/",
+    "https://www.facebook.com/thegrownupnoise/"
+   ],
+   "audition": "https://youtu.be/EYJfVeZw-UI?si=rmkSsmIvESfJGPuv",
+   "in_gallery": 1,
+   "styles": [
+    "Alternative"
+   ],
+   "performance_type": [
+    "originals",
+    "Originals"
+   ],
+   "content_rating": [
+    "pg_13",
+    "PG-13 (Suggestive Themes/Language)"
+   ]
+  },
+  "124": {
+   "id": 124,
+   "name": "The Swamp Kings",
+   "description": "Originals and covers of blues tunes with vocal, harmonica and guitar by Paul Scialdone and Jim Vath  (members of Shatter Albi Band).",
+   "img_url": "/bands/124_IMG_5142.jpg",
+   "links": [
+    "https://youtube.com/@swampkings-q9c?si=C4Yz1Xn_R6F1H1ez"
+   ],
+   "audition": "",
+   "in_gallery": 1,
+   "styles": [
+    "Blues"
+   ],
+   "performance_type": [
+    "originals_and_covers",
+    "Originals and Covers"
+   ],
+   "content_rating": [
+    "pg",
+    "PG (Family Friendly)"
+   ]
+  },
+  "284": {
+   "id": 284,
+   "name": "The Ukulele Lady",
+   "description": "Kate sings and plays an electric ukulele and Rich plays bass. Song lists include an array of 50s, 60s, and 70s retro rock / pop hits.",
+   "img_url": "/bands/284_Attachment.jpeg",
+   "links": [
+    "https://www.facebook.com/kate.l.principe/"
+   ],
+   "audition": "https://drive.google.com/file/d/1VtipuZOFa-L4fDie06cPcy52pYLGsQF_/preview",
+   "in_gallery": 1,
+   "styles": [
+    "Pop",
+    "Rock"
+   ],
+   "performance_type": [
+    "covers",
+    "Covers"
+   ],
+   "content_rating": [
+    "pg",
+    "PG (Family Friendly)"
+   ]
+  },
+  "46": {
+   "id": 46,
+   "name": "Don't force it.",
+   "description": "Don't Force It are two brothers playing drums and guitars on covers of songs from various rock genres.",
+   "img_url": "/bands/46_IMG_2135.jpg",
+   "links": [],
+   "audition": "https://drive.google.com/file/d/1ae5g1w8kbldrhefq_M1hyFDUcFOtV8GA/view?usp=sharing",
+   "in_gallery": 1,
+   "styles": [
+    "Alternative",
+    "Pop",
+    "Rock"
+   ],
+   "performance_type": [
+    "covers",
+    "Covers"
+   ],
+   "content_rating": [
+    "pg_13",
+    "PG-13 (Suggestive Themes/Language)"
+   ]
+  },
+  "285": {
+   "id": 285,
+   "name": "Sassafrass",
+   "description": "We are a female forward, Eclectic band singing harmonies from the 60s genre all the way to today. \r\nOur musical stylings range from Blues, Folk, Pop, and Country to Classic Rock.",
+   "img_url": "",
+   "links": [],
+   "audition": "",
+   "in_gallery": 1,
+   "styles": [
+    "Blues",
+    "Country",
+    "Folk",
+    "Pop",
+    "Rock"
+   ],
+   "performance_type": [
+    "covers",
+    "Covers"
+   ],
+   "content_rating": [
+    "pg",
+    "PG (Family Friendly)"
+   ]
+  },
+  "49": {
+   "id": 49,
+   "name": "Ukulele Grandeur",
+   "description": "I am a 16 year old solo ukulele artist with 10 years of performance experience including three years of performing at Wakefield Farmers Market. I play a mix of popular cover songs and my originals. ",
+   "img_url": "/bands/49_IMG_3256.jpeg",
+   "links": [],
+   "audition": "https://drive.google.com/file/d/186WDCBMDaIyqkRUJxBJidjXgmQjUEnRq/view?usp=drive_link",
+   "in_gallery": 1,
+   "styles": [],
+   "performance_type": [
+    "originals_and_covers",
+    "Originals and Covers"
+   ],
+   "content_rating": [
+    "pg",
+    "PG (Family Friendly)"
+   ]
+  },
+  "286": {
+   "id": 286,
+   "name": "Meet Cute",
+   "description": "Folky jams, lots of harmonies, and covers from the aughts with a sprinkle of classic folk. Welcome to Meet Cute's debut!",
+   "img_url": "/bands/286_Meet_Cute_Logo.png",
+   "links": [],
+   "audition": "",
+   "in_gallery": 1,
+   "styles": [
+    "Alternative"
+   ],
+   "performance_type": [
+    "covers",
+    "Covers"
+   ],
+   "content_rating": [
+    "pg",
+    "PG (Family Friendly)"
+   ]
+  },
+  "287": {
+   "id": 287,
+   "name": "Tuff Chunks",
+   "description": "Tuff Chunks is a Boston-area rock cover band playing favorites and deep cuts from the \u201970s, \u201980s, and \u201990s: songs you know, songs you forgot you knew, and songs you\u2019re hearing for the first time.",
+   "img_url": "",
+   "links": [],
+   "audition": "",
+   "in_gallery": 1,
+   "styles": [
+    "Alternative",
+    "Blues",
+    "Rock"
+   ],
+   "performance_type": [
+    "covers",
+    "Covers"
+   ],
+   "content_rating": [
+    "pg_13",
+    "PG-13 (Suggestive Themes/Language)"
+   ]
+  },
+  "288": {
+   "id": 288,
+   "name": "Tio Rojo",
+   "description": "\u201cThe Baddest Dad-Band in the Land!\u201d\r\nChris - guitar, sax and vocals\r\nGrady - guitar and vocals\r\nElia - bass and vocals\r\nKeith - trombone\r\nTom - drums and vocals\r\n**INTRODUCING - ALLY ON VOCALS!!**",
+   "img_url": "",
+   "links": [
+    "https://www.tiorojo.com/listen"
+   ],
+   "audition": "",
+   "in_gallery": 1,
+   "styles": [
+    "Alternative",
+    "Blues",
+    "Country",
+    "Folk",
+    "Jazz",
+    "Pop",
+    "Rock"
+   ],
+   "performance_type": [
+    "covers",
+    "Covers"
+   ],
+   "content_rating": [
+    "pg_13",
+    "PG-13 (Suggestive Themes/Language)"
+   ]
+  },
+  "70": {
+   "id": 70,
+   "name": "Vivienne Marquand",
+   "description": "Vivienne is a 14 year old singer/guitarist. She has performed at Melrose and Malden Porchfests. Billie Eilish and indie pop are her biggest influences. She performs with guitar.",
+   "img_url": "/bands/70_IMG_0511.jpg",
+   "links": [
+    "https://www.youtube.com/@starsigntheband"
+   ],
+   "audition": "",
+   "in_gallery": 1,
+   "styles": [
+    "Alternative",
+    "Folk",
+    "Pop",
+    "Rock"
+   ],
+   "performance_type": [
+    "originals_and_covers",
+    "Originals and Covers"
+   ],
+   "content_rating": [
+    "pg",
+    "PG (Family Friendly)"
+   ]
+  },
+  "172": {
+   "id": 172,
+   "name": "RTE 145 Band",
+   "description": "2 Acoustic Guitars, 60s, 70s, 90s ROCK\r\n(plugged in with P.A.)\r\n\r\n",
+   "img_url": "",
+   "links": [],
+   "audition": "https://www.facebook.com/share/v/1B2QjDD8qa/",
+   "in_gallery": 1,
+   "styles": [
+    "Alternative",
+    "Country",
+    "Heavy Metal",
+    "Rock"
+   ],
+   "performance_type": [
+    "originals_and_covers",
+    "Originals and Covers"
+   ],
+   "content_rating": [
+    "pg",
+    "PG (Family Friendly)"
+   ]
+  },
+  "289": {
+   "id": 289,
+   "name": "Molly\u2019s Brothers",
+   "description": "Rock Band",
+   "img_url": "",
+   "links": [],
+   "audition": "",
+   "in_gallery": 1,
+   "styles": [
+    "Rock"
+   ],
+   "performance_type": [
+    "covers",
+    "Covers"
+   ],
+   "content_rating": [
+    "pg_13",
+    "PG-13 (Suggestive Themes/Language)"
+   ]
+  },
+  "52": {
+   "id": 52,
+   "name": "Side By Each",
+   "description": "A three piece band with lead guitarist Ric Page, multi-instrumentalist Tom Sullivan, and guitarist, vocalist, and dancer Dolores Bourque. We will play a wide variety of music from country to 60s pop.",
+   "img_url": "/bands/52_Annotation_2024-07-06_215057.png",
+   "links": [],
+   "audition": "https://drive.google.com/file/d/1WT1AOIJVqHoNIG_-r1HkDQNXqwHj39oT/view?usp=drive_link",
+   "in_gallery": 1,
+   "styles": [
+    "Country",
+    "Pop"
+   ],
+   "performance_type": [
+    "originals_and_covers",
+    "Originals and Covers"
+   ],
+   "content_rating": [
+    "pg",
+    "PG (Family Friendly)"
+   ]
+  },
+  "208": {
+   "id": 208,
+   "name": "Stoop Lads",
+   "description": "The band formerly known as Porch B.O.T.S is back at a porch near you! We play cover favorites and forgotten gems from the 60s to 90s. ",
+   "img_url": "/bands/208_updated_band_photo.png",
+   "links": [],
+   "audition": "https://www.youtube.com/watch?v=kgtCs1KxVNw&t=29s",
+   "in_gallery": 1,
+   "styles": [
+    "Alternative",
+    "Rock"
+   ],
+   "performance_type": [
+    "covers",
+    "Covers"
+   ],
+   "content_rating": [
+    "pg",
+    "PG (Family Friendly)"
+   ]
+  },
+  "294": {
+   "id": 294,
+   "name": "Texas Dave",
+   "description": "Texas Dave Hardwick is a singer/songwriter/guitarist from Fort Worth who has been writing songs and performing them, along with mix of cover songs, at bars, open mics, and concerts for decades.",
+   "img_url": "/bands/294_612069018_10241393954771737_8583500414060656314_n.jpg",
+   "links": [
+    "https://www.youtube.com/watch?v=k0-2mVn1ClE&list=OLAK5uy_mLOAzODef-ieFq2--ovUpGO_yPt3kYbtw"
+   ],
+   "audition": "https://youtu.be/5VgxKqd6gsQ?list=RD5VgxKqd6gsQ",
+   "in_gallery": 1,
+   "styles": [
+    "Folk",
+    "Rock"
+   ],
+   "performance_type": [
+    "originals_and_covers",
+    "Originals and Covers"
+   ],
+   "content_rating": [
+    "pg",
+    "PG (Family Friendly)"
+   ]
+  },
+  "295": {
+   "id": 295,
+   "name": "The Frozen Grapes",
+   "description": "Born on New Year's Eve, 9-year-old Nina Adams is a party girl with big sass, bigger personality, and a love of performing. Ike Adams provides piano accompaniment, fatherly support, and roadie services",
+   "img_url": "/bands/295_FrozenGrapes.png",
+   "links": [],
+   "audition": "https://drive.google.com/file/d/1D_KVYV7oMSg10mm1LHWGYpIrJ1uC0lcr/preview",
+   "in_gallery": 1,
+   "styles": [
+    "Pop"
+   ],
+   "performance_type": [
+    "covers",
+    "Covers"
+   ],
+   "content_rating": [
+    "pg",
+    "PG (Family Friendly)"
+   ]
+  },
+  "179": {
+   "id": 179,
+   "name": "Onslaught",
+   "description": "",
+   "img_url": "/bands/179_m_33.jpg",
+   "links": [],
+   "audition": "https://drive.google.com/file/d/1Hpa8mvqzRtxq30xudmgjj9Wz6zaQs332/preview",
+   "in_gallery": 1,
+   "styles": [
+    "Pop",
+    "Rock"
+   ],
+   "performance_type": [
+    "covers",
+    "Covers"
+   ],
+   "content_rating": [
+    "pg_13",
+    "PG-13 (Suggestive Themes/Language)"
+   ]
+  },
+  "296": {
+   "id": 296,
+   "name": "Subliminal",
+   "description": "",
+   "img_url": "/bands/296_m_95.jpg",
+   "links": [],
+   "audition": "",
+   "in_gallery": 1,
+   "styles": [
+    "Rock"
+   ],
+   "performance_type": [
+    "covers",
+    "Covers"
+   ],
+   "content_rating": [
+    "pg_13",
+    "PG-13 (Suggestive Themes/Language)"
+   ]
+  },
+  "297": {
+   "id": 297,
+   "name": "Midnight Terrors",
+   "description": "",
+   "img_url": "/bands/297_o_10.jpg",
+   "links": [],
+   "audition": "",
+   "in_gallery": 1,
+   "styles": [
+    "Rock"
+   ],
+   "performance_type": [
+    "covers",
+    "Covers"
+   ],
+   "content_rating": [
+    "pg",
+    "PG (Family Friendly)"
+   ]
+  },
+  "298": {
+   "id": 298,
+   "name": "Soloonar",
+   "description": "Alt rock  band, semi-acoustic set of covers and original  songs about Wednesdays, the future of humanity, and what space sounds like. We\u2019ve got a show at the Jungle in Somerville later today! (8/29)",
+   "img_url": "/bands/298_IMG_2881.jpeg",
+   "links": [
+    "https://www.instagram.com/soloonar?utm_source=qr",
+    "https://www.tiktok.com/@soloonarband?_r=1&_t=ZP-98gnv22cxup"
+   ],
+   "audition": "https://youtu.be/fhBn73L_eaQ?feature=shared",
+   "in_gallery": 1,
+   "styles": [
+    "Alternative",
+    "Rock"
+   ],
+   "performance_type": [
+    "originals_and_covers",
+    "Originals and Covers"
+   ],
+   "content_rating": [
+    "pg_13",
+    "PG-13 (Suggestive Themes/Language)"
+   ]
+  },
+  "113": {
+   "id": 113,
+   "name": "Lucia",
+   "description": "Some blues, singer-songwriter and rock from 60\u2019s to today",
+   "img_url": "/bands/113_PXL_20250906_180104566.MP3.jpeg",
+   "links": [],
+   "audition": "https://drive.google.com/file/d/1pKVud2cjvCVLKMVD34ASro0xSPF1CsYs/preview",
+   "in_gallery": 1,
+   "styles": [
+    "Blues",
+    "Country",
+    "Folk",
+    "Pop",
+    "Rock"
+   ],
+   "performance_type": [
+    "covers",
+    "Covers"
+   ],
+   "content_rating": [
+    "pg_13",
+    "PG-13 (Suggestive Themes/Language)"
+   ]
+  },
+  "106": {
+   "id": 106,
+   "name": "Amsterdam's Waiting",
+   "description": "Acoustic cover band targeting classic rock, pop and alternative hits from all the ages. Check out our YouTube channel and website for more details www.amsterdamswaiting.com",
+   "img_url": "/bands/106_IMG_0015.jpeg",
+   "links": [
+    "https://amsterdamswaiting.com/",
+    "https://www.facebook.com/AmsterdamsWaiting/",
+    "https://www.youtube.com/@amsterdamswaitingmusic/videos"
+   ],
+   "audition": "https://drive.google.com/file/d/1Fpem87QFX-4UNfM-rgUEH8DKUG1dCUyP/view?usp=drive_link",
+   "in_gallery": 1,
+   "styles": [
+    "Alternative",
+    "Pop",
+    "Rap",
+    "Rock"
+   ],
+   "performance_type": [
+    "covers",
+    "Covers"
+   ],
+   "content_rating": [
+    "pg",
+    "PG (Family Friendly)"
+   ]
+  },
+  "45": {
+   "id": 45,
+   "name": "Uriel Bourque And Friends",
+   "description": "Uriel Bourque is a musician and writer from Wakefield MA who has released lots of original music. He and friends will play a variety of different covers, followed by a set of solo originals.",
+   "img_url": "/bands/45_uriel_pfp.jpg",
+   "links": [
+    "https://urielbourque.com/",
+    "https://urielbourque.bandcamp.com/"
+   ],
+   "audition": "https://www.youtube.com/watch?v=Sdz1rwE6eRw",
+   "in_gallery": 1,
+   "styles": [
+    "Alternative",
+    "Country",
+    "Electronic",
+    "Folk",
+    "Pop",
+    "Rock"
+   ],
+   "performance_type": [
+    "originals_and_covers",
+    "Originals and Covers"
+   ],
+   "content_rating": [
+    "pg",
+    "PG (Family Friendly)"
+   ]
+  },
+  "111": {
+   "id": 111,
+   "name": "Francis James",
+   "description": "Francis James is a guitarist and songwriter inspired by the music of Prince, Buddy Holly, and 60s legend Donovan. The country he comes from is called the Midwest, but he now makes his home in Melrose.",
+   "img_url": "/bands/111_dark_red_guitar_.jpg",
+   "links": [
+    "https://youtu.be/6FqxiSStNXE",
+    "https://www.youtube.com/live/NvfQQB7sPqY?si=a3EhU-Vl8ZPww9Ta&t=1154"
+   ],
+   "audition": "https://www.youtube.com/live/NvfQQB7sPqY?si=a3EhU-Vl8ZPww9Ta&t=1154",
+   "in_gallery": 1,
+   "styles": [
+    "Alternative"
+   ],
+   "performance_type": [
+    "originals",
+    "Originals"
+   ],
+   "content_rating": [
+    "pg",
+    "PG (Family Friendly)"
+   ]
+  },
+  "103": {
+   "id": 103,
+   "name": "Firebird Pops Orchestra",
+   "description": "Founded in 2020 during the pandemic, the Firebird Pops Orchestra is a Wakefield-based ensemble performing music from film/video game soundtracks, TV, Broadway, and more!",
+   "img_url": "/bands/103_FPO-Large-Sq.png",
+   "links": [
+    "https://firebirdpops.org",
+    "https://facebook.com/firebirdpops",
+    "https://instagram.com/firebirdpops"
+   ],
+   "audition": "https://drive.google.com/file/d/1XOHO7qo7pwKx0L4093FK2LAVpT2DF5RM/view?usp=sharing",
+   "in_gallery": 1,
+   "styles": [],
+   "performance_type": [
+    "covers",
+    "Covers"
+   ],
+   "content_rating": [
+    "g",
+    "G (Kids Music)"
+   ]
+  },
+  "300": {
+   "id": 300,
+   "name": "the_Stampede",
+   "description": "The Stampede, formed in 2008, is a 5 piece Boston based rock band incorporating elements of blues, psychedelic, and dance rock.",
+   "img_url": "",
+   "links": [],
+   "audition": "",
+   "in_gallery": 1,
+   "styles": [
+    "Alternative",
+    "Blues",
+    "Punk",
+    "Rock"
+   ],
+   "performance_type": [
+    "originals",
+    "Originals"
+   ],
+   "content_rating": [
+    "pg_13",
+    "PG-13 (Suggestive Themes/Language)"
+   ]
+  },
+  "96": {
+   "id": 96,
+   "name": "Beantown Music School Show Team",
+   "description": "The Beantown Music School Show Team is a high-energy cover band that spans an impressive array of music genres, showcasing their exceptional talents and unwavering dedication.",
+   "img_url": "/bands/96_Showteam_Picture_Black_and_White.png",
+   "links": [
+    "https://www.beantownmusicschool.org/",
+    "https://www.instagram.com/beantownmusicschool/?hl=en",
+    "https://www.facebook.com/people/Beantown-Music-School/61564810596687/#"
+   ],
+   "audition": "https://www.facebook.com/reel/1665619077439092",
+   "in_gallery": 1,
+   "styles": [
+    "Rock"
+   ],
+   "performance_type": [
+    "covers",
+    "Covers"
+   ],
+   "content_rating": [
+    "pg",
+    "PG (Family Friendly)"
+   ]
+  },
+  "301": {
+   "id": 301,
+   "name": "Bumpin Uglies",
+   "description": "Rockin\u2019 hits from the last 40-50!",
+   "img_url": "",
+   "links": [],
+   "audition": "",
+   "in_gallery": 1,
+   "styles": [
+    "Alternative",
+    "Heavy Metal",
+    "Rock"
+   ],
+   "performance_type": [
+    "covers",
+    "Covers"
+   ],
+   "content_rating": [
+    "pg",
+    "PG (Family Friendly)"
+   ]
+  },
+  "302": {
+   "id": 302,
+   "name": "Randall Russell",
+   "description": "Solo artist playing original Rock n Roll tunes with elements of psych, folk, punk, blues & indie. Songs are musings on the human condition, from love to grief to cosmic doom and the mundane.",
+   "img_url": "/bands/302_CAB647AD-4683-4B8E-9BC5-FB6F4F03E5F5.jpeg",
+   "links": [
+    "//randallrussell.bandcamp.com",
+    "https://www.instagram.com/randall_russell_music?igsh=bGx6am82OW95eWtp&utm_source=qr"
+   ],
+   "audition": "https://www.instagram.com/reel/C1lLuBCM1Rp/?igsh=dWYycmRqNG83dXBo",
+   "in_gallery": 1,
+   "styles": [
+    "Alternative",
+    "Blues",
+    "Folk",
+    "Punk",
+    "Rock"
+   ],
+   "performance_type": [
+    "originals",
+    "Originals"
+   ],
+   "content_rating": [
+    "pg_13",
+    "PG-13 (Suggestive Themes/Language)"
+   ]
+  },
+  "303": {
+   "id": 303,
+   "name": "Guilty Pleasure",
+   "description": "Breathing new life into all your favorite guilty pleasures!",
+   "img_url": "/bands/303_IMG_3996.jpeg",
+   "links": [],
+   "audition": "",
+   "in_gallery": 1,
+   "styles": [
+    "Electronic"
+   ],
+   "performance_type": [
+    "covers",
+    "Covers"
+   ],
+   "content_rating": [
+    "pg_13",
+    "PG-13 (Suggestive Themes/Language)"
+   ]
+  },
+  "304": {
+   "id": 304,
+   "name": "Tr\u00e9 Amusica",
+   "description": "Music from\r\nAround the world , classic and variety well known.",
+   "img_url": "/bands/304_Patricia.jpg",
+   "links": [
+    "https://youtu.be/b4xqyrX9oFw?is=EhiZ9TX__VhmC5xD",
+    "https://youtu.be/TNs4bXv_Xes?is=0oSZuTgHl13vNDuk"
+   ],
+   "audition": "https://youtu.be/TNs4bXv_Xes?is=0oSZuTgHl13vNDuk",
+   "in_gallery": 1,
+   "styles": [
+    "Classical",
+    "Pop"
+   ],
+   "performance_type": [
+    "originals",
+    "Originals"
+   ],
+   "content_rating": [
+    "pg",
+    "PG (Family Friendly)"
+   ]
+  },
+  "305": {
+   "id": 305,
+   "name": "What's Shakin",
+   "description": "We would perform at 552 North Ave ",
+   "img_url": "",
+   "links": [],
+   "audition": "",
+   "in_gallery": 1,
+   "styles": [
+    "Rock"
+   ],
+   "performance_type": [
+    "covers",
+    "Covers"
+   ],
+   "content_rating": [
+    "pg_13",
+    "PG-13 (Suggestive Themes/Language)"
+   ]
+  },
+  "306": {
+   "id": 306,
+   "name": "John and Nick",
+   "description": "Two dads playing some nice songs folks can sing along to",
+   "img_url": "/bands/306_JohnAndNick.jpg",
+   "links": [],
+   "audition": "",
+   "in_gallery": 1,
+   "styles": [
+    "Alternative",
+    "Folk",
+    "Rock"
+   ],
+   "performance_type": [
+    "covers",
+    "Covers"
+   ],
+   "content_rating": [
+    "pg",
+    "PG (Family Friendly)"
+   ]
+  },
+  "307": {
+   "id": 307,
+   "name": "BOSSTOWN HEAVY",
+   "description": "Bosstown Heavy\u00a0is\u00a0a Boston-based Reggae Rock Dub band. Performing high energy reggae with instrumental solos that create a great atmosphere., \u201cmind-bending\" sound and positivity",
+   "img_url": "/bands/307_IMG_1874.jpeg",
+   "links": [
+    "https://www.facebook.com/jimmytrapella",
+    "https://www.instagram.com/bosstownheavy",
+    "https://www.youtube.com/@jimmytreez5623"
+   ],
+   "audition": "https://drive.google.com/file/d/1MP9nFWRA5vs4XpHpPdkmXMYFUwo75hQw/preview",
+   "in_gallery": 1,
+   "styles": [],
+   "performance_type": [
+    "originals_and_covers",
+    "Originals and Covers"
+   ],
+   "content_rating": [
+    "pg",
+    "PG (Family Friendly)"
+   ]
+  }
+ },
+ "hosts": {
+  "77": {
+   "id": 77,
+   "number": 1,
+   "addr": "56 MAIN ST",
+   "locId": 80,
+   "location": [
+    42.5218853,
+    -71.0772642
+   ]
+  },
+  "60": {
+   "id": 60,
+   "number": 2,
+   "addr": "6 HANCOCK ROAD",
+   "locId": 86,
+   "location": [
+    42.5169355,
+    -71.0726387
+   ]
+  },
+  "115": {
+   "id": 115,
+   "number": 3,
+   "addr": "55 FORRESTER RD.",
+   "locId": 103,
+   "location": [
+    42.5185961,
+    -71.0692308
+   ]
+  },
+  "110": {
+   "id": 110,
+   "number": 4,
+   "addr": "17 KIMBALL AVENUE",
+   "locId": 26,
+   "location": [
+    42.5152979,
+    -71.0674889
+   ]
+  },
+  "104": {
+   "id": 104,
+   "number": 5,
+   "addr": "10 WHITE CIR",
+   "locId": 6,
+   "location": [
+    42.5123301,
+    -71.0676068
+   ]
+  },
+  "137": {
+   "id": 137,
+   "number": 6,
+   "addr": "74 PLEASANT STREET",
+   "locId": 130,
+   "location": [
+    42.5100631,
+    -71.0686413
+   ]
+  },
+  "85": {
+   "id": 85,
+   "number": 7,
+   "addr": "55 PLEASANT STREET",
+   "locId": 78,
+   "location": [
+    42.508308,
+    -71.0683039
+   ]
+  },
+  "82": {
+   "id": 82,
+   "number": 8,
+   "addr": "11 PEARL ST",
+   "locId": 13,
+   "location": [
+    42.50794339999999,
+    -71.07026809999999
+   ]
+  },
+  "96": {
+   "id": 96,
+   "number": 9,
+   "addr": "5 BRYANT ST",
+   "locId": 73,
+   "location": [
+    42.5072388,
+    -71.0708971
+   ],
+   "title": "Emmanuel Episcopal Church "
+  },
+  "118": {
+   "id": 118,
+   "number": 10,
+   "addr": "1 CHURCH STREET",
+   "locId": 106,
+   "location": [
+    42.5073709,
+    -71.0731189
+   ],
+   "title": "FPCC"
+  },
+  "109": {
+   "id": 109,
+   "number": 11,
+   "addr": "8 LAFAYETTE ST.",
+   "locId": 95,
+   "location": [
+    42.5057477,
+    -71.0725726
+   ],
+   "title": "First Baptist Church"
+  },
+  "128": {
+   "id": 128,
+   "number": 12,
+   "addr": "21 CRESCENT STREET",
+   "locId": 115,
+   "location": [
+    42.5050806,
+    -71.06984
+   ],
+   "title": "Brightview Wakefield"
+  },
+  "130": {
+   "id": 130,
+   "number": 13,
+   "addr": "397 MAIN ST",
+   "locId": 117,
+   "location": [
+    42.5030987,
+    -71.0707388
+   ],
+   "title": "Public Kitchen"
+  },
+  "129": {
+   "id": 129,
+   "number": 14,
+   "addr": "239 NORTH AVENUE",
+   "locId": 116,
+   "location": [
+    42.502443,
+    -71.07532859999999
+   ],
+   "title": "Creative Chaos Emporium"
+  },
+  "53": {
+   "id": 53,
+   "number": 15,
+   "addr": "44A YALE AVE",
+   "locId": 69,
+   "location": [
+    42.5041288,
+    -71.076572
+   ],
+   "title": "Onset Stage"
+  },
+  "54": {
+   "id": 54,
+   "number": 16,
+   "addr": "14 CEDAR COURT",
+   "locId": 22,
+   "location": [
+    42.5038797,
+    -71.0779593
+   ]
+  },
+  "48": {
+   "id": 48,
+   "number": 17,
+   "addr": "53 CEDAR STREET",
+   "locId": 75,
+   "location": [
+    42.5018265,
+    -71.08001229999999
+   ]
+  },
+  "78": {
+   "id": 78,
+   "number": 18,
+   "addr": "2 HARRINGTON COURT",
+   "locId": 36,
+   "location": [
+    42.4992385,
+    -71.0796525
+   ]
+  },
+  "140": {
+   "id": 140,
+   "number": 19,
+   "addr": "96 CEDAR STREET",
+   "locId": 127,
+   "location": [
+    42.4992295,
+    -71.07876759999999
+   ]
+  },
+  "136": {
+   "id": 136,
+   "number": 20,
+   "addr": "23 LAKE STREET",
+   "locId": 123,
+   "location": [
+    42.498434,
+    -71.0754563
+   ],
+   "title": "Huskey home"
+  },
+  "107": {
+   "id": 107,
+   "number": 21,
+   "addr": "34 LAKE STREET",
+   "locId": 62,
+   "location": [
+    42.4977635,
+    -71.0749171
+   ],
+   "title": "Rob's Home"
+  },
+  "122": {
+   "id": 122,
+   "number": 22,
+   "addr": "150 BROADWAY STREET",
+   "locId": 110,
+   "location": [
+    42.4959699,
+    -71.0760427
+   ]
+  },
+  "119": {
+   "id": 119,
+   "number": 23,
+   "addr": "4 W PARK DR.",
+   "locId": 107,
+   "location": [
+    42.49344920000001,
+    -71.083489
+   ],
+   "title": "The Matson Residence"
+  },
+  "50": {
+   "id": 50,
+   "number": 24,
+   "addr": "2 DELL AVE",
+   "locId": 35,
+   "location": [
+    42.5004056,
+    -71.0850207
+   ]
+  },
+  "35": {
+   "id": 35,
+   "number": 25,
+   "addr": "120 CHESTNUT ST.",
+   "locId": 19,
+   "location": [
+    42.5015571,
+    -71.0847977
+   ],
+   "title": "Temple Emmanuel"
+  },
+  "80": {
+   "id": 80,
+   "number": 26,
+   "addr": "26 SUMMIT AVE",
+   "locId": 45,
+   "location": [
+    42.5007996,
+    -71.0866051
+   ],
+   "title": "The Casa Cayo Hueso"
+  },
+  "120": {
+   "id": 120,
+   "number": 27,
+   "addr": "94 CHESTNUT ST",
+   "locId": 108,
+   "location": [
+    42.5014828,
+    -71.0828112
+   ]
+  },
+  "127": {
+   "id": 127,
+   "number": 28,
+   "addr": "10 OVERLAKE ROAD",
+   "locId": 114,
+   "location": [
+    42.5048922,
+    -71.0832514
+   ]
+  },
+  "101": {
+   "id": 101,
+   "number": 29,
+   "addr": "18 PROSPECT ST",
+   "locId": 33,
+   "location": [
+    42.5055258,
+    -71.0805166
+   ]
+  },
+  "125": {
+   "id": 125,
+   "number": 30,
+   "addr": "480 NORTH AVE",
+   "locId": 72,
+   "location": [
+    42.5077875,
+    -71.0801725
+   ],
+   "title": "Wakefield Municipal Gas and Light Department"
+  },
+  "36": {
+   "id": 36,
+   "number": 31,
+   "addr": "61 ELM ST",
+   "locId": 87,
+   "location": [
+    42.5086548,
+    -71.0840899
+   ]
+  },
+  "138": {
+   "id": 138,
+   "number": 32,
+   "addr": "552 NORTH AVE",
+   "locId": 125,
+   "location": [
+    42.5118267,
+    -71.0839897
+   ]
+  },
+  "117": {
+   "id": 117,
+   "number": 33,
+   "addr": "570 NORTH AVE.",
+   "locId": 129,
+   "location": [
+    42.5127721,
+    -71.0854318
+   ],
+   "title": "Knights of Columbus"
+  },
+  "88": {
+   "id": 88,
+   "number": 34,
+   "addr": "9 WOLCOTT STREET ",
+   "locId": 100,
+   "location": [
+    42.51213,
+    -71.0858588
+   ],
+   "title": "The Music Station"
+  },
+  "132": {
+   "id": 132,
+   "number": 35,
+   "addr": "8 JEFFERSON RD",
+   "locId": 119,
+   "location": [
+    42.5003,
+    -71.0669242
+   ]
+  },
+  "134": {
+   "id": 134,
+   "number": 36,
+   "addr": "25 JEFFERSON RD",
+   "locId": 121,
+   "location": [
+    42.50096670000001,
+    -71.0664858
+   ]
+  },
+  "47": {
+   "id": 47,
+   "number": 37,
+   "addr": "32 WAKEFIELD AVE",
+   "locId": 57,
+   "location": [
+    42.5003831,
+    -71.0653042
+   ]
+  },
+  "76": {
+   "id": 76,
+   "number": 38,
+   "addr": "184 WATER STREET",
+   "locId": 34,
+   "location": [
+    42.5030946,
+    -71.06291279999999
+   ],
+   "title": "Life Love Cheese"
+  },
+  "79": {
+   "id": 79,
+   "number": 39,
+   "addr": "11 CATALPA ST ",
+   "locId": 10,
+   "location": [
+    42.50678551305104,
+    -71.05808860546126
+   ],
+   "title": "Meatball City"
+  },
+  "49": {
+   "id": 49,
+   "number": 40,
+   "addr": "34 CURTIS ST",
+   "locId": 60,
+   "location": [
+    42.5077892,
+    -71.0562535
+   ]
+  },
+  "139": {
+   "id": 139,
+   "number": 42,
+   "addr": "25 HERITAGE LANE",
+   "locId": 126,
+   "location": [
+    42.5149477,
+    -71.05881219999999
+   ]
+  },
+  "43": {
+   "id": 43,
+   "number": 43,
+   "addr": "8 PENFIELD CIRCLE",
+   "locId": 96,
+   "location": [
+    42.5160416,
+    -71.06026659999999
+   ]
+  },
+  "37": {
+   "id": 37,
+   "number": 44,
+   "addr": "36 COOLIDGE PARK",
+   "locId": 63,
+   "location": [
+    42.518449,
+    -71.05447769999999
+   ]
+  },
+  "7": {
+   "id": 7,
+   "number": 45,
+   "addr": "16 NELSON AVENUE",
+   "locId": 25,
+   "location": [
+    42.5106174,
+    -71.0496806
+   ]
+  },
+  "39": {
+   "id": 39,
+   "number": 46,
+   "addr": "13 LOUISE AVE",
+   "locId": 20,
+   "location": [
+    42.5111181,
+    -71.0485686
+   ]
+  },
+  "116": {
+   "id": 116,
+   "number": 47,
+   "addr": "22 LEDGEWOOD RD",
+   "locId": 104,
+   "location": [
+    42.5029016,
+    -71.0488822
+   ],
+   "title": "Chateau du Frank"
+  },
+  "13": {
+   "id": 13,
+   "number": 48,
+   "addr": "24 SUMMER ST",
+   "locId": 41,
+   "location": [
+    42.4952256,
+    -71.06633010000002
+   ]
+  },
+  "98": {
+   "id": 98,
+   "number": 49,
+   "addr": "29 EVERGREEN ST",
+   "locId": 51,
+   "location": [
+    42.4881125,
+    -71.0723847
+   ]
+  },
+  "17": {
+   "id": 17,
+   "number": 50,
+   "addr": "12 OAKLEDGE RD",
+   "locId": 18,
+   "location": [
+    42.4816991,
+    -71.0685015
+   ]
+  },
+  "69": {
+   "id": 69,
+   "number": 51,
+   "addr": "17 MYRTLE AVENUE",
+   "locId": 27,
+   "location": [
+    42.4801881,
+    -71.06695619999999
+   ]
+  },
+  "84": {
+   "id": 84,
+   "number": 52,
+   "addr": "1099 MAIN STREET",
+   "locId": 9,
+   "location": [
+    42.478798,
+    -71.0637632
+   ],
+   "title": "Main ST Grille and Taphouse"
+  },
+  "73": {
+   "id": 73,
+   "number": 53,
+   "addr": "32 PITMAN AVE",
+   "locId": 56,
+   "location": [
+    42.4789306,
+    -71.060732
+   ],
+   "title": "Pit & Pine - The Corner Jam"
+  },
+  "44": {
+   "id": 44,
+   "number": 54,
+   "addr": "17 PINE STREET",
+   "locId": 28,
+   "location": [
+    42.4823188,
+    -71.0618922
+   ],
+   "title": "Ellis Household"
+  },
+  "121": {
+   "id": 121,
+   "number": 55,
+   "addr": "14 HIGH STREET",
+   "locId": 109,
+   "location": [
+    42.4833406,
+    -71.0603617
+   ]
+  },
+  "58": {
+   "id": 58,
+   "number": 56,
+   "addr": "101 GREENWOOD AVE",
+   "locId": 8,
+   "location": [
+    42.4849233,
+    -71.0604977
+   ]
+  },
+  "141": {
+   "id": 141,
+   "number": 57,
+   "addr": "78 OAK ST",
+   "locId": 128,
+   "location": [
+    42.486785,
+    -71.06036399999999
+   ]
+  },
+  "126": {
+   "id": 126,
+   "number": 58,
+   "addr": "29 LASSELL ST.",
+   "locId": 113,
+   "location": [
+    42.4759961,
+    -71.0650026
+   ]
+  },
+  "93": {
+   "id": 93,
+   "number": 59,
+   "addr": "54 SPRING ST",
+   "locId": 77,
+   "location": [
+    42.4753021,
+    -71.0710869
+   ],
+   "title": "Is it a pickleball court or a stage?"
+  }
+ },
+ "slots": [
+  {
+   "host": 115,
+   "performer": 207,
+   "duration": 12,
+   "start_display": "4:30pm",
+   "end_display": "5:30pm",
+   "block": 54
+  },
+  {
+   "host": 120,
+   "performer": 243,
+   "duration": 24,
+   "start_display": "1:00pm",
+   "end_display": "3:00pm",
+   "block": 12
+  },
+  {
+   "host": 13,
+   "performer": 244,
+   "duration": 24,
+   "start_display": "3:00pm",
+   "end_display": "5:00pm",
+   "block": 36
+  },
+  {
+   "host": 50,
+   "performer": 156,
+   "duration": 24,
+   "start_display": "1:00pm",
+   "end_display": "3:00pm",
+   "block": 12
+  },
+  {
+   "host": 126,
+   "performer": 185,
+   "duration": 24,
+   "start_display": "3:00pm",
+   "end_display": "5:00pm",
+   "block": 36
+  },
+  {
+   "host": 49,
+   "performer": 247,
+   "duration": 18,
+   "start_display": "12:30pm",
+   "end_display": "2:00pm",
+   "block": 6
+  },
+  {
+   "host": 122,
+   "performer": 211,
+   "duration": 18,
+   "start_display": "12:00pm",
+   "end_display": "1:30pm",
+   "block": 0
+  },
+  {
+   "host": 109,
+   "performer": 41,
+   "duration": 12,
+   "start_display": "2:00pm",
+   "end_display": "3:00pm",
+   "block": 24
+  },
+  {
+   "host": 109,
+   "performer": 190,
+   "duration": 12,
+   "start_display": "4:00pm",
+   "end_display": "5:00pm",
+   "block": 48
+  },
+  {
+   "host": 7,
+   "performer": 5,
+   "duration": 12,
+   "start_display": "3:30pm",
+   "end_display": "4:30pm",
+   "block": 42
+  },
+  {
+   "host": 98,
+   "performer": 250,
+   "duration": 24,
+   "start_display": "2:00pm",
+   "end_display": "4:00pm",
+   "block": 24
+  },
+  {
+   "host": 49,
+   "performer": 152,
+   "duration": 24,
+   "start_display": "2:20pm",
+   "end_display": "4:20pm",
+   "block": 28
+  },
+  {
+   "host": 122,
+   "performer": 241,
+   "duration": 12,
+   "start_display": "1:45pm",
+   "end_display": "2:45pm",
+   "block": 21
+  },
+  {
+   "host": 117,
+   "performer": 240,
+   "duration": 18,
+   "start_display": "3:00pm",
+   "end_display": "4:30pm",
+   "block": 36
+  },
+  {
+   "host": 117,
+   "performer": 13,
+   "duration": 18,
+   "start_display": "4:30pm",
+   "end_display": "6:00pm",
+   "block": 54
+  },
+  {
+   "host": 79,
+   "performer": 141,
+   "duration": 12,
+   "start_display": "2:00pm",
+   "end_display": "3:00pm",
+   "block": 24
+  },
+  {
+   "host": 98,
+   "performer": 25,
+   "duration": 12,
+   "start_display": "5:00pm",
+   "end_display": "6:00pm",
+   "block": 60
+  },
+  {
+   "host": 117,
+   "performer": 59,
+   "duration": 24,
+   "start_display": "12:00pm",
+   "end_display": "2:00pm",
+   "block": 0
+  },
+  {
+   "host": 82,
+   "performer": 196,
+   "duration": 24,
+   "start_display": "12:00pm",
+   "end_display": "2:00pm",
+   "block": 0
+  },
+  {
+   "host": 109,
+   "performer": 92,
+   "duration": 12,
+   "start_display": "1:00pm",
+   "end_display": "2:00pm",
+   "block": 12
+  },
+  {
+   "host": 104,
+   "performer": 170,
+   "duration": 12,
+   "start_display": "1:00pm",
+   "end_display": "2:00pm",
+   "block": 12
+  },
+  {
+   "host": 104,
+   "performer": 43,
+   "duration": 12,
+   "start_display": "2:05pm",
+   "end_display": "3:05pm",
+   "block": 25
+  },
+  {
+   "host": 128,
+   "performer": 257,
+   "duration": 18,
+   "start_display": "12:30pm",
+   "end_display": "2:00pm",
+   "block": 6
+  },
+  {
+   "host": 127,
+   "performer": 256,
+   "duration": 18,
+   "start_display": "3:00pm",
+   "end_display": "4:30pm",
+   "block": 36
+  },
+  {
+   "host": 109,
+   "performer": 191,
+   "duration": 12,
+   "start_display": "3:00pm",
+   "end_display": "4:00pm",
+   "block": 36
+  },
+  {
+   "host": 53,
+   "performer": 87,
+   "duration": 9,
+   "start_display": "4:00pm",
+   "end_display": "4:45pm",
+   "block": 48
+  },
+  {
+   "host": 54,
+   "performer": 171,
+   "duration": 24,
+   "start_display": "2:00pm",
+   "end_display": "4:00pm",
+   "block": 24
+  },
+  {
+   "host": 98,
+   "performer": 259,
+   "duration": 12,
+   "start_display": "4:00pm",
+   "end_display": "5:00pm",
+   "block": 48
+  },
+  {
+   "host": 37,
+   "performer": 50,
+   "duration": 12,
+   "start_display": "1:00pm",
+   "end_display": "2:00pm",
+   "block": 12
+  },
+  {
+   "host": 37,
+   "performer": 242,
+   "duration": 12,
+   "start_display": "2:00pm",
+   "end_display": "3:00pm",
+   "block": 24
+  },
+  {
+   "host": 119,
+   "performer": 8,
+   "duration": 36,
+   "start_display": "1:00pm",
+   "end_display": "4:00pm",
+   "block": 12
+  },
+  {
+   "host": 44,
+   "performer": 66,
+   "duration": 12,
+   "start_display": "3:45pm",
+   "end_display": "4:45pm",
+   "block": 45
+  },
+  {
+   "host": 116,
+   "performer": 261,
+   "duration": 18,
+   "start_display": "12:00pm",
+   "end_display": "1:30pm",
+   "block": 0
+  },
+  {
+   "host": 13,
+   "performer": 267,
+   "duration": 24,
+   "start_display": "12:30pm",
+   "end_display": "2:30pm",
+   "block": 6
+  },
+  {
+   "host": 88,
+   "performer": 266,
+   "duration": 18,
+   "start_display": "3:00pm",
+   "end_display": "4:30pm",
+   "block": 36
+  },
+  {
+   "host": 132,
+   "performer": 271,
+   "duration": 15,
+   "start_display": "2:30pm",
+   "end_display": "3:45pm",
+   "block": 30
+  },
+  {
+   "host": 88,
+   "performer": 255,
+   "duration": 15,
+   "start_display": "4:45pm",
+   "end_display": "6:00pm",
+   "block": 57
+  },
+  {
+   "host": 88,
+   "performer": 23,
+   "duration": 12,
+   "start_display": "12:00pm",
+   "end_display": "1:00pm",
+   "block": 0
+  },
+  {
+   "host": 115,
+   "performer": 277,
+   "duration": 12,
+   "start_display": "3:00pm",
+   "end_display": "4:00pm",
+   "block": 36
+  },
+  {
+   "host": 37,
+   "performer": 34,
+   "duration": 6,
+   "start_display": "3:30pm",
+   "end_display": "4:00pm",
+   "block": 42
+  },
+  {
+   "host": 78,
+   "performer": 275,
+   "duration": 12,
+   "start_display": "2:00pm",
+   "end_display": "3:00pm",
+   "block": 24
+  },
+  {
+   "host": 116,
+   "performer": 278,
+   "duration": 24,
+   "start_display": "1:45pm",
+   "end_display": "3:45pm",
+   "block": 21
+  },
+  {
+   "host": 76,
+   "performer": 126,
+   "duration": 12,
+   "start_display": "1:00pm",
+   "end_display": "2:00pm",
+   "block": 12
+  },
+  {
+   "host": 48,
+   "performer": 78,
+   "duration": 12,
+   "start_display": "4:00pm",
+   "end_display": "5:00pm",
+   "block": 48
+  },
+  {
+   "host": 43,
+   "performer": 55,
+   "duration": 24,
+   "start_display": "2:00pm",
+   "end_display": "4:00pm",
+   "block": 24
+  },
+  {
+   "host": 85,
+   "performer": 270,
+   "duration": 12,
+   "start_display": "12:30pm",
+   "end_display": "1:30pm",
+   "block": 6
+  },
+  {
+   "host": 88,
+   "performer": 263,
+   "duration": 12,
+   "start_display": "1:30pm",
+   "end_display": "2:30pm",
+   "block": 18
+  },
+  {
+   "host": 76,
+   "performer": 144,
+   "duration": 18,
+   "start_display": "4:00pm",
+   "end_display": "5:30pm",
+   "block": 48
+  },
+  {
+   "host": 77,
+   "performer": 60,
+   "duration": 18,
+   "start_display": "12:00pm",
+   "end_display": "1:30pm",
+   "block": 0
+  },
+  {
+   "host": 130,
+   "performer": 94,
+   "duration": 12,
+   "start_display": "5:00pm",
+   "end_display": "6:00pm",
+   "block": 60
+  },
+  {
+   "host": 76,
+   "performer": 260,
+   "duration": 12,
+   "start_display": "2:30pm",
+   "end_display": "3:30pm",
+   "block": 30
+  },
+  {
+   "host": 125,
+   "performer": 19,
+   "duration": 36,
+   "start_display": "2:30pm",
+   "end_display": "5:30pm",
+   "block": 30
+  },
+  {
+   "host": 121,
+   "performer": 282,
+   "duration": 12,
+   "start_display": "12:30pm",
+   "end_display": "1:30pm",
+   "block": 6
+  },
+  {
+   "host": 109,
+   "performer": 214,
+   "duration": 12,
+   "start_display": "12:00pm",
+   "end_display": "1:00pm",
+   "block": 0
+  },
+  {
+   "host": 47,
+   "performer": 258,
+   "duration": 24,
+   "start_display": "2:00pm",
+   "end_display": "4:00pm",
+   "block": 24
+  },
+  {
+   "host": 137,
+   "performer": 283,
+   "duration": 24,
+   "start_display": "2:00pm",
+   "end_display": "4:00pm",
+   "block": 24
+  },
+  {
+   "host": 69,
+   "performer": 124,
+   "duration": 24,
+   "start_display": "4:00pm",
+   "end_display": "6:00pm",
+   "block": 48
+  },
+  {
+   "host": 93,
+   "performer": 276,
+   "duration": 12,
+   "start_display": "1:30pm",
+   "end_display": "2:30pm",
+   "block": 18
+  },
+  {
+   "host": 78,
+   "performer": 187,
+   "duration": 12,
+   "start_display": "4:00pm",
+   "end_display": "5:00pm",
+   "block": 48
+  },
+  {
+   "host": 39,
+   "performer": 262,
+   "duration": 24,
+   "start_display": "12:00pm",
+   "end_display": "2:00pm",
+   "block": 0
+  },
+  {
+   "host": 39,
+   "performer": 284,
+   "duration": 12,
+   "start_display": "2:15pm",
+   "end_display": "3:15pm",
+   "block": 27
+  },
+  {
+   "host": 139,
+   "performer": 286,
+   "duration": 24,
+   "start_display": "4:00pm",
+   "end_display": "6:00pm",
+   "block": 48
+  },
+  {
+   "host": 139,
+   "performer": 287,
+   "duration": 18,
+   "start_display": "12:10pm",
+   "end_display": "1:40pm",
+   "block": 2
+  },
+  {
+   "host": 139,
+   "performer": 288,
+   "duration": 18,
+   "start_display": "2:00pm",
+   "end_display": "3:30pm",
+   "block": 24
+  },
+  {
+   "host": 77,
+   "performer": 280,
+   "duration": 12,
+   "start_display": "3:45pm",
+   "end_display": "4:45pm",
+   "block": 45
+  },
+  {
+   "host": 37,
+   "performer": 52,
+   "duration": 6,
+   "start_display": "3:00pm",
+   "end_display": "3:30pm",
+   "block": 36
+  },
+  {
+   "host": 58,
+   "performer": 208,
+   "duration": 24,
+   "start_display": "3:00pm",
+   "end_display": "5:00pm",
+   "block": 36
+  },
+  {
+   "host": 37,
+   "performer": 294,
+   "duration": 12,
+   "start_display": "4:00pm",
+   "end_display": "5:00pm",
+   "block": 48
+  },
+  {
+   "host": 116,
+   "performer": 272,
+   "duration": 12,
+   "start_display": "4:05pm",
+   "end_display": "5:05pm",
+   "block": 49
+  },
+  {
+   "host": 101,
+   "performer": 140,
+   "duration": 12,
+   "start_display": "1:00pm",
+   "end_display": "2:00pm",
+   "block": 12
+  },
+  {
+   "host": 85,
+   "performer": 189,
+   "duration": 12,
+   "start_display": "1:50pm",
+   "end_display": "2:50pm",
+   "block": 22
+  },
+  {
+   "host": 60,
+   "performer": 106,
+   "duration": 24,
+   "start_display": "3:00pm",
+   "end_display": "5:00pm",
+   "block": 36
+  },
+  {
+   "host": 37,
+   "performer": 45,
+   "duration": 12,
+   "start_display": "5:00pm",
+   "end_display": "6:00pm",
+   "block": 60
+  },
+  {
+   "host": 118,
+   "performer": 222,
+   "duration": 12,
+   "start_display": "1:00pm",
+   "end_display": "2:00pm",
+   "block": 12
+  },
+  {
+   "host": 118,
+   "performer": 253,
+   "duration": 12,
+   "start_display": "2:00pm",
+   "end_display": "3:00pm",
+   "block": 24
+  },
+  {
+   "host": 140,
+   "performer": 300,
+   "duration": 12,
+   "start_display": "3:00pm",
+   "end_display": "4:00pm",
+   "block": 36
+  },
+  {
+   "host": 84,
+   "performer": 145,
+   "duration": 12,
+   "start_display": "12:00pm",
+   "end_display": "1:00pm",
+   "block": 0
+  },
+  {
+   "host": 80,
+   "performer": 142,
+   "duration": 24,
+   "start_display": "3:00pm",
+   "end_display": "5:00pm",
+   "block": 36
+  },
+  {
+   "host": 84,
+   "performer": 96,
+   "duration": 12,
+   "start_display": "3:20pm",
+   "end_display": "4:20pm",
+   "block": 40
+  },
+  {
+   "host": 73,
+   "performer": 274,
+   "duration": 18,
+   "start_display": "2:30pm",
+   "end_display": "4:00pm",
+   "block": 30
+  },
+  {
+   "host": 44,
+   "performer": 46,
+   "duration": 12,
+   "start_display": "5:00pm",
+   "end_display": "6:00pm",
+   "block": 60
+  },
+  {
+   "host": 44,
+   "performer": 273,
+   "duration": 12,
+   "start_display": "2:30pm",
+   "end_display": "3:30pm",
+   "block": 30
+  },
+  {
+   "host": 53,
+   "performer": 179,
+   "duration": 9,
+   "start_display": "1:00pm",
+   "end_display": "1:45pm",
+   "block": 12
+  },
+  {
+   "host": 53,
+   "performer": 296,
+   "duration": 9,
+   "start_display": "2:00pm",
+   "end_display": "2:45pm",
+   "block": 24
+  },
+  {
+   "host": 53,
+   "performer": 297,
+   "duration": 9,
+   "start_display": "3:00pm",
+   "end_display": "3:45pm",
+   "block": 36
+  },
+  {
+   "host": 17,
+   "performer": 245,
+   "duration": 18,
+   "start_display": "2:30pm",
+   "end_display": "4:00pm",
+   "block": 30
+  },
+  {
+   "host": 17,
+   "performer": 281,
+   "duration": 24,
+   "start_display": "12:00pm",
+   "end_display": "2:00pm",
+   "block": 0
+  },
+  {
+   "host": 36,
+   "performer": 37,
+   "duration": 12,
+   "start_display": "4:15pm",
+   "end_display": "5:15pm",
+   "block": 51
+  },
+  {
+   "host": 134,
+   "performer": 289,
+   "duration": 24,
+   "start_display": "4:00pm",
+   "end_display": "6:00pm",
+   "block": 48
+  },
+  {
+   "host": 96,
+   "performer": 218,
+   "duration": 12,
+   "start_display": "12:30pm",
+   "end_display": "1:30pm",
+   "block": 6
+  },
+  {
+   "host": 49,
+   "performer": 248,
+   "duration": 12,
+   "start_display": "4:25pm",
+   "end_display": "5:25pm",
+   "block": 53
+  },
+  {
+   "host": 96,
+   "performer": 153,
+   "duration": 18,
+   "start_display": "3:00pm",
+   "end_display": "4:30pm",
+   "block": 36
+  },
+  {
+   "host": 35,
+   "performer": 265,
+   "duration": 24,
+   "start_display": "2:00pm",
+   "end_display": "4:00pm",
+   "block": 24
+  },
+  {
+   "host": 7,
+   "performer": 70,
+   "duration": 12,
+   "start_display": "4:45pm",
+   "end_display": "5:45pm",
+   "block": 57
+  },
+  {
+   "host": 138,
+   "performer": 301,
+   "duration": 12,
+   "start_display": "12:30pm",
+   "end_display": "1:30pm",
+   "block": 6
+  },
+  {
+   "host": 7,
+   "performer": 251,
+   "duration": 12,
+   "start_display": "2:00pm",
+   "end_display": "3:00pm",
+   "block": 24
+  },
+  {
+   "host": 84,
+   "performer": 53,
+   "duration": 18,
+   "start_display": "1:20pm",
+   "end_display": "2:50pm",
+   "block": 16
+  },
+  {
+   "host": 140,
+   "performer": 302,
+   "duration": 12,
+   "start_display": "12:40pm",
+   "end_display": "1:40pm",
+   "block": 8
+  },
+  {
+   "host": 140,
+   "performer": 303,
+   "duration": 6,
+   "start_display": "12:00pm",
+   "end_display": "12:30pm",
+   "block": 0
+  },
+  {
+   "host": 107,
+   "performer": 33,
+   "duration": 12,
+   "start_display": "3:00pm",
+   "end_display": "4:00pm",
+   "block": 36
+  },
+  {
+   "host": 141,
+   "performer": 304,
+   "duration": 24,
+   "start_display": "12:00pm",
+   "end_display": "2:00pm",
+   "block": 0
+  },
+  {
+   "host": 138,
+   "performer": 305,
+   "duration": 12,
+   "start_display": "1:30pm",
+   "end_display": "2:30pm",
+   "block": 18
+  },
+  {
+   "host": 120,
+   "performer": 252,
+   "duration": 24,
+   "start_display": "3:00pm",
+   "end_display": "5:00pm",
+   "block": 36
+  },
+  {
+   "host": 96,
+   "performer": 73,
+   "duration": 12,
+   "start_display": "1:45pm",
+   "end_display": "2:45pm",
+   "block": 21
+  },
+  {
+   "host": 129,
+   "performer": 49,
+   "duration": 12,
+   "start_display": "1:00pm",
+   "end_display": "2:00pm",
+   "block": 12
+  },
+  {
+   "host": 110,
+   "performer": 172,
+   "duration": 12,
+   "start_display": "2:15pm",
+   "end_display": "3:15pm",
+   "block": 27
+  },
+  {
+   "host": 110,
+   "performer": 285,
+   "duration": 12,
+   "start_display": "3:30pm",
+   "end_display": "4:30pm",
+   "block": 42
+  },
+  {
+   "host": 36,
+   "performer": 298,
+   "duration": 12,
+   "start_display": "3:00pm",
+   "end_display": "4:00pm",
+   "block": 36
+  },
+  {
+   "host": 93,
+   "performer": 103,
+   "duration": 12,
+   "start_display": "2:40pm",
+   "end_display": "3:40pm",
+   "block": 32
+  },
+  {
+   "host": 136,
+   "performer": 111,
+   "duration": 12,
+   "start_display": "2:00pm",
+   "end_display": "3:00pm",
+   "block": 24
+  },
+  {
+   "host": 136,
+   "performer": 113,
+   "duration": 12,
+   "start_display": "1:00pm",
+   "end_display": "2:00pm",
+   "block": 12
+  },
+  {
+   "host": 101,
+   "performer": 84,
+   "duration": 18,
+   "start_display": "3:00pm",
+   "end_display": "4:30pm",
+   "block": 36
+  },
+  {
+   "host": 84,
+   "performer": 295,
+   "duration": 12,
+   "start_display": "4:35pm",
+   "end_display": "5:35pm",
+   "block": 55
+  },
+  {
+   "host": 96,
+   "performer": 269,
+   "duration": 18,
+   "start_display": "4:30pm",
+   "end_display": "6:00pm",
+   "block": 54
+  },
+  {
+   "host": 117,
+   "performer": 25,
+   "duration": 12,
+   "start_display": "2:00pm",
+   "end_display": "3:00pm",
+   "block": 24
+  },
+  {
+   "host": 73,
+   "performer": 272,
+   "duration": 12,
+   "start_display": "1:00pm",
+   "end_display": "2:00pm",
+   "block": 12
+  },
+  {
+   "host": 129,
+   "performer": 306,
+   "duration": 12,
+   "start_display": "5:00pm",
+   "end_display": "6:00pm",
+   "block": 60
+  },
+  {
+   "host": 130,
+   "performer": 307,
+   "duration": 36,
+   "start_display": "12:00pm",
+   "end_display": "3:00pm",
+   "block": 0
+  },
+  {
+   "host": 138,
+   "performer": 301,
+   "duration": 12,
+   "start_display": "3:30pm",
+   "end_display": "4:30pm",
+   "block": 42
+  },
+  {
+   "host": 138,
+   "performer": 305,
+   "duration": 12,
+   "start_display": "4:30pm",
+   "end_display": "5:30pm",
+   "block": 54
+  }
+ ]
+}
