@@ -1,0 +1,819 @@
+{
+  "source": "https://pf-fastapi-9baf99d73aad.herokuapp.com/v1/schedule?rain_date=false",
+  "downloaded": "2026-10-16",
+  "data": [
+    {
+      "id": "019dd5c1-f4c8-afef-40fe-75ac1545cded",
+      "address": "16 Calumet Road",
+      "address_url": null,
+      "rain_date_available": true,
+      "slot_1": null,
+      "slot_2": null,
+      "slot_3": {
+        "id": "019dd5c1-f4cb-a232-16fa-0d3acf54c6fb",
+        "type": "scheduled",
+        "act_id": "019d69a8-54ae-8090-58f4-198003e9105a",
+        "act_name": "SoundBites",
+        "act_description": "SoundBites is a mixed-voice a cappella group of about 20 members from the Greater Boston area that performs an eclectic repertoire of pop, jazz, and Broadway music at concerts and community events.",
+        "act_genre": "other",
+        "act_rain_date_available": true
+      },
+      "slot_4": null,
+      "slot_5": null
+    },
+    {
+      "id": "019d96fa-3c7d-9774-dff1-3e43a80a6930",
+      "address": "155 Cambridge Street",
+      "address_url": null,
+      "rain_date_available": true,
+      "slot_1": null,
+      "slot_2": {
+        "id": "019d96fa-3c7f-6adf-6e96-12efa71e2c65",
+        "type": "scheduled",
+        "act_id": "019d9605-a4ae-e6f5-20f0-6c2292273665",
+        "act_name": "Michael Mullaney",
+        "act_description": "Michael is a musician who sings, writes songs, and plays guitar.",
+        "act_genre": "americana",
+        "act_rain_date_available": true
+      },
+      "slot_3": null,
+      "slot_4": null,
+      "slot_5": null
+    },
+    {
+      "id": "019d7419-2233-d3fb-23f0-c1e4848e84d9",
+      "address": "18 Canal Street",
+      "address_url": null,
+      "rain_date_available": true,
+      "slot_1": {
+        "id": "019d7419-2239-7755-4190-408ff2679604",
+        "type": "scheduled",
+        "act_id": "019d7420-aed7-d6c7-3745-6e9574ca8c93",
+        "act_name": "Highs in the Low",
+        "act_description": "Highs in the Low is an instrumental funk/jazz organ trio inspired by classic rhythm section masters like The Meters and Jimmy Smith.",
+        "act_genre": "jazz",
+        "act_rain_date_available": true
+      },
+      "slot_2": {
+        "id": "019d7419-2239-c0fc-e164-8862c830075e",
+        "type": "scheduled",
+        "act_id": "019d7424-bf1f-159b-5368-56410b2dd915",
+        "act_name": "Hotpot Robot (formerly WHS Jazz All-Stars)",
+        "act_description": "Winchester High School's top jazz musicians, including recent alumni, deliver a must-see performance.",
+        "act_genre": "jazz",
+        "act_rain_date_available": true
+      },
+      "slot_3": {
+        "id": "019d7419-2239-db4f-464d-d447e2ff9b75",
+        "type": "scheduled",
+        "act_id": "019d6312-b0d3-4a17-39f4-477fdb11dd2e",
+        "act_name": "Classical Gas",
+        "act_description": "Carol Weir is an intermediate classical guitarist who performs 30-45 minute programs of classical and American folk music.",
+        "act_genre": "classical",
+        "act_rain_date_available": true
+      },
+      "slot_4": null,
+      "slot_5": null
+    },
+    {
+      "id": "019e80f8-76b6-6a0e-5ee6-67852b329ca0",
+      "address": "5 Central Street",
+      "address_url": null,
+      "rain_date_available": true,
+      "slot_1": null,
+      "slot_2": null,
+      "slot_3": null,
+      "slot_4": null,
+      "slot_5": {
+        "id": "019e80f8-76b9-5c41-6b76-7408211a1fbf",
+        "type": "scheduled",
+        "act_id": "019e70e3-1182-1ba1-e2e3-33a3eda43521",
+        "act_name": "Noteworthy A Cappella",
+        "act_description": "Noteworthy is the first all-female a cappella group at Winchester High School, featuring 13 singers from various grade levels who perform pop, R&B, and contemporary music.",
+        "act_genre": "pop",
+        "act_rain_date_available": true
+      }
+    },
+    {
+      "id": "019ce2c4-d9a0-266e-f4f3-271379483717",
+      "address": "32 Chester Street",
+      "address_url": null,
+      "rain_date_available": true,
+      "slot_1": {
+        "id": "019db81c-0532-36dc-008c-e395fbdd254f",
+        "type": "scheduled",
+        "act_id": "019df344-f487-ed6a-5205-980e1ba1cb7f",
+        "act_name": "The Double Lives",
+        "act_description": "The Double Lives is a five-piece rock band that performs creative covers and original songs, formed by friends who met through an adult music program.",
+        "act_genre": "rock",
+        "act_rain_date_available": false
+      },
+      "slot_2": {
+        "id": "019ce2ce-5524-a320-fd85-fd35b512dae8",
+        "type": "scheduled",
+        "act_id": "019d4b1d-0613-728d-019b-506cc029a7ed",
+        "act_name": "The Hidden Trax",
+        "act_description": "# Summary\n\nA guitar-driven rock band inspired by classic acts like the Grateful Dead and Phish performs improvisational rock music with infectious grooves, treating each show as a unique musical exploration.",
+        "act_genre": "rock",
+        "act_rain_date_available": true
+      },
+      "slot_3": null,
+      "slot_4": {
+        "id": "019ce2ce-5524-ea26-71a1-38a2bf941bbb",
+        "type": "scheduled",
+        "act_id": "019cda34-cf02-9280-61cf-681095f2dd8e",
+        "act_name": "Sounds Like Chicken",
+        "act_description": "A 10-piece rock and roll cover band featuring vocalists, guitarists, drums, bass, keyboards, and trumpet performs dance-friendly music spanning from the 1960s to the present day.",
+        "act_genre": "rock",
+        "act_rain_date_available": true
+      },
+      "slot_5": {
+        "id": "019ce2ce-5524-d191-e51a-0867166eeb80",
+        "type": "scheduled",
+        "act_id": "019ce2cd-70f9-108a-b06d-8e6b075a589a",
+        "act_name": "The Ukuladies",
+        "act_description": "The Ukuladies is a glamorous band that evolved from an acoustic ukulele duo with beautiful harmonies into a full ensemble featuring drums, keys, and saxophone, performing pop, funk, and rock music with a vintage Andrews Sisters vocal style.",
+        "act_genre": "pop",
+        "act_rain_date_available": true
+      }
+    },
+    {
+      "id": "019e7ea3-f64d-6b09-c4b3-993772deb0d7",
+      "address": "105 Church Street",
+      "address_url": null,
+      "rain_date_available": true,
+      "slot_1": {
+        "id": "019e7ea3-f651-01a8-66d4-5ff19ea09e65",
+        "type": "scheduled",
+        "act_id": "019e3be7-c3c5-3fa6-302b-35cf619e5bcd",
+        "act_name": "Jonny D",
+        "act_description": "A solo acoustic performer uses live looping and effects to deliver creative renditions of classic hits from multiple decades, along with original punk rock songs and guest appearances.",
+        "act_genre": "americana",
+        "act_rain_date_available": false
+      },
+      "slot_2": {
+        "id": "019e7eb9-267d-c7a5-d547-a61273c55d9b",
+        "type": "scheduled",
+        "act_id": "019d7d7c-9caa-68db-044b-9e754a4607ad",
+        "act_name": "Damian & The Displayers",
+        "act_description": "Damian Israel Shiner is an award-winning indie singer-songwriter who performs with his band The Displayers, bringing heartfelt storytelling and energetic melodies to intimate community venues and festivals throughout New England.",
+        "act_genre": "indie",
+        "act_rain_date_available": true
+      },
+      "slot_3": {
+        "id": "019e7eb9-267d-6bf3-351a-beadd30d1fcc",
+        "type": "scheduled",
+        "act_id": "019eb1b9-ac47-90c8-0a51-1e9a8ef4900e",
+        "act_name": "Véraison Musical Vintners",
+        "act_description": "Eric Ostling and Abby Thompson create innovative R&B and soul music by layering live instrumentation with a looper to produce a unique sound.",
+        "act_genre": "soul",
+        "act_rain_date_available": true
+      },
+      "slot_4": {
+        "id": "019e7eb9-267d-d117-ddcb-f32a354d5ac8",
+        "type": "scheduled",
+        "act_id": "019e41d4-99b9-934c-1d53-d7187b5278b0",
+        "act_name": "Eric Ostling Group",
+        "act_description": "A professional jazz pianist and Winchester Music School teacher collaborates with Boston and New York musicians to perform original jazz compositions.",
+        "act_genre": "jazz",
+        "act_rain_date_available": true
+      },
+      "slot_5": null
+    },
+    {
+      "id": "019d12cd-1bc0-c3bf-59c6-aab25dca93d1",
+      "address": "34 Dix Street (Crawford Memorial UMC)",
+      "address_url": null,
+      "rain_date_available": true,
+      "slot_1": null,
+      "slot_2": {
+        "id": "019d12cd-1bc3-1a4d-4863-b0b392012db1",
+        "type": "scheduled",
+        "act_id": "019da1ee-fa31-4dfd-0f79-cc7f1b998604",
+        "act_name": "Philip Corcoran",
+        "act_description": "Philip Corcoran is a musician who sings and plays guitar and piano, performing classic country and pop music from the 1950s to 1980s.",
+        "act_genre": "country",
+        "act_rain_date_available": true
+      },
+      "slot_3": {
+        "id": "019d12cd-1bc3-9250-979b-cb78f1b55be5",
+        "type": "scheduled",
+        "act_id": "019e1d9e-593a-6d16-4690-aa18a8dad347",
+        "act_name": "Blues All In My Head",
+        "act_description": "A blues musician specializing in Mississippi Delta and Hill Country traditions performs solo with guitar and vocals using a portable, battery-powered busking amp.",
+        "act_genre": "blues",
+        "act_rain_date_available": true
+      },
+      "slot_4": {
+        "id": "019d12cd-1bc3-3105-a920-8c24fd933e54",
+        "type": "scheduled",
+        "act_id": "019e20a4-2c9c-7e64-e52d-02cfc3b364fa",
+        "act_name": "Randall Kromm",
+        "act_description": "A singer-songwriter creates music that celebrates family, life transitions, and the profound beauty found in everyday moments.",
+        "act_genre": "folk",
+        "act_rain_date_available": true
+      },
+      "slot_5": {
+        "id": "019d12cd-1bc3-aee0-2de5-a7b8a8ef4a0a",
+        "type": "scheduled",
+        "act_id": "019dbc9e-2db8-3a07-1602-74a8094c8f26",
+        "act_name": "Standard Deviation",
+        "act_description": "A trio of three singers performs jazz and standard songs with accompaniment on guitar and bass.",
+        "act_genre": "jazz",
+        "act_rain_date_available": true
+      }
+    },
+    {
+      "id": "019d035f-eeb3-3d42-b739-d1bb907849be",
+      "address": "40 Forest Street",
+      "address_url": null,
+      "rain_date_available": false,
+      "slot_1": null,
+      "slot_2": {
+        "id": "019d035f-eeb5-4811-369b-2bc24f173d48",
+        "type": "scheduled",
+        "act_id": "019cf6ba-5f19-669d-a476-8b860e7ac1cc",
+        "act_name": "Ted and Co.",
+        "act_description": "A trio performs acoustic and electric renditions of Grateful Dead and Phish songs in the classic rock jam band style.",
+        "act_genre": "americana",
+        "act_rain_date_available": true
+      },
+      "slot_3": {
+        "id": "019d035f-eeb5-ac22-b987-337ebeee146c",
+        "type": "scheduled",
+        "act_id": "019d0365-55b4-7275-20f2-6e947d3a164f",
+        "act_name": "Fry, Deeg, and Wogs",
+        "act_description": "An acoustic trio performs cover songs from various eras.",
+        "act_genre": "americana",
+        "act_rain_date_available": false
+      },
+      "slot_4": {
+        "id": "019d035f-eeb5-71ee-e8dc-63d30f7e0b0d",
+        "type": "scheduled",
+        "act_id": "019e380d-850b-b41e-4cab-9619bf4e32ad",
+        "act_name": "Mild Serrano",
+        "act_description": "A nostalgic celebration of 90s rock and pop punk music that evokes memories of a simpler time.",
+        "act_genre": "rock",
+        "act_rain_date_available": true
+      },
+      "slot_5": {
+        "id": "019d035f-eeb5-aa2a-1541-7d73651b5a3d",
+        "type": "scheduled",
+        "act_id": "019d1b9f-15dd-257b-ae6b-c34c88a7999b",
+        "act_name": "Mighty Smooth",
+        "act_description": "A versatile 4-piece electric rock band that performs original songs and covers across multiple genres including bluegrass, honky tonk, reggae, R&B, blues, and rock, with professional-grade equipment and considerate practices.",
+        "act_genre": "americana",
+        "act_rain_date_available": false
+      }
+    },
+    {
+      "id": "019eae8a-61f3-5b0c-b809-6c301d01ae9d",
+      "address": "407 Highland Avenue (WCMS)",
+      "address_url": null,
+      "rain_date_available": false,
+      "slot_1": {
+        "id": "019eae8a-61f9-e1a0-bfde-e1b74ef406d1",
+        "type": "scheduled",
+        "act_id": "019eae81-8c90-fa27-3421-4b84d1a94f66",
+        "act_name": "Motown Ensemble / Adult Jazz Ensemble",
+        "act_description": "Motown Ensemble performs classic Motown hits from the 1960s and 1970s.",
+        "act_genre": "other",
+        "act_rain_date_available": false
+      },
+      "slot_2": {
+        "id": "019eae8a-61f9-d592-f89c-9d0e9da84f6e",
+        "type": "scheduled",
+        "act_id": "019e41e9-b6ed-b150-693c-3283a1d94c30",
+        "act_name": "Wicked Steel Drum Ensemble / Stormy Monday Blues Ensemble",
+        "act_description": "Wicked Steel Drum Ensemble is a partnership between Winchester Community Music School and the Winchester Recreation Department that performs traditional Caribbean and popular music.",
+        "act_genre": "other",
+        "act_rain_date_available": false
+      },
+      "slot_3": {
+        "id": "019eae8a-61f9-f99f-b65c-316ec0497d03",
+        "type": "scheduled",
+        "act_id": "019eae84-c028-c4ac-37ae-0cfae1e090a7",
+        "act_name": "Adult Rock Cover Band",
+        "act_description": "TBD",
+        "act_genre": "rock",
+        "act_rain_date_available": false
+      },
+      "slot_4": {
+        "id": "019eae8a-61f9-329a-04d5-48e045d409ac",
+        "type": "scheduled",
+        "act_id": "019eae86-9108-8b95-bc6f-3242a7f0ed58",
+        "act_name": "The Village Band / The Coconut Crew Ukulele Ensemble",
+        "act_description": "The Village Band and the Coconut Crew Ukulele Ensemble are musical groups that perform different styles of music, with the latter specializing in ukulele arrangements.",
+        "act_genre": "other",
+        "act_rain_date_available": false
+      },
+      "slot_5": {
+        "id": "019eae8a-61f9-517b-a438-1cf115e68a3f",
+        "type": "scheduled",
+        "act_id": "019eae88-3185-16ad-8fb8-cbd71a6a531c",
+        "act_name": "The Pineapple Posse Ukulele Ensemble / Melodius Ruckus Quintet",
+        "act_description": "Two musical groups will perform: Pineapple Posse playing ukulele arrangements spanning from the 1930s to present day, and Melodius Ruckus Quintet, a jazz ensemble performing classic standards from the bebop and cool swing era.",
+        "act_genre": "other",
+        "act_rain_date_available": false
+      }
+    },
+    {
+      "id": "019e706b-d9b7-c546-131a-711db1cdd6cc",
+      "address": "105 Hillcrest Parkway",
+      "address_url": null,
+      "rain_date_available": true,
+      "slot_1": null,
+      "slot_2": {
+        "id": "019e73a9-b23f-6b07-7a5f-9ebc85934e15",
+        "type": "scheduled",
+        "act_id": "019ebda2-01af-04f0-65b3-d634d85e0960",
+        "act_name": "Moonday",
+        "act_description": "TBD",
+        "act_genre": "rock",
+        "act_rain_date_available": true
+      },
+      "slot_3": {
+        "id": "019e73a9-b240-fba0-b139-18f357c2d61c",
+        "type": "scheduled",
+        "act_id": "019e7072-90c5-376e-70ea-e3df6f78a9cc",
+        "act_name": "Neopolitans",
+        "act_description": "A teenage all-girl garage band performs original music and covers of artists like Nirvana and Olivia Rodrigo.",
+        "act_genre": "indie",
+        "act_rain_date_available": true
+      },
+      "slot_4": {
+        "id": "019e73a9-b240-c71d-bbff-cf624b56a4d1",
+        "type": "scheduled",
+        "act_id": "019d7f19-7e04-7dce-9016-0dc34000dec6",
+        "act_name": "Double Vision",
+        "act_description": "A sophomore band from WHS plays pop, alternative rock, and rock music with five members filling vocals, guitar, bass, and drums roles.",
+        "act_genre": "rock",
+        "act_rain_date_available": true
+      },
+      "slot_5": null
+    },
+    {
+      "id": "019dcac0-d477-606e-17f0-889e7f7a0d5f",
+      "address": "43 Lawson Road",
+      "address_url": null,
+      "rain_date_available": true,
+      "slot_1": null,
+      "slot_2": {
+        "id": "019dcac0-d47b-1dc0-0a11-96dd1c65b660",
+        "type": "scheduled",
+        "act_id": "019dcac3-6626-b194-0214-6d4c2d2dfaf0",
+        "act_name": "Barbershop Ensembles",
+        "act_description": "A cappella barbershop harmonies are performed by vocal groups in four-part arrangements, either as small quartets or large ensembles.",
+        "act_genre": "americana",
+        "act_rain_date_available": true
+      },
+      "slot_3": {
+        "id": "019dcac0-d47b-bab8-483b-019661dc6361",
+        "type": "scheduled",
+        "act_id": "019e7f1b-05c2-2536-9465-707f1a269f47",
+        "act_name": "Marygrace & Charlotte Lamoureux",
+        "act_description": "Marygrace Lamoureux will perform pop hits from the 2000s on guitar and vocals, with her sister Charlotte opening the show by singing the National Anthem.",
+        "act_genre": "pop",
+        "act_rain_date_available": true
+      },
+      "slot_4": {
+        "id": "019dcac0-d47b-3daa-2f8e-72104f9d6b0a",
+        "type": "scheduled",
+        "act_id": "019d6009-f1cf-428e-bb5a-8aac8b00e843",
+        "act_name": "Mark Zelermyer",
+        "act_description": "Mark Zelermyer and his band, featuring guitarist Bob Metzger and bassist John Vandale, have built a growing fanbase through performances across the Greater Boston area and internationally, earning an \"Audience Favorite\" award and preparing to release their second album.",
+        "act_genre": "singer_songwriter",
+        "act_rain_date_available": false
+      },
+      "slot_5": null
+    },
+    {
+      "id": "019e5140-2882-c40b-b078-49c2f1d18898",
+      "address": "263 Main Street",
+      "address_url": null,
+      "rain_date_available": true,
+      "slot_1": null,
+      "slot_2": {
+        "id": "019e5140-2885-755c-af72-85aba972d51f",
+        "type": "scheduled",
+        "act_id": "019dc66e-955c-7643-fe16-7dfbaa099d16",
+        "act_name": "Sean Richardson",
+        "act_description": "Sean Richardson, a recent college graduate and hobbyist musician, plans to perform 12 soft pop/rock songs while singing and playing keyboard.",
+        "act_genre": "pop",
+        "act_rain_date_available": true
+      },
+      "slot_3": {
+        "id": "019e5140-2885-fd61-528a-fdfa6618487a",
+        "type": "scheduled",
+        "act_id": "019e846f-4102-98aa-229e-f6bd5a0f990d",
+        "act_name": "Malavika",
+        "act_description": "A singer-songwriter will perform a mix of original and cover songs, accompanying herself on most tracks with one guest guitarist.",
+        "act_genre": "singer_songwriter",
+        "act_rain_date_available": true
+      },
+      "slot_4": {
+        "id": "019e5140-2885-373e-b562-b287e68b4b96",
+        "type": "scheduled",
+        "act_id": "019d9281-f902-91ef-2283-c785ba541776",
+        "act_name": "The King Serpent Variety Troupe",
+        "act_description": "The King Serpent Variety Troupe is a New England-based, family-friendly performing group led by David Breen that combines music, dance, singing, and storytelling in an outlaw-themed show, currently featuring a pirate-themed production with sea shanties and tales of piracy.",
+        "act_genre": "other",
+        "act_rain_date_available": true
+      },
+      "slot_5": null
+    },
+    {
+      "id": "019dfe5b-c8ce-be45-ee64-8605c6a56b34",
+      "address": "89 & 91 Mystic Valley Parkway",
+      "address_url": null,
+      "rain_date_available": true,
+      "slot_1": null,
+      "slot_2": null,
+      "slot_3": null,
+      "slot_4": {
+        "id": "019dfe5b-c8d2-0470-b280-0897c0d2bf75",
+        "type": "scheduled",
+        "act_id": "019d94a2-e6c0-28f5-38fd-d94c4d3eb74e",
+        "act_name": "Tokyo Tramps",
+        "act_description": "TOKYO TRAMPS is a Boston-based rock and blues band that has released nine original albums over a 20+ year career, featuring distinctive guitar work and New Orleans funk grooves.",
+        "act_genre": "blues",
+        "act_rain_date_available": true
+      },
+      "slot_5": null
+    },
+    {
+      "id": "019dc10d-c15d-6996-ae6d-768c0ff10d54",
+      "address": "6 New Meadows Road",
+      "address_url": null,
+      "rain_date_available": true,
+      "slot_1": null,
+      "slot_2": null,
+      "slot_3": {
+        "id": "019dc10d-c16b-2cc2-bccc-7df4fdfcb925",
+        "type": "scheduled",
+        "act_id": "019dc10c-a369-3820-371b-79c8a3a846a9",
+        "act_name": "SLOM",
+        "act_description": "A youth band of four members performs cover songs by alternative rock artists like Radiohead, Nirvana, and Built to Spill.",
+        "act_genre": "indie",
+        "act_rain_date_available": true
+      },
+      "slot_4": null,
+      "slot_5": null
+    },
+    {
+      "id": "019e4847-f223-710d-0ecf-15118dbf99ba",
+      "address": "10 Norwood Street",
+      "address_url": null,
+      "rain_date_available": false,
+      "slot_1": {
+        "id": "019e4847-f228-051c-f587-c8a94cac41f6",
+        "type": "scheduled",
+        "act_id": "019e4655-6bb9-1e50-f779-c2c7d1cb0e6f",
+        "act_name": "Sharp Nines",
+        "act_description": "A 10-piece jazz ensemble featuring saxophones, trumpets, drums, keyboard, guitar, and bass performs various jazz styles.",
+        "act_genre": "jazz",
+        "act_rain_date_available": false
+      },
+      "slot_2": null,
+      "slot_3": null,
+      "slot_4": null,
+      "slot_5": null
+    },
+    {
+      "id": "019dcc53-8464-d29c-0677-ae48050acc59",
+      "address": "5 Orient Street",
+      "address_url": null,
+      "rain_date_available": true,
+      "slot_1": null,
+      "slot_2": null,
+      "slot_3": {
+        "id": "019dcc54-03e1-2f22-227f-5a58b0ba3b9b",
+        "type": "scheduled",
+        "act_id": "019cf296-db91-29d8-96ca-dd3207a8934b",
+        "act_name": "Willie T & Doctor X",
+        "act_description": "Willie T & Doctor X is a Boston-based acoustic roots-rock/folk/blues duo that performs original music with a 1970s-inspired sound and rock-and-roll energy.",
+        "act_genre": "americana",
+        "act_rain_date_available": true
+      },
+      "slot_4": {
+        "id": "019dcc53-8466-e8b6-0ba1-4571c7b5809f",
+        "type": "scheduled",
+        "act_id": "019d6294-a70b-92e3-faf7-e205a46e977a",
+        "act_name": "The Band with A View",
+        "act_description": "Rock standards are classic rock songs that have endured in popularity and are frequently performed by various artists.",
+        "act_genre": "rock",
+        "act_rain_date_available": true
+      },
+      "slot_5": {
+        "id": "019e3c28-1ddc-5e9f-ee3b-5aa8e5b06d4f",
+        "type": "scheduled",
+        "act_id": "019dcc55-9e4d-bdb6-60a0-0d5323056cea",
+        "act_name": "Operativo Clamor",
+        "act_description": "Latin American rock is a genre of rock music that developed in Latin America, blending traditional rock styles with regional musical influences and cultural elements.",
+        "act_genre": "rock",
+        "act_rain_date_available": true
+      }
+    },
+    {
+      "id": "019d9b84-36bd-debb-3704-61c5af8f3ee1",
+      "address": "18 Sheffield Road",
+      "address_url": null,
+      "rain_date_available": true,
+      "slot_1": null,
+      "slot_2": {
+        "id": "019d9b84-36c4-6c03-917e-7cfc0080781c",
+        "type": "scheduled",
+        "act_id": "019d1ab3-f69a-5516-5286-7196b1409fa9",
+        "act_name": "Lars Wicklund",
+        "act_description": "Lars Wicklund is a Boston-area singer-songwriter who blends folk, rock, and indie influences to create emotionally authentic Americana music that explores themes of unity, perseverance, and the human experience.",
+        "act_genre": "americana",
+        "act_rain_date_available": true
+      },
+      "slot_3": {
+        "id": "019d9b84-36c4-e5cf-9977-d2363c7bf8b5",
+        "type": "scheduled",
+        "act_id": "019dacee-57d5-83be-e3e1-d080c2cbd974",
+        "act_name": "Wendy & Steve",
+        "act_description": "A two-person musical group performs pop, folk, and Americana music with guitars, vocals, and keyboard.",
+        "act_genre": "folk",
+        "act_rain_date_available": true
+      },
+      "slot_4": {
+        "id": "019d9b84-36c4-8e8d-ae19-25bb0618c2b9",
+        "type": "scheduled",
+        "act_id": "019df344-f487-ed6a-5205-980e1ba1cb7f",
+        "act_name": "The Double Lives",
+        "act_description": "The Double Lives is a five-piece rock band that performs creative covers and original songs, formed by friends who met through an adult music program.",
+        "act_genre": "rock",
+        "act_rain_date_available": false
+      },
+      "slot_5": null
+    },
+    {
+      "id": "019d3a3f-8d59-a842-276b-610434e4b44a",
+      "address": "67 Shore Road",
+      "address_url": null,
+      "rain_date_available": false,
+      "slot_1": {
+        "id": "019d3a3f-8d60-962c-5a8c-d8fa76fd190b",
+        "type": "scheduled",
+        "act_id": "019d3b09-2323-4f74-10f0-da5d27eb2ee4",
+        "act_name": "Diver9",
+        "act_description": "A local rock/pop cover band is performing this year in an acoustic unplugged format featuring vocals by Dawn Aguiar and guitars by Lon Aguiar and Keith Doo.",
+        "act_genre": "rock",
+        "act_rain_date_available": true
+      },
+      "slot_2": null,
+      "slot_3": {
+        "id": "019d3a3f-8d60-ff4f-2a9e-860b29b5b0ec",
+        "type": "scheduled",
+        "act_id": "019d6fc0-bae6-5c29-13f7-52c407638f76",
+        "act_name": "Mike Barrasso",
+        "act_description": "A Boston-based singer-songwriter performs original and cover songs in country, folk, rock, and blues genres using acoustic guitar and vocals.",
+        "act_genre": "americana",
+        "act_rain_date_available": true
+      },
+      "slot_4": {
+        "id": "019d3a3f-8d60-dcf8-83ef-6060f31a8ae4",
+        "type": "scheduled",
+        "act_id": "019d4038-1227-7304-1396-9e0443163107",
+        "act_name": "School of Rock Burlington House Band",
+        "act_description": "The School of Rock Burlington House Band is a premier performance ensemble for students aged 14-19 who play guitar, bass, drums, keys, and vocals.",
+        "act_genre": "rock",
+        "act_rain_date_available": false
+      },
+      "slot_5": {
+        "id": "019d3a3f-8d60-a010-cb4f-05edfdc2180a",
+        "type": "scheduled",
+        "act_id": "019cf2ce-b2b4-fefa-c64b-4519198cf49e",
+        "act_name": "V",
+        "act_description": "A solo acoustic performer combines strong vocals and dynamic guitar work to deliver an energetic, crowd-engaging mix of rock, country, and alternative songs spanning classic and contemporary hits.",
+        "act_genre": "americana",
+        "act_rain_date_available": true
+      }
+    },
+    {
+      "id": "019e0c86-d5d3-32be-dcf3-c25d26117d61",
+      "address": "3 Stratford Road",
+      "address_url": null,
+      "rain_date_available": true,
+      "slot_1": {
+        "id": "019e0c86-d5d7-3e50-b758-6582166d1edd",
+        "type": "scheduled",
+        "act_id": "019d39f2-2715-0725-9511-28a81bc3cdbc",
+        "act_name": "Vices Inc",
+        "act_description": "A female-fronted alternative band that performs upbeat, high-energy music for audiences of all ages.",
+        "act_genre": "rock",
+        "act_rain_date_available": false
+      },
+      "slot_2": {
+        "id": "019e0c86-d5d7-fad1-2171-d28bdeb30c05",
+        "type": "scheduled",
+        "act_id": "019d39f2-2715-0725-9511-28a81bc3cdbc",
+        "act_name": "Vices Inc",
+        "act_description": "A female-fronted alternative band that performs upbeat, high-energy music for audiences of all ages.",
+        "act_genre": "rock",
+        "act_rain_date_available": false
+      },
+      "slot_3": {
+        "id": "019e0c86-d5d7-27b5-502e-059641459f5c",
+        "type": "scheduled",
+        "act_id": "019de0a7-2f29-f94b-18d5-0c267acbc157",
+        "act_name": "Redd Asphalt",
+        "act_description": "A four-piece alternative garage rock band from the south shore will perform original songs from their upcoming summer EP.",
+        "act_genre": "rock",
+        "act_rain_date_available": true
+      },
+      "slot_4": {
+        "id": "019e4d90-acf9-f98c-b2e9-4fd8447ebb78",
+        "type": "scheduled",
+        "act_id": "019de0a7-2f29-f94b-18d5-0c267acbc157",
+        "act_name": "Redd Asphalt",
+        "act_description": "A four-piece alternative garage rock band from the south shore will perform original songs from their upcoming summer EP.",
+        "act_genre": "rock",
+        "act_rain_date_available": true
+      },
+      "slot_5": null
+    },
+    {
+      "id": "019e42be-1e40-418c-55bb-cdb7017e986f",
+      "address": "78 Sylvester Avenue",
+      "address_url": null,
+      "rain_date_available": true,
+      "slot_1": {
+        "id": "019e42be-1e45-4f6f-a702-ab2fcb895455",
+        "type": "scheduled",
+        "act_id": "019e3bf2-5bd5-9e66-097f-337404408a49",
+        "act_name": "Keyboard Chaos",
+        "act_description": "Ellen plays accordion, John plays piano, and Kathryn provides vocals.",
+        "act_genre": "americana",
+        "act_rain_date_available": false
+      },
+      "slot_2": {
+        "id": "019e6196-2bd6-b672-cced-6ffcf60be790",
+        "type": "scheduled",
+        "act_id": "019e36cf-0a48-54b3-c26a-7ecabf55225a",
+        "act_name": "Tom Richardson",
+        "act_description": "Tom Richardson is a folk/Americana singer-songwriter who performs vocals and guitar.",
+        "act_genre": "americana",
+        "act_rain_date_available": true
+      },
+      "slot_3": null,
+      "slot_4": null,
+      "slot_5": null
+    },
+    {
+      "id": "019d91c9-0947-d547-34e9-9e304152a1c7",
+      "address": "25 Thompson Street",
+      "address_url": null,
+      "rain_date_available": false,
+      "slot_1": {
+        "id": "019d91c9-094d-d4ce-0bb5-bb850427d1f0",
+        "type": "scheduled",
+        "act_id": "019dacee-57d5-83be-e3e1-d080c2cbd974",
+        "act_name": "Wendy & Steve",
+        "act_description": "A two-person musical group performs pop, folk, and Americana music with guitars, vocals, and keyboard.",
+        "act_genre": "folk",
+        "act_rain_date_available": true
+      },
+      "slot_2": {
+        "id": "019d91c9-094d-bfe3-0ac9-3ebb03b33a7a",
+        "type": "scheduled",
+        "act_id": "019e146d-5672-8308-c6bb-8c84ad35f5f2",
+        "act_name": "Sam Bergquist",
+        "act_description": "A Boston-based folk, alt-country, and blues musician with years of roots music scene experience has released an album called \"Devils & Doves\" that charted in the top 10 for alt-country and top 25 for folk music.",
+        "act_genre": "americana",
+        "act_rain_date_available": true
+      },
+      "slot_3": {
+        "id": "019d91c9-094d-6595-2669-c2093b5407d9",
+        "type": "scheduled",
+        "act_id": "019d91e7-55f0-d08f-b237-d1f4cb8bc09c",
+        "act_name": "Rob Laurens",
+        "act_description": "Rob Laurens is a Kerrville New Folk Award-winning singer-songwriter who crafts timeless-sounding Americana songs blending Appalachian ballads, country blues, and spirituals, performing with mandolin and dobro accompaniment.",
+        "act_genre": "americana",
+        "act_rain_date_available": true
+      },
+      "slot_4": {
+        "id": "019d91c9-094d-be43-60ed-db15441d6c61",
+        "type": "scheduled",
+        "act_id": "019d3bf1-d099-72fe-becf-9808e50668cc",
+        "act_name": "Colleyospin",
+        "act_description": "Bernadette Colley and Richard Yospin are a musical duo who perform classic songs from 1920s-40s musicals and Broadway shows using various instruments and occasionally sing original compositions.",
+        "act_genre": "americana",
+        "act_rain_date_available": false
+      },
+      "slot_5": null
+    },
+    {
+      "id": "019cdf65-7005-70d1-278c-fd7fef9bf7d6",
+      "address": "Town Common",
+      "address_url": null,
+      "rain_date_available": false,
+      "slot_1": {
+        "id": "019cdf65-700a-d3ef-2b75-30d83b7106c7",
+        "type": "scheduled",
+        "act_id": "019d5a30-979c-2afe-eeb3-0268d7519bf6",
+        "act_name": "Vimāna",
+        "act_description": "A rock/soul band from Winchester featuring original music inspired by classic artists like Stevie Wonder and the Beatles.",
+        "act_genre": "rock",
+        "act_rain_date_available": true
+      },
+      "slot_2": null,
+      "slot_3": null,
+      "slot_4": null,
+      "slot_5": null
+    },
+    {
+      "id": "019ddf38-1f3e-db3b-d4d1-e6ccd47512b4",
+      "address": "24 Vine Street",
+      "address_url": null,
+      "rain_date_available": true,
+      "slot_1": null,
+      "slot_2": {
+        "id": "019ddf38-1f42-424c-e533-bafada0d71e8",
+        "type": "scheduled",
+        "act_id": "019e1f99-e21a-34f3-97c6-2da4b7ed9a0a",
+        "act_name": "The Patch Notes",
+        "act_description": "The Patch Notes is a Boston-based jazz trio that performs improvisational arrangements of classic and modern video game soundtracks.",
+        "act_genre": "jazz",
+        "act_rain_date_available": false
+      },
+      "slot_3": {
+        "id": "019ddf38-1f42-bbe5-5e2c-ec2b2b941f00",
+        "type": "scheduled",
+        "act_id": "019d171b-aef4-0a26-8a3e-e32efb2458ac",
+        "act_name": "Cliff & Carl",
+        "act_description": "Cliff Chuang (violin) and Carl Peterson (piano) perform a diverse collection of romantic and meditative instrumental arrangements spanning classical, jazz, pop, Broadway, gospel, and holiday music.",
+        "act_genre": "other",
+        "act_rain_date_available": true
+      },
+      "slot_4": {
+        "id": "019ddf38-1f42-232c-187e-82350e54ec0a",
+        "type": "scheduled",
+        "act_id": "019d171b-aef4-0a26-8a3e-e32efb2458ac",
+        "act_name": "Cliff & Carl",
+        "act_description": "Cliff Chuang (violin) and Carl Peterson (piano) perform a diverse collection of romantic and meditative instrumental arrangements spanning classical, jazz, pop, Broadway, gospel, and holiday music.",
+        "act_genre": "other",
+        "act_rain_date_available": true
+      },
+      "slot_5": {
+        "id": "019ddf38-1f42-ba16-67d2-7ce22ff5dad2",
+        "type": "scheduled",
+        "act_id": "019e6032-2ebc-2d35-e094-c7e01a5e5011",
+        "act_name": "Mint",
+        "act_description": "Alicia and I are a musical duo performing acoustic guitar and keyboard, covering jazz standards, country, bluegrass, folk, and classic pop music, with electrical power required for the performance.",
+        "act_genre": "other",
+        "act_rain_date_available": false
+      }
+    },
+    {
+      "id": "019cf886-2f2c-edbb-d9b4-1d367f918ffd",
+      "address": "6 Wilson Street",
+      "address_url": null,
+      "rain_date_available": true,
+      "slot_1": null,
+      "slot_2": null,
+      "slot_3": null,
+      "slot_4": {
+        "id": "019cf886-2f2f-9e57-ea63-c765e878f38a",
+        "type": "scheduled",
+        "act_id": "019d39f2-2715-0725-9511-28a81bc3cdbc",
+        "act_name": "Vices Inc",
+        "act_description": "A female-fronted alternative band that performs upbeat, high-energy music for audiences of all ages.",
+        "act_genre": "rock",
+        "act_rain_date_available": false
+      },
+      "slot_5": {
+        "id": "019cf886-2f2f-7ee8-7d37-0e64c8dd64dd",
+        "type": "scheduled",
+        "act_id": "019cf889-6693-cb6e-804a-49c60bf032c8",
+        "act_name": "Tom Springer Band",
+        "act_description": "The Tom Springer Band, formed in 2022, is an indie rock group from Boston that blends witty lyrics, gritty guitars, and reggae and hip-hop-influenced rhythms.",
+        "act_genre": "indie",
+        "act_rain_date_available": true
+      }
+    },
+    {
+      "id": "019e812d-aa9b-5787-e79e-ab6cde64fc6a",
+      "address": "8 Wolcott Terrace",
+      "address_url": null,
+      "rain_date_available": false,
+      "slot_1": null,
+      "slot_2": null,
+      "slot_3": null,
+      "slot_4": null,
+      "slot_5": {
+        "id": "019e812d-aa9d-316b-f97a-fcaf0bcde584",
+        "type": "scheduled",
+        "act_id": "019e812f-1da7-d707-92d2-3c9a137c3651",
+        "act_name": "Rose P",
+        "act_description": "A solo musician named Rose Palumbo performs on guitar and vocals.",
+        "act_genre": "rock",
+        "act_rain_date_available": false
+      }
+    }
+  ],
+  "total": 25,
+  "offset": null
+}
