@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Hull PorchFest 2026</name>
+    <description>Map of Hull PorchFest 2026</description>
+    <Style id="icon-1577-F9A825-normal">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1577-F9A825-highlight">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1577-F9A825">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1577-F9A825-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1577-F9A825-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1637-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1637-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1637-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1637-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1637-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1686-0F9D58-normal">
+      <IconStyle>
+        <color>ff589d0f</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1686-0F9D58-highlight">
+      <IconStyle>
+        <color>ff589d0f</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1686-0F9D58">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1686-0F9D58-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1686-0F9D58-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1733-E65100-normal">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1733-E65100-highlight">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1733-E65100">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1733-E65100-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1733-E65100-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>2025 Hull PorchFest Map</name>
+      <Placemark>
+        <name><![CDATA[Food Trucks & Vitamin Sea Brewery]]></name>
+        <description><![CDATA[HYT Food Truck<br> MJ’s Refresher Food Truck<br>Vitamin Sea Brewery]]></description>
+        <styleUrl>#icon-1577-F9A825</styleUrl>
+        <Point>
+          <coordinates>
+            -70.8739333,42.2832689,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>HPF Merch Table</name>
+        <description>Buy your Hull PorchFest Merch!</description>
+        <styleUrl>#icon-1686-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            -70.8737388,42.283131,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bathroom</name>
+        <description>Porta Potties</description>
+        <styleUrl>#icon-1733-E65100</styleUrl>
+        <Point>
+          <coordinates>
+            -70.8739024,42.2832129,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bathroom</name>
+        <description>Porta Potties</description>
+        <styleUrl>#icon-1733-E65100</styleUrl>
+        <Point>
+          <coordinates>
+            -70.8707822,42.2825766,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Stage 1 - 81 Revere St</name>
+        <description><![CDATA[81 Revere St<br>1:00 RYAN DEMARAY <br>2:45 TERPENE PROFILE<br>4:30 ASSISTED LIVING]]></description>
+        <styleUrl>#icon-1637-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -70.8721847,42.2819297,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Stage 2 - 36 Massasoit Ave</name>
+        <description><![CDATA[36 Massasoit Ave.<br>1:00 OBSCURE NOTATION <br>2:45 JASON CARDINAL<br>4:30 BLUE CANYON]]></description>
+        <styleUrl>#icon-1637-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -70.8721834,42.2825983,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Stage 3 - 31 Massasoit Ave</name>
+        <description><![CDATA[31 Massasoit Ave<br>1:00 NANTASKET DRUMMERS<br>2:45 V STREET BAND<br>4:30 CHRIS RICCO]]></description>
+        <styleUrl>#icon-1637-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -70.8723122,42.2821834,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Stage 4 - 66 Samoset Ave</name>
+        <description><![CDATA[66 Samoset Ave.<br>1:00 THE UKULADIES]]></description>
+        <styleUrl>#icon-1637-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -70.8706499,42.2821146,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Stage 5 - 93 Revere St</name>
+        <description><![CDATA[93 Revere St<br>2:45 MORDECHAI LINCOLN<br>4:30 TRUANCY]]></description>
+        <styleUrl>#icon-1637-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -70.8709002,42.2826079,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Stage 6 - 73 Samoset Ave</name>
+        <description><![CDATA[73 Samoset Ave.<br>1:00 TOM NICKA & TOM KINNEAR<br>2:45 JESSI TANGUY<br>4:30 SOUL BLOOMER]]></description>
+        <styleUrl>#icon-1637-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -70.8714939,42.2823339,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Stage 7 - 144 Kenberma St</name>
+        <description><![CDATA[144 Kenberma St.<br>1:00 AGRESSIVE SILENCE<br>2:45 BILL BARASSO & FRIENDS<br>4:30 JOHNNY JUKEBOX]]></description>
+        <styleUrl>#icon-1637-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -70.8712747,42.2843649,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Stage 8 - 62 Manomet Ave</name>
+        <description><![CDATA[62 Manomet Ave<br>1:00 AUSTIN MATTHEWS <br>2:45 BIG TOP CHARLIE<br>4:30 LOS GALLOS LOCOS]]></description>
+        <styleUrl>#icon-1637-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -70.8707678,42.2838185,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Stage 9 - 88 Manomet Ave</name>
+        <description><![CDATA[88 Manomet Ave.<br>1:00 STELLA STARFOX<br>2:45 CRIT HARMON]]></description>
+        <styleUrl>#icon-1637-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -70.872324,42.2859153,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Stage 10 - 90b Manomet Ave</name>
+        <description><![CDATA[90b Manomet Ave.<br>1:00 PAPER BAG PROHETS<br>2:45 SEAN MCMAHON<br>4:30 SUNSET WITH HANNA]]></description>
+        <styleUrl>#icon-1637-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -70.8724607,42.2860724,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>STAGE 11 - 150 Kenberma St</name>
+        <description><![CDATA[150 Kenberma St.<br>1:00 MATT BISHOP<br>2:45 NO SLEEP<br>4:30 FIT 2 BE TIED]]></description>
+        <styleUrl>#icon-1637-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -70.870743,42.2845655,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Stage 12 - 137 Kenberma St</name>
+        <description><![CDATA[137 Kenberma St.<br>1:00 CJ HONEY<br>2:45 SHAKTI MUNDO<br>4:30CLASSIC OBSESSION]]></description>
+        <styleUrl>#icon-1637-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -70.8726026,42.284126,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Stage 13- 106 Samoset Ave</name>
+        <description><![CDATA[106 Samoset Ave.<br>1:00 NODUS TOLLENS<br>2:45 NANTASKET NONSENSE<br>4:30 CARA LATELY]]></description>
+        <styleUrl>#icon-1637-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -70.8728695,42.2846358,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Stage 14 - 126 Kenberma St</name>
+        <description><![CDATA[126 Kenberma St.<br>1:00 WSU]]></description>
+        <styleUrl>#icon-1637-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -70.8734967,42.2834587,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Stage 15 - Kenberma Parking Lot</name>
+        <description><![CDATA[Kenberma Parking Lot<br>104 Kenberma St<br>1:00 WHISKEY SUMMIT<br>2:45 THE WICKIES<br>4:30 LIZ WOODS AND JD NORMAN]]></description>
+        <styleUrl>#icon-1637-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -70.8737426,42.2832766,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
